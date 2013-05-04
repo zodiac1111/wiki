@@ -17,7 +17,7 @@ Many UARTs have a small first-in, first-out FIFO buffer memory between the recei
 A UART usually contains the following components:
 * a clock generator, usually a multiple of the bit rate to allow sampling in the middle of a bit period. 时钟
 * input and output shift registers 寄存器
-* transmit/receive control  控制接受发送,如485单双工需要控制
+* transmit/receive control  控制接受发送,如485[半双工](http://zh.wikipedia.org/wiki/%E5%8D%8A%E9%9B%99%E5%B7%A5)需要控制
 * read/write control logic
 * transmit/receive buffers (optional) 可选,缓冲区**注意**
 * parallel data bus buffer (optional)
@@ -28,3 +28,4 @@ A UART usually contains the following components:
 * <http://zh.wikipedia.org/zh/UART>
 * 波特率 baud http://en.wikipedia.org/wiki/Baud 和 http://zh.wikipedia.org/wiki/%E6%B3%A2%E7%89%B9%E7%8E%87
 * 比特率 http://en.wikipedia.org/wiki/Bit_rate 
+* RS232教程 http://www.camiresearch.com/Data_Com_Basics/RS232_standard.html
