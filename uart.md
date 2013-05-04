@@ -6,9 +6,12 @@
 
 原始是TTL电平
 
-包括了RS232、RS449、RS423、RS422和RS485等接口标准规范和总线标准规范(电平定义)
+包括了[RS232](http://zh.wikipedia.org/wiki/RS-232)、RS449、RS423、[RS422](http://zh.wikipedia.org/wiki/EIA-422)和[RS485](http://zh.wikipedia.org/wiki/RS-485)等接口标准规范和总线标准规范(电平定义)
+
+RS485和RS232电器引脚比较:http://digital.ni.com/public.nsf/3efedde4322fef19862567740067f3cc/2ef59b02fffccb3486256914006442ef?OpenDocument
 
 由于历史原因，IBM的PC外部接口配置为RS232，成为实际上的PC界默认标准。所以，现在PC机的COM均为RS232。若配有多个异步串行通信口，则分别称为COM1、COM2... 。
+
 
 Many UARTs have a small first-in, first-out FIFO buffer memory between the receiver shift register and the host system interface.(**avr的移位寄存器?**)
 
@@ -17,7 +20,7 @@ Many UARTs have a small first-in, first-out FIFO buffer memory between the recei
 A UART usually contains the following components:
 * a clock generator, usually a multiple of the bit rate to allow sampling in the middle of a bit period. 时钟
 * input and output shift registers 寄存器
-* transmit/receive control  控制接受发送,如485[半双工](http://zh.wikipedia.org/wiki/%E5%8D%8A%E9%9B%99%E5%B7%A5)需要控制
+* transmit/receive control  控制接受发送,如[RS485](http://zh.wikipedia.org/wiki/RS-485)这样的[半双工](http://zh.wikipedia.org/wiki/%E5%8D%8A%E9%9B%99%E5%B7%A5)需要控制
 * read/write control logic
 * transmit/receive buffers (optional) 可选,缓冲区**注意**
 * parallel data bus buffer (optional)
