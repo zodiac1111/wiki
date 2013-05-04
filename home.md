@@ -1,5 +1,5 @@
 #主目录
 * linux
- * [LFS](lfs)
+ * Linux学习:[LFS](lfs)
  
 * [演讲](yanjiang)
