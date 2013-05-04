@@ -26,3 +26,5 @@ A UART usually contains the following components:
 ##参考资料
 * <http://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter>
 * <http://zh.wikipedia.org/zh/UART>
+* 波特率 baud http://en.wikipedia.org/wiki/Baud http://zh.wikipedia.org/wiki/%E6%B3%A2%E7%89%B9%E7%8E%87
+* 比特率 http://en.wikipedia.org/wiki/Bit_rate 
