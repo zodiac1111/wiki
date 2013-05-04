@@ -6,4 +6,4 @@
 
 ## 参考资料:
 * 官网 <http://www.linuxfromscratch.org/lfs/index.html>
-* 下载版本的手册(英文) <http://www.linuxfromscratch.org/lfs/downloads/stable/> [[LFS-BOOK-7.3.pdf]]
+* 下载版本的手册(英文) <http://www.linuxfromscratch.org/lfs/downloads/stable/>  本地:[[LFS-BOOK-7.3.pdf]]
