@@ -4,4 +4,4 @@
 * 
 
 [[pic1.jpg]]
-![Alt attribute text Here](pic1.jpg)
+![Alt attribute text Here](/pic1.jpg)
