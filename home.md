@@ -1,13 +1,18 @@
-#主目录
-* 软件
- * Linux学习:[LFS](lfs)
- * [linux学习建议](learn-linux)
- * 浮点数 [在线分析](http://babbage.cs.qc.cuny.edu/IEEE-754/),[在线转换](http://www.binaryconvert.com/)
- * json分析/格式化 http://jsoneditoronline.org/
- * 待定
-* 硬件
- * [串口uart](uart)
-* 其他
-  * [演讲](yanjiang)
-  * [gollum 维基(wiki) 笔记](/soft/gollum-wiki)
-  * 待定
+# 主目录
+
+## 软件
+* Linux学习:[LFS](/lfs)
+* Linux[学习建议](/learn-linux)
+* [json在线解析](http://jsoneditoronline.org/)
+* [gollum](/soft/gollum-wiki) wiki安装使用
+* 待定
+
+## 实用工具
+* ieee标准浮点(float)数[在线分析](http://babbage.cs.qc.cuny.edu/IEEE-754/),[在线转换](http://www.binaryconvert.com/).
+
+## 硬件
+* [串口uart](uart)
+
+## 其他
+* [演讲](yanjiang)
+* 待定
