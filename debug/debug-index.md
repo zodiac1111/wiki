@@ -1,3 +1,6 @@
 # 调试技巧
 
 * [core dump 调试段错误](/debug/howto-use-core-dump)
+* 
+
+[[/res/img/pic1.jpg]]
