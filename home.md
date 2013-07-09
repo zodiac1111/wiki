@@ -9,5 +9,5 @@
  * [串口uart](uart)
 * 其他
   * [演讲](yanjiang)
-  * [gollum 维基(wiki) 笔记](gollum-wiki)
+  * [gollum 维基(wiki) 笔记](/soft/gollum-wiki)
   * 待定
