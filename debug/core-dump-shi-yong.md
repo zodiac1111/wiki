@@ -1,14 +1,18 @@
 怎样调试段错误
-一、前言:
+# 一、前言:
 有的程序可以通过编译, 但在运行时会出现Segment fault(段错误). 这通常都是指针错误引起的. 但这不像编译错误一样会提示到文件某一行, 而是没有任何信息, 使得我们的调试变得困难起来. 
 
 gdb: 有一种办法是, 我们用gdb的step, 一步一步寻找. 这放在短小的代码中是可行的, 但要让你step一个上万行的代码, 我想你会从此厌恶程序员这个名字, 而把他叫做调试员. 我们还有更好的办法, 这就是core file. 
 
 ulimit: 如果想让系统在信号中断造成的错误时产生core文件, 我们需要在shell中按如下设置: #设置core大小为无限 ulimit -c unlimited #设置文件大小为无限 ulimit unlimited 这些需要有root权限, 在ubuntu下每次重新打开中断都需要重新输入上面的第一条命令, 来设置core大小为无限. 
 
-用gdb查看core文件: 下面我们可以在发生运行时信号引起的错误时发生core dump了. 发生core dump之后, 用gdb进行查看core文件的内容, 以定位文件中引发core dump的行. gdb [exec file] [core file] 如: gdb ./test test.core 在进入gdb后, 用bt命令查看backtrace以检查发生程序运行到哪里, 来定位core dump的文件->行. 
+用gdb查看core文件: 下面我们可以在发生运行时信号引起的错误时发生core dump了. 发生core dump之后, 用gdb进行查看core文件的内容, 以定位文件中引发core dump的行. 
 
-1. 什么是Core： 
+`gdb [exec file] [core file] `
+
+如: gdb ./test test.core 在进入gdb后, 用bt命令查看backtrace以检查发生程序运行到哪里, 来定位core dump的文件->行. 
+
+## 1. 什么是Core： 
 
 Sam之前一直以为Core Dump中Core是 Linux Kernel的意思. 今天才发现在这里，Core是另一种意思： 
 
