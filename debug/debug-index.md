@@ -2,6 +2,3 @@
 
 * [core dump 调试段错误](/debug/howto-use-core-dump)
 * 
-
-[[pic1.jpg]]
-![Alt attribute text Here](/pic1.jpg)
