@@ -1,6 +1,6 @@
 # 主目录
 
-## 软件
+## [软件](/soft/index)
 * Linux学习:[LFS](/lfs)
 * Linux[学习建议](/learn-linux)
 * [json在线解析](http://jsoneditoronline.org/)
