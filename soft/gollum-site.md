@@ -1,5 +1,12 @@
 # gollum-site 静态网站生成
 
+
+### 使用 
+
+生成 :
+
+`gollum-site generate`
+
 ### 遇到问题:
 ```
 /home/zodiac1111/.gem/ruby/1.9.1/gems/ffi-1.0.11/lib/ffi/library.rb:121:in
