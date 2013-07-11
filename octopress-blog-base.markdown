@@ -1,6 +1,11 @@
-# octopress 博客基本操作
-
-## 安装:
+---
+layout: post
+title: "hello world"
+date: 2012-07-03 09:01
+comments: true
+categories: 
+---
+#安装:
 
 gem:
 `yum install gem`
@@ -29,7 +34,6 @@ http://octopress.org/docs/blogging/
 	`rake new_post["Title"]`来创建一篇新文章.
 3. 预览&发布 
 
-```
 	#在本地预览blog
 	#转到目录
 	cd /home/zodiac1111/blog/octopress
@@ -41,13 +45,12 @@ http://octopress.org/docs/blogging/
 	rake deploy	
 	#生成和发布也可以合并成为一句:
 	rake gen_deploy
-```
+
 4. 保存source(可选)
-```
+
 	#保存博客源代码之 页面的source分支下。
 	cd /home/zodiac1111/blog/octopress
 	git add .
 	git commit -m 'blog source update'
 	#推送至远端
 	git push origin source
-```
