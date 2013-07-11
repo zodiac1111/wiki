@@ -1,4 +1,4 @@
-# 主目录
+# wiki
 
 ## [软件](/soft/index)
 
