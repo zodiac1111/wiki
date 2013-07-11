@@ -1,11 +1,6 @@
----
-layout: post
-title: "hello world"
-date: 2012-07-03 09:01
-comments: true
-categories: 
----
-#安装:
+# octopress 博客基本操作
+
+## 安装:
 
 gem:
 `yum install gem`
