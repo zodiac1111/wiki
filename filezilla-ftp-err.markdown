@@ -1,5 +1,4 @@
 #错误的排除
-```
 arm-linux-gcc app.c -o app
 arm-linux-gcc app.c
 a.out app
@@ -11,4 +10,3 @@ chmod +x
 
 原因,传输设置有问题,传输后发现大小变了(ls -l).
 filezilla设置,传输,文件类型,把没有扩展名的文件作为ASCII格式文件对待.bin格式.
-```
