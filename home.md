@@ -4,8 +4,8 @@
 
 ### 学习方法
 
-* Linux学习:[LFS](./soft/lfs) [[/soft/lfs]]
-* Linux[学习建议](/soft/learn-linux)
+* Linux学习:[LFS](./soft/lfs) 
+* Linux[学习建议](soft/learn-linux)
 * [json在线解析](http://jsoneditoronline.org/)
 * [gollum](/soft/gollum-wiki) wiki安装使用
 * [无线网络破解](/aircrack-ng)
