@@ -1,10 +1,5 @@
----
-layout: post
-title: "Buildroot 用户手册"
-date: 2012-09-30 11:08
-comments: true
-categories: 
----
+# Buildroot 用户手册
+
 官方网址:<http://buildroot.uclibc.org/downloads/manual/manual.htm>
 
 粗略翻译,自己用.
