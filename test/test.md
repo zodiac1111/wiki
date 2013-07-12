@@ -22,7 +22,7 @@
 
 ### 3
 
-[[gollum.png]]
+[[/gollum.png]]
 
 ## 文字样式
 
