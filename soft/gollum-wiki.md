@@ -41,7 +41,7 @@
     1. yum install libxml2-devel
     2. yum install libxslt-devel
 
-### 3编码
+### 3 rdoc编码
 
     ERROR:  While generating documentation for gollum-lib-1.0.3
     ... MESSAGE:   Unhandled special: Special: type=17, text="<!-- --- title: New Title -->"
@@ -102,7 +102,7 @@
 
 * 服务器同样搭建gollum环境 (几乎与本地相同)
 * apache ruby模块 (模式很复杂)
-* gollum-site 生成静态文件,发布 (有些bug未解决,不理想)
+* [gollum-site](https://github.com/dreverri/gollum-site) 生成静态文件,发布. (有些bug未解决,不理想) [笔记](gollum-site)
 * 发布到github某个项目的wiki页面 (省了服务器) 
 
 #### 内容更新
@@ -113,4 +113,4 @@
 
 # 参考
 
-1  发布到github的wiki页面 http://ju.outofmemory.cn/entry/28388 
+1. 发布到github的wiki页面 http://ju.outofmemory.cn/entry/28388 
