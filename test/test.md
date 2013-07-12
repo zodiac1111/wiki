@@ -23,7 +23,7 @@
 ### 3
 
 [[gollum.png]]
-
+[[/gollum.png|align=right]]
 ## 文字样式
 
 * <font color=red>红色文字</font> `<font color=red>红色文字</font>`
