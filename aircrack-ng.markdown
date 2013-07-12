@@ -5,9 +5,7 @@
 iwconfig 
 	
 在Linux下，我们使用Aircrack-ng套装里的airmon-ng工具来实现，具体命令如下：
-
-    #airmon-ng start wlan0 
-    
+#airmon-ng start wlan0 
 步骤3：探测无线网络，抓取无线数据包。
 
 在激活无线网卡后，我们就可以开启无线数据包抓包工具了，这里我们使用Aircrack-ng套装里的airmon-ng工具来实现，具体命令如下：
