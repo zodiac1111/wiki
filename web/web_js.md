@@ -8,7 +8,7 @@ document.getElementById("row_2").getElementsByTagName("select")[0].value
 this的parnet的getbyname[0]的value.
 本对象的副对象(兄弟对象)的 按名字取("iv").value
 
-#Jq POST 表单
+#jQusery POST 表单
 使用 ajax 请求发送表单数据：
 
 	$.post("test.php",
