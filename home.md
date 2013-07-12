@@ -6,7 +6,7 @@
 
 * Linux学习:[LFS](/soft/lfs) 
 * Linux[学习建议](/soft/learn-linux)
-* [json在线解析](http://jsoneditoronline.org/)
+* [json在线解析](http://jsoneditoronline.org/)(外部链接)
 * [gollum](/soft/gollum-wiki) wiki安装使用
 * [无线网络破解](/aircrack-ng)
 * [apache安装使用](/apache)
