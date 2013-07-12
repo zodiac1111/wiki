@@ -1,7 +1,9 @@
 # gollum wiki 使用
  
 ## 简介
-[gollum](https://github.com/gollum/gollum)是一个wiki系统.github使用的就是gollum.可以用于个人知识管理.
+[gollum](https://github.com/gollum/gollum)是一个wiki系统.github使用的就是gollum.可以用于个人知识管理([PKM](http://en.wikipedia.org/wiki/Personal_knowledge_management)).
+
+特点:
 
 * git操作,仓库
 * markdown模块
@@ -41,6 +43,8 @@
     1. yum install libxml2-devel
     2. yum install libxslt-devel
 
+总之一些`*.h`文件的错误可以先试试看安装对应的软件包的dev软件包.
+
 ### 3 rdoc编码
 
     ERROR:  While generating documentation for gollum-lib-1.0.3
@@ -69,7 +73,7 @@
     Successfully installed json-1.8.0
     Successfully installed rdoc-4.0.1
 
-发现由于我的centos官方的rubygem版本过低,不支持.所以使用gems 1.8.7 on centos 6 参见 [这里](http://wiki.opscode.com/display/chef/Installing+Ruby+and+dependencies+on+CentOS+and+Others).之后升级`rubygems`:
+发现由于的CentOS官方的rubygem版本过低,不支持.所以使用gems 1.8.7 on centos 6 参见 [这里](http://wiki.opscode.com/display/chef/Installing+Ruby+and+dependencies+on+CentOS+and+Others).之后升级`rubygems`:
 
     yum update rubygems
 
@@ -85,6 +89,9 @@
 在浏览器中输入`<ip>:4567`(默认)即可浏览/编辑.
 
 如果出错很可能是wiki目录本身不是一个git仓库,最简单的方式是`git init`初始化一个仓库.
+
+Tips:
+* `--port` 选项可以指定端口 
 
 ### 编辑
 
