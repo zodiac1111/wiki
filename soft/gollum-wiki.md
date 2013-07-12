@@ -41,7 +41,7 @@
     1. yum install libxml2-devel
     2. yum install libxslt-devel
 
-### 3编码
+### 3编码 [1]
 
     ERROR:  While generating documentation for gollum-lib-1.0.3
     ... MESSAGE:   Unhandled special: Special: type=17, text="<!-- --- title: New Title -->"
@@ -56,7 +56,20 @@
 
     For help on options, try 'rdoc --help'
 
-由于我的centos官方的rubygem版本过低,不支持.所以使用gems 1.8.7 on centos 6 参见 [这里](http://wiki.opscode.com/display/chef/Installing+Ruby+and+dependencies+on+CentOS+and+Others).之后升级`rubygems`:
+试图手动安装:
+
+    [root@test1 ~]# gem install rdoc
+    Building native extensions.  This could take a while...
+    Depending on your version of ruby, you may need to install ruby rdoc/ri data:
+
+    <= 1.8.6 : unsupported
+     = 1.8.7 : gem install rdoc-data; rdoc-data --install
+     = 1.9.1 : gem install rdoc-data; rdoc-data --install
+    >= 1.9.2 : nothing to do! Yay!
+    Successfully installed json-1.8.0
+    Successfully installed rdoc-4.0.1
+
+发现由于我的centos官方的rubygem版本过低,不支持.所以使用gems 1.8.7 on centos 6 参见 [这里](http://wiki.opscode.com/display/chef/Installing+Ruby+and+dependencies+on+CentOS+and+Others).之后升级`rubygems`:
 
     yum update rubygems
 
@@ -64,10 +77,34 @@
 
 ## 使用
 
-待定
+### 运行服务
+在wiki的目录下运行
 
-zzzzz
+    gollum
 
-xxxxx
+在浏览器中输入`<ip>:4567`(默认)即可浏览/编辑.
 
-ccccc
+如果出错很可能是wiki目录本身不是一个git仓库,最简单的方式是`git init`初始化一个仓库.
+
+### 编辑
+
+* web页面新建,编辑,保存
+* 直接编辑文件,`git commit`
+
+
+### 保存/备份
+
+* 本地文件
+* git远程仓库(github等)
+* dropbox等网盘
+
+### 发布
+
+* 服务器同样搭建gollum环境 (几乎与本地相同)
+* apache ruby模块 (模式很复杂)
+* gollum-site 生成静态文件,发布 (有些bug未解决,不理想)
+* 发布到github某个项目的wiki页面 (省了服务器,有约束) 参考1 [xxx](#1)
+
+# 参考
+
+1  [1] 发布到github的wiki页面 http://ju.outofmemory.cn/entry/28388 
