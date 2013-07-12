@@ -2,6 +2,9 @@
 
 fedora17 下 `yum search miredo`可以得到一些信息
 
+* 官网 http://www.remlab.net/miredo/
+* wiki http://zh.wikipedia.org/wiki/Miredo 或者 http://en.wikipedia.org/wiki/Miredo
+
 基本上是全自动配置.之后会在系统添加一项服务 : miredo-client
 
 使用型如`service miredo-client restart`命令可以重启服务(需要root权限)
