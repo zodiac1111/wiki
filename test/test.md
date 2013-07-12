@@ -2,12 +2,26 @@
 
 测试gollum各种语法(markdown)以及各种特性的页面.
 
-# 图片测试 
-* `![外部链接](http://www.embeddedlinux.org.cn/templets/images/toplogo6.gif)`
+## 图片测试 
 
-![外部链接](http://www.embeddedlinux.org.cn/templets/images/toplogo6.gif)
+### 1
 
-* `![Alt attribute text Here](/pic1.jpg.ext)`
+```bash
+![外部链接](https://cdn1.iconfinder.com/data/icons/onebit/PNG/onebit_34.png)
+```
+
+![外部链接](https://cdn1.iconfinder.com/data/icons/onebit/PNG/onebit_34.png)
+
+ 
+### 2
+
+```bash
+[[https://cdn1.iconfinder.com/data/icons/onebit/PNG/onebit_34.png]]
+```
+[[https://cdn1.iconfinder.com/data/icons/onebit/PNG/onebit_34.png]]
+### 3
+
+![Alt attribute text Here](res/img/test.png)
 
 ## 文字样式
 
