@@ -1,18 +1,17 @@
----
-layout: post
-title: "hello world"
-date: 2012-07-03 09:01
-comments: true
-categories: 
----
+# 软件交叉编译平台
 
-#软件交叉编译平台
-1. 主机:<code>uname -a </code>
+1. 主机:
+```bash
+uname -a
+Linux localhost.localdomain 3.3.6-3.fc17.x86_64 #1 SMP Wed May 16 21:21:18 UTC 2012 x86_64 x86_64 x86_64 GNU/Linux
 
-	Linux localhost.localdomain 3.3.6-3.fc17.x86_64 #1 SMP Wed May 16 21:21:18 UTC 2012 x86_64 x86_64 x86_64 GNU/Linux
+gcc
 
-gcc<code> gcc -v<code>:
 >http://gcc.gnu.org/install/configure.html 如何安装gcc:配置选项
+
+```bash
+gcc -v
+
 
 	使用内建 				#specs Using built-in specs
 	COLLECT_GCC=gcc
@@ -52,7 +51,9 @@ gcc<code> gcc -v<code>:
 	 --build=x86_64-redhat-linux
 	线程模型：posix
 	gcc 版本 4.7.0 20120507 (Red Hat 4.7.0-5) (GCC) 
-##linux内核源代码
+```
+
+## linux内核源代码
 从git下载:
 
 	git clone git://github.com/torvalds/linux.git
