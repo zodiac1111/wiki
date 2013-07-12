@@ -19,9 +19,10 @@
 [[https://cdn1.iconfinder.com/data/icons/onebit/PNG/onebit_34.png]]
 ```
 [[https://cdn1.iconfinder.com/data/icons/onebit/PNG/onebit_34.png]]
+
 ### 3
 
-![Alt attribute text Here](res/img/test.png)
+[[gollum.png]]
 
 ## 文字样式
 
