@@ -35,7 +35,7 @@
 * [markdown语法](markdown-syntax)
 * [rtp协议头理解](rtpheader)
 * [ssh服务使用](ssh)
-* [google docs ipv6列表](Google_IPv6_hosts_list)
+* [google docs ipv6列表](Google_IPv6_hosts_list.txt)
 * [buildroot-user-manual](buildroot-user-manual) 
 
 
