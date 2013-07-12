@@ -1,4 +1,4 @@
-# wiki
+# 个人知识管理系统
 
 ## [软件](/soft/soft-index)
 
