@@ -1,4 +1,5 @@
-# 验证表单正确性:
+# web前端笔记
+## 验证表单正确性:
 
 <http://www.dreamdu.com/javascript/exe_novice_check_form/>
 
@@ -11,7 +12,8 @@ this的parnet的getbyname[0]的value.
 本对象的副对象(兄弟对象)的 按名字取("iv").value
 ```
 
-# jQusery POST 表单
+## jQusery POST 表单
+
 使用 ajax 请求发送表单数据：
 
 	$.post("test.php",
@@ -20,7 +22,9 @@ this的parnet的getbyname[0]的value.
 $("#testform"):id为"testform"
 
 <% load_all_sioplan(); %> 
-#html 表格 合并单元格
+
+## html 表格 合并单元格
+
 ```
 <thead>
 <tr>
