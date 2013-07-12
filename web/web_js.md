@@ -1,5 +1,6 @@
 # web前端笔记
-## 验证表单正确性:
+
+## 验证表单正确性
 
 <http://www.dreamdu.com/javascript/exe_novice_check_form/>
 
