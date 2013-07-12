@@ -1,10 +1,15 @@
+---
+layout: post
+title: "hello world"
+date: 2012-07-03 09:01
+comments: true
+categories: 
+---
 
-# rtp协议头浅析
-
+**rtp头浅析**
 参考: 	
 1. http://hi.baidu.com/studyarea/item/898d995845b610cfd3e10c32  
 2. http://topic.csdn.net/u/20071219/12/9ee213e7-aff6-4c81-b3d9-21d6438904b1.html
-  
 下面是一个例子
 ```
 RFC文档为RFC3550（RFC1889为其过期版本）
