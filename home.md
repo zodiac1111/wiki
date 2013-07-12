@@ -1,6 +1,6 @@
 # wiki
 
-## [软件](/soft/index)
+## [软件](/soft/soft-index)
 
 ### 学习方法
 
