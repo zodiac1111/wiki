@@ -1,21 +1,13 @@
----
-layout: post
-title: "hello world"
-date: 2012-07-03 09:01
-comments: true
-categories: 
----
-#集成构建工具:
+# gcc集成构建工具
+
 1. Buildroot
 2. crosstool
-#简明构建交叉编译器指导提示(gcc)
-[来源](http://www.ifp.illinois.edu/~nakazato/tips/xgcc.html#pre)
 
+* 简明构建交叉编译器指导提示(gcc) [来源](http://www.ifp.illinois.edu/~nakazato/tips/xgcc.html#pre)
 
-****
-#构建GCC交叉编译器
-[来源](http://wiki.osdev.org/GCC_Cross-Compiler)
-##1.gcc
+* 构建GCC交叉编译器 [来源](http://wiki.osdev.org/GCC_Cross-Compiler)
+
+## gcc
 Now, you can build GCC.
 
 	cd /usr/src/build-gcc
