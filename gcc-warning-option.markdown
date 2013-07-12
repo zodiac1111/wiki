@@ -72,10 +72,14 @@ Issue all the warnings demanded by strict ISO C and ISO C++.
           -Wuninitialized  
           -Wunused-parameter (only with -Wunused or -Wall) 
           -Wunused-but-set-parameter (only with -Wunused or -Wall)  
+ 
+
 ## -Wcomment (-Wall)
 
 ## -Wshadow
+
 当局部变量遮蔽(shadow)了参数、全局变量或者是其他局部变量时，该警告选项会给我们以警告信息。例如:
+
 ```
 // test_shadow.c
 int g;
@@ -86,8 +90,9 @@ int main(int argc,char **argv)
 	retrun 0;
 }
 ```
-##inline
--Winline 让 gcc 对标志成 inline 但不能被替换的函数给出警告信息以及不能替换的原因。如下面例子，它使用了可变长度数据类型变量作为参数：
+## inline
+
+`-Winline` 让 gcc 对标志成 inline 但不能被替换的函数给出警告信息以及不能替换的原因。如下面例子，它使用了可变长度数据类型变量作为参数：
 ```
 inline int func(int *a)
 {
@@ -106,13 +111,16 @@ int main(void)
 }
 ```
 ## -Wpacked -Wpadded 
+
 检测结构体内存对齐/手动packed提示效率问题,自动padded也有提示.
 
 ## -Wunreachable-code
+
 不可到达的代码
+
 ## -Woverloaded-virtual
 
--Wmissing-include-dirs
+`-Wmissing-include-dirs`
 
 ## -Wundef
 
