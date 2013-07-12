@@ -1,6 +1,6 @@
 # Buildroot 用户手册
 
-官方网址:<http://buildroot.uclibc.org/downloads/manual/manual.htm>
+官方网址: http://buildroot.uclibc.org/downloads/manual/manual.htm
 
 粗略翻译,自己用.
 #第一章. 关于Buildroot
