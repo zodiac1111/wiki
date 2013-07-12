@@ -1,11 +1,6 @@
----
-layout: post
-title: "hello world"
-date: 2012-07-03 09:01
-comments: true
-categories: 
----
+# qt笔记
 
+```
 二维图形 --> 画个房子
 osi 4 层 
 应用层 
@@ -25,3 +20,4 @@ mvc model view contaller 模型视图控制器
 (引擎,下载文本.自解释 例如shell) 写入的是 文本
 音频多媒体.
 Qt vs MFC
+```
