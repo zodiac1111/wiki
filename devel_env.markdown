@@ -1,11 +1,12 @@
 # 软件交叉编译平台
 
-1. 主机:
+## 主机
 ```bash
 uname -a
 Linux localhost.localdomain 3.3.6-3.fc17.x86_64 #1 SMP Wed May 16 21:21:18 UTC 2012 x86_64 x86_64 x86_64 GNU/Linux
+```
 
-gcc
+## gcc
 
 >http://gcc.gnu.org/install/configure.html 如何安装gcc:配置选项
 
