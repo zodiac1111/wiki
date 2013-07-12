@@ -1,12 +1,6 @@
----
-layout: post
-title: "hello world"
-date: 2012-07-03 09:01
-comments: true
-categories: 
----
+# mysql笔记
 
-#一些mysql的路径
+## 一些mysql的路径
 启动 mysql   
 
 	systemctl start mysqld.service
@@ -17,10 +11,11 @@ categories:
 配置文件 /etc/my.cnf 
 默认数据库所在路径 /var/lib/mysql
 
-mysql和qt连接 需要驱动 形如 libqsqlmysql.so
+mysql和qt连接 需要驱动 形如`libqsqlmysql.so`
 一般放在(官网下载的二进制包) 
-~/QtSDK/Desktop/Qt/4.8.1/gcc/plugins/sqldrivers/libqsqlmysql.so
-#mysql数据库一般操作
+`~/QtSDK/Desktop/Qt/4.8.1/gcc/plugins/sqldrivers/libqsqlmysql.so``
+
+## mysql数据库一般操作
 
 	update mysql.user set password=password("mima") where user='root';
 	flush privileges(刷新)
