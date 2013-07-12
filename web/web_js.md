@@ -1,14 +1,17 @@
-#验证表单正确性:
+# 验证表单正确性:
+
 <http://www.dreamdu.com/javascript/exe_novice_check_form/>
 
+```
 在改变的时候提示.背景变色,红. 绿色表示修改.
 得到元素byname 数组. 数组操作. 长度.
 this,parent
 document.getElementById("row_2").getElementsByTagName("select")[0].value
 this的parnet的getbyname[0]的value.
 本对象的副对象(兄弟对象)的 按名字取("iv").value
+```
 
-#jQusery POST 表单
+# jQusery POST 表单
 使用 ajax 请求发送表单数据：
 
 	$.post("test.php",
