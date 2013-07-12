@@ -48,6 +48,7 @@ categories:
 	# minicom -s
 	Serial port setup [Enter]
 
+
     +-------------------------------------------------------------+
     | A -    Serial Device      : /dev/ttyUSB0                    |
     | B - Lockfile Location     : /var/lock                       |
@@ -59,6 +60,7 @@ categories:
     |                                                             |
     |    Change which setting?                                    |
     +-------------------------------------------------------------+
+
 注: 如果没有使用USB转接口，Serial Device要配置为/dev/ttyS0
 
    Save setup as dfl
