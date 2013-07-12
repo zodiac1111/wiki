@@ -22,7 +22,7 @@
 
 ### 3
 
-[[gollum.png]]
+[[/gollum.png]]
 
 [[/gollum.png|align=right]]
 
