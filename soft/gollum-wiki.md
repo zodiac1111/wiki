@@ -5,21 +5,21 @@
 
 特点:
 
-* git操作,仓库
-* markdown模块
-* ruby语言
+* [git](http://git-scm.com/)操作,仓库
+* markdown([wiki](http://en.wikipedia.org/wiki/Markdown))模块
+* ruby([wiki_cn](http://zh.wikipedia.org/zh/Ruby),[wiki](http://en.wikipedia.org/wiki/Ruby_(programming_language)))语言
 * web编辑(自动commit)/本地编辑器编辑(手动commit后生效)
 
 ## 安装
 
 
-需要 `ruby`([wiki](http://en.wikipedia.org/wiki/Ruby_programming_language)) `rubygems`([wiki](http://en.wikipedia.org/wiki/RubyGems))
+需要 [`ruby`](http://en.wikipedia.org/wiki/Ruby_programming_language) [`rubygems`](http://en.wikipedia.org/wiki/RubyGems) :
 
- `yum install ruby rubygems`
+    yum install ruby rubygems
  
 到这里`rubygems`ruby的包管理软件安装完成.可以使用`gem`安装各种软件.
  
- `gem install gollum`
+     gem install gollum
 
 ## 可能遇到的问题
 
