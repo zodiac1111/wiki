@@ -36,7 +36,8 @@
     1. checking for libxml/parser.h... no
     2. checking for libxslt/xslt.h... no
 
-### 对应解决:  
+### 解决方法
+
 由于不同的包管理软件不能互通,`gem`需要的一些头文件可以使用`yum`安装   
 `*.h`文件,一般包含在`dev`/`devel`包中. 在Fedora 18中使用`yum`安装指定的*-devel包即可.
 
@@ -79,9 +80,16 @@
 
 `gem --version`可以查看版本.
 
+## 4 目录不支持UTF-8字符 
+
+现象:在侧边栏(Sidebar)的目录(TOC)中不支持UTF-8字符,[issues #547](https://github.com/gollum/gollum/issues/547).
+
+目前似乎没办法解决.依评论看可能与系统有关,本人本地计算机(Fedora 18)可以正常显示,但是VPS(CentOS)则显示乱码.
+
 # 使用
 
 ## 运行服务
+
 在wiki的目录下运行
 
     gollum
