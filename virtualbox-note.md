@@ -17,5 +17,5 @@ Your system will install the packages above if they aren't installed already, pl
 
 Check /usr/src/kernels/ to confirm that a directory for the version of your current kernel release exists (this directory should exist after the installation of the packages above):
 
-    ls /usr/src/kernels/
+    [root@Linux ]# ls /usr/src/kernels/
     2.6.32-220.2.1.el6.i686
