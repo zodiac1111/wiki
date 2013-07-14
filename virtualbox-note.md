@@ -1,6 +1,8 @@
 # Virtualbox 相关笔记
 
-# 为Virtualbox中的虚拟机(CentOS)安装增强功能(共享目录等)
+# 安装增强功能(共享目录等)
+
+为Virtualbox中的虚拟机(CentOS)安装增强功能(共享目录等)
 
 安装失败,查看日志
 
