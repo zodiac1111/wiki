@@ -18,8 +18,8 @@
     yum install ruby rubygems
  
 到这里`rubygems`ruby的包管理软件安装完成.可以使用`gem`安装各种软件.
- 
-     gem install gollum
+
+	     gem install gollum
 
 # 可能遇到的问题
 
@@ -27,7 +27,7 @@
 
 ## 1 需要 gcc(编译) 
  
- `yum install gcc`
+	yum install gcc
 
 ## 2 其他一些头文件
 
@@ -92,9 +92,9 @@
 
 在wiki的目录下运行
 
-    gollum
+	gollum
 
-在浏览器中输入`<ip>:4567`(默认)即可浏览/编辑.
+在浏览器中输入`127.0.0.1:4567`(默认)即可浏览/编辑.
 
 如果出错很可能是wiki目录本身不是一个git仓库,最简单的方式是`git init`初始化一个仓库.
 
