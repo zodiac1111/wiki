@@ -1,6 +1,6 @@
 # gollum wiki 使用
  
-## 简介
+# 简介
 [gollum](https://github.com/gollum/gollum)是一个wiki系统.github使用的就是gollum.可以用于个人知识管理([PKM](http://en.wikipedia.org/wiki/Personal_knowledge_management)).
 
 特点:
@@ -10,7 +10,7 @@
 * ruby([wiki_cn](http://zh.wikipedia.org/zh/Ruby),[wiki](http://en.wikipedia.org/wiki/Ruby_(programming_language)))语言
 * web编辑(自动commit)/本地编辑器编辑(手动commit后生效)
 
-## 安装
+# 安装
 
 
 需要 [`ruby`](http://en.wikipedia.org/wiki/Ruby_programming_language) [`rubygems`](http://en.wikipedia.org/wiki/RubyGems) :
@@ -21,22 +21,22 @@
  
      gem install gollum
 
-## 可能遇到的问题
+# 可能遇到的问题
 
 如果遇到以下问题
 
-### 1 需要 gcc(编译) 
+## 1 需要 gcc(编译) 
  
  `yum install gcc`
 
-### 2 其他一些头文件
+## 2 其他一些头文件
 
-#### 现象
+### 现象
 
     1. checking for libxml/parser.h... no
     2. checking for libxslt/xslt.h... no
 
-#### 对应解决:  
+### 对应解决:  
 由于不同的包管理软件不能互通,`gem`需要的一些头文件可以使用`yum`安装   
 `*.h`文件,一般包含在`dev`/`devel`包中. 在Fedora 18中使用`yum`安装指定的*-devel包即可.
 
@@ -45,7 +45,7 @@
 
 总之一些`*.h`文件的错误可以先试试看安装对应的软件包的dev软件包.
 
-### 3 rdoc编码
+## 3 rdoc编码
 
     ERROR:  While generating documentation for gollum-lib-1.0.3
     ... MESSAGE:   Unhandled special: Special: type=17, text="<!-- --- title: New Title -->"
@@ -79,9 +79,9 @@
 
 `gem --version`可以查看版本.
 
-## 使用
+# 使用
 
-### 运行服务
+## 运行服务
 在wiki的目录下运行
 
     gollum
@@ -93,26 +93,26 @@
 Tips:
 * `--port` 选项可以指定端口 
 
-### 编辑
+## 编辑
 
 * web页面新建,编辑,保存
 * 直接编辑文件,`git commit`
 
 
-### 保存/备份
+## 保存/备份
 
 * 本地文件
 * git远程仓库(github等)
 * dropbox等网盘
 
-### 发布
+## 发布
 
 * 服务器同样搭建gollum环境 (几乎与本地相同)
 * apache ruby模块 (模式很复杂)
 * [gollum-site](https://github.com/dreverri/gollum-site) 生成静态文件,发布. (有些bug未解决,不理想) [笔记](gollum-site)
 * 发布到github某个项目的wiki页面 (省了服务器) 
 
-#### 内容更新
+### 内容更新
 
 * 直接通过web编辑/保存
 * web服务器从git仓库`git pull`抽取
@@ -120,4 +120,5 @@ Tips:
 
 # 参考
 
-1. 发布到github的wiki页面 http://ju.outofmemory.cn/entry/28388 
+1. 发布到github的wiki页面: http://ju.outofmemory.cn/entry/28388 
+2. gollum的git页面: https://github.com/gollum/gollum
