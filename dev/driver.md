@@ -9,7 +9,6 @@
 
 # hello模块
 
-
 # kprintf 打印到控制台而不是log文件 
 
 参考:
@@ -20,3 +19,14 @@
 
 如果无效再根据发行版查看修改 `rsyslog.conf` 配置文件
 
+无法打印到终端仿真器(如gnome终端等).虚拟终端是指文本模式下的终端,即ttyN.图形界面下按`<Ctrl+Alt+Fn>`进入.
+
+    # tty
+    /dev/tty2
+
+而不是
+  
+    # tty
+    /dev/pts/0
+
+之类的.
