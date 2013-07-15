@@ -24,6 +24,7 @@ Check /usr/src/kernels/ to confirm that a directory for the version of your curr
 
 参考:
 * http://rationallyparanoid.com/articles/virtualbox-centos-6.2.html
+
 # 向虚拟机发送`<Ctrl+Alt+Fn>`
 
 使用 `<HOST+Fn>` 替代.默认HOST为右Ctrl.
