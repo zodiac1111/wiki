@@ -6,7 +6,7 @@
 
 安装失败,查看日志
 
-需要当前 kernel 源代码 :http://rationallyparanoid.com/articles/virtualbox-centos-6.2.html
+需要当前 kernel 源代码
 
 安装以下三个包 (kernel-headers, kernel-devel, gcc):
 
@@ -22,6 +22,8 @@ Check /usr/src/kernels/ to confirm that a directory for the version of your curr
     [root@Linux ]# ls /usr/src/kernels/
     2.6.32-220.2.1.el6.i686
 
+参考:
+* http://rationallyparanoid.com/articles/virtualbox-centos-6.2.html
 # 向虚拟机发送`<Ctrl+Alt+Fn>`
 
 使用 `<HOST+Fn>` 替代.默认HOST为右Ctrl.
