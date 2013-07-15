@@ -5,7 +5,7 @@
 * http://www.if-not-true-then-false.com/2010/install-virtualbox-guest-additions-on-fedora-centos-red-hat-rhel/
 * http://rationallyparanoid.com/articles/virtualbox-centos-6.2.html
 
-[安装笔记](vbox)
+[安装笔记](virtualbox-note)
 
 # hello模块
 
