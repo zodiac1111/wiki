@@ -1,12 +1,4 @@
----
-layout: post
-title: "arm-gp2x-linux-gcc_info"
-date: 2012-07-03 09:01
-comments: true
-categories: 
----
-
-#交叉编译的gcc信息:
+# 交叉编译的gcc信息
 <code>arm-gp2x-linux-gcc -v</code>
 
 	Using built-in specs.		#内建的specs(规格)
