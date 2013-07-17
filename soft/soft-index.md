@@ -9,7 +9,7 @@
 * [[chromium-pdf-viewer]] chromium 查看pdf文件 
 * [[chromium-linux-cfg]] chromium 配置文件
 * [[git]] git使用
-* [[wget]] 
+* [[wget]]  下载工具
 * [[ssh]] ssh配置
 * [[softwave]] 一些有用的软件介绍
 * [[Fedora-TFTP-server]] tftp服务器配置使用
