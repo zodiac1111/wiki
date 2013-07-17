@@ -1,10 +1,3 @@
----
-layout: post
-title: "arm-asm"
-date: 2012-07-03 09:01
-comments: true
-categories: 
----
 
 window  exe  com
 linux    elf    bin
