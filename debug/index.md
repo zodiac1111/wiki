@@ -1,4 +1,4 @@
 # 调试技巧
 
-* [core dump 调试段错误](/debug/howto-use-core-dump)
+* [[howto-use-core-dump]] core dump 调试段错误
 * 
