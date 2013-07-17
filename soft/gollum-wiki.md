@@ -116,7 +116,7 @@ Tips:
 ## 发布
 
 * 服务器同样搭建gollum环境 (几乎与本地相同)
-* apache ruby模块 (模式很复杂)
+* apache ruby模块 (貌似很复杂)
 * [gollum-site](https://github.com/dreverri/gollum-site) 生成静态文件,发布. (有些bug未解决,不理想) [笔记](gollum-site)
 * 发布到github某个项目的wiki页面 (省了服务器) 
 
