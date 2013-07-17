@@ -1,4 +1,10 @@
-# minicom 笔记
+---
+layout: post
+title: "hello world"
+date: 2012-07-03 09:01
+comments: true
+categories: 
+---
 
 #minicom不能输入的问题
 
