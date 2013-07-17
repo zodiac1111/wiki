@@ -1,6 +1,6 @@
 # wiki
 
-* [软件](/soft/soft-index)
+* [软件](/soft/index)
 * [系统管理](sys-manage/index)
 * [开发](dev/index)
 * [gcc](gcc/index)
