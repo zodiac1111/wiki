@@ -1,2 +1,8 @@
-流程图
-http://www.asciiflow.com/#Draw
+# ascii流程图
+
+网址: http://www.asciiflow.com/
+
+例子:
+```
+
+```
