@@ -1,12 +1,6 @@
----
-layout: post
-title: "hello world"
-date: 2012-07-03 09:01
-comments: true
-categories: 
----
+# minicom 笔记
 
-#minicom不能输入的问题
+# minicom不能输入的问题
 
 >minicom是一个文本模式的终端模拟器,for类unix系统类似window下的超级终端.
 
