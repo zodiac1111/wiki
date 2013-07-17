@@ -110,8 +110,8 @@ Tips:
 ## 保存/备份
 
 * 本地文件
-* git远程仓库(github等)
-* dropbox等网盘
+* git远程仓库([github](https://github.com/),[bitbucket](https://bitbucket.org/)等)
+* [dropbox](https://www.dropbox.com/)等网盘
 
 ## 发布
 
