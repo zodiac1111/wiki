@@ -9,7 +9,6 @@
 * [json在线解析](http://jsoneditoronline.org/)(外部链接)
 * [gollum](/soft/gollum-wiki) wiki安装使用
 * [无线网络破解](/aircrack-ng)
-* [apache安装使用](/apache)
 * [ascii-table](/ascii-table) ascii字符表格
 * [web开发笔记](/web/web_js)
 * [cpp运算符重载](/cpp_class_overload)
