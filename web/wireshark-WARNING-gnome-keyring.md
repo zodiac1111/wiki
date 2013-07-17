@@ -10,5 +10,5 @@ WARNING: gnome-keyring:: couldn't connect to: /run/user/user1/keyring-muQnuX/pkc
 2. 32位 `yum update http://kojipkgs.fedoraproject.org//packages/libsmi/0.4.8/9.fc17/i686/libsmi-0.4.8-9.fc17.i686.rpm`
 
 #参考解决方案来源:
-<http://forums.fedora-fr.org/viewtopic.php?pid=508545>
-<https://bugzilla.redhat.com/show_bug.cgi?id=864324>
+* http://forums.fedora-fr.org/viewtopic.php?pid=508545
+* https://bugzilla.redhat.com/show_bug.cgi?id=864324
