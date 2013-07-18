@@ -3,31 +3,24 @@
 测试gollum各种语法(markdown)以及各种特性的页面.
 
 ## 图片测试 
-
 ### 1
-
 ```bash
 ![外部链接](https://cdn1.iconfinder.com/data/icons/onebit/PNG/onebit_34.png)
 ```
-
 ![外部链接](https://cdn1.iconfinder.com/data/icons/onebit/PNG/onebit_34.png)
 
- 
 ### 2
-
 ```bash
 [[https://cdn1.iconfinder.com/data/icons/onebit/PNG/onebit_34.png]]
 ```
 [[https://cdn1.iconfinder.com/data/icons/onebit/PNG/onebit_34.png]]
 
 ### 3
-
 [[gollum.png]]
 
 [[/gollum.png|align=right]]
 
 ## 文字样式
-
 * <font color=red>红色文字</font> `<font color=red>红色文字</font>`
 * <b>粗体文字</b> `<b>粗体文字</b>`
 * <i>斜体文字</i> `<i>斜体文字</i>`
@@ -35,7 +28,6 @@
 * *斜体文字* `*斜体文字*`
 
 ## 标题
-
 4. <h1>一级标题</h1> 
 5. <h2>二级标题</h2>
 6. <h3>三级标题</h3>
