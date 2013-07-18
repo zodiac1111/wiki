@@ -16,3 +16,6 @@
 * [[rpm-yum]]
 * [[string-process]]
 * 待定
+
+linux发行版 
+[[http://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg]]
