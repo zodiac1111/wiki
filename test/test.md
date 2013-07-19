@@ -79,5 +79,8 @@ http://player.youku.com/player.php/sid/XNDQ4ODQxNTI0/v.swf
   <embed src="http://player.youku.com/player.php/sid/XNDQ4ODQxNTI0/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
 </div>
 
+3
+
 <div class="github-widget" data-repo="zodiac1111/dotvim"></div>
 
+eof
