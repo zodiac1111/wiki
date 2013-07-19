@@ -84,6 +84,11 @@ http://player.youku.com/player.php/sid/XNDQ4ODQxNTI0/v.swf
 <div class="github-widget" data-repo="zodiac1111/dotvim"></div>
 
 4
+
 <iframe height=498 width=510 src="http://player.youku.com/embed/XNTUzNDA5MTQ4" frameborder=0 allowfullscreen></iframe>
+
 5
+
+<embed src="http://player.youku.com/player.php/sid/XNTUzNDA5MTQ4/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+
 eof
