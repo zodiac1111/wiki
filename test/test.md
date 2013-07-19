@@ -65,3 +65,19 @@
 
 * https://google.com
 * [Google](https://google.com)
+
+## 视频
+1
+
+<div class="video-container">
+http://player.youku.com/player.php/sid/XNDQ4ODQxNTI0/v.swf
+</div>
+
+2
+
+<div class="video-container">
+  <embed src="http://player.youku.com/player.php/sid/XNDQ4ODQxNTI0/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+</div>
+
+<div class="github-widget" data-repo="zodiac1111/dotvim"></div>
+
