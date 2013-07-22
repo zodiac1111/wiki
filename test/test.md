@@ -18,15 +18,10 @@ wiki系统所有源文件可以在 [这里](https://github.com/zodiac1111/wiki)(
 [[https://cdn1.iconfinder.com/data/icons/onebit/PNG/onebit_34.png]]
 
 ### 3
-`[[gollum.png]]`:
 
 [[gollum.png]]
 
-`![asdasd](/gollum.png)`:
-
 ![asdasd](/gollum.png)
-
-
 
 [[/res/d.svg]]
 
