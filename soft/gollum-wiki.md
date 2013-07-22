@@ -15,11 +15,11 @@
 
 需要 [`ruby`](http://en.wikipedia.org/wiki/Ruby_programming_language) [`rubygems`](http://en.wikipedia.org/wiki/RubyGems) :
 
-    yum install ruby rubygems
+ yum install ruby rubygems
  
 到这里`rubygems`ruby的包管理软件安装完成.可以使用`gem`安装各种软件.
 
-	     gem install gollum
+ gem install gollum
 
 # 可能遇到的问题
 
@@ -27,22 +27,22 @@
 
 ## 1 需要 gcc(编译) 
  
-	yum install gcc
+ yum install gcc
 
 ## 2 其他一些头文件
 
 ### 现象
 
-    1. checking for libxml/parser.h... no
-    2. checking for libxslt/xslt.h... no
+ 1. checking for libxml/parser.h... no
+ 2. checking for libxslt/xslt.h... no
 
 ### 解决方法
 
 由于不同的包管理软件不能互通,`gem`需要的一些头文件可以使用`yum`安装   
 `*.h`文件,一般包含在`dev`/`devel`包中. 在Fedora 18中使用`yum`安装指定的*-devel包即可.
 
-    1. yum install libxml2-devel
-    2. yum install libxslt-devel
+ yum install libxml2-devel
+ yum install libxslt-devel
 
 总之一些`*.h`文件的错误可以先试试看安装对应的软件包的dev软件包.
 
@@ -74,9 +74,10 @@
     Successfully installed json-1.8.0
     Successfully installed rdoc-4.0.1
 
-发现由于的CentOS官方的rubygem版本过低,不支持.所以使用gems 1.8.7 on centos 6 参见 [这里](http://wiki.opscode.com/display/chef/Installing+Ruby+and+dependencies+on+CentOS+and+Others).之后升级`rubygems`:
+发现由于的CentOS官方的rubygem版本过低,不支持.所以使用gems 1.8.7 on centos 6,过程参见 [这里](http://wiki.opscode.com/display/chef/Installing+Ruby+and+dependencies+on+CentOS+and+Others).  
+之后升级`rubygems`:
 
-    yum update rubygems
+ yum update rubygems
 
 `gem --version`可以查看版本.
 
