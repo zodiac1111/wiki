@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="33cm" height="22cm" viewBox="-41 18 642 423" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="20" y="80" width="60.4" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="20" y="80" width="60.4" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="50.2" y="103.35">
+      <tspan x="50.2" y="103.35">中文</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="120" cy="140" rx="20" ry="20"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="120" cy="140" rx="20" ry="20"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="120" y1="160" x2="140" y2="160"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="120" y="144.8">
+      <tspan x="120" y="144.8"></tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="120,282 160,282 140,238 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="120,282 160,282 140,238 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="140" y="275.8">
+      <tspan x="140" y="275.8"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="220" y="129" width="240" height="131"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 6; stroke: #00ff00" x="220" y="129" width="240" height="131"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="340" y="198.4">
+      <tspan x="340" y="198.4"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffff00" x="300" y="60" width="40" height="38.002"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="300" y="60" width="40" height="38.002"/>
+    <text font-size="12.8016" style="fill: #000000;text-anchor:middle;font-family:文泉驿等宽正黑;font-style:italic;font-weight:normal" x="320" y="83.35">
+      <tspan x="320" y="83.35"></tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 0 260 C 100,260 57.6669,204.205 207.937,199.04"/>
+    <polygon style="fill: #000000" points="215.432,198.782 205.61,204.123 207.937,199.04 205.266,194.129 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="215.432,198.782 205.61,204.123 207.937,199.04 205.266,194.129 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-40" y="240" width="40" height="38.002"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-40" y="240" width="40" height="38.002"/>
+    <text font-size="12.8016" style="fill: #000000;text-anchor:middle;font-family:文泉驿等宽正黑;font-style:italic;font-weight:normal" x="-20" y="263.35">
+      <tspan x="-20" y="263.35"></tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 220 320 C 280,320 320,440 220,440 C 120,440 160,320 220,320z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 220 320 C 280,320 320,440 220,440 C 120,440 160,320 220,320"/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 580,380 A 40,40 0 0 0 501.135,370.54"/>
+    <polygon style="fill: #000000" points="500,377.764 495,367.764 500,370.264 505,367.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="500,377.764 495,367.764 500,370.264 505,367.764 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 560 120 C 560,60 460,60 460,119.264"/>
+    <polygon style="fill: #000000" points="460,126.764 455,116.764 460,119.264 465,116.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="460,126.764 455,116.764 460,119.264 465,116.764 "/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="560" cy="140" rx="40" ry="20"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="560" cy="140" rx="40" ry="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="560" y="143.9">
+      <tspan x="560" y="143.9"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="146.6" y="20" width="66.8" height="38.002"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="146.6" y="20" width="66.8" height="38.002"/>
+    <text font-size="12.8016" style="fill: #000000;text-anchor:middle;font-family:文泉驿等宽正黑;font-style:normal;font-weight:500" x="180" y="43.35">
+      <tspan x="180" y="43.35">wqy字体</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="20" y="20" width="111.6" height="38.002"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="20" y="20" width="111.6" height="38.002"/>
+    <text font-size="12.8016" style="fill: #000000;text-anchor:middle;font-family:文泉驿等宽正黑;font-style:normal;font-weight:500" x="75.8" y="43.35">
+      <tspan x="75.8" y="43.35">文泉驿字体测试</tspan>
+    </text>
+  </g>
+</svg>
