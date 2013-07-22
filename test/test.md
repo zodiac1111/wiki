@@ -22,6 +22,8 @@
 
 [[/res/d.dia]]
 
+[[/res/d.svg]]
+
 [[/gollum.png|align=right]]
 
 ## 文字样式
