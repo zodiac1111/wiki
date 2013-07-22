@@ -95,8 +95,9 @@ http://player.youku.com/player.php/sid/XNDQ4ODQxNTI0/v.swf
 
 <embed src="http://player.youku.com/player.php/sid/XNTUzNDA5MTQ4/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
 
-# 资源
+# 本地资源
 
-[[Gollum|/res/DS18B20.pdf]]
+* 本地pdf资源:DS18B20温度传感器说明书 [[DS18B20.pdf|/res/DS18B20.pdf]]
+* 本地dia资源:流程图dia源文件 [[d.dia|/res/d.dia]]
 
 eof
