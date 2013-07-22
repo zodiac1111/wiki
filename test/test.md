@@ -20,8 +20,6 @@
 
 ![asdasd](/gollum.png)
 
-[[/res/d.dia]]
-
 [[/res/d.svg]]
 
 [[/gollum.png|align=right]]
@@ -96,5 +94,9 @@ http://player.youku.com/player.php/sid/XNDQ4ODQxNTI0/v.swf
 5
 
 <embed src="http://player.youku.com/player.php/sid/XNTUzNDA5MTQ4/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+
+# 资源
+
+[[/res/DS18B20.pdf]]
 
 eof
