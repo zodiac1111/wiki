@@ -2,6 +2,8 @@
 
 测试gollum各种语法(markdown)以及各种特性的页面.
 
+wiki系统所有源文件可以在 [这里](https://github.com/zodiac1111/wiki) 获得.
+
 ## 图片测试 
 ### 1
 ```bash
@@ -99,6 +101,6 @@ http://player.youku.com/player.php/sid/XNDQ4ODQxNTI0/v.swf
 
 * 本地pdf资源:DS18B20温度传感器说明书 [[DS18B20.pdf|/res/DS18B20.pdf]]
 * 本地dia资源:流程图dia源文件 [[d.dia|/res/d.dia]]
-* 本地markdown文本资源: 测试页面源文件: [[test|/test/test.md]]
+* 本地markdown文本资源: 测试页面源文件: [[test.md|/test/test.md]]
 
 eof
