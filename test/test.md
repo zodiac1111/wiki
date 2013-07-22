@@ -97,6 +97,6 @@ http://player.youku.com/player.php/sid/XNDQ4ODQxNTI0/v.swf
 
 # 资源
 
-[[/res/DS18B20.pdf]]
+[[Gollum|/res/DS18B20.pdf]]
 
 eof
