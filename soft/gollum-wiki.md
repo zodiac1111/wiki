@@ -47,6 +47,7 @@
 总之一些`*.h`文件的错误可以先试试看安装对应的软件包的dev软件包.
 
 例如:
+
 	ERROR:  Error installing gollum:
 	ERROR: Failed to build gem native extension.
 
@@ -54,6 +55,7 @@
 	mkmf.rb can't find header files for ruby at /usr/lib/ruby/ruby.h
 
 解决:
+
 	yum install ruby-devel
 
 ## 3 rdoc编码
