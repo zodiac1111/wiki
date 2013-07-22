@@ -15,11 +15,11 @@
 
 需要 [`ruby`](http://en.wikipedia.org/wiki/Ruby_programming_language) [`rubygems`](http://en.wikipedia.org/wiki/RubyGems) :
 
- yum install ruby rubygems
+	yum install ruby rubygems
  
 到这里`rubygems`ruby的包管理软件安装完成.可以使用`gem`安装各种软件.
 
- gem install gollum
+	gem install gollum
 
 # 可能遇到的问题
 
@@ -27,24 +27,34 @@
 
 ## 1 需要 gcc(编译) 
  
- yum install gcc
+	yum install gcc
 
 ## 2 其他一些头文件
 
 ### 现象
 
- 1. checking for libxml/parser.h... no
- 2. checking for libxslt/xslt.h... no
+	1. checking for libxml/parser.h... no
+	2. checking for libxslt/xslt.h... no
 
 ### 解决方法
 
 由于不同的包管理软件不能互通,`gem`需要的一些头文件可以使用`yum`安装   
 `*.h`文件,一般包含在`dev`/`devel`包中. 在Fedora 18中使用`yum`安装指定的*-devel包即可.
 
- yum install libxml2-devel
- yum install libxslt-devel
+	yum install libxml2-devel
+	yum install libxslt-devel
 
 总之一些`*.h`文件的错误可以先试试看安装对应的软件包的dev软件包.
+
+例如:
+	ERROR:  Error installing gollum:
+	ERROR: Failed to build gem native extension.
+
+	/usr/bin/ruby extconf.rb
+	mkmf.rb can't find header files for ruby at /usr/lib/ruby/ruby.h
+
+解决:
+	yum install ruby-devel
 
 ## 3 rdoc编码
 
