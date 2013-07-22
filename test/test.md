@@ -19,7 +19,7 @@
 [[gollum.png]]
 
 ![asdasd](/gollum.png)
-
+[[/res/d.dia]]
 [[/gollum.png|align=right]]
 
 ## 文字样式
