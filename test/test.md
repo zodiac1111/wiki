@@ -26,11 +26,9 @@ wiki系统所有源文件可以在 [这里](https://github.com/zodiac1111/wiki)(
 
 ![asdasd](/gollum.png)
 
-`[[/res/d.svg]]`:
+
 
 [[/res/d.svg]]
-
-`[[/gollum.png|align=right]]`:
 
 [[/gollum.png|align=right]]
 
