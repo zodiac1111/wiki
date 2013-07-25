@@ -50,6 +50,7 @@ avrdude: error: could not find USB device "USBasp" with vid=0x16c0 pid=0x5dc
 
 avrdude done.  Thank you.
 ```
+如果需要使用非root用户操作,按照[这里](http://www.fischl.de/usbasp/Readme.txt)的指示,在下载包的`bin/linux-nonroot`文件夹下,导入Linux驱动规则.[官网](http://www.fischl.de/usbasp/)还有更多有用的资料.
 
 ## 下载器硬件测试
 
