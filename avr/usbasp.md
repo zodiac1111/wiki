@@ -1,6 +1,6 @@
 # usbasp 笔记
 
-在Linux(Fedora 18 i686)下,使用山寨usbasp硬件,ATmage8单片机最小系统和avrdude下载软件实现avr程序下载.
+在Linux(Fedora 18 i686)下,使用山寨usbasp硬件,ATmage8单片机最小系统和avrdude(命令行下载软件)实现avr程序下载.
 
 # 硬件
 
@@ -33,9 +33,11 @@ Bus 003 Device 017: ID 16c0:05dc Van Ooijen Technische Informatica shared ID for
 
 > [AVRDUDE](http://www.nongnu.org/avrdude/) is an utility to download/upload/manipulate the ROM and EEPROM contents of AVR microcontrollers using the in-system programming technique (ISP).
 
-支持多种下载器硬件(上面这种也支持).中文介绍: http://blog.21ic.com/user1/69/archives/2005/1551.html .
+支持多种下载器硬件(上面这种也支持),[中文介绍](http://bbs.21ic.com/blog-25399-1551.html) .
 
-# 测试
+# 下载器测试
+
+不连接任何单片机,仅将下载器通过usb接口连接到PC机上.
 
 ## 需要root权限
 
@@ -73,7 +75,8 @@ avrdude done.  Thank you.
 
 这时会看到代表数据的红色led闪烁一下.基本表示软硬件连接成功.
 
-# 连上单片机测试
+# 连单片机测试
+
 
 这个时候连上mega8单片机最小系统.再次执行
 ```
