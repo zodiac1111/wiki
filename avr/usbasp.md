@@ -59,9 +59,9 @@ avrdude done.  Thank you.
 # 连上单片机测试
 
 这个时候连上mega8单片机最小系统.再次执行
-
- avrdude -cusbasp -pm8 
-
+```
+avrdude -cusbasp -pm8 
+```
 得到的显示:
 
 ```
