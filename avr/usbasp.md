@@ -1,12 +1,29 @@
 # usbasp 笔记
 
+在Linux(Fedora 18 i686)下,使用山寨usbasp硬件,ATmage8单片机最小系统和avrdude下载软件实现avr程序下载.
+
 # 硬件
 
-硬件来源(淘宝) http://tradearchive.taobao.com/trade/detail/tradeSnap.htm?spm=a1z09.2.9.147.BquMN6&tradeID=79509563401088
+山寨硬件来源 [淘宝](http://item.taobao.com/item.htm?spm=0.0.0.0.brf3fj&id=4207291768)
 
-分析发现改下载器基本基于 http://www.fischl.de/usbasp/ 这个. 
+分析发现改下载器基本基于 [这个](http://www.fischl.de/usbasp/). 
 
-按照官方说明:
+`lsusb`信息:
+```
+Bus 003 Device 017: ID 16c0:05dc Van Ooijen Technische Informatica shared ID for use with libusb
+```
+
+`dmesg`信息:
+```
+[64836.140363] usb 3-2: USB disconnect, device number 18
+[64838.871009] usb 3-2: new low-speed USB device number 19 using xhci_hcd
+[64838.888095] usb 3-2: New USB device found, idVendor=16c0, idProduct=05dc
+[64838.888099] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[64838.888102] usb 3-2: Product: USBasp
+[64838.888104] usb 3-2: Manufacturer: www.fischl.de
+```
+
+按照官方(原版)说明:
 
 >On Linux and MacOS X **no** kernel driver is needed.
 
