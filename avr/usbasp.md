@@ -60,8 +60,6 @@ avrdude done.  Thank you.
 
     SUBSYSTEMS=="usb", ATTRS{idVendor}=="16c0", ATTRS{idProduct}=="05dc", GROUP="users", MODE="0666"
 
-测试通过.
-
 通过查看设备文件:
 ```bash
 $ ls -l  '/dev/bus/usb/003/008'  #003 和008 通过lsusb查找得到的id 
@@ -69,7 +67,7 @@ crw-rw-rw- 1 root users 189, 263 7月  26 11:51 /dev/bus/usb/003/008
 
 ```
 
-这样其他用户crw-rw-**rw**-也有了读写权限.
+发现其他用户`crw-rw-rw-`也有了读写权限.测试通过.
 
 
 ## 下载器硬件测试
