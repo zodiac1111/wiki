@@ -1,6 +1,6 @@
 # usbasp 笔记
 
-在Linux(Fedora 18 i686)下,使用山寨usbasp硬件,ATmage8单片机最小系统和avrdude(命令行下载软件)实现avr程序下载.
+在Linux(Fedora 18 i686)下,使用山寨usbasp硬件(包含修改过的固件),ATmage8单片机最小系统和avrdude(命令行下载软件)实现avr程序下载.
 
 # 硬件
 
