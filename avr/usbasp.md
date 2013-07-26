@@ -9,12 +9,14 @@
 分析发现改下载器基本基于 [这个](http://www.fischl.de/usbasp/). 
 
 `lsusb`信息:
-```
+
+```bash
 Bus 003 Device 017: ID 16c0:05dc Van Ooijen Technische Informatica shared ID for use with libusb
 ```
 
 `dmesg`信息:
-```
+
+```bash
 [64836.140363] usb 3-2: USB disconnect, device number 18
 [64838.871009] usb 3-2: new low-speed USB device number 19 using xhci_hcd
 [64838.888095] usb 3-2: New USB device found, idVendor=16c0, idProduct=05dc
@@ -43,7 +45,7 @@ Bus 003 Device 017: ID 16c0:05dc Van Ooijen Technische Informatica shared ID for
 
 没有权限,需要root
 
-```
+```bash
 $ avrdude -cusbasp -pm8 -F
 avrdude: Warning: cannot open USB device: Permission denied
 avrdude: error: could not find USB device "USBasp" with vid=0x16c0 pid=0x5dc
@@ -74,7 +76,7 @@ crw-rw-rw- 1 root users 189, 263 7月  26 11:51 /dev/bus/usb/003/008
 
 仅连接下载器,不连接开发板,测试
 
-```
+```bash
 # avrdude -cusbasp -pm8 -F
 
 avrdude: warning: cannot set sck period. please check for usbasp firmware update. 
@@ -98,12 +100,12 @@ avrdude done.  Thank you.
 
 
 这个时候连上mega8单片机最小系统.再次执行
-```
+```bash
 avrdude -cusbasp -pm8 
 ```
 得到的显示:
 
-```
+```bash
 avrdude: warning: cannot set sck period. please check for usbasp firmware update.
 avrdude: AVR device initialized and ready to accept instructions
 
