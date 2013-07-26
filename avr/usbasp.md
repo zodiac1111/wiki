@@ -52,6 +52,24 @@ avrdude done.  Thank you.
 ```
 如果需要使用非root用户操作,按照[这里](http://www.fischl.de/usbasp/Readme.txt)的指示,在下载包的`bin/linux-nonroot`文件夹下,导入Linux驱动规则.[官网](http://www.fischl.de/usbasp/)还有更多有用的资料.
 
+**更新**:
+
+至少在我的`Fedora 18`上官方的Linux driver rule文件无效.按照[这里](https://bbs.archlinux.org/viewtopic.php?id=103836)和[这里](https://wiki.archlinux.org/index.php/Udev#Accessing_Firmware_Programmers_and_USB_Virtual_Comm_Devices)的提示,将`USBasp.rules`文件的内容替换成为
+
+    SUBSYSTEMS=="usb", ATTRS{idVendor}=="16c0", ATTRS{idProduct}=="05dc", GROUP="users", MODE="0666"
+
+测试通过.
+
+通过查看设备文件:
+```bash
+$ ls -l  '/dev/bus/usb/003/008'  #003 和008 通过lsusb查找得到的id 
+crw-rw-rw- 1 root users 189, 263 7月  26 11:51 /dev/bus/usb/003/008
+
+```
+
+这样其他用户crw-rw-**rw**-也有了读写权限.
+
+
 ## 下载器硬件测试
 
 仅连接下载器,不连接开发板,测试
