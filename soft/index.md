@@ -28,7 +28,6 @@
 * [[git]]
 * [[gollum-site]]
 * [[gollum-wiki]]
-* [[gollum-wiki]]
 * [[learn-linux]]
 * [[lfs]]
 * [[linux-mysql]]
