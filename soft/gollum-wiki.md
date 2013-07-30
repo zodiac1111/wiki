@@ -103,7 +103,7 @@ Update:在`gollum 2.5.0`和`ruby 1.9.3`之下,这个问题已经没有再发生.
 
 ## markdown文件后缀
 
-由`gollum`默认生成的`markdown`文件默认的文件后缀是`.md`.而`.markdown`后缀也是可以被识别的.**但是**在web界面编辑`.markdown`后缀的文件后,git系统似乎只是将其`隐藏`了.在`git commit`之后表现出在web界面所有编辑都无效了.
+由`gollum`默认生成的`markdown`文件默认的文件后缀是`.md`.而`.markdown`后缀也是可以被识别的.**但是** 在web界面编辑`.markdown`后缀的文件后,git系统似乎只是将其"隐藏"了.在`git commit`之后表现出在web界面所有编辑都无效了.
 
 暂时不知道其中原理,当前解决方案是将`markdown`文件后缀都统一改成`.md`.这样`gollum`编辑和git提交不再出现差异. 
 
