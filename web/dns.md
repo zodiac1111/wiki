@@ -1,4 +1,7 @@
-加密dns,换tcp协议,换端口,防止
+# 配置dns协议
+
+加密dns,换tcp协议(默认是udp),换端口,防止
+
 https://github.com/opendns/dnscrypt-proxy/
 
 	# dnscrypt-proxy -T
