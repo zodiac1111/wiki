@@ -9,5 +9,5 @@
 * 实用工具
 * ieee标准浮点(float)数[在线分析](http://babbage.cs.qc.cuny.edu/IEEE-754/),[在线转换](http://www.binaryconvert.com/).
 * [avr](avr/index)
-* [测试页面](test/test)
+* [测试页面](test/index)
 * 待定
