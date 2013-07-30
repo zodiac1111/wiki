@@ -17,6 +17,10 @@
 
 ![asdasd](/gollum.png)
 
-[[/res/d.svg]]
+## 位置指定:右侧
 
 [[/gollum.png|align=right]]
+
+## svg矢量图
+
+[[/res/d.svg]]
