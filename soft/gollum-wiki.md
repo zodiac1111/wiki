@@ -93,13 +93,19 @@
 
 `gem --version`可以查看版本.
 
-## 4 目录不支持UTF-8字符 
+## 目录不支持UTF-8字符 
 
 现象:在侧边栏(Sidebar)的目录(TOC)中不支持UTF-8字符,参见[[issues #547](https://github.com/gollum/gollum/issues/547)].
 
 目前似乎没办法解决.依评论看可能与系统有关,本人本地计算机(Fedora 18)可以正常显示,但是VPS(CentOS 6)则显示乱码.
 
 Update:在`gollum 2.5.0`和`ruby 1.9.3`之下,这个问题已经没有再发生.项目更新非常快,请关注github页面.
+
+## markdown文件后缀
+
+由`gollum`默认生成的`markdown`文件默认的文件后缀是`.md`.而`.markdown`后缀也是可以被识别的.**但是**在web界面编辑`.markdown`后缀的文件后,git系统似乎只是将其`隐藏`了.在`git commit`之后表现出在web界面所有编辑都无效了.
+
+暂时不知道其中原理,当前解决方案是将`markdown`文件后缀都统一改成`.md`.这样`gollum`编辑和git提交不再出现差异. 
 
 # 使用
 
