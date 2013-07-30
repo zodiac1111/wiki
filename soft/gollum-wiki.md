@@ -88,9 +88,9 @@
 发现由于的CentOS官方的rubygem版本过低,不支持.所以使用gems 1.8.7 on centos 6,过程参见 [[这里](http://wiki.opscode.com/display/chef/Installing+Ruby+and+dependencies+on+CentOS+and+Others)],或者从源码编译 [[这里](http://www.shiftedbytes.com/2011/04/install-ruby-192-passenger-on-centos-55.html)]和 [[这里](https://github.com/imeyer/ruby-1.9.2-rpm)]
 
 之后升级`rubygems`:
-
- yum update rubygems
-
+```
+yum update rubygems
+```
 `gem --version`可以查看版本.
 
 ## 目录不支持UTF-8字符 
