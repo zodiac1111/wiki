@@ -1,4 +1,4 @@
-加密dns,换tcp协议,换端口,防止gfw
+加密dns,换tcp协议,换端口,防止
 https://github.com/opendns/dnscrypt-proxy/
 
 	# dnscrypt-proxy -T
