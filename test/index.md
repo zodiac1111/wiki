@@ -6,4 +6,4 @@
 * [图片](pic)
 * [文字](font)
 * [视频](video)
-* 
+* [尾注](footnote)
