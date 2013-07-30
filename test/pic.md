@@ -1,17 +1,18 @@
 # 图片测试 
-## 1
-```bash
-![外部链接](https://cdn1.iconfinder.com/data/icons/onebit/PNG/onebit_34.png)
-```
-![外部链接](https://cdn1.iconfinder.com/data/icons/onebit/PNG/onebit_34.png)
 
-## 2
+## 最简单外部链接
 ```bash
 [[https://cdn1.iconfinder.com/data/icons/onebit/PNG/onebit_34.png]]
 ```
 [[https://cdn1.iconfinder.com/data/icons/onebit/PNG/onebit_34.png]]
 
-## 3
+## 外部连接(带alt)
+```bash
+![外部链接](https://cdn1.iconfinder.com/data/icons/onebit/PNG/onebit_34.png)
+```
+![外部链接](https://cdn1.iconfinder.com/data/icons/onebit/PNG/onebit_34.png)
+
+## 简单内部链接
 
 [[gollum.png]]
 
