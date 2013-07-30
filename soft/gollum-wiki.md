@@ -1,18 +1,18 @@
 # gollum wiki 使用
  
 # 简介
-[gollum](https://github.com/gollum/gollum)是一个wiki系统.github使用的就是gollum.可以用于个人知识管理([PKM](http://en.wikipedia.org/wiki/Personal_knowledge_management)).本片展现如何在Fedora系统上安装gollum.
+[gollum](https://github.com/gollum/gollum)是一个wiki系统。github使用的就是gollum展示wiki页面。可以用于个人知识管理([PKM](http://en.wikipedia.org/wiki/Personal_knowledge_management))。本篇展现如何在Fedora系统上安装gollum。
 
 特点:
 
-* [git](http://git-scm.com/)操作,仓库
+* [git](http://git-scm.com/)操作/仓库
 * markdown([wiki](http://en.wikipedia.org/wiki/Markdown))模块
-* ruby([wiki_cn](http://zh.wikipedia.org/zh/Ruby),[wiki](http://en.wikipedia.org/wiki/Ruby_(programming_language)))语言
+* ruby([wiki_cn](http://zh.wikipedia.org/zh/Ruby)，[wiki](http://en.wikipedia.org/wiki/Ruby_(programming_language)))语言
 * web编辑(自动commit)/本地编辑器编辑(手动commit后生效)
 
 # 安装
 
-需要 [`ruby`](http://en.wikipedia.org/wiki/Ruby_programming_language) [`rubygems`](http://en.wikipedia.org/wiki/RubyGems) :
+需要 [`ruby`](http://en.wikipedia.org/wiki/Ruby_programming_language) [`rubygems`](http://en.wikipedia.org/wiki/RubyGems):
 
 	yum install ruby rubygems
  
@@ -103,9 +103,11 @@ Update:在`gollum 2.5.0`和`ruby 1.9.3`之下,这个问题已经没有再发生.
 
 ## markdown文件后缀
 
-由`gollum`默认生成的`markdown`文件默认的文件后缀是`.md`.而`.markdown`后缀也是可以被识别的.<b>但是</b>在web界面编辑`.markdown`后缀的文件后,git系统似乎只是将其"隐藏"了.在`git commit`之后表现出在web界面所有编辑都无效了.
+由`gollum`默认生成的`markdown`文件默认的文件后缀是`.md`。而`.markdown`后缀也是可以被识别的。
 
-暂时不知道其中原理,当前解决方案是将`markdown`文件后缀都统一改成`.md`.这样`gollum`编辑和git提交不再出现差异. 
+但是，在web界面编辑`.markdown`后缀的文件后，git系统似乎只是将其"隐藏"了。在`git commit`之后表现出在web界面所有编辑都无效了。
+
+暂时不知道其中原理,当前解决方案是将`markdown`文件后缀都统一改成`.md`。这样`gollum`编辑和git提交不再出现差异。 
 
 # 使用
 
@@ -115,37 +117,37 @@ Update:在`gollum 2.5.0`和`ruby 1.9.3`之下,这个问题已经没有再发生.
 
 	gollum
 
-在浏览器中输入`127.0.0.1:4567`(默认)即可浏览/编辑.
+在浏览器中输入`127.0.0.1:4567`(默认)即可浏览/编辑。
 
-如果出错很可能是wiki目录本身不是一个git仓库,最简单的方式是`git init`初始化一个仓库.
+如果出错很可能是wiki目录本身不是一个git仓库,最简单的方式是`git init`初始化一个仓库。
 
-Tips:
+提示：
 * `--port` 选项可以指定端口 
 
 ## 编辑
 
-* web页面新建,编辑,保存
-* 直接编辑文件,`git commit`
+* web页面新建、编辑、保存
+* 直接编辑文件，`git commit`
 
 
 ## 保存/备份
 
 * 本地文件
-* git远程仓库([github](https://github.com/),[bitbucket](https://bitbucket.org/)等)
+* git远程仓库([github](https://github.com/)，[bitbucket](https://bitbucket.org/)等)
 * [dropbox](https://www.dropbox.com/)等网盘
 
 ## 发布
 
 * 服务器同样搭建gollum环境 (几乎与本地相同)
 * apache ruby模块 (貌似很复杂)
-* [gollum-site](https://github.com/dreverri/gollum-site) 生成静态文件,发布. (有些bug未解决,不理想) [笔记](gollum-site)
+* [gollum-site](https://github.com/dreverri/gollum-site) 生成静态文件,发布。 (有些bug未解决,不理想) [笔记](gollum-site)
 * 发布到github某个项目的wiki页面 (省了服务器) 
 
 ### 内容更新
 
 * 直接通过web编辑/保存
 * web服务器从git仓库`git pull`抽取
-* 手动/自动上传到webs,比如同步工具
+* 手动/自动上传到webs，比如同步工具
 
 # 参考
 
