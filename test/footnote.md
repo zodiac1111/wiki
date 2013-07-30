@@ -6,6 +6,9 @@ Lorem ipsum[[^fn-sample_footnote]] dolor sit amet, consectetur adipisicing elit,
 
 [[^fn-sample_footnote]] Handy! Now click the return link to go back.
 
-testing <ref>hello world</ref> testing
+<p>
+testing <sup class="reference" id="cite_ref-1-0">[<a href="#cite_note-1">1</a>]</sup> testing
 
-<references/>
+</p><p>
+<ol><li id="cite_note-1"><b><a href="#cite_ref-1-0">^</a> </b> hello world</li></ol>
+</p>
