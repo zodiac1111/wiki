@@ -5,3 +5,7 @@ Lorem ipsum[[^fn-sample_footnote]] dolor sit amet, consectetur adipisicing elit,
 # 尾注
 
 [[^fn-sample_footnote]] Handy! Now click the return link to go back.
+
+testing <ref>hello world</ref> testing
+
+<references/>
