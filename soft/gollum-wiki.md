@@ -1,7 +1,7 @@
 # gollum wiki 使用
  
 # 简介
-[gollum](https://github.com/gollum/gollum)是一个wiki系统.github使用的就是gollum.可以用于个人知识管理([PKM](http://en.wikipedia.org/wiki/Personal_knowledge_management)).
+[gollum](https://github.com/gollum/gollum)是一个wiki系统.github使用的就是gollum.可以用于个人知识管理([PKM](http://en.wikipedia.org/wiki/Personal_knowledge_management)).本片展现如何在Fedora系统上安装gollum.
 
 特点:
 
@@ -11,7 +11,6 @@
 * web编辑(自动commit)/本地编辑器编辑(手动commit后生效)
 
 # 安装
-
 
 需要 [`ruby`](http://en.wikipedia.org/wiki/Ruby_programming_language) [`rubygems`](http://en.wikipedia.org/wiki/RubyGems) :
 
@@ -98,7 +97,9 @@
 
 现象:在侧边栏(Sidebar)的目录(TOC)中不支持UTF-8字符,参见[[issues #547](https://github.com/gollum/gollum/issues/547)].
 
-目前似乎没办法解决.依评论看可能与系统有关,本人本地计算机(Fedora 18)可以正常显示,但是VPS(CentOS)则显示乱码. 这个问题已经没有再发生,在`gollum 2.5.0`和`ruby 1.9.3`之下.
+目前似乎没办法解决.依评论看可能与系统有关,本人本地计算机(Fedora 18)可以正常显示,但是VPS(CentOS 6)则显示乱码.
+
+Update:在`gollum 2.5.0`和`ruby 1.9.3`之下,这个问题已经没有再发生.项目更新非常快,请关注github页面.
 
 # 使用
 
