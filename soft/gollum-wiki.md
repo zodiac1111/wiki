@@ -1,4 +1,4 @@
-# gollum安装笔记
+# gollum笔记
  
 # 简介
 [gollum](https://github.com/gollum/gollum)是一个wiki系统。github使用的就是gollum展示wiki页面。可以用于个人知识管理([PKM](http://en.wikipedia.org/wiki/Personal_knowledge_management))。本篇展现如何在Fedora系统上安装gollum。
