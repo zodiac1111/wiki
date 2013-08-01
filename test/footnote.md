@@ -31,4 +31,4 @@ Lorem ipsum<sup id="cite_ref-1-0">[<a href="#cite_note-1">1</a>]</sup> dolor sit
 * aaa <b id="cite_note-1"><a href="#cite_ref-1-0">^</a> </b>
 * bbb
 
-<li id="cite_note-1"><b><a href="#cite_ref-1-0">^</a> </b> hello world</li>
+`<li id="cite_note-1"><b><a href="#cite_ref-1-0">^</a> </b> hello world</li>`
