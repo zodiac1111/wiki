@@ -39,6 +39,6 @@ Lorem ipsum<sup id="r-1">[<a href="#fn-1">1</a>]</sup> dolor sit amet, consectet
 # 尾注
 
 * aaa <b id="fn-1"><a href="#r-1">^</a> </b>
-* bbb <b id="fn-2"><a href="#r2">^</a> </b>
+* bbb <b id="r2"><a href="#f2">^</a> </b>
 
 `<li id="fn-1"><b><a href="#r-1">^</a> </b> hello world</li>`
