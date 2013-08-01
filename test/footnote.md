@@ -6,7 +6,7 @@ gollum的markdown基于sundown,sundowm没有实现尾注.并且sundown已经冻�
 
 `<b id="fn-1"><a href="#r-1">^</a></b>`
 
-a[1](r1) 
+a[1](#r2) 
 
 [an example] [id] 
 
@@ -39,6 +39,6 @@ Lorem ipsum<sup id="r-1">[<a href="#fn-1">1</a>]</sup> dolor sit amet, consectet
 # 尾注
 
 * aaa <b id="fn-1"><a href="#r-1">^</a> </b>
-* bbb
+* bbb <b id="fn-2"><a href="#r2">^</a> </b>
 
 `<li id="fn-1"><b><a href="#r-1">^</a> </b> hello world</li>`
