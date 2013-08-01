@@ -8,6 +8,10 @@ gollum的markdown基于sundown,sundowm没有实现尾注.并且sundown已经冻�
 
 a[^1]
 
+[an example] [id] 
+
+[id]: http://example.com/  "Optional Title Here"
+
 Lorem ipsum<sup id="r-1">[<a href="#fn-1">1</a>]</sup> dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
 
 等三量專原國裝力義軍細和非服業輕觀是士奇你者的課建的組。明口構亞向險處不表。廠上象兩們聲……品化條見氣福國子和始下失表故線觀字。
