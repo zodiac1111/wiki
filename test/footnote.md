@@ -6,7 +6,7 @@ gollum的markdown基于sundown,sundowm没有实现尾注.并且sundown已经冻�
 
 `<b id="fn-1"><a href="#r-1">^</a></b>`
 
-a<sup id="f2">[[*](#r2)]</sup>
+a<sup id="f2">[[2](#r2)]</sup>
 
 <ref>cankao</ref>
 
