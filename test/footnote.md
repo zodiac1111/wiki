@@ -8,7 +8,7 @@ gollum的markdown基于sundown,sundowm没有实现尾注.并且sundown已经冻�
 
 a<sup id="f2">[2](#r2)</sup>
 
-[an example] [id] 
+<ref>cankao</ref>
 
 [id]: http://example.com/  "Optional Title Here"
 
