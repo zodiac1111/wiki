@@ -9,3 +9,5 @@
 # 终端转义字符
 
 参考 http://blog.csdn.net/cherylnatsu/article/details/5878913
+
+英文参考 http://www.termsys.demon.co.uk/vtansi.htm  ANSI/VT100 Terminal Control Escape Sequences
