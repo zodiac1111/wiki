@@ -17,9 +17,9 @@
 
 * One of the following AVR Microcontrollers: ATmega328, ATmega168, ATmega88, or ATmega48. An older ATmega8 or similar may also work but has not been tested.
 * An ISP AVR Programmer that is supported by avrdude.
-* Solderless breadboard
-* Hookup wire
-* 10kΩ resistor (1), 470Ω resistor (1)
+* [面包版](http://www.jameco.com/webapp/wcs/stores/servlet/Product_10001_10001_20723_-1?avad=74941_d4bd4661&source=Avantlink)
+* [连接线](http://www.avantlink.com/click.php?tt=cl&mi=10609&pw=74941&url=http%3A%2F%2Fwww.jameco.com%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2FStoreCatalogDisplay%3FstoreId%3D10001%26catalogId%3D10001)
+* [10kΩ 电阻](http://www.avantlink.com/click.php?tt=cl&mi=10609&pw=74941&url=http%3A%2F%2Fwww.jameco.com%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2FProduct_10001_10001_691104_-1)*1, [470Ω resistor](http://www.avantlink.com/click.php?tt=cl&mi=10609&pw=74941&url=http%3A%2F%2Fwww.jameco.com%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2FProduct_10001_10001_690785_-1)*1
 * 0.1uF capacitor (1)
 * LED (1)
 
