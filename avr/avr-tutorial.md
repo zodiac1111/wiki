@@ -14,6 +14,15 @@
 
 # Getting Started: Blinking an LED 入门:闪烁的LED
 ## List of Materials 材料单
+
+* One of the following AVR Microcontrollers: ATmega328, ATmega168, ATmega88, or ATmega48. An older ATmega8 or similar may also work but has not been tested.
+* An ISP AVR Programmer that is supported by avrdude.
+* Solderless breadboard
+* Hookup wire
+* 10kΩ resistor (1), 470Ω resistor (1)
+* 0.1uF capacitor (1)
+* LED (1)
+
 ## Wiring The Circuit 画电路图
 ## Powering The Circuit 
 ## Compiling the C Program 编译c程序
