@@ -20,8 +20,8 @@
 * [面包版](http://www.jameco.com/webapp/wcs/stores/servlet/Product_10001_10001_20723_-1?avad=74941_d4bd4661&source=Avantlink)
 * [连接线](http://www.avantlink.com/click.php?tt=cl&mi=10609&pw=74941&url=http%3A%2F%2Fwww.jameco.com%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2FStoreCatalogDisplay%3FstoreId%3D10001%26catalogId%3D10001)
 * [10kΩ电阻](http://www.avantlink.com/click.php?tt=cl&mi=10609&pw=74941&url=http%3A%2F%2Fwww.jameco.com%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2FProduct_10001_10001_691104_-1)*1, [470Ω电阻](http://www.avantlink.com/click.php?tt=cl&mi=10609&pw=74941&url=http%3A%2F%2Fwww.jameco.com%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2FProduct_10001_10001_690785_-1)*1
-* 0.1uF capacitor (1)
-* LED (1)
+* 0.1uF电容*1
+* LED*1
 
 ## Wiring The Circuit 画电路图
 ## Powering The Circuit 
