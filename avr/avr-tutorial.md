@@ -26,6 +26,8 @@
 ## 电路接线
 [[http://static.micahcarrick.com/media/images/avr-tutorial/blink-led/schematic.png]]
 Figure 2.1 - The Blink LED schematic diagram
+[[http://static.micahcarrick.com/media/images/avr-tutorial/blink-led/circuit-close-up.jpg]]
+Figure 2.2 - Close-up View of the Blink LED circuit on a breadboard.
 ## Powering The Circuit 
 ## 编译c程序
 ## 闪烁的LED程序
