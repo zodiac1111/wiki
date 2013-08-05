@@ -24,6 +24,7 @@
 * LED*1
 
 ## Wiring The Circuit 画电路图
+[[http://static.micahcarrick.com/media/images/avr-tutorial/blink-led/schematic.png]]
 ## Powering The Circuit 
 ## Compiling the C Program 编译c程序
 ## The Blink LED Program 闪烁的LED程序
