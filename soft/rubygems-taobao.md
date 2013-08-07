@@ -1,6 +1,6 @@
 # RubyGems 镜像 - 淘宝网
 
-http://ruby.taobao.org/
+来源 http://ruby.taobao.org/
 
 # 为什么有这个？
 
