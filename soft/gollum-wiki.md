@@ -18,7 +18,7 @@
  
 到这里`rubygems`ruby的包管理软件安装完成.可以使用`gem`安装各种软件.
 
-	gem install gollum
+	sudo gem install gollum
 
 # 可能遇到的问题
 
