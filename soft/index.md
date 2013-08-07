@@ -5,6 +5,7 @@
 * [json在线解析](http://jsoneditoronline.org/)
 * [[gollum-wiki]] wiki安装使用
 * [[gollum-site]] gollum-wiki静态化
+* [[rubygems-taobao]] rubygems 淘宝镜像站
 * [[apache]]安装
 * [[chromium-pdf-viewer]] chromium 查看pdf文件 
 * [[chromium-linux-cfg]] chromium 配置文件
