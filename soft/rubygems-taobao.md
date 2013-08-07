@@ -9,7 +9,7 @@ http://ruby.taobao.org/
 # 如何使用？
 ```
 $ gem sources --remove https://rubygems.org/
-#也可能是 $ gem sources --remove http://rubygems.org/
+#也可能是 gem sources --remove http://rubygems.org/
 $ gem sources -a http://ruby.taobao.org/
 $ gem sources -l
 *** CURRENT SOURCES ***
