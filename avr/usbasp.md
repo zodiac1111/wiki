@@ -13,7 +13,9 @@
 ```bash
 Bus 003 Device 017: ID 16c0:05dc Van Ooijen Technische Informatica shared ID for use with libusb
 ```
+
 注意 `16c0:05dc`.
+
 `dmesg`信息:
 
 ```bash
@@ -24,7 +26,9 @@ Bus 003 Device 017: ID 16c0:05dc Van Ooijen Technische Informatica shared ID for
 [64838.888102] usb 3-2: Product: USBasp
 [64838.888104] usb 3-2: Manufacturer: www.fischl.de
 ```
+
 注意`idVendor=16c0, idProduct=05dc`.显示的厂商`Manufacturer: www.fischl.de`.
+
 按照官方(原版)说明:
 
 >On Linux and MacOS X **no** kernel driver is needed.
