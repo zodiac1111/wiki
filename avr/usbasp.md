@@ -13,7 +13,7 @@
 ```bash
 Bus 003 Device 017: ID 16c0:05dc Van Ooijen Technische Informatica shared ID for use with libusb
 ```
-
+注意 `16c0:05dc`.
 `dmesg`信息:
 
 ```bash
@@ -24,7 +24,7 @@ Bus 003 Device 017: ID 16c0:05dc Van Ooijen Technische Informatica shared ID for
 [64838.888102] usb 3-2: Product: USBasp
 [64838.888104] usb 3-2: Manufacturer: www.fischl.de
 ```
-
+注意`idVendor=16c0, idProduct=05dc`.显示的厂商`Manufacturer: www.fischl.de`.
 按照官方(原版)说明:
 
 >On Linux and MacOS X **no** kernel driver is needed.
@@ -61,6 +61,11 @@ avrdude done.  Thank you.
 `Fedora 18`和`Debian 7`上官方的Linux driver rule文件无效.按照[这里](https://bbs.archlinux.org/viewtopic.php?id=103836)和[这里](https://wiki.archlinux.org/index.php/Udev#Accessing_Firmware_Programmers_and_USB_Virtual_Comm_Devices)的提示,将`USBasp.rules`文件的内容替换成为
 
     SUBSYSTEMS=="usb", ATTRS{idVendor}=="16c0", ATTRS{idProduct}=="05dc", GROUP="users", MODE="0666"
+
+* `SUBSYSTEMS`usb子系统
+* `idVendor`和`idProduct`的值上面有所提及,应与硬件一致
+* `GROUP="users"` 设备文件所属组,如下`ls -l`中的`users`所示.
+* `MODE="0666"`权限.即下问所示的`rw-rw-rw-`.other用户也拥有读写权限
 
 通过查看设备文件:
 ```bash
