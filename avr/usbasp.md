@@ -6,7 +6,7 @@
 
 山寨硬件来源 [淘宝](http://item.taobao.com/item.htm?spm=0.0.0.0.brf3fj&id=4207291768)
 
-分析发现改下载器基本基于 [这个](http://www.fischl.de/usbasp/). 
+分析认为该下载器基本基于 [这个](http://www.fischl.de/usbasp/). 
 
 `lsusb`信息:
 
