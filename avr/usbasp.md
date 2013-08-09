@@ -52,9 +52,11 @@ avrdude: error: could not find USB device "USBasp" with vid=0x16c0 pid=0x5dc
 
 avrdude done.  Thank you.
 ```
-如果需要使用非root用户操作,按照[这里](http://www.fischl.de/usbasp/Readme.txt)的指示,在下载包的`bin/linux-nonroot`文件夹下,导入Linux驱动规则.[官网](http://www.fischl.de/usbasp/)还有更多有用的资料.
+如果需要使用非root用户操作,按照[这里](http://www.fischl.de/usbasp/Readme.txt)的指示,在下载包的`bin/linux-nonroot`文件夹下 99-USBasp.rules 文件,复制到Linux驱动规则文件夹(/etc/udev/rules.d).或者执行 install_rule shell脚本完成复制操作.
 
-**更新**:
+[官网](http://www.fischl.de/usbasp/)还有更多有用的资料.
+
+可能遇到的问题:
 
 至少在我的`Fedora 18`上官方的Linux driver rule文件无效.按照[这里](https://bbs.archlinux.org/viewtopic.php?id=103836)和[这里](https://wiki.archlinux.org/index.php/Udev#Accessing_Firmware_Programmers_and_USB_Virtual_Comm_Devices)的提示,将`USBasp.rules`文件的内容替换成为
 
