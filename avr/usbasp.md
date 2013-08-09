@@ -33,7 +33,7 @@ Bus 003 Device 017: ID 16c0:05dc Van Ooijen Technische Informatica shared ID for
 
 >On Linux and MacOS X **no** kernel driver is needed.
 
-不需要驱动,很好.在本人的fedora18上也测试通过.
+不需要驱动,很好.在本人的Fedora 18和Debian 7上也测试通过.
 
 # 软件
 
