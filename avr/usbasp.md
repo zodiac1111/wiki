@@ -1,6 +1,6 @@
 # usbasp 笔记
 
-在Linux(Fedora 18 i686)下,使用山寨usbasp硬件(包含修改过的固件),ATmage8单片机最小系统和avrdude(命令行下载软件)实现avr程序下载.
+在Linux(Fedora 18 和 Debian 7)下,使用山寨usbasp硬件(包含修改过的固件),ATmage8单片机最小系统和avrdude(命令行下载软件)实现avr程序下载.
 
 # 硬件
 
@@ -58,7 +58,7 @@ avrdude done.  Thank you.
 
 可能遇到的问题:
 
-`Fedora 18`上官方的Linux driver rule文件无效.按照[这里](https://bbs.archlinux.org/viewtopic.php?id=103836)和[这里](https://wiki.archlinux.org/index.php/Udev#Accessing_Firmware_Programmers_and_USB_Virtual_Comm_Devices)的提示,将`USBasp.rules`文件的内容替换成为
+`Fedora 18`和`Debian 7`上官方的Linux driver rule文件无效.按照[这里](https://bbs.archlinux.org/viewtopic.php?id=103836)和[这里](https://wiki.archlinux.org/index.php/Udev#Accessing_Firmware_Programmers_and_USB_Virtual_Comm_Devices)的提示,将`USBasp.rules`文件的内容替换成为
 
     SUBSYSTEMS=="usb", ATTRS{idVendor}=="16c0", ATTRS{idProduct}=="05dc", GROUP="users", MODE="0666"
 
