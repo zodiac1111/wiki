@@ -17,22 +17,3 @@
 * [[fedora-NFS-server]] nfs服务配置
 * [[free-modbus-tools]] 跨平台modbus协议调试工具
 * [[virtualbox-note]] 虚拟机安装使用笔记
-
-文件列表
-* [[apache]]
-* [[chromium-linux-cfg]]
-* [[chromium-pdf-viewer]]
-* [[fedora-NFS-server]]
-* [[Fedora-TFTP-server]]
-* [[filezilla-ftp-err]]
-* [[free-modbus-tools]]
-* [[git]]
-* [[gollum-site]]
-* [[gollum-wiki]]
-* [[learn-linux]]
-* [[lfs]]
-* [[linux-mysql]]
-* [[softwave]]
-* [[ssh]]
-* [[virtualbox-note]]
-* [[wget]]
