@@ -17,3 +17,4 @@
 * [[fedora-NFS-server]] nfs服务配置
 * [[free-modbus-tools]] 跨平台modbus协议调试工具
 * [[virtualbox-note]] 虚拟机安装使用笔记
+* [[debian-rhythmbox-play-ape]] Debian下Rhythmbox播放ape格式音乐
