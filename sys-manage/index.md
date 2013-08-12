@@ -1,6 +1,6 @@
 # 系统运行维护笔记
 
-* [[bash-terminal-prompt]]
+* [[bash-terminal-prompt]] 自定义bash终端提示符
 * [[fcitx]]
 * [[fedora-18-enable-lightdm]]
 * [[fedora-change-kbd-lay]]
@@ -15,6 +15,7 @@
 * [[LPI]]
 * [[rpm-yum]]
 * [[string-process]]
+* [[vpn]] 网络笔记
 * 待定
 
 linux发行版 
