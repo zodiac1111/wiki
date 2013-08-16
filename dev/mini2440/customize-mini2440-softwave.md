@@ -4,6 +4,6 @@
 
 * 前提 buildroot系列工具
 * [编译交叉编译器](arm-linux-gcc)
-* uboot [[uboot]]
+* [uboot](uboot)
 * [编译kernel](mini2440-kernel)
 * filesystem 
