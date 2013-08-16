@@ -2,9 +2,7 @@
 
 使用buildroot编译uboot.
 
-
 * [目录](customize-mini2440-softwave) 
-
 
 1. `make menuconfig` 
 2. Bootloaders 
