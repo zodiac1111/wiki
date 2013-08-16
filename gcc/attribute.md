@@ -1,5 +1,6 @@
 # gcc 实用 attribute
 
+
 ## 限定函数作用范围
 
 限定作用范围,减少 **耦合** ,利于编译器优化
@@ -20,14 +21,22 @@ int foo(int x,int y) __attribute__((pure));
 
 `restrict`修饰指针,使指针指向的地址唯一.c99 和 c++.
 
+### c99中
 ```
 void foo(int * __restrict__ x, int * __restrict__ y); //x和y不会/能够只想同一个地址.
 ```
+### c++中
 
 甚至可以修饰成员函数.
+
 ```
 void T::foo(void) __restrict__ 
 {
     /* ... */
 }
 ```
+相当与修饰`this`指针(指标).
+
+===
+一下参考自 https://www.youtube.com/watch?v=o1tlfhrkrYQ
+
