@@ -2,7 +2,6 @@
 
 
 <p align="center">[目录](customize-mini2440-softwave)</p>
-
 <p align="left">NULL </p> 
 <p align="right">[uboot](uboot)</p>
 
