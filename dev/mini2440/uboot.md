@@ -6,11 +6,14 @@
 
 ## 清单
 
-* uboot源代码
+* uboot源代码(任一)
  * buildroot 自动下载通用的uboot(未包含mini2440的配置) 推荐进阶玩家
  * 为mini2440[定制的uboot](http://wiki.linuxmce.org/index.php/Mini2440),推荐新手,或者对搭建的环境进行测试时使用.
-* usb下载软件
- * [dnw-linux](https://github.com/changbindu/dnw-linux) linux的dnw.进阶使用,或者前者不能使用时.可能遇到的问题见"故障排除"
+
+* usb下载软件(任一)
+ * [wiki](http://wiki.linuxmce.org/index.php/Mini2440)中提到的[s3c2410_boot_usb](http://mini2440.googlecode.com/files/s3c2410_boot_usb-20060807.tar.bz2),推荐使用,无法使用的情况下用后者.编译时可能需要`libusb-dev`usb开发包中的头文件.
+ * [dnw-linux](https://github.com/changbindu/dnw-linux) linux的dnw.进阶使用,或者前者不能使用时.疑问参见"故障排除"
+
 
 1. `make menuconfig` 
 2. Bootloaders 
@@ -50,3 +53,6 @@ http://wiki.linuxmce.org/index.php/Mini2440中提到的usb下载工具无效的�
    ```
    SUBSYSTEMS=="usb", ATTRS{idVendor}=="5345", ATTRS{idProduct}=="1234", GROUP="users", MODE="0666"
    ```
+   原因与avrdude相似,可以参照.
+
+### 
