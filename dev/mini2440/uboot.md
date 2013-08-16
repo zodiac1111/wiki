@@ -27,6 +27,24 @@
 
 若初学不知如何配置,推荐先使用下面定制的uboot源码编译方式,以测试环境是否搭建成功.
 
+## uboot官方
+
+查看[这里](http://git.denx.de/cgi-bin/gitweb.cgi?p=u-boot.git;a=commit;h=b77026225a319066eaaa11839121a273469a2cf4)显示新的支持mini2440配置的uboot以于2012年由Gabriel Huau <contact@huau-gabriel.fr>提交到官方repo,并且成功合并. 
+
+```
+ARM : Add support for MINI2440 (s3c2440).
+
+Support of the MINI2440 board from FriendlyARM from
+an old version of u-boot :
+http://repo.or.cz/r/u-boot-openmoko/mini2440.git
+
+Currently, supporting only boot from NOR.
+
+Signed-off-by: Gabriel Huau <contact@huau-gabriel.fr>
+```
+
+阅读diff查看具体更新说明.
+
 ## 定制的uboot源码
 
 参照[wiki](http://wiki.linuxmce.org/index.php/Mini2440)使用git从仓库中下载源码
