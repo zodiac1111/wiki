@@ -37,6 +37,6 @@ void T::foo(void) __restrict__
 ```
 相当与修饰`this`指针(指标).
 
-===
+----
 一下参考自 https://www.youtube.com/watch?v=o1tlfhrkrYQ
 
