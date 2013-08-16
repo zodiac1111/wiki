@@ -9,4 +9,5 @@
 1. `make menuconfig` 
 2. Bootloaders 
 3. U-Boot 
-4. U-Boot board name `smdk2410` 硬件密切相关
+4. U-Boot board name `smdk2410` 硬件密切相关  
+ 在`output/build/uboot-2013.04/board`目录文件夹名称
