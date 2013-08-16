@@ -1,7 +1,6 @@
 # 编译交叉编译器
 
-* ^^ [目录](customize-mini2440-softwave)
-* >> [uboot](uboot)
+<< NULL   [目录](customize-mini2440-softwave)  [uboot](uboot)>>
 
 配置,下载,编译交叉编译器.
 
