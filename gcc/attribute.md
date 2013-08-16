@@ -38,4 +38,7 @@ void T::foo(void) __restrict__
 ```
 相当与修饰`this`指针(指标).
 
-
+` -fstrict-aliasing`选项,视不同type的参数为strict:
+```
+void foo(int x, float y);
+```
