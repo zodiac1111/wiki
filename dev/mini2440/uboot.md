@@ -14,12 +14,49 @@
  * [wiki](http://wiki.linuxmce.org/index.php/Mini2440)中提到的[s3c2410_boot_usb](http://mini2440.googlecode.com/files/s3c2410_boot_usb-20060807.tar.bz2),推荐使用,无法使用的情况下用后者.编译时可能需要`libusb-dev`usb开发包中的头文件.
  * [dnw-linux](https://github.com/changbindu/dnw-linux) linux的dnw.进阶使用,或者前者不能使用时.疑问参见"故障排除"
 
+# 得到uboot.bin
+
+## buildroot步骤 
 
 1. `make menuconfig` 
 2. Bootloaders 
 3. U-Boot 
-4. U-Boot board name `smdk2410` 硬件密切相关  
+4. 修改配置文件以符合mini2440硬件的
+5. U-Boot board name `mini2440` 硬件密切相关(上一步配置的)  
  在`output/build/uboot-2013.04/board`目录文件夹名称
+
+若初学不知如何配置,推荐先使用下面定制的uboot源码编译方式,以测试环境是否搭建成功.
+
+## 定制的uboot源码
+
+参照[wiki](http://wiki.linuxmce.org/index.php/Mini2440)使用git从仓库中下载源码
+
+```
+mkdir uboot ; cd uboot
+git clone git://repo.or.cz/u-boot-openmoko/mini2440.git
+```
+
+设置交叉编译器前缀
+
+```
+export CROSS_COMPILE=arm-none-linux-gnueabi- 
+# 需要安装实际情况设置,可以指向之前编译出的交叉编译器绝对路径
+# 如 设置为 /home/use1/buildroot/output/host/usr/bin/arm-linux- 
+# 只要次前缀+gcc等能正确执行即可
+```
+
+配置及编译
+
+```
+cd mini2440
+make mini2440_config
+make all
+```
+
+最后在软代码根目录得到`u-boot.bin`文件.
+
+
+# 下载uboot.bin 
 
 ## 在原有的vivi bootloader情况下安装uboot.
 
