@@ -1,7 +1,7 @@
 # gcc 实用 attribute
 
 以下参考自 https://www.youtube.com/watch?v=o1tlfhrkrYQ
-----
+
 ## 限定函数作用范围
 
 限定作用范围,减少 **耦合** ,利于编译器优化
