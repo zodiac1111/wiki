@@ -79,9 +79,9 @@ http://wiki.linuxmce.org/index.php/Mini2440中提到的usb下载工具无效的�
 
 推荐 Tekkaman 的 http://u-boot-all-in-one.googlecode.com/files/mini2440%E4%B9%8BU-boot%E7%A7%BB%E6%A4%8D%E8%AF%A6%E7%BB%86%E6%89%8B%E5%86%8C-20100419.pdf 
 
-## 故障排除
+# 故障排除
 
-### dnw
+## dnw
 
 1. 可能需要手动加载驱动 `insmod secbulk.ko`
 2. `dnw.rules`文件陈旧可能不能实现非root用户操作,
