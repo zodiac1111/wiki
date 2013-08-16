@@ -1,6 +1,12 @@
 # 编译交叉编译器
 
-<< NULL   [目录](customize-mini2440-softwave) <p align="right">[uboot](uboot)>></p>
+<table>
+<th align="center">[目录](customize-mini2440-softwave)</th>
+<tb>
+<td>NULL </td> <td>[uboot](uboot)</td>
+</tb>
+</table>
+
 
 配置,下载,编译交叉编译器.
 
