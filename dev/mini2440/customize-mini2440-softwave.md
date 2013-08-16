@@ -3,7 +3,7 @@
 目录
 
 * 前提 buildroot系列工具
-* 自己编译arm-linux-gcc [[buildroot-arm-linux-gcc]]
-* uboot [[mini2440-uboot]]
+* 自己编译arm-linux-gcc [[arm-linux-gcc]]
+* uboot [[uboot]]
 * kernel
 * filesystem 
