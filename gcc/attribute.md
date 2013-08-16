@@ -18,8 +18,16 @@ int foo(int x,int y) __attribute__((pure));
 
 ## c99 唯一指针地址
 
-`restrict`修饰指针,使指针指向的地址唯一.
+`restrict`修饰指针,使指针指向的地址唯一.c99 和 c++.
 
 ```
-void foo(int * __restrict x, int * __restrict y); //x和y不会/能够只想同一个地址.
+void foo(int * __restrict__ x, int * __restrict__ y); //x和y不会/能够只想同一个地址.
+```
+
+甚至可以修饰成员函数.
+```
+void T::foo(void) __restrict__ 
+{
+    /* ... */
+}
 ```
