@@ -4,6 +4,14 @@
 
 * [目录](customize-mini2440-softwave) 
 
+## 清单
+
+* uboot源代码
+ * buildroot 自动下载通用的uboot(未包含mini2440的配置) 推荐进阶玩家
+ * 为mini2440[定制的uboot](http://wiki.linuxmce.org/index.php/Mini2440),推荐新手,或者对搭建的环境进行测试时使用.
+* usb下载软件
+ * [dnw-linux](https://github.com/changbindu/dnw-linux) linux的dnw.进阶使用,或者前者不能使用时.可能遇到的问题见"故障排除"
+
 1. `make menuconfig` 
 2. Bootloaders 
 3. U-Boot 
@@ -30,3 +38,15 @@ http://wiki.linuxmce.org/index.php/Mini2440中提到的usb下载工具无效的�
 ## 在已经有uboot的情况下安装/更新 uboot
 
 推荐 Tekkaman 的 http://u-boot-all-in-one.googlecode.com/files/mini2440%E4%B9%8BU-boot%E7%A7%BB%E6%A4%8D%E8%AF%A6%E7%BB%86%E6%89%8B%E5%86%8C-20100419.pdf 
+
+## 故障排除
+
+### dnw
+
+1. 可能需要手动加载驱动 `insmod secbulk.ko`
+2. `dnw.rules`文件陈旧可能不能实现非root用户操作,
+ * 使用root用户(不推荐) 或
+ * 修改/增加`/etc/udev/rules.d/dnw.rules`文件:
+   ```
+   SUBSYSTEMS=="usb", ATTRS{idVendor}=="5345", ATTRS{idProduct}=="1234", GROUP="users", MODE="0666"
+   ```
