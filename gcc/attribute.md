@@ -1,6 +1,7 @@
 # gcc 实用 attribute
 
-
+以下参考自 https://www.youtube.com/watch?v=o1tlfhrkrYQ
+----
 ## 限定函数作用范围
 
 限定作用范围,减少 **耦合** ,利于编译器优化
@@ -37,6 +38,4 @@ void T::foo(void) __restrict__
 ```
 相当与修饰`this`指针(指标).
 
-----
-一下参考自 https://www.youtube.com/watch?v=o1tlfhrkrYQ
 
