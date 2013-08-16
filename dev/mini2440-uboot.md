@@ -2,7 +2,9 @@
 
 使用buildroot编译uboot.
 
-<- [编译交叉编译器](buildroot-arm-linux-gcc) ^[目录](customize-mini2440-softwave) [编译kernel](mini2440-kernel) ->
+<- [编译交叉编译器](buildroot-arm-linux-gcc) 
+^[目录](customize-mini2440-softwave) 
+[编译kernel](mini2440-kernel) ->
 
 1. `make menuconfig` 
 2. Bootloaders 
