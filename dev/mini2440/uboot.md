@@ -40,7 +40,7 @@ git clone git://repo.or.cz/u-boot-openmoko/mini2440.git
 
 ```
 export CROSS_COMPILE=arm-none-linux-gnueabi- 
-# 需要安装实际情况设置,可以指向之前编译出的交叉编译器绝对路径
+# 需要按照实际情况设置,可以指向之前编译出的交叉编译器绝对路径
 # 如 设置为 /home/use1/buildroot/output/host/usr/bin/arm-linux- 
 # 只要次前缀+gcc等能正确执行即可
 ```
