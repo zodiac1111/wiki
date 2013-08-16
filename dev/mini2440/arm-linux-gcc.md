@@ -3,7 +3,7 @@
 
 [目录](customize-mini2440-softwave)
 
-* [arm-linux-gcc]
+* *[[arm-linux-gcc]]]
 * [uboot](uboot)
 
 
