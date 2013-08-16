@@ -4,3 +4,6 @@
 pptpvpn协议 `telnet <VPS-IP> 1723`
 
 VPN连接时619错误
+
+1. 
+2. 
