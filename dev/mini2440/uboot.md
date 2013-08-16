@@ -53,7 +53,7 @@ make mini2440_config
 make all
 ```
 
-最后在软代码根目录得到`u-boot.bin`文件.
+最后在源代码根目录得到`u-boot.bin`文件.
 
 
 # 下载uboot.bin 
