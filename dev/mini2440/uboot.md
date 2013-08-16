@@ -16,7 +16,7 @@
 
 # 得到uboot.bin
 
-## buildroot步骤 
+## 从buildroot
 
 1. `make menuconfig` 
 2. Bootloaders 
@@ -27,7 +27,7 @@
 
 若初学不知如何配置,推荐先使用下面定制的uboot源码编译方式,以测试环境是否搭建成功.
 
-## uboot官方
+## 从uboot官方
 
 查看[这里](http://git.denx.de/cgi-bin/gitweb.cgi?p=u-boot.git;a=commit;h=b77026225a319066eaaa11839121a273469a2cf4)显示新的支持mini2440配置的uboot以于2012年由Gabriel Huau <contact@huau-gabriel.fr>提交到官方repo,并且成功合并. 
 
