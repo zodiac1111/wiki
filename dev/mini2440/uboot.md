@@ -84,7 +84,7 @@ mini2440版本的uboot http://wiki.linuxmce.org/index.php/Mini2440
 
 1. mini2440 官方nor模式进入vivi bootloader.
 2. a
-3. host上执行 `dnw -a 33f80000 uboot.bin`  # 33f80000 这个数字由硬件决定
+3. host上执行 `dnw -a 0x33f80000 uboot.bin`  # 33f80000 这个数字由硬件决定
 4. 开发板关机,切换到nand模式开机
 5. minicom上任意键,停在uboot界面
 6. 今后从nand flash启动就是都由uboot引导了.
