@@ -1,5 +1,7 @@
 # Debian下播放.ape音乐文件
 
+http://deb-multimedia.org/
+
 Rhythmbox/Banshee 播放ape(monkey's audio)格式音乐文件.
 
 Rhythmbox/Banshee都是通过gstreamer来解码各种格式的音乐.
