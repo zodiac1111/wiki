@@ -16,6 +16,7 @@
 * [[rpm-yum]]
 * [[string-process]]
 * [[vpn]] 网络笔记
+* [[debian-install]] 系统安装清单
 * 待定
 
 linux发行版 
