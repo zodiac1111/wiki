@@ -16,3 +16,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 * http://www.richyli.com/tool/loremipsum/
 * http://more.handlino.com/
 * 
+
+# 其他
+
+还有个比较好玩的东西也可以帮助生成一些假文,但是是诗歌,就是刘慈欣的 **电子诗人** Window Only.
