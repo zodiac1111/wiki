@@ -6,7 +6,7 @@
 * [[fedora-change-kbd-lay]]
 * [[fedora-install-man]]
 * [[fedora-sys-service]]
-* [[gnome3]]
+* [[gnome3]] 桌面环境的菜单/快捷方式文件设置
 * [[gnome-session-properties]]
 * [[grub-splash-pic]]
 * [[ifconfig]]
