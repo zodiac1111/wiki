@@ -2,7 +2,7 @@
 
 以下参考自 https://www.youtube.com/watch?v=o1tlfhrkrYQ
 
-## 限定函数作用范围
+## 限定函数能力,不能修改全局变量
 
 限定作用范围,减少 **耦合** ,利于编译器优化
 
