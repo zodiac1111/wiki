@@ -15,7 +15,7 @@
  * [dnw-linux](https://github.com/changbindu/dnw-linux) linux的dnw.进阶使用,或者前者不能使用时.疑问参见"故障排除"
 
 # 得到uboot.bin
-
+<font color="green">**check point**</font>: 得到一个uboot.bin的二进制文件.
 ## 从buildroot
 
 1. `make menuconfig` 
@@ -45,8 +45,8 @@ Signed-off-by: Gabriel Huau <contact@huau-gabriel.fr>
 
 阅读diff查看具体更新说明.
 
-* <font color="green">**check point**</font>: 得到一个uboot.bin的二进制文件.
-* <font color="green">**check point**</font>: 在mini2440开发板上可以以nand flash方式启动,串口终端能查看到启动信息
+
+
 
 ## 定制的uboot源码
 
@@ -77,8 +77,9 @@ make all
 最后在源代码根目录得到`u-boot.bin`文件.
 
 
-# 下载uboot.bin 
 
+# 下载uboot.bin 
+<font color="green">**check point**</font>: 在mini2440开发板上可以以nand flash方式启动,串口终端能查看到启动信息
 ## 在原有的vivi bootloader情况下安装uboot.
 
 mini2440版本的uboot http://wiki.linuxmce.org/index.php/Mini2440
