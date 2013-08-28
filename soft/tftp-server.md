@@ -6,8 +6,9 @@
 * 参考(debian) http://my.oschina.net/jtihj/blog/1932
 
 
-f17下有些东西有所改变,网上一些教程略显陈旧.  
+  
 # Fedora
+f17下有些东西有所改变,网上一些教程略显陈旧.
 ### 安装xinetd  
 这是一个守护程序(?)
 
@@ -91,7 +92,6 @@ ps:selinux 和防火墙都可能(一定)使服务生效但无法访问!
 # 参考文献
 tftpd设定[TFTP Trivial File Transfer Protocol](http://std.sssh.tp.edu.tw/lesson/linux/tftp.htm )  
 防火墙设置 http://himme007.blog.163.com/blog/static/3466802520095742420660/
-
 
 
 
