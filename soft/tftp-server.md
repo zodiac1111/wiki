@@ -1,12 +1,8 @@
 #Linux下安装配置TFTP服务器
 
-
-
 * 参考(fedora) http://www.oklinux.cn/html/network/ser/20090729/72351.html   
 * 参考(debian) http://my.oschina.net/jtihj/blog/1932
 
-
-  
 # Fedora
 f17下有些东西有所改变,网上一些教程略显陈旧.
 ### 安装xinetd  
