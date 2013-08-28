@@ -1,4 +1,6 @@
-#Fedora 17 x86_64安装配置TFTP服务器
+#Linux下安装配置TFTP服务器
+
+# Fedora
 
 >http://www.oklinux.cn/html/network/ser/20090729/72351.html   
 
@@ -73,7 +75,7 @@ ps:selinux 和防火墙都可能(一定)使服务生效但无法访问!
 	-A RH-Firewall-1-INPUT -m state --state NEW -m tcp -p tcp --dport 80 -j ACCEPT  
 各项参数含义暂时不甚了解,详情搜索iptables.
 
-# Debian下tftp服务器安装配置
+# Debian
 
 参考 http://my.oschina.net/jtihj/blog/1932
 
