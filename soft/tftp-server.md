@@ -1,6 +1,6 @@
 #Linux下安装配置TFTP服务器
 
-# Fedora
+
 
 >http://www.oklinux.cn/html/network/ser/20090729/72351.html   
 
@@ -8,17 +8,17 @@
 
 
 f17下有些东西有所改变,网上一些教程略显陈旧.  
-### 安装环境：Fedora
-#### 安装xinetd  
+# Fedora
+### 安装xinetd  
 这是一个守护程序(?)
 
 	yum install xinetd
 
-#### 安装tftp server(ftp服务器)
+### 安装tftp server(ftp服务器)
 
 	yum install tftp tftp-server
 
-####  修改配置文件
+###  修改配置文件
 更改tftp配置文件 `/etc/xinetd.d/tftp`
 
 `vi /etc/xinetd.d/tftp`,打开tftp文件，设置tftp的跟目录，开启服务。（没有安装tftp-server之前，不存在tftp文件）
@@ -44,13 +44,13 @@ f17下有些东西有所改变,网上一些教程略显陈旧.
 在上述server_args设置tftp的工作目录  
 并且注释掉disable选项或者改成no使能tftp服务。
 
-#### 建立服务目录
+### 建立服务目录
 在`/home/gerry`下创建tftpboot目录，并且修改权限
 
 	mkdir tftpboot
 	chmod 777 tftpboot/
 
-#### 启动tftp服务器
+### 启动tftp服务器
 
 	service xinetd restart
 
@@ -92,7 +92,6 @@ ps:selinux 和防火墙都可能(一定)使服务生效但无法访问!
 # 参考文献
 tftpd设定[TFTP Trivial File Transfer Protocol](http://std.sssh.tp.edu.tw/lesson/linux/tftp.htm )  
 防火墙设置 http://himme007.blog.163.com/blog/static/3466802520095742420660/
-
 
 
 
