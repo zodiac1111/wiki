@@ -55,7 +55,7 @@ f17下有些东西有所改变,网上一些教程略显陈旧.
 
 ps:selinux 和防火墙都可能(一定)使服务生效但无法访问!
 粗暴但有效的解决办法 关闭syslinux 和防火墙
-####selinux
+### selinux
 *临时关闭SELinux。如果你仅仅只是想临时关闭，可以输入
 	setenforce 0
 
@@ -67,7 +67,7 @@ ps:selinux 和防火墙都可能(一定)使服务生效但无法访问!
 修改成  SELINUX=enforcing 使用SeLinux
 
 
-####精准的防火墙设置
+### 精准的防火墙设置
 >http://himme007.blog.163.com/blog/static/3466802520095742420660/
 
 修改`/etc/sysconfig/iptables`文件，添加以下内容：
