@@ -1,4 +1,4 @@
-#Linux下安装配置TFTP服务器
+# 安装配置tftp服务器(tftpd)
 
 * 参考(fedora) http://www.oklinux.cn/html/network/ser/20090729/72351.html   
 * 参考(debian) http://my.oschina.net/jtihj/blog/1932
