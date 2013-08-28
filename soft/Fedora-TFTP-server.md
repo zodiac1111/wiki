@@ -79,7 +79,11 @@ ps:selinux 和防火墙都可能(一定)使服务生效但无法访问!
 
 参考 http://my.oschina.net/jtihj/blog/1932
 
+注释掉原来的一些配置
 
+新建配置
+
+与fedora类似
 
 # 参考文献
 tftpd设定[TFTP Trivial File Transfer Protocol](http://std.sssh.tp.edu.tw/lesson/linux/tftp.htm )  
