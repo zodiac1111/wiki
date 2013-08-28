@@ -1,6 +1,6 @@
 # Debian下播放.ape音乐文件
 
-http://deb-multimedia.org/
+第三方二进制仓库 http://deb-multimedia.org/ (个人维护)
 
 Rhythmbox/Banshee 播放ape(monkey's audio)格式音乐文件.
 
