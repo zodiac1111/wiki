@@ -45,7 +45,8 @@ Signed-off-by: Gabriel Huau <contact@huau-gabriel.fr>
 
 阅读diff查看具体更新说明.
 
-<font color=green>check point</font>
+<b color=green>check point</b>
+
 ## 定制的uboot源码
 
 参照[wiki](http://wiki.linuxmce.org/index.php/Mini2440)使用git从仓库中下载源码
