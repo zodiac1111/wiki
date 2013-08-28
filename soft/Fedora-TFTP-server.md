@@ -1,15 +1,10 @@
----
-layout: post
-title: "hello world"
-date: 2012-07-03 09:01
-comments: true
-categories: 
----
-
 #Fedora 17 x86_64安装配置TFTP服务器
+
 >http://www.oklinux.cn/html/network/ser/20090729/72351.html   
 
-****
+另:Debian下tftp服务器安装配置,参考 http://my.oschina.net/jtihj/blog/1932
+
+
 f17下有些东西有所改变,网上一些教程略显陈旧.  
 ###安装环境：Fedora
 1.安装xinetd  
@@ -81,7 +76,6 @@ ps:selinux 和防火墙都可能(一定)使服务生效但无法访问!
 #参考文献
 tftpd设定[TFTP Trivial File Transfer Protocol](http://std.sssh.tp.edu.tw/lesson/linux/tftp.htm )  
 防火墙设置 http://himme007.blog.163.com/blog/static/3466802520095742420660/
-
 
 
 
