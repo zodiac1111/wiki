@@ -45,7 +45,8 @@ Signed-off-by: Gabriel Huau <contact@huau-gabriel.fr>
 
 阅读diff查看具体更新说明.
 
-<b color=green>check point</b>
+* <font color="green">check point</font> 得到一个uboot.bin的二进制文件.
+* <font color="green">check point</font> 在mini2440开发板上可以以nand flash方式启动,串口终端能查看到启动信息
 
 ## 定制的uboot源码
 
