@@ -13,7 +13,7 @@
 * [[wget]]  下载工具
 * [[ssh]] ssh配置
 * [[softwave]] 一些有用的软件介绍
-* [[tftp-server]] tftp服务器配置使用
+* [[tftp-server]] tftp服务器配置使用 Fedora/Debain
 * [[fedora-NFS-server]] nfs服务配置
 * [[free-modbus-tools]] 跨平台modbus协议调试工具
 * [[virtualbox-note]] 虚拟机安装使用笔记
