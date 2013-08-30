@@ -36,3 +36,6 @@ avr-objcopy -j .eeprom --no-change-warnings \
 /usr/bin/avrdude -pm8 -cusbasp -B500 -i500 -Uflash:w:lcd_8bit.hex:a
 ```
 #简化流程
+##编译(链接)
+##生成ihex
+##下载
