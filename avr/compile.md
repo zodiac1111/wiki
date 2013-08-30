@@ -22,7 +22,7 @@ avr-objdump -h -S lcd_8bit.elf  >"lcd_8bit.lss"
 ```
 ## Create Flash image (ihex format)
 ```
-## avr-objcopy -R .eeprom \
+avr-objcopy -R .eeprom \
 -O ihex lcd_8bit.elf  "lcd_8bit.hex"
 ```
 ##Create eeprom image (ihex format)(按照需求)
