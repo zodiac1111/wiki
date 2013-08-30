@@ -2,6 +2,7 @@
 
 参考eclispe-avr插件对avr-gcc程序的编译过程
 
+#eclise插件流程
 ## 编译
 ```
 avr-gcc -Wall -g3 -gstabs -Os \
