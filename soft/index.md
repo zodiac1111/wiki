@@ -19,3 +19,4 @@
 * [[virtualbox-note]] 虚拟机安装使用笔记
 * [[debian-rhythmbox-play-ape]] Debian下Rhythmbox播放ape格式音乐
 * [[squid]] http代理
+* [[chrome-xdg-open]] 令chrome使用指定程序打开指定协议的链接
