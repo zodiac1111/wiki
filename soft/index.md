@@ -20,3 +20,4 @@
 * [[debian-rhythmbox-play-ape]] Debian下Rhythmbox播放ape格式音乐
 * [[squid]] http代理
 * [[chrome-xdg-open]] 令chrome使用指定程序打开指定协议的链接
+* [[linux-commandline-netspeed]] 命令行下netspeed测速
