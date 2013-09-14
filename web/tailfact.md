@@ -29,4 +29,4 @@
 (fact 10000)
 (tailfact 10000)
 ```
-注: lispbox上的cl也许进行了尾递归优化,没发现差别,还编译(compile)了,运行效率高.
+注: lispbox&sbcl上也许进行了尾递归优化,没发现差别,还编译(compile)了,运行效率高.
