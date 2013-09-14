@@ -34,6 +34,7 @@
 
 * 阶乘算法(c语言表示) Divide-and-conquer factorial algorithm 有比此算法更快的算法,他们基于素数分解算法,更复杂  http://hg.python.org/cpython/file/7937aa6b7e92/Modules/mathmodule.c#l1218
 * 阶乘算法 binarysplitfact http://www.luschny.de/math/factorial/binarysplitfact.html
+* 各种阶乘算法(网站) http://www.luschny.de/math/factorial/FastFactorialFunctions.htm
 
 ## 附 10000!
 ```
