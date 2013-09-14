@@ -32,7 +32,7 @@
 注: lispbox&sbcl上也许进行了尾递归优化,没发现差别,还编译(compile)了,运行效率高.
 ## 资料
 
-* 阶乘算法(c语言表示) http://hg.python.org/cpython/file/7937aa6b7e92/Modules/mathmodule.c#l1218
+* 阶乘算法(c语言表示) Divide-and-conquer factorial algorithm 有比此算法更快的算法,他们基于素数分解算法,更复杂  http://hg.python.org/cpython/file/7937aa6b7e92/Modules/mathmodule.c#l1218
 * 阶乘算法 binarysplitfact http://www.luschny.de/math/factorial/binarysplitfact.html
 
 ## 附 10000!
