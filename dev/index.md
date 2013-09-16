@@ -19,6 +19,7 @@
 * [[memwatch]]
 * [[minicom]]
 * [[customize-mini2440-softwave]] 配置 mini2440 软件部分 
+* [[linux-system-call]] Linux系统调用列表
 * 待定
 
 文件列表 
