@@ -4,6 +4,7 @@
 
 * http://www.ibm.com/developerworks/cn/linux/kernel/syscall/part1/appendix.html
 * Advanced Programming in the UNIX Environment, W. Richard Stevens, 1993
+* 英文详细 http://www.digilife.be/quickreferences/qrc/linux%20system%20call%20quick%20reference.pdf
 
 以下是Linux系统调用的一个列表，包含了大部分常用系统调用和由系统调用派生出的的函数。这可能是你在互联网上所能看到的唯一一篇中文注释的Linux系统调用列表，即使是简单的字母序英文列表，能做到这么完全也是很罕见的。
 
