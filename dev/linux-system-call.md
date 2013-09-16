@@ -1,7 +1,15 @@
+参考:
+
+* http://www.ibm.com/developerworks/cn/linux/kernel/syscall/part1/appendix.html
+
 以下是Linux系统调用的一个列表，包含了大部分常用系统调用和由系统调用派生出的的函数。这可能是你在互联网上所能看到的唯一一篇中文注释的Linux系统调用列表，即使是简单的字母序英文列表，能做到这么完全也是很罕见的。
+
 按照惯例，这个列表以man pages第2节，即系统调用节为蓝本。按照笔者的理解，对其作了大致的分类，同时也作了一些小小的修改，删去了几个仅供内核使用，不允许用户调用的系统调用，对个别本人稍觉不妥的地方作了一些小的修改，并对所有列出的系统调用附上简要注释。
+
 其中有一些函数的作用完全相同，只是参数不同。（可能很多熟悉C++朋友马上就能联想起函数重载，但是别忘了Linux核心是用C语言写的，所以只能取成不同的函数名）。还有一些函数已经过时，被新的更好的函数所代替了（gcc在链接这些函数时会发出警告），但因为兼容的原因还保留着，这些函数我会在前面标上“*”号以示区别。
-一、进程控制：
+
+# 进程控制
+```
 fork	创建一个新进程
 clone	按指定条件创建子进程
 execve	运行可执行文件
@@ -40,12 +48,11 @@ capget	获取进程权限
 capset	设置进程权限
 getsid	获取会晤标识号
 setsid	设置会晤标识号
+```
+# 文件系统控制
 
-
-回页首
-二、文件系统控制
-
-1、文件读写操作
+## 文件读写操作
+```
 fcntl	文件控制
 open	打开文件
 creat	创建新文件
@@ -66,10 +73,11 @@ truncate	截断文件
 ftruncate	参见truncate
 umask	设置文件权限掩码
 fsync	把文件在内存中的部分写回磁盘
+```
 
 
-
-2、文件系统操作
+##文件系统操作
+```
 access	确定文件的可存取性
 chdir	改变当前工作目录
 fchdir	参见chdir
@@ -100,10 +108,11 @@ ustat	取文件系统信息
 utime	改变文件的访问修改时间
 utimes	参见utime
 quotactl	控制磁盘配额
+```
 
 
-回页首
-三、系统控制
+# 系统控制
+```
 ioctl	I/O总控制函数
 _sysctl	读/写系统参数
 acct	启用或禁止进程记账
@@ -138,10 +147,10 @@ delete_module	删除可装载的模块项
 init_module	初始化模块
 query_module	查询模块信息
 *get_kernel_syms	取得核心符号,已被query_module代替
+```
 
-
-回页首
-四、内存管理
+# 内存管理
+```
 brk	改变数据段空间的分配
 sbrk	参见brk
 mlock	内存页面加锁
@@ -156,20 +165,20 @@ mprotect	设置内存映像保护
 getpagesize	获取页面大小
 sync	将内存缓冲区数据写回硬盘
 cacheflush	将指定缓冲区中的内容写回磁盘
+```
 
-
-回页首
-五、网络管理
+# 网络管理
+```
 getdomainname	取域名
 setdomainname	设置域名
 gethostid	获取主机标识号
 sethostid	设置主机标识号
 gethostname	获取本主机名称
 sethostname	设置主机名称
+```
 
-
-回页首
-六、socket控制
+# socket控制
+```
 socketcall	socket系统调用
 socket	建立socket
 bind	绑定socket到端口
@@ -190,10 +199,10 @@ getsockopt	取端口设置
 setsockopt	设置端口参数
 sendfile	在文件或端口间传输数据
 socketpair	创建一对已联接的无名socket
+```
 
-
-回页首
-七、用户管理
+# 用户管理
+```
 getuid	获取用户标识号
 setuid	设置用户标志号
 getgid	获取组标识号
@@ -212,15 +221,16 @@ setfsgid	设置文件系统检查时使用的组标识号
 setfsuid	设置文件系统检查时使用的用户标识号
 getgroups	获取后补组标志清单
 setgroups	设置后补组标志清单
+```
 
-
-回页首
-八、进程间通信
+# 进程间通信
+```
 ipc	进程间通信总控制调用
+```
 
 
-
-1、信号
+## 信号
+```
 sigaction	设置对指定信号的处理方法
 sigprocmask	根据参数对信号集中的信号执行阻塞/解除阻塞等操作
 sigpending	为指定的被阻塞信号设置队列
@@ -234,31 +244,35 @@ kill	向进程或进程组发信号
 *sigpause	作用同sigsuspend,已被sigsuspend代替
 sigvec	为兼容BSD而设的信号处理函数,作用类似sigaction
 ssetmask	ANSI C的信号处理函数,作用类似sigaction
+```
 
 
-
-2、消息
+## 消息
+```
 msgctl	消息控制操作
 msgget	获取消息队列
 msgsnd	发消息
 msgrcv	取消息
+```
 
 
-
-3、管道
+## 管道
+```
 pipe	创建管道
+```
 
 
-
-4、信号量
+## 信号量
+```
 semctl	信号量控制
 semget	获取一组信号量
 semop	信号量操作
+```
 
-
-
-5、共享内存
+# 共享内存
+```
 shmctl	控制共享内存
 shmget	获取共享内存
 shmat	连接共享内存
 shmdt	拆卸共享内存
+```
