@@ -5,5 +5,4 @@
 # 字体
 
 * 目标平台自带字体
-* 云端获得字体 http://justfont.com
-
+* 云端获得字体 http://justfont.com http://cn.justfont.com/fonts
