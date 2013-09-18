@@ -2,6 +2,7 @@
 
 [crt](http://en.wikipedia.org/wiki/Crt0)
 
+link过程,为object对象文件添加开始/结束信息,使之可执行.
 
 这样才可以 
 ```
