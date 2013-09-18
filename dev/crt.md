@@ -16,7 +16,7 @@ printf("hello");
 ```
 生成hello.o 
 ```
-gcc -c hello.c 
+gcc -c hello.c -o hello.o
 ```
 
 然后用
