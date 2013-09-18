@@ -19,7 +19,8 @@ printf("hello");
 gcc -c hello.c 
 ```
 
-然后用 
+然后用
+```
 ld -dynamic-linker /lib/ld-linux.so.2 /usr/lib/crt1.o /usr/lib/crti.o -lc hello.o /usr/lib/crtn.o 
-
+```
 生成a.out 
