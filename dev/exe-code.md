@@ -1,7 +1,6 @@
 # 代码的段
 
-# arm开发板裸机程序开发介绍
-* http://www.theresistornetwork.com/2013/09/arm-bare-metal-programming.html
+* arm开发板裸机程序开发介绍 http://www.theresistornetwork.com/2013/09/arm-bare-metal-programming.html
 
 简单例子
 
