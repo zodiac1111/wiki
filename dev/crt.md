@@ -1,6 +1,6 @@
 # crt
 
-[crt](http://en.wikipedia.org/wiki/Crt0)
+[crt](http://en.wikipedia.org/wiki/Crt0),linker的启动脚本
 
 link过程,为object对象文件添加开始/结束信息,使之可执行.
 
