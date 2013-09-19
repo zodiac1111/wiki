@@ -12,7 +12,7 @@ hello.c源码
 ```
 int main() 
 { 
-printf("hello"); 
+    printf("hello"); 
 } 
 ```
 生成hello.o 
