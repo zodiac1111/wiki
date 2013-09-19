@@ -20,3 +20,12 @@ int main(void) {                    // .text (all executable code)
     return 0;
 }
 ```
+An object file will have a number of sections, but we are specifically interested in:
+* .bss
+Global variables whose values are 0 (uninitialized or assigned)
+* .data
+Global variables whose values are initialized (non-zero)
+* .rodata
+Read only globally defined variables
+* .text
+Executable machine code
