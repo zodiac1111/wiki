@@ -1,5 +1,7 @@
 # 代码的段
 
+http://www.theresistornetwork.com/2013/09/arm-bare-metal-programming.html
+
 简单例子
 
 ```c
