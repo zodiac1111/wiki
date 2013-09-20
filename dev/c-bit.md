@@ -5,7 +5,7 @@
 ## Setting a bit
 
 Use the bitwise OR operator (|) to set a bit.
-```
+```c
 number |= 1 << x;
 ```
 That will set bit x.
@@ -13,7 +13,7 @@ That will set bit x.
 ## Clearing a bit
 
 Use the bitwise AND operator (&) to clear a bit.
-```
+```c
 number &= ~(1 << x);
 ```
 That will clear bit x. You must invert the bit string with the bitwise NOT operator (~), then AND it.
@@ -21,7 +21,7 @@ That will clear bit x. You must invert the bit string with the bitwise NOT opera
 ## Toggling a bit
 
 The XOR operator (^) can be used to toggle a bit.
-```
+```c
 number ^= 1 << x;
 ```
 That will toggle bit x.
