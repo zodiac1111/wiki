@@ -71,15 +71,12 @@ avrdude done.  Thank you.
 * `GROUP="users"` 设备文件所属组,如下`ls -l`中的`users`所示.
 * `MODE="0666"`权限.即下问所示的`rw-rw-rw-`.other用户也拥有读写权限
 
-通过查看设备文件:
+通过查看设备文件,可能需要`udevadm control --reload`重新加载并使能设备规则.:
 ```bash
 $ ls -l  '/dev/bus/usb/003/008'  #003 和008 通过lsusb查找得到的id 
 crw-rw-rw- 1 root users 189, 263 7月  26 11:51 /dev/bus/usb/003/008
 
 ```
-
-可能需要`udevadm control --reload`重新加载并使能设备规则.
-
 发现其他用户`crw-rw-rw-`也有了读写权限.测试通过.
 
 
