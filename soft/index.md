@@ -24,3 +24,4 @@
 * [[whatpulse]] 键盘鼠标记录程序
 * [[fun]] 有趣的东西
 * [[wireshark-nonroot-usb]] 非root用户使用wireshark和usb接口
+* [[SimpleHTTPServer]]  最简单网页服务器
