@@ -16,7 +16,6 @@ http://localhost:端口号/路径
 来访问服务器资源。 
 
 例如：
-
 ```
 http://localhost:8080/index.htm（当然index.htm文件得自己创建）
 ```
