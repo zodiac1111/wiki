@@ -18,6 +18,7 @@
 * [[vpn]] 网络笔记
 * [[debian-install]] 系统安装清单
 * [[hostname]] 修改主机名
+* [[kindle]]
 * 待定
 
 linux发行版 
