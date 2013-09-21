@@ -78,6 +78,8 @@ crw-rw-rw- 1 root users 189, 263 7月  26 11:51 /dev/bus/usb/003/008
 
 ```
 
+可能需要`udevadm control --reload`重新加载并使能设备规则.
+
 发现其他用户`crw-rw-rw-`也有了读写权限.测试通过.
 
 
