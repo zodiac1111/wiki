@@ -6,3 +6,4 @@
 * [[web_js]]
 * [[wireshark-lua]]
 * [[wireshark-WARNING-gnome-keyring]]
+* [[redirector]] chorme 重定向插件
