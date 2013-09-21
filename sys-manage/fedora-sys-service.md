@@ -1,4 +1,3 @@
-
 #系统服务笔记
 ##运行级别
 某个运行级别(runlevel)是指一种系统的工作模式，用来组合特定的Fedora服务管理程序以实现某种目的或者提供对系统的受到限制的使用。对基于Fedora/Redhat的Linux系统，主要的运行级别有
@@ -21,7 +20,7 @@ runlevel 5: 支持网络以及图形界面的多用户模式 (runlevel 3 + X Win
 在CentOS/RHEL中,系统服务是System V启动脚本控制,主要使用chkconfig和service两个命令,配置在/etc/init.d/下.
 在Fedora中使用的是新的systemd系统和服务管理程序.主要使用systemctl控制,配置在/etc/systemd/下.
 以下是两种服务管理的却别和对应的命令.
-`
+```
 任务	指令	新指令
 使某服务自动启动	chkconfig –level 3 sshd on	systemctl enable sshd.service
 使某服务不自动启动	chkconfig –level 3 sshd off	systemctl disable sshd.service
@@ -30,6 +29,6 @@ runlevel 5: 支持网络以及图形界面的多用户模式 (runlevel 3 + X Win
 启动某服务	service sshd start	systemctl start sshd.service
 停止某服务	service sshd stop	systemctl stop sshd.service
 重启某服务	service sshd restart	systemctl restart sshd.service
-`
+```
 
 1. 参考:<https://fedoraproject.org/wiki/Systemd/zh-cn#System_V_init_.E4.B8.8E_systemd_.E7.9A.84.E5.AF.B9.E6.8E.A5>
