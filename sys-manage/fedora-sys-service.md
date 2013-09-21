@@ -20,7 +20,18 @@ runlevel 5: 支持网络以及图形界面的多用户模式 (runlevel 3 + X Win
 要在某个运行级别上设定哪些服务启用，可以在图形界面下运行`system-config-services` 或者在命令行下运行ntsysv (旧版本的Fedora没有`system-config-services` 命令，而是使用 serviceconf 来代替)。
 
 ##控制Fedora服务管理
-不管一项Fedora服务管理是如何设置的，缺省是启用还是禁用，我们都可以在系统运行时随时启动、停止以及管理它。要查看当前正在运行的服务，运行如下命令：# /sbin/service --status-all 如果要单独查看某个服务，比如crond，使用如下命令即可：# /sbin/service crond status crond (pid 1604) is running...
+
+不管一项Fedora服务管理是如何设置的，缺省是启用还是禁用，我们都可以在系统运行时随时启动、停止以及管理它。
+
+要查看当前正在运行的服务，运行如下命令：
+```
+# /sbin/service --status-all 
+```
+如果要单独查看某个服务，比如crond，使用如下命令即可：
+```
+# /sbin/service crond status 
+crond (pid 1604) is running...
+```
 
 选项status可以替换为start, stop, status, reload, restart。对有些服务，有时还有更多选项可用。
 
@@ -28,8 +39,10 @@ runlevel 5: 支持网络以及图形界面的多用户模式 (runlevel 3 + X Win
 
 系统服务控制(systemctl)配置说明以及和System V启动脚本(service)的区别[注1]
 
-在CentOS/RHEL中,系统服务是System V启动脚本控制,主要使用chkconfig和service两个命令,配置在/etc/init.d/下.  
+在CentOS/RHEL中,系统服务是System V启动脚本控制,主要使用chkconfig和service两个命令,配置在/etc/init.d/下.
+ 
 在Fedora中使用的是新的systemd系统和服务管理程序.主要使用systemctl控制,配置在/etc/systemd/下.  
+
 以下是两种服务管理的却别和对应的命令.
 ```
 任务		指令				新指令
