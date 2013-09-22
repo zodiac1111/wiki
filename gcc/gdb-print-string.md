@@ -1,9 +1,11 @@
 # gdb打印完整字符串
 
 * http://stackoverflow.com/questions/233328/how-do-i-print-the-full-value-of-a-long-string-in-gdb
+
 ```
 set print elements 0
 ```
+
 [From the GDB manual](http://ftp.gnu.org/old-gnu/Manuals/gdb-5.1.1/html_node/gdb_57.html#IDX353):
 ```
 set print elements number-of-elements
