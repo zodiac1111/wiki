@@ -4,7 +4,7 @@
 * http://blog.bravi.org/?p=912
 * http://crunchbang.org/forums/viewtopic.php?id=18182
 
-可能需要加载usb监视模块
+0. 可能需要加载usb监视模块
 
 ```
 modprobe usbmon
