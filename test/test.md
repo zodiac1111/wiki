@@ -35,5 +35,8 @@ http://player.youku.com/player.php/sid/XNDQ4ODQxNTI0/v.swf
 <embed src="http://player.youku.com/player.php/sid/XNTUzNDA5MTQ4/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
 
 
+比特币 钱包
+
+1KJRZvGThu37Y5kPRzEq34H2SqSDaaaARk
 
 eof
