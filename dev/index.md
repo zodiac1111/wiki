@@ -25,6 +25,7 @@
 * [[crt]] crt C run time
 * [[exe-code]] c语言可执行程序各个段
 * [[c-bit]] c语言中bit操作,置0/1/反位, 取位
+* [[localization]] 程序本地化/国际化
 * 待定
 
 文件列表 
