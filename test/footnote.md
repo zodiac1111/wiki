@@ -10,7 +10,7 @@ a<sup id="f2">[[2](#r2)]</sup>
 
 <ref>cankao</ref>
 
-引用[<a id="r-2" href="#fn-2">1</a>].
+引用[<a id="r-2" href="#fn-2">来源1</a>].
 
 引源<a id="fn-2" href="#r-2">^</a>
 
