@@ -22,7 +22,7 @@ mon0为之前已经载入并激活监听模式的无线网卡。如下图8所示
 
 既然我们看到了本次测试要攻击的目标，就是那个SSID名为TP-LINK的无线路由器，接下来输入命令如下：
 ```
-airodump-ng --ivs –w longas -c 6 wlan0 
+airodump-ng --ivs -w longas -c 6 wlan0 
 ```
 参数解释：
 
