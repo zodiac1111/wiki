@@ -14,7 +14,7 @@ a<sup id="f2">[[2](#r2)]</sup>
 
 引用<sup>[<a href="#fn-2">1</a>]</sup>.
 
-引源<a id="fn-2">1.</a>
+* <a id="fn-2">^</a>引源
 
 [id]: http://example.com/  "Optional Title Here"
 
