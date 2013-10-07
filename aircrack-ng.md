@@ -1,5 +1,7 @@
 >http://netsecurity.51cto.com/art/201105/264844_3.htm
 
+# 查看
+
 当然，通过输入iwconfig查看也是可以滴。这个命令专用于查看无线网卡，不像ifconfig那样查看所有适配器。
 
 iwconfig 
@@ -14,11 +16,13 @@ iwconfig
 
 不过在正式抓包之前，一般都是先进行预来探测，来获取当前无线网络概况，包括AP的SSID、MAC地址、工作频道、无线客户端MAC及数量等。只需打开一个Shell，输入具体命令如下：
 
-    #airodump-ng mon0 
+    airodump-ng mon0 
   
 参数解释：
 
 mon0为之前已经载入并激活监听模式的无线网卡。如下图8所示。
+
+# 监听
 
 既然我们看到了本次测试要攻击的目标，就是那个SSID名为TP-LINK的无线路由器，接下来输入命令如下：
 ```
