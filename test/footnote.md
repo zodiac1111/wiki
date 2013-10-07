@@ -10,9 +10,11 @@ a<sup id="f2">[[2](#r2)]</sup>
 
 <ref>cankao</ref>
 
-引用[<a id="r-2" href="#fn-2">来源1</a>].
+单方向查找:
 
-引源<a id="fn-2" href="#r-2">^</a>
+引用[<a href="#fn-2">来源1</a>].
+
+引源<a id="fn-2">^</a>
 
 [id]: http://example.com/  "Optional Title Here"
 
