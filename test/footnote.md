@@ -12,9 +12,9 @@ a<sup id="f2">[[2](#r2)]</sup>
 
 单方向查找:
 
-引用[<a href="#fn-2">来源1</a>].
+引用[<a href="#fn-2">1</a>].
 
-引源<a id="fn-2">^</a>
+引源<a id="fn-2">1</a>
 
 [id]: http://example.com/  "Optional Title Here"
 
