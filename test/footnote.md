@@ -13,8 +13,14 @@ a<sup id="f2">[[2](#r2)]</sup>
 单方向查找:
 
 引用<sup>[<a href="#fn-2">1</a>]</sup>.
+引用<sup>[<a href="#fn-3">2</a>]</sup>.
+引用<sup>[<a href="#fn-4">3</a>]</sup>.
+
+参考来源:
 
 * <a id="fn-2">^</a>引源
+* <a id="fn-3">^</a>引源
+* <a id="fn-4">^</a>引源
 
 [id]: http://example.com/  "Optional Title Here"
 
