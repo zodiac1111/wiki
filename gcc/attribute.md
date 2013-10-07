@@ -1,6 +1,6 @@
 # gcc 实用 attribute
 
-以下参考自 https://www.youtube.com/watch?v=o1tlfhrkrYQ
+来源 https://www.youtube.com/watch?v=o1tlfhrkrYQ
 
 ## 限定函数能力,不能修改全局变量
 
