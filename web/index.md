@@ -7,3 +7,4 @@
 * [[wireshark-lua]]
 * [[wireshark-WARNING-gnome-keyring]]
 * [[redirector]] chorme 重定向插件
+* [[reveal-js]] 漂亮的开源页面翻页特效
