@@ -24,7 +24,7 @@ int foo(int x,int y) __attribute__((pure));
 
 ### c99中
 ```
-void foo(int * __restrict__ x, int * __restrict__ y); //x和y不会/能够只想同一个地址.
+void foo(int * __restrict__ x, int * __restrict__ y); //x和y不会/能够指向同一个地址.
 ```
 ### c++中
 
