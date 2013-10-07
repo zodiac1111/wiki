@@ -20,7 +20,7 @@ int foo(int x,int y) __attribute__((pure));
 
 ## c99 唯一指针地址
 
-`restrict`修饰指针,使指针指向的地址唯一.c99 和 c++.
+`__restrict__`修饰指针,使指针指向的地址唯一.c99 和 c++.
 
 ### c99中
 ```
