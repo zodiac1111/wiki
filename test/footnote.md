@@ -20,9 +20,9 @@ a<sup id="f2">[[2](#r2)]</sup>
 
 参考来源:
 
-* <a id="fn-2">^</a>引源
-* <a id="fn-3">^</a>引源
-* <a id="fn-4">^</a>引源
+* <a id="fn-2"></a>引源
+* <a id="fn-3"></a>引源
+* <a id="fn-4"></a>引源
 
 [id]: http://example.com/  "Optional Title Here"
 
