@@ -3,7 +3,7 @@
 * [软件使用](/soft/index) 
 * [系统运行和维护](sys-manage/index) 
 * [开发](dev/index) 
-* [gcc相关](gcc/index) 
+* [gcc](gcc/index)相关
 * [博客](blog/index) 
 * [web开发](web/index) 
 * [实用工具](utility/index) 
