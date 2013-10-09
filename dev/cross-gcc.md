@@ -5,7 +5,6 @@
 [来源](http://www.ifp.illinois.edu/~nakazato/tips/xgcc.html#pre)
 
 
-****
 #构建GCC交叉编译器
 [来源](http://wiki.osdev.org/GCC_Cross-Compiler)
 ##1.gcc
