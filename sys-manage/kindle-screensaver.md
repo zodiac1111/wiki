@@ -20,6 +20,7 @@
 1. `screensaver`屏保文件夹
   * 命名必须以 `bg_medium_ss<序号>.png`
 2. `bg_medium_defaultbg.png` 启动屏幕
+3. `/opt/amazon/low_level_screens/758x1024` 低阶启动
 
 图片浏览器:`imageViewer.sh` http://wiki.mobileread.com/wiki/Kindle_Touch_Hacking#Image_Viewer
 
