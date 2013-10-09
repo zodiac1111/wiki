@@ -14,7 +14,7 @@
 * [[arm1]]
 * [[arm-asm]]
 * [[arm-gp2x-linux-gcc_info]]
-* [[ascii-table]]
+* [[ascii-table]] ascii字符流程图/表格
 * [[buildroot-user-manual]]
 * [[cpp_class_overload]]
 * [[cross-gcc]]
