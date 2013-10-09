@@ -8,5 +8,5 @@
 * [web](web/index)
 * [实用工具](utility/index)
 * [avr](avr/index)
-* [测试页面](test/index)
 * [关于](about)
+* [示例页面](test/index)
