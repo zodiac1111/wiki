@@ -8,7 +8,7 @@
 * [[fedora-sys-service]]
 * [[gnome3]] 桌面环境的菜单/快捷方式文件设置
 * [[gnome-session-properties]]
-* [[grub-splash-pic]]
+* [[grub-splash-pic]] grub自定义启动画面
 * [[ifconfig]]
 * [[IPv6-Client-miredo]]
 * [[linux-PATH-env]]
