@@ -1,4 +1,4 @@
-# octopress 博客笔记
+# octopress博客笔记
 
 
 * [[octopress-blog-base]]  octopress博客基础
