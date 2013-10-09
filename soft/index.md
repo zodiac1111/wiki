@@ -10,6 +10,7 @@
 * [[chromium-pdf-viewer]] chromium 查看pdf文件 
 * [[chromium-linux-cfg]] chromium 配置文件
 * [[git]] git使用
+* [[github]] github使用
 * [[wget]]  下载工具
 * [[ssh]] ssh配置
 * [[softwave]] 一些有用的软件介绍
