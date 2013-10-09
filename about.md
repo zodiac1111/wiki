@@ -4,4 +4,4 @@
 
 wiki使用gollum搭建
 
-Email:[zodiac8765 AT gmail DOT com]
+Email:zodiac8765 AT gmail DOT com
