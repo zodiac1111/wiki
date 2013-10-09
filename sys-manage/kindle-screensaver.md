@@ -10,8 +10,9 @@
 3. 链接上kindle(wifi或usb)
 4. 执行`mntroot rw`使之可写
 5. `sftp://root@192.168.XXX.XXX/usr/share/blanket/`目录下
- 1. `screensaver`屏保文件夹
+
+1. `screensaver`屏保文件夹
   * 命名必须以 `bg_medium_ss<序号>.png`
- 2. `bg_medium_defaultbg.png` 启动屏幕
+2. `bg_medium_defaultbg.png` 启动屏幕
 
 图片浏览器:`imageViewer.sh` http://wiki.mobileread.com/wiki/Kindle_Touch_Hacking#Image_Viewer
