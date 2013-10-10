@@ -38,7 +38,7 @@ A UART usually contains the following components:
 * input and output shift registers 寄存器
 * transmit/receive control  控制接受发送,如[RS485](http://zh.wikipedia.org/wiki/RS-485)这样的[半双工](http://zh.wikipedia.org/wiki/%E5%8D%8A%E9%9B%99%E5%B7%A5)需要控制
 * read/write control logic
-* transmit/receive buffers (optional) 可选,缓冲区**注意**
+* transmit/receive buffers (optional) 可选,缓冲区 **注意**
 * parallel data bus buffer (optional)
 * First-in, first-out (FIFO) buffer memory (optional)
 
