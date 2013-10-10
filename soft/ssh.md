@@ -1,13 +1,21 @@
+参考: 
+
+* 鸟哥 http://linux.vbird.org/linux_server/0310telnetssh.php#ssh_server
+* http://blog.sina.com.cn/s/blog_643493600100uje6.html
+
 1.启动SSH服务
+```
 # systemctl start sshd.service
-
+```
 2.随系统一起启动服务
+```
 # systemctl enable sshd.service
-
+```
 3.开启防火墙22端口
+```
 # iptables -I INPUT -p -tcp --dport 22 -j ACCEPT
+```
 
-http://blog.sina.com.cn/s/blog_643493600100uje6.html
 
 ===================================
 
