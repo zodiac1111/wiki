@@ -29,7 +29,7 @@ RS485和RS232电器引脚比较:http://digital.ni.com/public.nsf/3efedde4322fef1
 由于历史原因，IBM的PC外部接口配置为RS232，成为实际上的PC界默认标准。所以，现在PC机的COM均为RS232。若配有多个异步串行通信口，则分别称为COM1、COM2... 。
 
 
-Many UARTs have a small first-in, first-out FIFO buffer memory between the receiver shift register and the host system interface.(**avr的移位寄存器?**)
+Many UARTs have a small first-in, first-out FIFO buffer memory between the receiver shift register and the host system interface.( **avr的移位寄存器?** )
 
 ###Structure结构
 
