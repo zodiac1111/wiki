@@ -6,15 +6,15 @@
 
 1.启动SSH服务
 ```
-# systemctl start sshd.service
+systemctl start sshd.service
 ```
 2.随系统一起启动服务
 ```
-# systemctl enable sshd.service
+systemctl enable sshd.service
 ```
 3.开启防火墙22端口
 ```
-# iptables -I INPUT -p -tcp --dport 22 -j ACCEPT
+iptables -I INPUT -p -tcp --dport 22 -j ACCEPT
 ```
 
 
