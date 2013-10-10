@@ -1,3 +1,4 @@
+# ssh使用
 参考: 
 
 * 鸟哥 http://linux.vbird.org/linux_server/0310telnetssh.php#ssh_server
