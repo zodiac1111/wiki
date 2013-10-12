@@ -50,8 +50,8 @@
 建立项目会在项目根目录建立三个文件:
 
 * `.emacs.desktop`
-* `.emacs-ide-project.cfg`
-* `.emacs-ide-project.txt`
+* `.emacs-ide-project.cfg` 菜单区右键->`project configuratio`.保存配置命令,如编译时的`make`或其他调试命令.
+* `.emacs-ide-project.txt` 菜单区右键->`project notes` 一些文本格式的项目信息.
 
 # 其他
 
