@@ -1,7 +1,8 @@
 # emacs ide
 
-来源: http://emacs-ide.tuxfamily.org/
-项目在github上的git镜像仓库 : https://github.com/emacsmirror/emacs-ide
+* 来源: http://emacs-ide.tuxfamily.org/
+* git仓库: http://git.tuxfamily.org/eide/emacs-ide-website.git
+* github上的git镜像仓库 : https://github.com/emacsmirror/emacs-ide
 
 
 # 简介
@@ -45,4 +46,3 @@
 # 使用
 
 默认`F2`跳转到定义(ctags) `F3`跳转到定义(Cscope) .`F1`跳回.一些快捷键在`src/eide-keys.el`中定义.
-
