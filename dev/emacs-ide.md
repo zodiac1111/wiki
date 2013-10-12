@@ -6,7 +6,7 @@
 
 # 简介
 
-一个面向c/c++开发的ide.
+一个面向c/c++开发的ide.(eide)
 
 * 许可: GPLv3 or later
 * 语言: Emacs Lisp
