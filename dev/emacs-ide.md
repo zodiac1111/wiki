@@ -40,6 +40,7 @@
 
 * `install` 以root用户安装,或
 * `install -l`以当前登录用户(非root用户)安装
+* 记得按照提示在`~/.emacs`文件中添加一个函数以启动`emacs ide`.
 
 # 使用
 
