@@ -1,7 +1,7 @@
 # emacs ide
 
 * 来源: http://emacs-ide.tuxfamily.org/
-* git仓库: http://git.tuxfamily.org/eide/emacs-ide-website.git
+* git仓库: http://git.tuxfamily.org/eide/emacs-ide.git
 * github上的git镜像仓库 : https://github.com/emacsmirror/emacs-ide
 
 
