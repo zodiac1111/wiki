@@ -1,7 +1,7 @@
 # emacs ide
 
 来源: http://emacs-ide.tuxfamily.org/
-
+项目在github上的git镜像仓库 : https://github.com/emacsmirror/emacs-ide
 
 
 # 简介
@@ -19,8 +19,12 @@
 2. ctags和cscope提供标签识别
 3. 编译和调试有操作系统自带的gcc和gdb等工具提供.
 
+这个人从3年开始独自一人开发到现在(2013/9).很难得,目前还在更新中.
+
 # 界面
+
 [[http://emacs-ide.tuxfamily.org/screenshot.png]]
+
 分为3个窗体
 ```
 +--------------+
@@ -38,4 +42,6 @@
 * `install -l`以当前登录用户(非root用户)安装
 
 # 使用
-默认`F2`跳转到定义(ctags) `F3`跳转到定义(Cscope) .`F1`跳回. `
+
+默认`F2`跳转到定义(ctags) `F3`跳转到定义(Cscope) .`F1`跳回.一些快捷键在`src/eide-keys.el`中定义.
+
