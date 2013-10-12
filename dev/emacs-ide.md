@@ -2,7 +2,7 @@
 
 来源: http://emacs-ide.tuxfamily.org/
 
-[[http://emacs-ide.tuxfamily.org/screenshot.png]]
+
 
 # 简介
 
@@ -20,7 +20,7 @@
 3. 编译和调试有操作系统自带的gcc和gdb等工具提供.
 
 # 界面
-
+[[http://emacs-ide.tuxfamily.org/screenshot.png]]
 分为3个窗体
 ```
 +--------------+
@@ -32,3 +32,10 @@
 
 在菜单区不选中任何文本的情况下,右击->`help`查看帮助菜单.
 
+# 安装
+
+* `install` 以root用户安装,或
+* `install -l`以当前登录用户(非root用户)安装
+
+# 使用
+默认`F2`跳转到定义(ctags) `F3`跳转到定义(Cscope) .`F1`跳回. `
