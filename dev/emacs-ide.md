@@ -46,3 +46,9 @@
 # 使用
 
 默认`F2`跳转到定义(ctags) `F3`跳转到定义(Cscope) .`F1`跳回.一些快捷键在`src/eide-keys.el`中定义.
+
+建立项目会在项目根目录建立三个文件:
+
+* `.emacs.desktop`
+* `.emacs-ide-project.cfg`
+* `.emacs-ide-project.txt`
