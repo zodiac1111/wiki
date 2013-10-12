@@ -10,6 +10,7 @@
 * [[c-bit]] c语言中bit操作,置0/1/反位, 取位
 * [[localization]] 程序本地化/国际化
 * [[semantic-versioning]] 语义版本
+* [[emacs-ide]] 一个简单的基于emacs的ide
 * [[arm1]]
 * [[arm-asm]]
 * [[arm-gp2x-linux-gcc_info]]
