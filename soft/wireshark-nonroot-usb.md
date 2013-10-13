@@ -6,7 +6,7 @@
 
 1. 可能需要加载usb监视模块
 ```
-modprobe usbmon
+sudo modprobe usbmon
 ```
 
 1. Install setcap tool in Ubuntu, simply use APT:
