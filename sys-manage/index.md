@@ -20,6 +20,7 @@
 * [[hostname]] 修改主机名
 * [[kindle]]
 * [[chkconfig]] chkconfig添加自定义服务
+* [[minix-setup]] minix初识
 * 待定
 
 linux发行版 
