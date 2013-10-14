@@ -13,3 +13,5 @@ XWindow 图形界面 http://roofman.wordpress.com/2011/03/30/install-x-window-sy
 安装git软件 `pkgin in scmgit-base`
 
 ssh/sftp安装使用 http://blog.csdn.net/ww2000e/article/details/6783628
+
+bash `pkgin install bash`
