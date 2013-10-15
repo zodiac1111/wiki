@@ -29,7 +29,10 @@ then,in the file `~/.gitconfig`(becase of the `--global` option)
 三者作用域:所有用户/当前用户/当前用户的指定项目
 且作用域小的覆盖作用域大的.(与c语言变量作用域相似)
 
-##git 小修改/隐藏/应用
+##git 小修改/隐藏/应用/tips
+
+`git status -uno` 显示未跟踪的文件
+
 
 ```
 git stash `#隐藏当前修改
@@ -50,4 +53,3 @@ git stash apply `#显示当前修改
 ##ref:
 1. `man git-config`
 2. `man git`
-
