@@ -1,4 +1,4 @@
-# Wiki
+# wiki
 
 * [软件使用](/soft/index) 
 * [系统运行和维护](sys-manage/index) 
