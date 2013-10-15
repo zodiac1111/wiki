@@ -22,12 +22,12 @@
 
 ## 位置指定:右侧
 
-`[[/gollum.png|align=right]]`
+`[[/gollum.png|align=right]]` :
 
 [[/gollum.png|align=right]]
 
 ## svg矢量图
 
-`[[/res/d.svg]]`
+`[[/res/d.svg]]` :
 
 [[/res/d.svg]]
