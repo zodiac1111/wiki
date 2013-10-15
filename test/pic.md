@@ -28,6 +28,6 @@
 
 ## svg矢量图
 
-`[[/res/d.svg]]` :
+
 
 [[/res/d.svg]]
