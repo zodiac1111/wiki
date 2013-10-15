@@ -1,32 +1,34 @@
 # 图片测试 
 
-## 最简单外部链接
-```bash
+## 外部链接
+
+### 最简形式
+```
 [[https://cdn1.iconfinder.com/data/icons/onebit/PNG/onebit_34.png]]
 ```
 [[https://cdn1.iconfinder.com/data/icons/onebit/PNG/onebit_34.png]]
 
-## 外部连接(带alt)
-```bash
+### 附加alt
+```
 ![外部链接](https://cdn1.iconfinder.com/data/icons/onebit/PNG/onebit_34.png)
 ```
 ![外部链接](https://cdn1.iconfinder.com/data/icons/onebit/PNG/onebit_34.png)
 
-## 简单内部链接
+## 内部链接
 
 ```
+[[testpic2.png]] #简单+相对路径形式
+```
+
 [[testpic2.png]]
-```
-
-[[testpic2.png]]
 
 ```
-![asdasd](/gollum.png)
+![asdasd](/gollum.png) #ALT标签+绝对路径形式
 ```
 
 ![asdasd](/gollum.png)
 
-## 位置指定:右侧
+## 位置指定
 
 ```
 [[/gollum.png|align=right]]
