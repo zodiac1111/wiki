@@ -9,4 +9,4 @@
 * [实用工具](utility/index) 
 * [avr](avr/index) 
 * [about](about) 
-* [示例页面](test/index)
+* [示例页面](test/home)
