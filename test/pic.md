@@ -18,7 +18,7 @@
 [[/gollum.png]]
 ```
 
-[[../gollum.png]]
+[[/gollum.png]]
 
 ```
 ![asdasd](/gollum.png)
