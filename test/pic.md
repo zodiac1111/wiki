@@ -15,10 +15,10 @@
 ## 简单内部链接
 
 ```
-[[/gollum.png]]
+[[testpic2.png]]
 ```
 
-[[/gollum.png]]
+[[testpic2.png]]
 
 ```
 ![asdasd](/gollum.png)
