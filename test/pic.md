@@ -14,7 +14,11 @@
 
 ## 简单内部链接
 
-[[gollum.png]]
+```
+[[../gollum.png]]
+```
+
+[[../gollum.png]]
 
 ```
 ![asdasd](/gollum.png)
