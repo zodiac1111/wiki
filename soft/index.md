@@ -29,3 +29,4 @@
 * [[webfs]] http文件服务器
 * [[calibre]] 电子书软件,阅读/转换
 * [[fishfish]] 现代的友好的shell
+* [[lua-compile-error]] 编译lua编译器
