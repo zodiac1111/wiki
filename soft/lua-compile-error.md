@@ -1,6 +1,8 @@
 #编译lua失败
 
-* 来源:http://guiquanz.github.io/2013/04/29/lua-5.2.2-compiling-error/
+来源: 
+
+* http://guiquanz.github.io/2013/04/29/lua-5.2.2-compiling-error/
 * http://lua-users.org/lists/lua-l/2013-02/msg00456.html 
 * http://lua-users.org/lists/lua-l/2013-02/msg00488.html 
 
