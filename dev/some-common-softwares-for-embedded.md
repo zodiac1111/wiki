@@ -3,5 +3,6 @@
 * curl http://curl.haxx.se/download.html
 * ncurses
 * readline
-
+* openssl http://www.openssl.org/source/ [编译参考](http://blog.sina.com.cn/s/blog_4ccac7230101ncyr.html)
+* openssh [编译参考](http://cubietech.com/forum.php?mod=viewthread&tid=54)
 * lua
