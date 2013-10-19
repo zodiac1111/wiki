@@ -14,4 +14,10 @@ http://blog.csdn.net/offbye/article/details/6592563
 
 ## git(+其他)
 
-`git diff` 文本
+原始的 `git diff` 文本
+
+可以通过设置`difftool`调用其他的diff工具: `git difftool --help` 查看详情
+
+` kdiff3, kompare, tkdiff, meld, xxdiff, emerge, vimdiff, gvimdiff,
+           ecmerge, diffuse, opendiff, p4merge and araxis
+`
