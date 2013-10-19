@@ -21,6 +21,8 @@ http://blog.csdn.net/offbye/article/details/6592563
 支持一下工具:
 
 ```
- kdiff3, kompare, tkdiff, meld, xxdiff, emerge, vimdiff, gvimdiff,
-           ecmerge, diffuse, opendiff, p4merge and araxis
+-t <tool>, --tool=<tool>
+           Use the diff tool specified by <tool>. Valid diff tools are: araxis, bc3, deltawalker, diffuse, emerge,
+           ecmerge, gvimdiff, kdiff3, kompare, meld, opendiff, p4merge, tkdiff, vimdiff and xxdiff.
+
 ```
