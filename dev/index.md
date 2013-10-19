@@ -31,4 +31,5 @@
 * [[minicom]]
 * [[eclipse-include-headfile]] Eclipse编译器头文件包含
 * [[some-common-softwares-for-embedded]] 一些基础的对于嵌入式有用的库
+* [[good-diff-tool]]  好哟用的diff工具
 * 待定
