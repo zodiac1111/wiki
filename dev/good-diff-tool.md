@@ -1,6 +1,6 @@
 # 好用的diff工具
 
-`meld` gui图形化 本比较目录及所有子文件/目录
+[meld](http://meldmerge.org/) gui图形化 本比较目录及所有子文件/目录
 
 将meld设置为git的默认diff tool:
 
