@@ -2,6 +2,8 @@
 
 官网:(源代码) http://www.sqlite.org/download.html
 
+gui查看软件: sqlitebrowser
+
 公有领域.
 
 Linux下编译 `gcc shell.c sqlite3.c -o sqlite3 -lpthread -ldl`
@@ -59,4 +61,24 @@ sqlite> .tables
 详细表结构:
 ```
 sqlite> .schema person 
+```
+导入数据:
+```
+sqlite> .read test.sql  
+```
+备份/导出数据库:
+```
+sqlite> .dump
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE person (id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR(20), age SMALLINT);
+INSERT INTO "person" VALUES(1,'john',30);
+INSERT INTO "person" VALUES(2,'david',35);
+INSERT INTO "person" VALUES(3,'henry',40);
+DELETE FROM sqlite_sequence;
+INSERT INTO "sqlite_sequence" VALUES('person',3);
+COMMIT;
+sqlite> .output dump.sql
+sqlite> .dump
+sqlite>
 ```
