@@ -6,7 +6,17 @@ gui查看软件: sqlitebrowser
 
 公有领域.
 
+# 编译
+
 Linux下编译 `gcc shell.c sqlite3.c -o sqlite3 -lpthread -ldl`
+
+使在debian下sqlite shell支持方向键(历史命令等) http://sqlite.1065341.n5.nabble.com/sqlite-shell-arrow-keys-td68851.html
+
+有两种可能,取决于使用的文本编译的库
+
+其一为使用readline库:`gcc shell.c sqlite3.c -lpthread -ldl -DHAVE_READLINE=1 -lreadline`
+
+## 一些可能的依赖
 
 依赖线程库`-lpthread`:
 
@@ -33,6 +43,8 @@ sqlite3.c:(.text+0xcfea): undefined reference to `dlsym'
 sqlite3.c:(.text+0xd00f): undefined reference to `dlclose'
 collect2: error: ld returned 1 exit status
 ```
+
+#使用
 
 使用小结: http://www.360doc.com/content/10/1020/20/3550092_62551572.shtml
 
