@@ -4,7 +4,7 @@
 
 公有领域.
 
-Linux下编译 `gcc shell.c sqlite3.c -lpthread -ldl`
+Linux下编译 `gcc shell.c sqlite3.c -o sqlite3 -lpthread -ldl`
 
 依赖线程库`-lpthread`:
 
@@ -33,3 +33,9 @@ collect2: error: ld returned 1 exit status
 ```
 
 使用小结: http://www.360doc.com/content/10/1020/20/3550092_62551572.shtml
+
+* 打开/新建数据库:`sqlite3 test.db  `
+* 查看帮助: `sqlite> .help`
+* 查看数据库`sqlite> .databases`
+* 新建表`sqlite> CREATE TABLE person (id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR(20), age SMALLINT);`
+* 查看表:`sqlite> .tables`
