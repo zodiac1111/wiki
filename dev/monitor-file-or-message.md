@@ -1,6 +1,9 @@
 # 监视文件内容或者系统消息
 
-* 来源: http://stackroulette.com/superuser/289239/is-it-possible-to-tail-f-the-output-of-dmesg
+来源:
+
+* http://stackroulette.com/superuser/289239/is-it-possible-to-tail-f-the-output-of-dmesg
+* http://superuser.com/questions/289239/is-it-possible-to-tail-f-the-output-of-dmesg
 
 监视最近dmesg消息
 ```
