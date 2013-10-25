@@ -26,6 +26,35 @@ http://elinux.org/Interfacing_with_I2C_Devices
 adxl345加速度传感器: http://www.analog.com/static/imported-files/data_sheets/ADXL345.pdf   
 adc  http://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad7998
 
+i2c smbus幻灯片(美国亚利桑那州立大学):  
+http://rts.lab.asu.edu/web_438/CSE438_598_slides_yhlee/438_6_Linux_I2C_SMBus.pdf
+
+i2c wiki
+https://i2c.wiki.kernel.org/index.php/Main_Page
+
+i2c stub测试桩 (a very simple fake I2C/SMBus driver)
+http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=blob;f=Documentation/i2c/i2c-stub
+
+Upgrading I2C chip drivers to the 2.6 driver mode,从芯片驱动升级到2.6的驱动模型.
+http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/Documentation/i2c/upgrading-clients
+
+Writing kernel drivers for I2C or SMBus devices(写内核驱动,kernel文档)
+http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/Documentation/i2c/writing-clients
+
+How to instantiate I2C devices (如何实现设配,内核文档)
+http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/Documentation/i2c/instantiating-devices
+
+Conventions for use of fault codes in the I2C/SMBus stack(故障代码和错误代码相关)
+http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/Documentation/i2c/fault-codes
+
+I2C bus multiplexing(多路)
+https://i2c.wiki.kernel.org/index.php/I2C_bus_multiplexing
+
+应用层的一个简单例子:应该可以配合测试桩进行测试<- 待测试 参见:linux/Documentation/i2c/dev-interface
+http://bunniestudios.com/blog/images/infocast_i2c.c
+
+中文:2.6.32新型模型例子
+http://ticktick.blog.51cto.com/823160/971738
 ## 个人理解
 
 两种方式:
