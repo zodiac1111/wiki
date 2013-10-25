@@ -10,10 +10,8 @@ KERNEL=="i2c-[0-9]*", GROUP="i2c"
 
 ## 一些参考 
 
-I2C on a Linux based embedded system(pdf)
-
+I2C on a Linux based embedded system(pdf):  
 http://home.deib.polimi.it/bellasi/lib/exe/fetch.php?media=students:giginghelli_finalreport.pdf
 
-Behavioural analysis of an I2C Linux Driver(pdf) i2c linux 驱动行为分析
-
+Behavioural analysis of an I2C Linux Driver(pdf) i2c linux 驱动行为分析:  
 http://alexandria.tue.nl/repository/books/653250.pdf
