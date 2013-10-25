@@ -13,11 +13,18 @@ KERNEL=="i2c-[0-9]*", GROUP="i2c"
 I2C on a Linux based embedded system(pdf):  
 http://home.deib.polimi.it/bellasi/lib/exe/fetch.php?media=students:giginghelli_finalreport.pdf
 
-Behavioural analysis of an I2C Linux Driver(pdf) i2c linux 驱动行为分析:  
+Behavioural analysis of an I2C Linux Driver(pdf) i2c linux 驱动行为分析,研究性文章:  
 http://alexandria.tue.nl/repository/books/653250.pdf
 
-I2C Drivers, Part I(2003年):  
+I2C Drivers, Part I(2003年)简单驱动实例:  
 http://www.linuxjournal.com/article/7136
+
+Interfacing with I2C Devices(http://elinux.org/)主要是应用层:  
+http://elinux.org/Interfacing_with_I2C_Devices
+
+可用设配:  
+adxl345加速度传感器: http://www.analog.com/static/imported-files/data_sheets/ADXL345.pdf   
+adc  http://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad7998
 
 ## 个人理解
 
