@@ -34,4 +34,5 @@
 * [[good-diff-tool]]  好哟用的diff工具
 * [[sqlite3]] sqlite相关
 * [[monitor-file-or-message]] 监视文件或者系统消息等
+* [[i2c]] i2c 相关
 * 待定
