@@ -33,4 +33,5 @@
 * [[some-common-softwares-for-embedded]] 一些基础的对于嵌入式有用的库
 * [[good-diff-tool]]  好哟用的diff工具
 * [[sqlite3]] sqlite相关
+* [[monitor-file-or-message]] 监视文件或者系统消息等
 * 待定
