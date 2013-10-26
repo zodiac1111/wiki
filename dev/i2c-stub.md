@@ -3,9 +3,13 @@
 * 源代码: driver/i2c/busses/i2c-stub.c 
 * 官方的使用指南: Documentation/i2c/i2c-stub (This module is a very simple fake I2C/SMBus driver .)
 
+开发i2c驱动强烈建议读完这个i2c文件夹下的文档.网上很多资料都是基于此的.[这里](i2c)有些我搜集的资料.
+
 # 背景
 
 在没有i2c设备时在应用层开发i2c的程序,stub实现了简单的读写功能,可以视为一个虚拟的从设备,则加载这个模块就可以用于调试应用层的一般逻辑流程,相当与一个测试软件.如modbus也有类似的软件模拟设备,方便软件层面的调试.
+
+另一方面这也是个驱动的helloworld程序,结构简单,可以参考来开发i2c驱动.非常有用.
 
 # 使用
 
