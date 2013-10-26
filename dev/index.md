@@ -34,5 +34,6 @@
 * [[good-diff-tool]]  好哟用的diff工具
 * [[sqlite3]] sqlite相关
 * [[monitor-file-or-message]] 监视文件或者系统消息等
-* [[i2c]] i2c 相关
+* [[i2c]] i2c 相关资料
+* [[i2c-stub]] 应用层调试/开发i2c驱动使用的测试桩(stub)
 * 待定
