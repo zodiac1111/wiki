@@ -31,3 +31,4 @@
 * [[fishfish]] 现代的友好的shell
 * [[lua-compile-error]] 编译lua编译器
 * [[run-lua-on-mini2440]] 移植lua解释器到mini2440
+* [[dia-bug]] dia错误
