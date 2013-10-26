@@ -45,7 +45,7 @@ Device Drivers  --->
 
 加载内核:
 ```
-insmod i2c-stub.ko chip_addr=0x50
+insmod i2c-stub.ko chip_addr=0x1d
 ```
 *  i2c-stub.ko 测试桩模块,用于测试,仅实现了部分的驱动函数
 *  chip_addr 芯片地址,"Chip addresses (up to 10, between 0x03 and 0x77)" i2c-stub.c:line 36.
@@ -54,7 +54,7 @@ insmod i2c-stub.ko chip_addr=0x50
 
 ```
 cat /proc/kmesg
-<6>i2c-stub: Virtual chip at 0x50 //<-虚拟芯片地址(虚拟的从设备)
+<6>i2c-stub: Virtual chip at 0x1d //<-虚拟芯片地址(虚拟的从设备)
 <7>i2c i2c-1: adapter [SMBus stub driver] registered
 <7>i2c-dev: adapter [SMBus stub driver] registered as minor 1
 ```
@@ -63,10 +63,15 @@ cat /proc/kmesg
 ```
 ls /dev/i2c*
 ```
+查看mod
+```
+[root@FriendlyARM plg]# lsmod
+i2c_stub 2256 0 - Live 0xbf02a000
 
+```
 ### 调试
 
-编写自己的应用层的程序,调用是选择这个虚拟设备
+编写自己的应用层的程序,调用是选择这个虚拟设备,以下仅供参考,我也是刚接触这方面.
 
 ```
 // i2c 应用层调试,读写挂载在i2c总线上的eeprom file:i2c-other.c
@@ -182,4 +187,30 @@ CLOSE:
 	return 0;
 }
 ```
+编译
+```
 arm-linux-gcc i2c-other.c -o app -Wall
+```
+运行应用程序
+```
+[root@FriendlyARM plg]# ./app 
+0x10读取结果: 0x0
+在 0x10 处写入 0xab 
+再次读取 0x10 结果: 0xab
+```
+
+同时查看debug信息(需要上面编译内核时选择):
+```
+cat /proc/kmesg
+<7>i2c i2c-1: ioctl, cmd=0x703, arg=0x1d
+<7>i2c i2c-1: ioctl, cmd=0x720, arg=0xbe9f8cf8
+<7>i2c i2c-1: smbus byte - addr 0x1d, wrote 0x10.  //写10(地址)
+<7>i2c i2c-1: ioctl, cmd=0x720, arg=0xbe9f8cf8
+<7>i2c i2c-1: smbus byte - addr 0x1d, read  0x00. //读(10地址),得到至00
+<7>i2c i2c-1: ioctl, cmd=0x720, arg=0xbe9f8cf8
+<7>i2c i2c-1: smbus byte data - addr 0x1d, wrote 0xab at 0x10. //向10地址写入 ab
+<7>i2c i2c-1: ioctl, cmd=0x720, arg=0xbe9f8cf8
+<7>i2c i2c-1: smbus byte - addr 0x1d, wrote 0x10. //写10(地址)
+<7>i2c i2c-1: ioctl, cmd=0x720, arg=0xbe9f8cf8
+<7>i2c i2c-1: smbus byte - addr 0x1d, read  0xab. //读(10地址),得到值ab
+```
