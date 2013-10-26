@@ -218,3 +218,5 @@ cat /proc/kmesg
 <7>i2c i2c-1: ioctl, cmd=0x720, arg=0xbe9f8cf8
 <7>i2c i2c-1: smbus byte - addr 0x1d, read  0xab. //读(10地址),得到值ab
 ```
+
+配合i2c-stub.c的源代码对理解驱动有很大的帮助.
