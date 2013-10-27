@@ -20,7 +20,7 @@
 
 最简单文件,相当于一个helloworld程序,验证adxl345正常,验证连线正常.
 
-### helloworld
+### 你好,世界!
 
 功能:读取芯片id:DEVID[0x00]
 ```
