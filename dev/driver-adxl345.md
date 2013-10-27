@@ -63,7 +63,7 @@ unsigned char adxl_read(int fd, unsigned char reg)
 	// 1. 写寄存器地址
 	args.read_write = I2C_SMBUS_WRITE;	//写
 	args.command = reg;			//地址
-	args.size = I2C_SMBUS_BYTE;	 	//大小一比特
+	args.size = I2C_SMBUS_BYTE;	 	//大小一字节
 	args.data = NULL;     			//没有数据
 	ret = ioctl(fd, I2C_SMBUS, &args);
 	if (ret<0) {
@@ -72,7 +72,7 @@ unsigned char adxl_read(int fd, unsigned char reg)
 	// 2. 读数据 (配合上面,即读某寄存器地址)
 	args.read_write = I2C_SMBUS_READ;	//读
 	args.command = 0;			//命令?
-	args.size = I2C_SMBUS_BYTE;		//大小一比特
+	args.size = I2C_SMBUS_BYTE;		//大小一字节
 	args.data = &data;			//保存数据
 	ret = ioctl(fd, I2C_SMBUS, &args);
 	if (ret!=0) {     //非零错误
@@ -91,7 +91,7 @@ arm-linux-gcc adxl345-helloworld.c -o app -Wall
 [root@FriendlyARM plg]# ./app 
 器件ID[0x00]=0xe5
 ```
-如果参考[这里]()设置了一些i2c调试信息,则`cat /proc/kmsg` 可以看到
+如果参考[这里](i2c-stub)设置了一些i2c调试信息,则`cat /proc/kmsg` 可以看到
 ```
 <7>i2c i2c-0: ioctl, cmd=0x703, arg=0x53
 <7>i2c i2c-0: ioctl, cmd=0x720, arg=0xbecf1cf4
