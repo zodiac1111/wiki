@@ -38,6 +38,6 @@ enum xtime_clock_types
 
 方法1: 升级boost :)
 
-方法2: 修改`TIME_UTC` 为 `TIME_UTC_`
+方法2: 修改`TIME_UTC` 为 `TIME_UTC_` 来自来源的#5
 
 > Just rename all the occurences of `TIME_UTC` to `TIME_UTC_` in the `/usr/include/boost/thread/xtime.hpp`. This is safe, since both boost definition of `TIME_UTC` and `glibc` definition of `TIME_UTC` are the same (ie. TIME_UTC = 1).
