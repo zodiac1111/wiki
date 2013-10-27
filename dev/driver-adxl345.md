@@ -41,19 +41,19 @@ int main(int argc, char* argv[])
 {
 	int fd;
 	int ret = 0;
-	// 1  打开 ,从设备打开
+	// 1. 打开 ,从设备打开
 	fd = open(DEV, O_RDWR);
 	if (fd<0) {
 		perror("open:");
 		return -1;
 	}
-	// 2 设置从设备地址
+	// 2. 设置从设备地址
 	ret = ioctl(fd, I2C_SLAVE, ADDRESS);
 	if (ret<0) {
 		perror("ioctl:");
 		goto CLOSE;
 	}
-	//读取器件id
+	// 3. 读取器件id
 	ret = adxl_read(fd, DEVID);
 	printf("器件ID[0x%02x]=0x%02x\n", DEVID, ret);
 	CLOSE:
