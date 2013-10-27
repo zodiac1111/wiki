@@ -1,6 +1,8 @@
 # adxl345应用层驱动(i2c)
 
-在mini2440(linux)上通过i2c使用adxl345三轴加速度传感器.使用s3c2440自带的i2c平台驱动.在应用层实现驱动.因为我还没有搞清楚i2c/smbus.与这个应用层驱动对应的驱动层驱动是`drivers/i2c/busses/i2c-s3c2410.c`.
+在mini2440(linux)上通过i2c使用adxl345三轴加速度传感器.使用s3c2440自带的i2c平台驱动.在应用层实现驱动.因为我还没有搞清楚i2c/smbus.
+
+与这个应用层驱动对应的驱动层驱动是`drivers/i2c/busses/i2c-s3c2410.c`.
 
 可以最简单的实现读取三轴加速度.比较丑陋正在完善中,别期待其与[官方的adxl345驱动](http://wiki.analog.com/resources/tools-software/linux-drivers/input-misc/adxl345)相比.
 
