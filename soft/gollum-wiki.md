@@ -157,7 +157,7 @@ Update:在`gollum 2.5.0`和`ruby 1.9.3`之下,这个问题已经没有再发生.
 -----
 # 更新
 
-更新到gollum 1.5.1 (`sudo gem install gollum`)可能会遇到类似以下提示
+更新到gollum 2.5.1 (`sudo gem install gollum`)可能会遇到类似以下提示
 ```
 $ sudo gem install gollum
 Building native extensions.  This could take a while...
