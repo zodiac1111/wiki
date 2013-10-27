@@ -153,3 +153,28 @@ Update:在`gollum 2.5.0`和`ruby 1.9.3`之下,这个问题已经没有再发生.
 
 1. 发布到github的wiki页面: http://ju.outofmemory.cn/entry/28388 
 2. gollum的git页面: https://github.com/gollum/gollum
+
+-----
+ 更新
+
+更新到gollum 1.5.1 (`sudo gem install gollum`)可能会遇到类似一下提示
+```
+$ sudo gem install gollum
+Building native extensions.  This could take a while...
+ERROR:  Error installing gollum:
+	ERROR: Failed to build gem native extension.
+
+        /usr/bin/ruby1.9.1 extconf.rb
+checking for main() in -licui18n... no
+checking for main() in -licui18n... no
+
+
+***************************************************************************************
+*********** icu required (brew install icu4c or apt-get install libicu-dev) ***********
+***************************************************************************************
+*** extconf.rb failed ***
+```
+按照提示`(brew install icu4c or apt-get install libicu-dev)`安装即可,在debian下即
+```
+sudo apt-get install libicu-dev
+```
