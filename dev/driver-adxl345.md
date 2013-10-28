@@ -6,7 +6,7 @@
 
 可以最简单的实现读取三轴加速度.比较丑陋正在完善中,别期待其与[官方的adxl345驱动](http://wiki.analog.com/resources/tools-software/linux-drivers/input-misc/adxl345)相比.
 
-暂时缺陷:未实现多字节读取,每次只能操作一个字节.加速度数据高字节和低字节数值仍然有疑虑.
+暂时缺陷:虽然能读到数据,但是对于adxl345操作流程不甚了解,各寄存器需要再详细阅读datasheet.
 
 ## 硬件
 
