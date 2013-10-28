@@ -29,6 +29,20 @@ cd octopress
 rake new_post["Title"]
 ```
 
+编辑生成文章
+
+```
+---
+layout: post
+title: "可以改成中文名"
+date: 2013-10-28 11:32
+comments: true    #评论
+categories:       #分类
+---
+```
+
+然后下面就可以开始以markdowm格式撰写文章了.
+
 # 预览&发布 
 
 ```bash
