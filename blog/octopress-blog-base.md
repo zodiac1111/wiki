@@ -1,6 +1,6 @@
 # octopress 博客基本操作
 
-#安装:
+#安装
 
 gem:
 `yum install gem`
