@@ -170,17 +170,14 @@ arm-linux-gcc i2c-other.c -o app -Wall
 同时查看debug信息(需要上面编译内核时选择):
 ```
 cat /proc/kmesg
+<7>i2c i2c-1: ioctl, cmd=0x705, arg=0xbe928cf4
 <7>i2c i2c-1: ioctl, cmd=0x703, arg=0x1d
-<7>i2c i2c-1: ioctl, cmd=0x720, arg=0xbe9f8cf8
-<7>i2c i2c-1: smbus byte - addr 0x1d, wrote 0x10.  //写10(地址)
-<7>i2c i2c-1: ioctl, cmd=0x720, arg=0xbe9f8cf8
-<7>i2c i2c-1: smbus byte - addr 0x1d, read  0x00. //读(10地址),得到至00
-<7>i2c i2c-1: ioctl, cmd=0x720, arg=0xbe9f8cf8
-<7>i2c i2c-1: smbus byte data - addr 0x1d, wrote 0xab at 0x10. //向10地址写入 ab
-<7>i2c i2c-1: ioctl, cmd=0x720, arg=0xbe9f8cf8
-<7>i2c i2c-1: smbus byte - addr 0x1d, wrote 0x10. //写10(地址)
-<7>i2c i2c-1: ioctl, cmd=0x720, arg=0xbe9f8cf8
-<7>i2c i2c-1: smbus byte - addr 0x1d, read  0xab. //读(10地址),得到值ab
+<7>i2c i2c-1: ioctl, cmd=0x720, arg=0xbe928cf8
+<7>i2c i2c-1: smbus byte data - addr 0x1d, read  0x00 at 0x10.
+<7>i2c i2c-1: ioctl, cmd=0x720, arg=0xbe928cf8
+<7>i2c i2c-1: smbus byte data - addr 0x1d, wrote 0xab at 0x10.
+<7>i2c i2c-1: ioctl, cmd=0x720, arg=0xbe928cf8
+<7>i2c i2c-1: smbus byte data - addr 0x1d, read  0xab at 0x10.
 ```
 
 配合i2c-stub.c的源代码对理解驱动有很大的帮助.
