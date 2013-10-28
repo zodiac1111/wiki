@@ -1,9 +1,13 @@
-# 测试
+# 其他
+<!-- --- title: 索引 -->
 
 测试gollum各种语法(markdown)以及各种特性的页面.
 
 wiki系统所有源文件可以在 [这里](https://github.com/zodiac1111/wiki)(github) 获得.
-
+## 页面标题
+```
+<!-- --- title: 索引 -->
+```
 ## 链接
 
 * https://google.com
