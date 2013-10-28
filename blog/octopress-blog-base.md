@@ -53,3 +53,6 @@ git commit -m 'blog source update'
 #推送至远端
 git push origin source
 ```
+
+# 更新octopress博客程序
+
