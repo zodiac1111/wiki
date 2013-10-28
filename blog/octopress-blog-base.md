@@ -14,7 +14,7 @@ bundler:
 `gem install bundler`
 
 rake:
-`gem install rake`
+`sudo gem install rake`
 
 Could not find rake-0.9.6 in any of the sources
 `bundle install`
