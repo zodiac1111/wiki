@@ -12,7 +12,7 @@
 
 需要连接好adxl345和mini2440的线路.
 
-电源,地,数据线,clk线
+VCC,GND,SDA,SCL
 
 ## 内核
 
