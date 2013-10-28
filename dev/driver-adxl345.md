@@ -6,29 +6,29 @@
 
 暂时缺陷:虽然能读到数据,但是对于adxl345操作流程不甚了解,各寄存器需要再详细阅读datasheet.
 
-## 硬件
+# 硬件
 
 需要连接好adxl345和mini2440的线路.
 
 VCC,GND,SDA,SCL
 
-## 内核&驱动层
+# 内核&驱动层
 
 不用任何改动,因为不是内核层的驱动.只要mini2440支持平台(s3c2440)的i2c支持即可.测试能和原来的eeprom通讯应该就没问题.
 
 使用驱动层驱动是`drivers/i2c/busses/i2c-s3c2410.c`s3c2440的平台驱动.
 
-## 应用层
+# 应用层
 
 这个驱动是且仅是在应用层完成的,具体看下面两个最简示例吧.
 
-### 你好,世界!
+## 例1:你好,世界!
 
 最简单文件,相当于一个helloworld程序,目的是验证adxl345芯片和连线正常.
 
 功能:读取芯片id:DEVID[0x00]
 
-#### 代码
+### 代码
 
 ```c
 // i2c 应用层调试,读写挂载在i2c总线上的adxl345,
@@ -90,13 +90,13 @@ unsigned char adxl_read(int fd, unsigned char reg)
 }
 
 ```
-#### 编译
+### 编译
 
 ```bash
 arm-linux-gcc adxl345-helloworld.c -o app -Wall
 ```
 
-#### 运行
+### 运行
 
 在mini2440开发板上运行:
 ```
@@ -121,11 +121,11 @@ arm-linux-gcc adxl345-helloworld.c -o app -Wall
 <7>s3c-i2c s3c2440-i2c: master_complete 0
 ```
 
-### 读取传感器数值
+## 例2:读取传感器数值
 
 功能:仅实现了能读三轴加速度.
 
-#### 代码
+### 代码
 
 大部分代码与上面一样,增加了一个写入一个字节的函数`adxl_write()`,一个读取2个字节数据的函数`adxl_read_short()`
 ```
@@ -237,11 +237,11 @@ signed short  adxl_read_short(int fd, unsigned char reg)
 	return data.word;
 }
 ```
-#### 编译
+### 编译
 ```bash
 arm-linux-gcc adxl345-simplest-use.c -o app -Wall
 ```
-#### 运行
+### 运行
 ```
 [root@FriendlyARM plg]# ./app 
 器件ID[0x00]=0xe5
