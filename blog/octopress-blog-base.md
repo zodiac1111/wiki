@@ -20,15 +20,15 @@ rake等操作
 octopress blog基本操作  
 http://octopress.org/docs/blogging/
 
-1. 传到博客根目录
+## 传到博客根目录
 
 `cd ~/blog/octopress`
 
-2. 新建日志
+## 新建日志
 
 在博客根目录,例如`/home/zodiac1111/blog/octopress`执行:`rake new_post["Title"]`来创建一篇新文章.
 
-3. 预览&发布 
+## 预览&发布 
 
 ```bash
 #在本地预览blog
@@ -44,7 +44,7 @@ rake deploy
 rake gen_deploy
 ```
 
-4. 保存source(可选)
+## 保存source(可选)
 ```
 #保存博客源代码之 页面的source分支下。
 cd /home/zodiac1111/blog/octopress
