@@ -55,4 +55,7 @@ git push origin source
 ```
 
 # 更新octopress博客程序
-
+```bash
+cd octopress
+git pull git://github.com/imathis/octopress.git #pull官方程序
+```
