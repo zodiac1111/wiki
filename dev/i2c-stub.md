@@ -78,6 +78,7 @@ i2c_stub 2256 0 - Live 0xbf02a000
 编写自己的应用层的程序,调用是选择这个虚拟设备,以下仅供参考,我也是刚接触这方面.
 
 ```c
+///@filename i2c-other.c
 //通过i2c-stub调试应用层的驱动程序
 #define ADDRESS 0x1D // stub测试桩地址,动过insmod的参数指定
 #define DEV "/dev/i2c/1"
