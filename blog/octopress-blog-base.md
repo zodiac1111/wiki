@@ -29,17 +29,19 @@ http://octopress.org/docs/blogging/
 	`rake new_post["Title"]`来创建一篇新文章.
 3. 预览&发布 
 
-	#在本地预览blog
-	#转到目录
-	cd /home/zodiac1111/blog/octopress
-	#生成
-	rake generate
-	#预览 在本地输入 http://localhost:4000/ 访问
-	rake preview
-	#发布
-	rake deploy	
-	#生成和发布也可以合并成为一句:
-	rake gen_deploy
+```bash
+#在本地预览blog
+#转到目录
+cd /home/zodiac1111/blog/octopress
+#生成
+rake generate
+#预览 在本地输入 http://localhost:4000/ 访问
+rake preview
+#发布
+rake deploy	
+#生成和发布也可以合并成为一句:
+rake gen_deploy
+```
 
 4. 保存source(可选)
 
