@@ -1,6 +1,9 @@
 # octopress 博客基本操作
 
-#安装
+octopress blog基本操作  
+http://octopress.org/docs/blogging/
+
+# 安装
 
 gem:
 `yum install gem`
@@ -17,18 +20,16 @@ Could not find rake-0.9.6 in any of the sources
 git clone 项目.
 rake等操作
 
-octopress blog基本操作  
-http://octopress.org/docs/blogging/
+# 新建文章(post)
 
-## 传到博客根目录
+```bash
+#传到博客根目录
+cd octopress
+#新建日志
+rake new_post["Title"]
+```
 
-`cd ~/blog/octopress`
-
-## 新建日志
-
-在博客根目录,例如`/home/zodiac1111/blog/octopress`执行:`rake new_post["Title"]`来创建一篇新文章.
-
-## 预览&发布 
+# 预览&发布 
 
 ```bash
 #在本地预览blog
