@@ -37,14 +37,14 @@
 1. 用文本编辑器打开用户目录下的.bashrc文件(我修改的是**~/.bash_profile**文件)
 2. 在.bashrc文件末尾加入：
 
-```
-set JAVA_HOME=/usr/share/jdk1.5.0_05
-export JAVA_HOME
-set PATH=$JAVA_HOME/bin:$PATH
-export PATH
-set CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
-export CLASSPATH
-```
+ ```
+ set JAVA_HOME=/usr/share/jdk1.5.0_05
+ export JAVA_HOME
+ set PATH=$JAVA_HOME/bin:$PATH
+ export PATH
+ set CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+ export CLASSPATH
+ ```
 
 3. 重新登录
 4. ps: Linux-使环境变量**马上生效**的命令>http://www.cnblogs.com/babyblue/archive/2006/02/14/519179.html
