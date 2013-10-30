@@ -17,7 +17,7 @@ http://localhost:端口号/路径
 
 例如：
 ```
-http://localhost:8080/index.htm（当然index.htm文件得自己创建）
+http://localhost:8080/index.html（当然index.htm文件得自己创建）
 ```
 其他机器也可以通过服务器的IP地址来访问。
 
