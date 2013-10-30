@@ -16,7 +16,7 @@ VCC,GND,SDA,SCL
 
 不用任何改动,因为不是内核层的驱动.只要mini2440支持平台(s3c2440)的i2c支持即可.测试能和原来的eeprom通讯应该就没问题.
 
-使用驱动层驱动是`drivers/i2c/busses/i2c-s3c2410.c`s3c2440的平台驱动.
+使用驱动层驱动是`drivers/i2c/busses/i2c-s3c2410.c`s3c2440的平台驱动.和`drivers/i2c/i2c-dev.c`(实现设配文件操作).
 
 # 应用层
 
