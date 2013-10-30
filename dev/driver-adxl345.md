@@ -6,7 +6,7 @@
 
 暂时缺陷:虽然能读到数据,但是对于adxl345操作流程不甚了解,各寄存器需要再详细阅读datasheet.
 
-总体大致流程:
+总体大致流程(i2c-smbus-flow.svg):
 [[/res/i2c-smbus-flow.svg]]
 
 # 硬件
