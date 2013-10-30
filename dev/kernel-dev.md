@@ -1,12 +1,6 @@
----
-layout: post
-title: "hello world"
-date: 2012-07-03 09:01
-comments: true
-categories: 
----
+#驱动开发笔记
 
-#编译进内核
+## 编译进内核
 _init 执行完释放内存 (省内存)
 .结构体成员 .分布式分配
 动态加载
