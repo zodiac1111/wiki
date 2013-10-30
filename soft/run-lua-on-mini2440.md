@@ -71,7 +71,9 @@ linux:
 
 开始编译lua吧.
 
-`make linux`
+```
+make linux
+```
 
 # 目标版
 
