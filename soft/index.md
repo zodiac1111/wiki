@@ -2,7 +2,7 @@
 
 * Linux学习:[[lfs]] linux构建
 * [[learn-linux]] Linux学习建议
-* [json在线解析](http://jsoneditoronline.org/)
+* [json在线解析](http://jsoneditoronline.org/) (外部连接)
 * [[gollum-wiki]] wiki安装使用
 * [[gollum-site]] gollum-wiki静态化(不理想)
 * [[rubygems-taobao]] rubygems 淘宝镜像站
