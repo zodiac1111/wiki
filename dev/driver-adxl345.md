@@ -262,6 +262,49 @@ x= -369 y=  -83 z=  -14
 x= -167 y=   55 z=  -36
 ```
 我承认我在瞎晃XD.
+## 一点改进
+
+根据手册,建议使用多字节读取方式一次性读取三个轴的数据,避免读取x轴是y轴数据发生变化这样.
+
+所以新增
+```c
+//简单的定义一下结构体
+struct Pos{
+	short x;
+	short y;
+	short z;
+};
+//读取6个字节的数据
+int adxl_read_six_byte(int fd, unsigned char reg,struct Pos *pos)
+{
+	union i2c_smbus_data data;
+	struct i2c_smbus_ioctl_data args;
+	int ret;
+	int len=6;//读取字节长度,三轴*2字节/轴
+	//读
+	data.byte=len; //读取的长度从这里传进去
+	args.read_write = I2C_SMBUS_READ;     //读
+	args.command = reg;     //开始地址
+	args.size = I2C_SMBUS_I2C_BLOCK_DATA;     //读取块数据
+	args.data = &data;     //此时传入的是读取的长度(单位字节)
+	ret = ioctl(fd, I2C_SMBUS, &args);
+	if (ret!=0) {     //非零错误
+		printf("读取ioctl错误");
+		return -1;
+	}
+#if 0 //可以查看一下
+	int i;
+	for (i = 0; i<7; i++) {   //会发现第0个字节是长度,接下来6个字节分别是xyz的数据
+		printf(" %02X ", data.block[i]);
+		fflush(stdout);
+	}
+#endif
+	memcpy(pos,&data.block[1],len);
+	return 0;
+}
+```
+
+在进行读取应该就比较完善了.
 
 ## 例3:然后,没有了
 
