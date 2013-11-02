@@ -30,8 +30,9 @@ echo -ne "123456\r\n" | nc -u 127.0.0.1 8001
 # 例子(作为服务器)
 
 ```
-nc -l -p -vv 8002
+nc -l -p -vv 8002 -k
 ```
 * -l listen 监听
-* -p 8000 port指定端口
+* -p 8000 port指定端口,ncat无需-p,
 * -vv 显示详细信息
+* `-k` keep保持连接,ncat实现.nc不可
