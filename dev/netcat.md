@@ -6,7 +6,7 @@
 
 实现:
 * `nc`/`netcat` 传统的netcat
-* `socat` netcat 较复杂的姊妹程式。它比起netcat更大更复杂，并且有更多的选项得在给定作业前先设定。
+* `socat` netcat 较复杂的姊妹程式,更大更复杂,更多的选项.
 * `ncat` 由[Nmap](http://zh.wikipedia.org/wiki/Nmap)开发团队实做的另一个netcat版本。
 * [Cryptcat](http://sourceforge.net/projects/cryptcat/) 是 netcat 一个内建加密传输能力的版本。
 
