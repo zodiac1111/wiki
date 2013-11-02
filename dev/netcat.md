@@ -2,6 +2,8 @@
 
 natcat自定义发送接受数据,调试以太网程序.
 
+* 参考例子: http://www.rationallyparanoid.com/articles/netcat.html
+
 # 例子(作为客户端)
 
 通过udp模式发送特定数据到指定主机的指定端口
