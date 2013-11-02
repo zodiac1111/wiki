@@ -1,10 +1,14 @@
 # 使用netcat调试以太网程序
 
-natcat自定义发送接受数据,调试以太网程序.
+[natcat](http://zh.wikipedia.org/wiki/Netcat)自定义发送接受数据,调试以太网程序.
 
 * 参考例子: http://www.rationallyparanoid.com/articles/netcat.html
 
-`ncat`有更多功能
+实现:
+* `nc`/`netcat` 传统的netcat
+* `socat` netcat 较复杂的姊妹程式。它比起netcat更大更复杂，并且有更多的选项得在给定作业前先设定。
+* `ncat` 由[Nmap](http://zh.wikipedia.org/wiki/Nmap)开发团队实做的另一个netcat版本。
+* [Cryptcat](http://sourceforge.net/projects/cryptcat/) 是 netcat 一个内建加密传输能力的版本。
 
 # 例子(作为客户端)
 
