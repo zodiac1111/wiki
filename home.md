@@ -1,4 +1,4 @@
-# wiki
+# 知识管理
 
 * [[soft/home]] 软件使用
 * [[sys-manage/home]] 系统运行和维护
