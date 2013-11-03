@@ -1,11 +1,3 @@
----
-layout: post
-title: "hello world"
-date: 2012-07-03 09:01
-comments: true
-categories: 
----
-
 #LPI笔记
 ##* ~的特殊用法 cd
 其他用户的主目录
