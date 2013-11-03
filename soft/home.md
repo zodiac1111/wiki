@@ -34,3 +34,4 @@
 * [[dia-bug]] dia错误
 * [[boost-xtime]] boost 1.50 以前 一个bug
 * [[bash]] bash脚本使用笔记
+* [[xdotool]] Linux写的按键精灵
