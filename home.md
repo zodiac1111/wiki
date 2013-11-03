@@ -5,7 +5,7 @@
 * [[dev/home]] 开发 
 * [[gcc/home]] gcc 相关
 * [[blog/home]]
-* [web](web/index) 
+* [web](web/home) 
 * [实用工具](utility/index) 
 * [avr](avr/index) 
 * [about](about) 
