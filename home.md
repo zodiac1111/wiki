@@ -1,7 +1,7 @@
 # wiki
 
-* [软件使用](/soft/) 
-* [系统运行和维护](sys-manage) 
+* [软件使用](soft/) 
+* [系统运行和维护](sys-manage/) 
 * [开发](dev/index) 
 * [gcc](gcc/index)
 * [blog](blog/index) 
