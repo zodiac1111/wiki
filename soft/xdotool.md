@@ -14,6 +14,10 @@ x window information
 ```
 xwininfo
 ```
+#### 模拟键盘按键
+```
+xdotool key alt+t space;
+```
 #### 模拟键盘输入
 ```
 xdotool type 'All your closed source apps are belong to us.'
