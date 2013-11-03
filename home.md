@@ -2,7 +2,7 @@
 
 * [[soft/home]] 软件使用
 * [[sys-manage/home]] 系统运行和维护
-* [开发](dev/home) 
+* [[dev/home]] 开发 
 * [gcc](gcc/index)
 * [blog](blog/index) 
 * [web](web/index) 
