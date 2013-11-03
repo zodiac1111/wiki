@@ -6,7 +6,7 @@
 * [[gcc/home]] gcc 相关
 * [[blog/home]] 博客程序相关操作
 * [web](web/home) 
-* [实用工具](utility/index) 
+* [实用工具](utility/home) 
 * [avr](avr/home) 
 * [about](about) 
 * [示例页面](test/home)
