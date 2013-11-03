@@ -1,7 +1,7 @@
 # wiki
 
 * [[soft/home]] 软件使用
-* [系统运行和维护](sys-manage/home) 
+* [[sys-manage/home]] 系统运行和维护
 * [开发](dev/home) 
 * [gcc](gcc/index)
 * [blog](blog/index) 
