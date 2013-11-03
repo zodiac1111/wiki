@@ -1,12 +1,5 @@
----
-layout: post
-title: "hello world"
-date: 2012-07-03 09:01
-comments: true
-categories: 
----
 
-###bash shell编程
+#bash shell编程
 
 ####特殊变量
 	$0:脚本执行文件名
