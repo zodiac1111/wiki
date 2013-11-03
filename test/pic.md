@@ -38,8 +38,16 @@
 
 ## svg矢量图
 
+### 本地
 ```
 [[/res/d.svg]]
 ```
 
 [[/res/d.svg]]
+
+### 外部
+linux发行版 
+```
+[[http://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg]]
+```
+[[http://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg]]
