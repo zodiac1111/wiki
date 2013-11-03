@@ -4,7 +4,7 @@
 * [[sys-manage/home]] 系统运行和维护
 * [[dev/home]] 开发 
 * [[gcc/home]] gcc 相关
-* [[debug]]
+* [[debug/home]]
 * [[blog/home]] 博客程序相关操作
 * [web](web/home) 
 * [实用工具](utility/home) 
