@@ -7,6 +7,6 @@
 * [[blog/home]]
 * [web](web/home) 
 * [实用工具](utility/index) 
-* [avr](avr/index) 
+* [avr](avr/home) 
 * [about](about) 
 * [示例页面](test/home)
