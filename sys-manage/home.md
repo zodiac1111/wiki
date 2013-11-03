@@ -22,6 +22,3 @@
 * [[chkconfig]] chkconfig添加自定义服务
 * [[minix-setup]] minix初识
 * 待定
-
-linux发行版 
-[[http://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg]]
