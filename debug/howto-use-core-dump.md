@@ -1,5 +1,6 @@
 # 段错误调试神器 - Core Dump详解
 怎样调试段错误
+> 来源: * 段错误调试神器 - Core Dump详解 http://www.embeddedlinux.org.cn/html/jishuzixun/201307/08-2594.html
 # 一、前言:
 有的程序可以通过编译, 但在运行时会出现Segment fault(段错误). 这通常都是指针错误引起的. 但这不像编译错误一样会提示到文件某一行, 而是没有任何信息, 使得我们的调试变得困难起来. 
 
