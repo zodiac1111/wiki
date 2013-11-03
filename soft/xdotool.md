@@ -9,7 +9,8 @@
 xdotool mousemove 807 380 
 xdotool click 1 
 ```
-#### 获得x window information 窗口信息
+#### 获得窗口信息
+x window information 
 ```
 xwininfo
 ```
