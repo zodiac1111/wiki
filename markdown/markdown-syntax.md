@@ -1,12 +1,4 @@
----
-layout: post
-title: "hello world"
-date: 2012-07-03 09:01
-comments: true
-categories: 
----
-
-markdown/博客 基本语法
+# markdown 基本语法
 代码1:
 	``` [language] [title] [url] [link text]
 	code snippet
