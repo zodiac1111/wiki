@@ -1,6 +1,6 @@
 # wiki
 
-* [软件使用](soft/home) 
+* [[soft/home]] 软件使用
 * [系统运行和维护](sys-manage/home) 
 * [开发](dev/home) 
 * [gcc](gcc/index)
