@@ -20,8 +20,6 @@
 * [[devel_env]]
 * [[driver]] 驱动学习
 * [[fedora-crosstool]]
-* [[gcc_defined_marcos]]
-* [[gcc-warning-option]] 实用gcc警告选项
 * [[Install-Jlink-on-fedora_x86_64]]
 * [[jlink-linux-x86_64]]
 * [[kernel-arguments]]
