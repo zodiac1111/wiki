@@ -1,10 +1,4 @@
----
-layout: post
-title: "hello world"
-date: 2012-07-03 09:01
-comments: true
-categories: 
----
+
 
 ip   和子网掩码   执行这个命令：<br>
 	<code>ifconfig   eth0   10.10.10.131   netmask   255.255.255.0 </code><br>
@@ -18,8 +12,6 @@ ip   和子网掩码   执行这个命令：<br>
 	ifconfig   eth0  192.168.1.103   netmask   255.255.255.0
  	route   add   default   gw   192.168.1.253
 
-
-<font stysl color=8888>asda
 
 
 如果执行了上面的命令后，还不可以的话，可能就是你的网卡没有激活， 
