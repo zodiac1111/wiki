@@ -1,6 +1,6 @@
 # 目录
 
-* [[dns]] 使dns协议运行在tcp之上,而非udp
+* [[dns_crypt]] 使dns协议运行在tcp之上,而非udp,可以加密dns协议
 * [[rtpheader]]
 * [[web-font]] 网页文字排版字体
 * [[web_js]] 验证表单
