@@ -76,7 +76,7 @@ Issue all the warnings demanded by strict ISO C and ISO C++.
 
 ## -Wshadow
 当局部变量遮蔽(shadow)了参数、全局变量或者是其他局部变量时，该警告选项会给我们以警告信息。例如:
-```
+```c
 // test_shadow.c
 int g;
 int main(int argc,char **argv)
@@ -88,7 +88,7 @@ int main(int argc,char **argv)
 ```
 ##inline
 -Winline 让 gcc 对标志成 inline 但不能被替换的函数给出警告信息以及不能替换的原因。如下面例子，它使用了可变长度数据类型变量作为参数：
-```
+```c
 inline int func(int *a)
 {
     int c = 4;
