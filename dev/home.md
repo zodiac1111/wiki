@@ -3,7 +3,6 @@
 
 * [[customize-mini2440-softwave]] 配置 mini2440 软件部分 
 * [[linux-system-call]] Linux系统调用列表
-* [[web-font]] 网页文字排版字体
 * [[crt]] crt C run time
 * [[exe-code]] c语言可执行程序各个段
 * [[c-bit]] c语言中bit操作,置0/1/反位, 取位
