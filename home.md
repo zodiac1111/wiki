@@ -1,6 +1,6 @@
 # 知识管理
 
-* [[soft/]] 软件使用
+* [[soft/home]] 软件使用
 * [[sys-manage/home]] 系统运行和维护
 * [[dev/home]] 开发 
 * [[gcc/home]] gcc 相关
