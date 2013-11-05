@@ -66,7 +66,7 @@ RFC编号 标题
 2018 TCP 选择的确认选项
 2085 使用重播防止的 HMAC-MD5 IP 身份验证
 2104 HMAC：邮件身份验证的键控哈希计算
-2131 动态主机配置协议 (DHCP)
+2131 Dynamic Host Configuration Protocol(DHCP) 动态主机配置协议 
 2136 域名系统中的动态更新 (DNS UPDATE)
 2181 对 DNS 规范的说明
 2236 网际分组管理协议 (IGMP) 版本 2
