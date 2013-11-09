@@ -21,4 +21,5 @@
 * [[kindle]]
 * [[chkconfig]] chkconfig添加自定义服务
 * [[minix-setup]] minix初识
+* [[ls_time]] ls -l输出时间格式
 * 待定
