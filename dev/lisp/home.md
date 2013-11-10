@@ -16,3 +16,16 @@
 ;作为main入口,简单的打印一下
 (main 1)
 ```
+编译
+```bash
+buildapp --output b.out --load './1.lisp' --entry main
+```
+* `--output` 指明输出的二进制可执行程序的名字
+* `--load` 加载lisp文件
+* `--entry` 指明入口(?)
+
+接下来就可以运行了
+```
+$ ./b.out 
+你好世界
+```
