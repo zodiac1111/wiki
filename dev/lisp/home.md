@@ -4,7 +4,7 @@
 
 ## sbcl
 
-## buildapp
+## buildapp二进制可执行文件
 
 使用buildapp编译lisp成为成为二进制(不可移植,效率不高,不依赖lisp环境)
 
