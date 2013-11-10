@@ -34,5 +34,5 @@
 * [[i2c-stub]] 应用层调试/开发i2c驱动使用的测试桩(stub)
 * [[i2c-driver-model]] 简单分析i2c驱动模型
 * [[driver-adxl345]] mini2440(s3c2440)应用层驱动adxl345(i2c/smbus)
-* [[lisp/home]]  lisp相关
+* [[devlisp/home]]  lisp相关
 * 待定
