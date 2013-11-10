@@ -16,7 +16,9 @@
 ;作为main入口,简单的打印一下
 (main 1)
 ```
+
 编译
+
 ```bash
 buildapp --output b.out --load './1.lisp' --entry main
 ```
@@ -24,7 +26,7 @@ buildapp --output b.out --load './1.lisp' --entry main
 * `--load` 加载lisp文件
 * `--entry` 指明入口(?)
 
-接下来就可以运行了
+运行
 ```
 $ ./b.out 
 你好世界
