@@ -37,11 +37,18 @@ $ ./b.out
 #文件操作
 ##打开
 ```cl
-;;;;最简单
+;;;;最简单,其返回"文件描述符"
 (open "/path/to/file.txt")
 ;;;; 打开不存在的文件,返回nil
 (open "/path/to/file.txt" :if-does-not-exist NIL)
-;;;;显示一下
+```
+## 读文件
+```cl
+;;;; 用read-line 显示一下
 (format t "~a~%" (read-line (open "1.c")))
-
+```
+## 写文件
+```cl
+;;;;以写方式打开
+（open “file_w” :direction :output :if-exists :supersede）
 ```
