@@ -40,6 +40,7 @@ $ ./b.out
 * http://blog.csdn.net/keyboardota/article/details/8307317
 * http://blog.chinaunix.net/uid-24774106-id-3483262.html
 * http://www.gigamonkeys.com/book/files-and-file-io.html (EN,详细)
+* http://ezekiel.vancouver.wsu.edu/~cs355/lectures/lisp/io.pdf (EN,详细)
 
 ##打开
 ```cl
