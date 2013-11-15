@@ -50,7 +50,7 @@ $ ./b.out
 ## 写文件
 ```cl
 ;;;;以写方式打开/新建
-（open "new_file" :direction :output :if-exists :supersede）
+(open "new_file" :direction :output :if-exists :supersede)
 ;;;;
 (defun write-file (filename content)
     (let ((stream (open filename :direction :output
