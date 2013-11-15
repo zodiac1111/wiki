@@ -51,4 +51,11 @@ $ ./b.out
 ```cl
 ;;;;以写方式打开/新建
 （open "new_file" :direction :output :if-exists :supersede）
+;;;;
+(defun write-file (filename content)
+    (let ((stream (open filename :direction :output
+                               :if-exists :supersede)))
+            (format stream "~A ~%" content)
+            (close stream)))
+(write-file "file_w" "hello world")
 ```
