@@ -33,3 +33,15 @@ buildapp --output b.out --load './1.lisp' --entry main
 $ ./b.out 
 你好世界
 ```
+
+#文件操作
+##打开
+```cl
+;;;;最简单
+(open "/path/to/file.txt")
+;;;; 打开不存在的文件,返回nil
+(open "/path/to/file.txt" :if-does-not-exist NIL)
+;;;;显示一下
+(format t "~a~%" (read-line (open "1.c")))
+
+```
