@@ -49,6 +49,6 @@ $ ./b.out
 ```
 ## 写文件
 ```cl
-;;;;以写方式打开
-（open “file_w” :direction :output :if-exists :supersede）
+;;;;以写方式打开/新建
+（open "new_file" :direction :output :if-exists :supersede）
 ```
