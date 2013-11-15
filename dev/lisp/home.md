@@ -35,6 +35,9 @@ $ ./b.out
 ```
 
 #文件操作
+参考:
+* http://blog.csdn.net/keyboardota/article/details/8307317
+
 ##打开
 ```cl
 ;;;;最简单,其返回"文件描述符"
