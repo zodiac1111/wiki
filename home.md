@@ -9,5 +9,6 @@
 * [web](web/home) 
 * [实用工具](utility/home) 
 * [avr](avr/home) 
+* [[fun]] 有趣的东西
 * [about](about) 
 * [示例页面](test/home)
