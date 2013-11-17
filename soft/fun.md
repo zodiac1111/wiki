@@ -9,3 +9,4 @@
 
 * 簡易線上LED計算工具 http://led.linear1.org/1led.wiz
 * avr项目peter 有价值的参考网站 http://homepage.hispeed.ch/peterfleury/
+* minecraft控制现实世界的红石灯 http://www.hive76.org/real-life-replica-redstone-lamp-controlled-by-a-raspberry-pi
