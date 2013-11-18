@@ -18,7 +18,7 @@ tcpdump -XX -i wlan
 * -i 指定interface
 
 ##### 指定端口
-指定端口,例如抓取web数据
+指定端口,例如抓取web数据,80端口
 ```bash
 tcpdump -A -i wlan0 port 80
 ```
