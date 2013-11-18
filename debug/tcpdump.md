@@ -15,3 +15,10 @@ tcpdump -XX -i wlan
 ```
 * -w write,写原始数据到文件
 * -i 指定interface
+
+##### 指定端口,例如抓取web数据
+```bash
+tcpdump -A -i wlan0 port 80
+```
+* -A ascii 以ascii码显示,http是基于可见的字符的
+* port 80 指定抓取80端口的数据.
