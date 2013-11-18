@@ -13,3 +13,5 @@ tcpdump -XX -i wlan
 ```bash
  tcpdump -w save.pcap -i eth0
 ```
+* -w write,写原始数据到文件
+* -i 指定interface
