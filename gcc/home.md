@@ -5,3 +5,4 @@
 * [[useful-gcc-flags]] gcc有用的flag
 * [[gcc_defined_marcos]] 查看gcc定义的宏
 * [[gcc-warning-option]] 实用gcc警告选项
+* [[oop-c]] 面向对象c编程
