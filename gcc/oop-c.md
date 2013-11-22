@@ -1,6 +1,6 @@
 # c实现部分的面向对象特征
 
-# 具有默认参数到函数
+# 具有默认参数的函数
 ```c
 #include <stdio.h>
 #define SUM(a,...) sum( a, (5, ##__VA_ARGS__) )
