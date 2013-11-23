@@ -45,9 +45,10 @@ iso c `__typeof__`
       a=b;           \
       b=_t;}
 ```
+
 ```c
-     #define max(a,b) \
-       ({ typeof (a) _a = (a); \
-           typeof (b) _b = (b); \
-         _a > _b ? _a : _b; })
+#define max(a,b) \
+  ({ typeof (a) _a = (a); \
+     typeof (b) _b = (b); \
+     _a > _b ? _a : _b; })
 ```
