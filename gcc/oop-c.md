@@ -29,3 +29,13 @@ int main()
   return 0;
 }
 ```
+
+#得到变量类型 typeof
+参考资料:http://module77.is-programmer.com/posts/22102.html
+一个实用例子:
+```c
+#define SWAP(a,b) {  \
+      typeof(a) _t=a;\
+      a=b;           \
+      b=_t;}
+```
