@@ -32,7 +32,9 @@ int main()
 
 #得到变量类型 typeof
 
-参考资料:http://module77.is-programmer.com/posts/22102.html
+参考资料:
+* http://module77.is-programmer.com/posts/22102.html
+* http://gcc.gnu.org/onlinedocs/gcc/Typeof.html
 
 iso c `__typeof__`
 
@@ -42,4 +44,10 @@ iso c `__typeof__`
       typeof(a) _t=a;\
       a=b;           \
       b=_t;}
+```
+```c
+     #define max(a,b) \
+       ({ typeof (a) _a = (a); \
+           typeof (b) _b = (b); \
+         _a > _b ? _a : _b; })
 ```
