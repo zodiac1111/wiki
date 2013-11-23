@@ -68,7 +68,7 @@ gnuc `__auto_type`
 参考:
 * http://stackoverflow.com/questions/479207/function-overloading-in-c __builtin_types_compatible_p
 * http://www.cnblogs.com/zenny-chen/p/3303560.html __builtin_choose_expr和_Generic
-* http://locklessinc.com/articles/overloading/ 另外到方式实现函数重载
+* http://locklessinc.com/articles/overloading/ 多种另外的方式实现函数重载 **推荐** 
 
 
 `__builtin_types_compatible_p` 在运行期根据参数列表中到参数类型进行重载.
