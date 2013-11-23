@@ -61,3 +61,72 @@ gnuc `__auto_type`
            __auto_type _b = (b); \
          _a > _b ? _a : _b; })
 ```
+
+# 函数重载
+
+参考:http://stackoverflow.com/questions/479207/function-overloading-in-c
+
+在运行期根据参数列表中到参数类型进行重载.
+
+```c
+void printA(int a){
+printf("Hello world from printA : %d\n",a);
+}
+
+void printB(const char *buff){
+printf("Hello world from printB : %s\n",buff);
+}
+
+#define Max_ITEMS() 6, 5, 4, 3, 2, 1, 0 
+#define __VA_ARG_N(_1, _2, _3, _4, _5, _6, N, ...) N
+#define _Num_ARGS_(...) __VA_ARG_N(__VA_ARGS__) 
+#define NUM_ARGS(...) (_Num_ARGS_(_0, ## __VA_ARGS__, Max_ITEMS()) - 1) 
+#define CHECK_ARGS_MAX_LIMIT(t) if(NUM_ARGS(args)>t)
+#define CHECK_ARGS_MIN_LIMIT(t) if(NUM_ARGS(args))
+#define print(x , args ...) \
+CHECK_ARGS_MIN_LIMIT(1) printf("error");fflush(stdout); \
+CHECK_ARGS_MAX_LIMIT(4) printf("error");fflush(stdout); \
+({ \
+if (__builtin_types_compatible_p (typeof (x), int)) \
+printA(x, ##args); \
+else \
+printB (x,##args); \
+})
+
+int main(int argc, char** argv) {
+    int a=0;
+    print(a);
+    print("hello");
+    return (EXIT_SUCCESS);
+}
+```
+
+自己到简化(待验证).
+
+* 似乎仅支持内建类型,
+* 简化仅支持固定数量参数
+* 千万小心宏展开
+
+```c
+#define print(x) 					\
+	if (__builtin_types_compatible_p (typeof (x), int)) \
+		printA(x); \
+	else \
+		printB(x); \
+
+void printA(int a)
+{
+	printf("Hello world from printA : %d\n",a);
+}
+
+void printB(const char *buff)
+{
+	printf("Hello world from printB : %s\n",buff);
+}
+int main(int argc, char** argv) {
+	int a=0;
+	print(a);
+	print("hello");
+	return 0;
+}
+```
