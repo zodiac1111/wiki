@@ -108,25 +108,38 @@ int main(int argc, char** argv) {
 * 千万小心宏展开
 
 ```c
-#define print(x) 					\
-	if (__builtin_types_compatible_p (typeof (x), int)) \
-		printA(x); \
-	else \
-		printB(x); \
+#define print(x) 															\
+	if (__builtin_types_compatible_p (__typeof__ (x), int)) {				\
+		print_int(x); 														\
+	}else if(__builtin_types_compatible_p (__typeof__ (x), char*)){	\
+		print_char(x); 														\
+	}else if(__builtin_types_compatible_p (__typeof__ (x), long)){	\
+		print_long(x); 														\
+	}else{																	\
+		print_other(x); 													\
+	}
 
-void printA(int a)
+void print_int(int a)
 {
-	printf("Hello world from printA : %d\n",a);
+	printf("Hello world from print_int : %d\n",a);
+}
+void print_long(long a)
+{
+	printf("Hello world from print_long : %x\n",a);
+}
+void print_char(const char *buff)
+{
+	printf("Hello world from print_char : %s\n",buff);
 }
 
-void printB(const char *buff)
-{
-	printf("Hello world from printB : %s\n",buff);
-}
 int main(int argc, char** argv) {
 	int a=0;
+	long b=2;
+	char *str="string";
 	print(a);
-	print("hello");
+	print(str);
+	print(b);
 	return 0;
 }
+
 ```
