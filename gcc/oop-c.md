@@ -65,9 +65,16 @@ gnuc `__auto_type`
 
 # 函数重载
 
-参考:http://stackoverflow.com/questions/479207/function-overloading-in-c
+参考:
+* http://stackoverflow.com/questions/479207/function-overloading-in-c __builtin_types_compatible_p
+* http://www.cnblogs.com/zenny-chen/p/3303560.html __builtin_choose_expr和_Generic
 
-在运行期根据参数列表中到参数类型进行重载.
+
+`__builtin_types_compatible_p` 在运行期根据参数列表中到参数类型进行重载.
+
+配合`__builtin_choose_expr`可以实现编译器展开. c11标准支持`_Generic`等于两者之和.
+
+
 
 ```c
 void printA(int a){
