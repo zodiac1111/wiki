@@ -34,6 +34,8 @@ int main()
 
 参考资料:http://module77.is-programmer.com/posts/22102.html
 
+iso c `__typeof__`
+
 一个实用例子:
 ```c
 #define SWAP(a,b) {  \
