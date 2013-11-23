@@ -38,6 +38,7 @@ int main()
 
 iso c `__typeof__`
 
+
 一个实用例子:
 ```c
 #define SWAP(a,b) {  \
@@ -51,4 +52,12 @@ iso c `__typeof__`
   ({ typeof (a) _a = (a); \
      typeof (b) _b = (b); \
      _a > _b ? _a : _b; })
+```
+
+gnuc `__auto_type`
+```c
+#define max(a,b) \
+       ({ __auto_type _a = (a); \
+           __auto_type _b = (b); \
+         _a > _b ? _a : _b; })
 ```
