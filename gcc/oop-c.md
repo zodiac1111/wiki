@@ -35,6 +35,7 @@ int main()
 参考资料:
 * http://module77.is-programmer.com/posts/22102.html
 * http://gcc.gnu.org/onlinedocs/gcc/Typeof.html
+* http://gcc.gnu.org/onlinedocs/gcc-3.3.5/gcc/Other-Builtins.html
 
 iso c `__typeof__`
 
@@ -142,4 +143,20 @@ int main(int argc, char** argv) {
 	return 0;
 }
 
+```
+例子3
+```c
+#define foo(x)                                                  \
+({                                                           \
+  typeof (x) tmp;                                             \
+  if (__builtin_types_compatible_p (typeof (x), long double)) \
+    tmp = foo_long_double (tmp);                              \
+  else if (__builtin_types_compatible_p (typeof (x), double)) \
+    tmp = foo_double (tmp);                                   \
+  else if (__builtin_types_compatible_p (typeof (x), float))  \
+    tmp = foo_float (tmp);                                    \
+  else                                                        \
+    abort ();                                                 \
+  tmp;                                                        \
+})
 ```
