@@ -35,3 +35,4 @@
 * [[bash]] bash脚本使用笔记
 * [[xdotool]] Linux下的按键精灵
 * [[tesseract]] tesseract 光学识别文字.验证码等
+* [[curl]] web操作库,下载文件之类的
