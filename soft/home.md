@@ -34,3 +34,4 @@
 * [[boost-xtime]] boost 1.50 以前 一个bug
 * [[bash]] bash脚本使用笔记
 * [[xdotool]] Linux下的按键精灵
+* [[tesseract]] tesseract 光学识别文字.验证码等
