@@ -35,4 +35,5 @@
 * [[i2c-driver-model]] 简单分析i2c驱动模型
 * [[driver-adxl345]] mini2440(s3c2440)应用层驱动adxl345(i2c/smbus)
 * [[/dev/lisp/home]]  lisp相关
+* [[struct-termios]] 串口结构体
 * 待定
