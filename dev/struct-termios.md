@@ -21,4 +21,4 @@ struct termios {
 ```
 # DESCRIPTION 说明
 
-The *termios* general terminal interface provides an interface to asynchronous communications devices. The N*u*TCRACKER Platform supports this interface for serial communication ports. This interface is also supported on the console window although the hardware-specific parts obviously do not apply.
+The *termios* general terminal interface provides an interface to asynchronous communications devices. The N *u* TCRACKER Platform supports this interface for serial communication ports. This interface is also supported on the console window although the hardware-specific parts obviously do not apply.
