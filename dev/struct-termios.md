@@ -5,3 +5,5 @@
 data structure containing terminal information 
 
 包含的终端信息的数据结构
+
+#SYNOPSIS 概要
