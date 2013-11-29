@@ -22,3 +22,9 @@ struct termios {
 # DESCRIPTION 说明
 
 The *termios* general terminal interface provides an interface to asynchronous communications devices. The NuTCRACKER Platform supports this interface for serial communication ports. This interface is also supported on the console window although the hardware-specific parts obviously do not apply.
+
+*termios* 的通用终端接口提供了一个接口的异步通信设备
+
+## Canonical Mode Input Processing  典型模式输入处理
+
+## Non-canonical Mode Input Processing 非典型模式输入处理
