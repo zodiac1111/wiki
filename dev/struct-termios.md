@@ -6,7 +6,7 @@ data structure containing terminal information
 
 包含的终端信息的数据结构
 
-#SYNOPSIS 概要
+# SYNOPSIS 概要
 ```c
 #include <termios.h>
 struct termios {
@@ -19,3 +19,6 @@ struct termios {
 	speed_t c_ospeed;
 };
 ```
+# DESCRIPTION 说明
+
+The `termios` general terminal interface provides an interface to asynchronous communications devices. The NuTCRACKER Platform supports this interface for serial communication ports. This interface is also supported on the console window although the hardware-specific parts obviously do not apply.
