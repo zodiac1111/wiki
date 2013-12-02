@@ -3,3 +3,5 @@
 * ieee标准浮点(float)数[在线分析](http://babbage.cs.qc.cuny.edu/IEEE-754/),[在线转换](http://www.binaryconvert.com/)(外部链接).
 * [[online-IEEE-754-Analysis]] 浮点数分析
 * [[utility/aircrack-ng]] 无线网络(破解)工具
+* crc在线计算 http://depa.usst.edu.cn/chenjq/www2/SDesign/JavaScript/CRCcalculation.htm
+* md5在线加密
