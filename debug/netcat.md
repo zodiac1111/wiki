@@ -33,6 +33,6 @@ echo -ne "123456\r\n" | nc -u 127.0.0.1 8001
 ncat -l -p 8002 -vv  -k
 ```
 * `-l` listen 监听
-* `-p 8000` port指定端口,ncat无需-p,
+* `-p 8002` port指定端口,ncat无需-p,
 * `-vv` 显示详细信息
 * `-k` keep保持连接,ncat实现.nc不可
