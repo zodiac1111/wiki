@@ -36,5 +36,6 @@
 * [[driver-adxl345]] mini2440(s3c2440)应用层驱动adxl345(i2c/smbus)
 * [[/dev/lisp/home]]  lisp相关
 * [[struct-termios]] 串口结构体
+* [[socket]] socket编程相关经验
 * 常用密码学算法 https://github.com/B-Con/crypto-algorithms
 * 待定
