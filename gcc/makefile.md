@@ -1,5 +1,7 @@
 # makefile
 
+# 约定的变量
+
 * 一些约定的变量 http://hi.baidu.com/qruzstqoyhbeisd/item/13837831a59527617c034bcd
  * CC 与 CXX 编译器
  * CPPFLAGS  预处理阶段的选项
