@@ -5,4 +5,6 @@
  * CPPFLAGS  预处理阶段的选项
  * CFLAGS 与 CXXFLAGS 编译器的选项
  * LDFLAGS  连接器的选项
- * 
+
+* http://learn.akae.cn/media/ch22s03.html
+* http://www.gnu.org/software/make/manual/html_node/Implicit-Variables.html
