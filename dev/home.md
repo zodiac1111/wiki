@@ -39,5 +39,10 @@
 * [[socket]] socket编程相关经验
 * [[elf]] 文件定义
 * [Linux多线程编程的高效开发](http://www.embeddedlinux.org.cn/html/xianchengjincheng/201310/24-2658.html) 多线程,pthread 
+* [C语言中的内存使用](http://www.embeddedlinux.org.cn/html/xinshourumen/201310/24-2657.html)
+* [Linux下常用压缩格式的压缩与解压方法](http://www.embeddedlinux.org.cn/html/xinshourumen/201310/23-2656.html)
+* [堆、栈及静态数据区详解](http://www.embeddedlinux.org.cn/html/xinshourumen/201310/23-2655.html) 
+* [U-Boot下的I2C设备的读写](http://www.embeddedlinux.org.cn/html/jishuzixun/201310/23-2653.html)
+* [Linux系统中core文件调试方法](http://www.embeddedlinux.org.cn/html/jishuzixun/201310/23-2654.html)
 * 常用密码学算法 https://github.com/B-Con/crypto-algorithms
 * 待定
