@@ -37,5 +37,6 @@
 * [[/dev/lisp/home]]  lisp相关
 * [[struct-termios]] 串口结构体
 * [[socket]] socket编程相关经验
+* [[elf]] 文件定义
 * 常用密码学算法 https://github.com/B-Con/crypto-algorithms
 * 待定
