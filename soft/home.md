@@ -37,3 +37,4 @@
 * [[tesseract]] tesseract 光学识别文字.验证码等
 * [[curl]] web操作库,下载文件之类的
 * [[captcha]] 简单验证码识别程序框架
+* http://wiki.avplayer.org/Avbot qq群irc连通
