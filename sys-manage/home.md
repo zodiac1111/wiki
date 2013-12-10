@@ -22,4 +22,5 @@
 * [[chkconfig]] chkconfig添加自定义服务
 * [[minix-setup]] minix初识
 * [[ls_time]] ls -l输出时间格式
+* debian [安装kde](http://www.binarytides.com/install-kde-plasma-desktop-on-debian-7-wheezy/)
 * 待定
