@@ -28,5 +28,5 @@ Massif
 ```
 valgrind --tool=massif ./test
 ```
-tui:`ms_print massif.out.<pid>`
-gui:http://stackoverflow.com/questions/1623771/valgrind-massif-tool-output-graphical-interface
+* tui:`ms_print massif.out.<pid>`
+* gui:http://stackoverflow.com/questions/1623771/valgrind-massif-tool-output-graphical-interface
