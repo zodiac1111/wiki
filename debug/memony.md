@@ -21,3 +21,11 @@ http://blog.chinaunix.net/uid-8625039-id-3583808.html
 ```
 valgrind --tool=helgrind --log-file=helgrind.log ./helgrind_test
 ```
+
+# 堆内存监视
+
+Massif
+```
+valgrind --tool=massif ./test
+```
+gui :http://stackoverflow.com/questions/1623771/valgrind-massif-tool-output-graphical-interface
