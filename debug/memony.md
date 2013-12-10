@@ -1,5 +1,7 @@
 # 开发用内存检测工具
 
+# 内存检测
+
 * DrMemory:http://www.ibm.com/developerworks/cn/linux/1309_liuming_drmemory/index.html?ca=drs-
 * Valgrind 一系列内存检测工具
 
@@ -11,3 +13,11 @@ callgrind_annotate --auto=yes callgrind.out.7850 >log
 vi log
 ```
 图形化的 KCachegrind
+
+# 线程竞态检测
+
+http://blog.chinaunix.net/uid-8625039-id-3583808.html
+
+```
+valgrind --tool=helgrind --log-file=helgrind.log ./helgrind_test
+```
