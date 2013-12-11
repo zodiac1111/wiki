@@ -33,7 +33,7 @@
 
 解释:
 
-success成功,其他失败
+* ret:success-成功,其他-失败
 
 ## 读取
 
@@ -168,6 +168,96 @@ success成功,其他失败
 	  ]
 	}
 
+# 设备
+## 设置
+### 客户端请求(post)
+### 服务器响应(json)
+## 读取
+### 客户端请求(post)
+
+	file=device&action=get
+
+解释
+* file=device 设备
+* action=set 设置
+
+### 服务器响应(json)
+
+	{"type":["Inverter","Environment","Ammeter","Combiner box"],"data":[[{"enable":"1","addr":"1","type":"0","name":"INV1-1"},{"enable":"0","addr":"2","type":"0","name":"INV1-2"},{"enable":"1","addr":"3","type":"0","name":"INV1-3"}],[{"enable":"1","addr":"1","type":"0","name":"INV2-1"},{"enable":"1","addr":"2","type":"0","name":"INV2-2"},{"enable":"1","addr":"3","type":"0","name":"INV2-3"}],[{"enable":"0","addr":"10066","type":"4","name":"Meter"},{"enable":"1","addr":"c1123","type":"3","name":"ENV"}],[{"enable":"1","addr":"1","type":"2","name":"Other1"}]]}
+
+解释
+	{
+	  "type": [ //设备类型list
+	    "Inverter",
+	    "Environment",
+	    "Ammeter",
+	    "Combiner box"
+	  ],
+	  "data": [ //设备数据,二维数组,第一维通道,第二维设备
+	    [ //通道1
+	      { //设备1
+	        "enable": "1", //使能 1-使能,0-不使能
+	        "addr": "1", //地址,一个通道地址应该(但是不必须)唯一,电表的可能很长,但是使用序号识别设备好.
+	        "type": "0", //类型,序号.从设备类型list中获得
+	        "name": "INV1-1" //设备名称
+	      },
+	      { //设备2
+	        "enable": "0",
+	        "addr": "2",
+	        "type": "0",
+	        "name": "INV1-2"
+	      },
+	      { //设备3
+	        "enable": "1",
+	        "addr": "3",
+	        "type": "0",
+	        "name": "INV1-3"
+	      }
+	    ],
+	    [ //通道2
+	      { //设备1
+	        "enable": "1",
+	        "addr": "1",
+	        "type": "0",
+	        "name": "INV2-1"
+	      },
+	      { //设备2
+	        "enable": "1",
+	        "addr": "2",
+	        "type": "0",
+	        "name": "INV2-2"
+	      },
+	      {
+	        "enable": "1",
+	        "addr": "3",
+	        "type": "0",
+	        "name": "INV2-3"
+	      }
+	    ],
+	    [ //通道3
+	      { //设备1
+	        "enable": "0",
+	        "addr": "10066",
+	        "type": "4",
+	        "name": "Meter"
+	      },
+	      { //设备2
+	        "enable": "1",
+	        "addr": "c1123",
+	        "type": "3",
+	        "name": "ENV"
+	      }
+	    ],
+	    [ //通道4
+	      { //设备1
+	        "enable": "1",
+	        "addr": "1",
+	        "type": "2",
+	        "name": "Other1"
+	      }
+	    ]
+	  ]
+	}
 # 数据中心
 ## 设置
 ### 客户端请求(post)
