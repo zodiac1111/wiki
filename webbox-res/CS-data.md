@@ -15,7 +15,7 @@
 
 * file=uart 串口
 * action=set 设置串口参数
-* 实际数据数组1
+* 实际数据数组,元素1
  * COM=1 串口号 base on 1 
  * baud_rate=0 模特率,list中的序号 base on 0
  * data_bits=1 数据位,list中的序号 base on 0
@@ -24,7 +24,7 @@
  * timeout=500 超时,字符串,单位毫秒 
  * collect_interval=1000 单位毫秒
  * each_frm_stop_time=50 单位毫秒
-* 数组2.定义同上
+* 元素2.定义同上
 
 
 ### 服务器响应(json)
