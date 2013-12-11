@@ -178,6 +178,7 @@
 	file=device&action=get
 
 解释
+
 * file=device 设备
 * action=set 设置
 
@@ -186,6 +187,7 @@
 	{"type":["Inverter","Environment","Ammeter","Combiner box"],"data":[[{"enable":"1","addr":"1","type":"0","name":"INV1-1"},{"enable":"0","addr":"2","type":"0","name":"INV1-2"},{"enable":"1","addr":"3","type":"0","name":"INV1-3"}],[{"enable":"1","addr":"1","type":"0","name":"INV2-1"},{"enable":"1","addr":"2","type":"0","name":"INV2-2"},{"enable":"1","addr":"3","type":"0","name":"INV2-3"}],[{"enable":"0","addr":"10066","type":"4","name":"Meter"},{"enable":"1","addr":"c1123","type":"3","name":"ENV"}],[{"enable":"1","addr":"1","type":"2","name":"Other1"}]]}
 
 解释
+
 	{
 	  "type": [ //设备类型list
 	    "Inverter",
@@ -258,13 +260,15 @@
 	    ]
 	  ]
 	}
+
 # 数据中心
 ## 设置
 ### 客户端请求(post)
 
-	file=centers&action=get
+	file=centers&action=set
 
 解释
+
 * file=centers 数据中心
 * action=set 设置
 
@@ -273,7 +277,6 @@
 ### 客户端请求(post)
 
 	file=centers&action=get
-
 
 解释
 
