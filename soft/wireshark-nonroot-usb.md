@@ -54,3 +54,23 @@ dumpcap -D
 7. any (Pseudo-device that captures on all interfaces)
 8. lo
 ```
+
+# 采集usb
+
+上面的
+
+1.可能需要加载usb监视模块
+```
+sudo modprobe usbmon
+```
+```
+sudo modprobe usbmon
+```
+和
+
+5.Grant capabilities with setcap:设置能力
+```
+sudo setcap\
+ cap_net_raw,cap_net_admin,cap_dac_override+eip\
+ /usr/bin/dumpcap
+```
