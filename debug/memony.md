@@ -2,8 +2,10 @@
 
 # 内存检测
 
+
+
 * DrMemory:http://www.ibm.com/developerworks/cn/linux/1309_liuming_drmemory/index.html?ca=drs-
-* Valgrind 一系列内存检测工具
+* Valgrind 一系列内存检测工具 介绍 http://www.osfans.org/category/tools/
 * Purify IBM $3000+ ...
 
 # 调用检测
