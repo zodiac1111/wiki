@@ -70,12 +70,12 @@ make: *** [testmxml] 错误   2
 使用方法：
 
 1、添加
-```
+```c
 #include <mxml.h>
 ```
 2、增加编译参数
 例如
-```
+```bash
 arm-linux-gcc -o test test.c -lmxml -lpthread  
 ```
 其中`-lpthread`是必选参数，因为libmxml库用到了pthread库
