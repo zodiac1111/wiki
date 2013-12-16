@@ -50,13 +50,17 @@ make: *** [testmxml] 错误   2
 * libmxml.so 动态链接库的链接文件，链接到libmxml.so.1.4
 * libmxml.so.1 动态链接库的链接文件，链接到libmxml.so.1.4
 * libmxml.so.1.4 动态链接库本体
+
 把库文件复制到交叉编译链所在位置：
+
 我之所以没有在configure的时候直接设定prefix，是因为 eabi生成的编译链的文件结构有点诡异，头的存放目录和库文件存放目录不在一个父目录下。
+
  mxml.h         → /usr/local/arm/4.3.2/arm-none-linux-gnueabi/libc/usr/include
  libmxml.a      → /usr/local/arm/4.3.2/arm-none-linux-gnueabi/libc/armv4t/lib
  libmxml.so     → /usr/local/arm/4.3.2/arm-none-linux-gnueabi/libc/armv4t/lib  
  libmxml.so.1   → /usr/local/arm/4.3.2/arm-none-linux-gnueabi/libc/armv4t/lib  
  libmxml.so.1.4 → /usr/local/arm/4.3.2/arm-none-linux-gnueabi/libc/armv4t/lib  
+
 对于其他版本的 gcc，路径很可能不一样。在这里我们应该灵活处理。
 在交叉编译链所在目录中：
 搜索头文件最多的目录，用来存放头文件。这个目录下一般有很多子文件夹。如果不行，就在每个有头文件存放的位置都放一个mxml.h，以保证编译器能找到该文件
