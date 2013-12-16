@@ -98,7 +98,6 @@ TAGS: arm-linux1 geek7 libmxml1
 #  其他
 
 自己的项目,编译minixml后库文件和头文件放置的位置:
-```
-mxml.h -> /opt/rt9x5/arm-linux-uclibcgnueabi/usr/arm-unknown-linux-uclibcgnueabi/include
-libmxml.so.1.5 -> /opt/rt9x5/arm-linux-uclibcgnueabi/usr/arm-unknown-linux-uclibcgnueabi/lib
-```
+
+* mxml.h -> /opt/rt9x5/arm-linux-uclibcgnueabi/usr/arm-unknown-linux-uclibcgnueabi/include
+* libmxml.so.1.5 -> /opt/rt9x5/arm-linux-uclibcgnueabi/usr/arm-unknown-linux-uclibcgnueabi/lib
