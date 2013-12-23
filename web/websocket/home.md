@@ -4,3 +4,4 @@
 * IBM讲解 WebSocket  http://www.ibm.com/developerworks/cn/web/1112_huangxa_websocket/
 * 使用chrome开发者工具调试 http://blog.kaazing.com/2012/05/09/inspecting-websocket-traffic-with-chrome-developer-tools/
 * libwebsockets 纯c实现的库 http://libwebsockets.org/trac/libwebsockets/wiki
+* [[note]] 其他一些笔记
