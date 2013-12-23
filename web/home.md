@@ -9,3 +9,4 @@
 * [[redirector]] chorme 重定向插件
 * [[reveal-js]] 漂亮的开源页面翻页特效
 * [[rfc]] 网络方面一些有用的RFC
+* [[websocket/home]] websocket
