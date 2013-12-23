@@ -6,3 +6,4 @@
 * libwebsockets 纯c实现的库 http://libwebsockets.org/trac/libwebsockets/wiki
 * 介绍译文 http://www.html5rocks.com/zh/tutorials/websockets/basics/
 * [[note]] 其他一些笔记
+* WebSocket 的单线协议（客户端与服务器之间的握手和数据传输）是 [RFC6455](http://tools.ietf.org/html/rfc6455)
