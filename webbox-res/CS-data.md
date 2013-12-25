@@ -103,7 +103,7 @@
 # 网络
 ## 设置
 ### 客户端请求(post)
-	file=net&action=set
+	file=net&action=set&eth=0&mode=0&ip=192.168.1.2&mask=255.255.255.0&gateway=192.168.1.12&dns=192.168.1.12&eth=1&mode=1&ip=192.168.2.22&mask=255.255.255.0&gateway=192.168.2.1&dns=192.168.2.1
 解释:
 
 ### 服务器响应(json)
