@@ -103,15 +103,56 @@
 # 网络
 ## 设置
 ### 客户端请求(post)
+	file=net&action=set
+解释:
+
 ### 服务器响应(json)
+
+	{"ret":"success"}
+
 ## 读取
 ### 客户端请求(post)
+	file=net&action=get
+解释:
+* file=net 网络
+* action=get 读取数据
+
 ### 服务器响应(json)
+
+	{"mode":["dhcp","manual"],"data":[{"mode":"0","ip":"192.168.1.2","mask":"255.255.255.0","gateway":"192.168.1.12","dns":"192.168.1.12"},{"mode":"1","ip":"192.168.2.22","mask":"255.255.255.0","gateway":"192.168.2.1","dns":"192.168.2.1"}]}
+
+解释:
+
+	{
+	  "mode": [
+		"dhcp",
+		"manual"
+	  ],
+	  "data": [
+		{
+		  "mode": "0",
+		  "ip": "192.168.1.2",
+		  "mask": "255.255.255.0",
+		  "gateway": "192.168.1.12",
+		  "dns": "192.168.1.12"
+		},
+		{
+		  "mode": "1",
+		  "ip": "192.168.2.22",
+		  "mask": "255.255.255.0",
+		  "gateway": "192.168.2.1",
+		  "dns": "192.168.2.1"
+		}
+	  ]
+	}
 
 # 通道
 ## 设置
 ### 客户端请求(post)
+	file=channel&action=set&enable=1&name=com1&type=0&port=1&protocol=0&enable=0&name=-&type=0&port=-&protocol=0&enable=0&name=-&type=0&port=-&protocol=0&enable=0&name=-&type=0&port=-&protocol=0&enable=0&name=-&type=0&port=-&protocol=0&enable=0&name=-&type=0&port=-&protocol=0&enable=0&name=-&type=0&port=-&protocol=0&enable=0&name=-&type=0&port=-&protocol=0&enable=0&name=-&type=0&port=-&protocol=0&enable=0&name=-&type=0&port=-&protocol=0&enable=0&name=-&type=0&port=-&protocol=0&enable=0&name=-&type=0&port=-&protocol=0&enable=0&name=-&type=0&port=-&protocol=0&enable=0&name=-&type=0&port=-&protocol=0&enable=0&name=-&type=0&port=-&protocol=0&enable=0&name=-&type=0&port=-&protocol=0
+
 ### 服务器响应(json)
+	{"ret":"success"}
 ## 读取
 ### 客户端请求(post)
 
@@ -171,10 +212,13 @@
 # 设备
 ## 设置
 ### 客户端请求(post)
+	file=device&action=set&channel=0&dev=1,1,1,INV1-1&dev=0,2,1,INV1-2&dev=1,3,1,INV1-3&dev=0,111111,4,asda&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&channel=1&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&channel=2&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&channel=3&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&channel=4&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&channel=5&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&channel=6&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&channel=7&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&channel=8&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&channel=9&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&channel=10&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&channel=11&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&channel=12&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&channel=13&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&channel=14&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&channel=15&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-&dev=0,-,0,-
+
 ### 服务器响应(json)
+	{"ret":"success"}
+
 ## 读取
 ### 客户端请求(post)
-
 	file=device&action=get
 
 解释
@@ -183,8 +227,7 @@
 * action=set 设置
 
 ### 服务器响应(json)
-
-	{"type":["Inverter","Environment","Ammeter","Combiner box"],"data":[[{"enable":"1","addr":"1","type":"0","name":"INV1-1"},{"enable":"0","addr":"2","type":"0","name":"INV1-2"},{"enable":"1","addr":"3","type":"0","name":"INV1-3"}],[{"enable":"1","addr":"1","type":"0","name":"INV2-1"},{"enable":"1","addr":"2","type":"0","name":"INV2-2"},{"enable":"1","addr":"3","type":"0","name":"INV2-3"}],[{"enable":"0","addr":"10066","type":"4","name":"Meter"},{"enable":"1","addr":"c1123","type":"3","name":"ENV"}],[{"enable":"1","addr":"1","type":"2","name":"Other1"}]]}
+	{"type":["系统汇总","逆变器","汇流箱","环境监测仪","电表","直流配电柜","交流配电柜","光伏跟踪系统","电池管理系统","断路器","变压器","高压柜","电能质量","综保装置"],"data":[[{"enable":"1","addr":"1","type":"1","name":"INV1-1"},{"enable":"0","addr":"2","type":"1","name":"INV1-2"},{"enable":"1","addr":"3","type":"1","name":"INV1-3"},{"enable":"0","addr":"111111","type":"4","name":"asda"},{"enable":"0","addr":"-","type":"0","name":"-"},{"enable":"0","addr":"-","type":"0","name":"-"},...,{"enable":"0","addr":"-","type":"0","name":"-"}]]}
 
 解释
 
@@ -265,7 +308,7 @@
 ## 设置
 ### 客户端请求(post)
 
-	file=centers&action=set
+	file=centers&action=set&center=1&enable=1&center_type=0&mode=gprs&center_ip=60.12.137.82&port=803&interval=5&start_hour=5&end_hour=19&center=2&enable=1&center_type=0&mode=gprs&center_ip=60.12.137.81&port=80&interval=5&start_hour=5&end_hour=19&center=3&enable=1&center_type=1&mode=gprs&center_ip=60.12.137.83&port=80&sn=1&sn_pwd=123456&aes=123456&interval=3&start_hour=5&end_hour=19&center=4&enable=1&center_type=1&mode=gprs&center_ip=60.12.137.83&port=80&sn=2&sn_pwd=123456&aes=123456&interval=5&start_hour=5&end_hour=19&center=5&enable=1&center_type=2&mode=gprs&center_ip=60.12.137.83&port=80&projectid=xxxx&gatewayid=xxxx&md5=TODO&heartbear=5&reportperiod=1&reconnect_time=2&interval=5&start_hour=05&end_hour=18
 
 解释
 
@@ -273,6 +316,8 @@
 * action=set 设置
 
 ### 服务器响应(json)
+	{"ret":"success"}
+
 ## 读取
 ### 客户端请求(post)
 
@@ -284,32 +329,81 @@
 * action=get 读取数据
 
 ### 服务器响应(json)
-
-	{"mode":["gprs","ethernet"],"center_type":["Chint Monitor Center","Golden-sun Data Center","Building Dep"],"data":[{"mode":"0","center_type":"0","center_ip":"60.12.137.82","port":"80","interval":"5","sn_pwd":"123456","aes":"123456","start_hour":"5","end_hour":"19"}]}
+	{"mode":["gprs","ethernet"],"center_type":["Chint Monitor Center","Golden-sun Data Center","Building Dep"],"data":[{"enable":"1","mode":"0","center_type":"0","center_ip":"60.12.137.82","port":"803","interval":"5","start_hour":"5","end_hour":"19"},{"enable":"1","mode":"0","center_type":"0","center_ip":"60.12.137.81","port":"80","interval":"5","start_hour":"5","end_hour":"19"},{"enable":"1","mode":"0","center_type":"1","center_ip":"60.12.137.83","port":"80","interval":"3","start_hour":"5","end_hour":"19","sn":"1","sn_pwd":"123456","aes":"123456"},{"enable":"1","mode":"0","center_type":"1","center_ip":"60.12.137.83","port":"80","interval":"5","start_hour":"5","end_hour":"19","sn":"2","sn_pwd":"123456","aes":"123456"},{"enable":"1","mode":"0","center_type":"2","center_ip":"60.12.137.83","port":"80","interval":"5","start_hour":"05","end_hour":"18","projectid":"xxxx","gatewayid":"xxxx","reconnect_time":"2","reportperiod":"1","heartbear":"5"}]}
 
 解释
 
 	{
-	  "mode": [ // 模式list,供填充,通过无线gprs或者有线以太网
-	    "gprs",
-	    "ethernet"
+	  "mode": [
+		"gprs",
+		"ethernet"
 	  ],
-	  "center_type": [ //数据中心list,供填充,可选中自,金太阳,住建部
-	    "Chint Monitor Center",
-	    "Golden-sun Data Center",
-	    "Building Dep"
+	  "center_type": [
+		"Chint Monitor Center",
+		"Golden-sun Data Center",
+		"Building Dep"
 	  ],
-	  "data": [ //实际数据部分(该数组目前就一个元素,即仅关联一个数据中心)
-	    {
-	      "mode": "0", // 序号,取模式list中的模式. base on 0
-	      "center_type": "0", // 序号,取数据中心list中的哪个数据中心. base on 0
-	      "center_ip": "60.12.137.82", // 数据中心ip
-	      "port": "80", // 数组中心端口
-	      "interval": "5", //数值,数据上传周期(分钟).5(1)~60.整数
-	      "sn_pwd": "123456",//字符,单元密码
-	      "aes": "123456", //字符,aes密码(chitic数据中心不需要?)
-	      "start_hour": "5", //开始上传时刻(小时),24小时制,当地时间.取 0-23
-	      "end_hour": "19" //停止上传时刻(小时),24小时制,当地时间.取0-23 必须大于开始时刻
-	    }
+	  "data": [
+		{
+		  "enable": "1",
+		  "mode": "0",
+		  "center_type": "0",
+		  "center_ip": "60.12.137.82",
+		  "port": "803",
+		  "interval": "5",
+		  "start_hour": "5",
+		  "end_hour": "19"
+		},
+		{
+		  "enable": "1",
+		  "mode": "0",
+		  "center_type": "0",
+		  "center_ip": "60.12.137.81",
+		  "port": "80",
+		  "interval": "5",
+		  "start_hour": "5",
+		  "end_hour": "19"
+		},
+		{
+		  "enable": "1",
+		  "mode": "0",
+		  "center_type": "1",
+		  "center_ip": "60.12.137.83",
+		  "port": "80",
+		  "interval": "3",
+		  "start_hour": "5",
+		  "end_hour": "19",
+		  "sn": "1",
+		  "sn_pwd": "123456",
+		  "aes": "123456"
+		},
+		{
+		  "enable": "1",
+		  "mode": "0",
+		  "center_type": "1",
+		  "center_ip": "60.12.137.83",
+		  "port": "80",
+		  "interval": "5",
+		  "start_hour": "5",
+		  "end_hour": "19",
+		  "sn": "2",
+		  "sn_pwd": "123456",
+		  "aes": "123456"
+		},
+		{
+		  "enable": "1",
+		  "mode": "0",
+		  "center_type": "2",
+		  "center_ip": "60.12.137.83",
+		  "port": "80",
+		  "interval": "5",
+		  "start_hour": "05",
+		  "end_hour": "18",
+		  "projectid": "xxxx",
+		  "gatewayid": "xxxx",
+		  "reconnect_time": "2",
+		  "reportperiod": "1",
+		  "heartbear": "5"
+		}
 	  ]
 	}
