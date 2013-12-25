@@ -45,4 +45,5 @@
 * [U-Boot下的I2C设备的读写](http://www.embeddedlinux.org.cn/html/jishuzixun/201310/23-2653.html)
 * [Linux系统中core文件调试方法](http://www.embeddedlinux.org.cn/html/jishuzixun/201310/23-2654.html)
 * 常用密码学算法 https://github.com/B-Con/crypto-algorithms
+* [[colored-svn-diff]]对 svn diff 着色
 * 待定
