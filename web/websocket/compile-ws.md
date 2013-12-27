@@ -10,7 +10,9 @@ git clone git://git.libwebsockets.org/libwebsockets
 2013-12-21 11:18 Andy Green         o [master] [origin/HEAD] [origin/master] unify all pollfd lock management
 ```
 
-# cmake
+# 编译
+
+ 使用cmake -> make 编译
 
 ## 默认
 安装到本机默认未知 /usr/local/bin/
@@ -27,3 +29,9 @@ cd cmake
 cmake .. -DCMAKE_INSTALL_PREFIX:PATH=../_install 
 make && make install
 ```
+
+# 测试
+
+运行`libwebsockets-test-server`.
+
+浏览器打开`127.0.0.1:7681`打开测试页面.
