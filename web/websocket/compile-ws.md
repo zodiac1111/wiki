@@ -35,3 +35,14 @@ make && make install
 运行`libwebsockets-test-server`.
 
 浏览器打开`127.0.0.1:7681`打开测试页面.
+
+# 独立
+
+上一步编译出so文件.使用so文件.
+
+`test-server`下是一些测试程序.
+
+独立测试:
+```
+gcc  test-server.c -lwebsockets
+```
