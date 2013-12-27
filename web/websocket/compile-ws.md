@@ -34,6 +34,8 @@ make && make install
 
 # 测试
 
+`_install/share/libwebsockets-test-server1目录是web页面目录.
+
 运行`libwebsockets-test-server`.
 
 浏览器打开`127.0.0.1:7681`打开测试页面.
