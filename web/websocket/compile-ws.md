@@ -17,7 +17,7 @@ git clone git://git.libwebsockets.org/libwebsockets
  使用cmake -> make 编译
 
 ## 默认
-安装到本机默认未知 /usr/local/bin/
+安装到本机默认位置 /usr/local/bin/
 ```
 cd cmake
 cmake ..
