@@ -34,7 +34,7 @@ make && make install
 
 # 测试
 
-`_install/share/libwebsockets-test-server1目录是web页面目录.
+`_install/share/libwebsockets-test-server`1目录是web页面目录.
 
 运行`libwebsockets-test-server`.
 
