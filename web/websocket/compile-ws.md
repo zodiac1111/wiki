@@ -50,3 +50,34 @@ make && make install
 ```
 gcc  test-server.c -lwebsockets
 ```
+
+#交叉编译(arm/mini2440)
+
+按照官方的说法:
+```
+cmake .. -DCMAKE_INSTALL_PREFIX:PATH=/usr \
+	 -DCMAKE_TOOLCHAIN_FILE=../cross-arm-linux-gnueabihf.cmake \
+	 -DWITHOUT_EXTENSIONS=1 -DWITH_SSL=0
+```
+
+改几个参数:
+
+* CMAKE_TOOLCHAIN_FILE 这个我喜欢安装在 ../_install目录.方便复制
+* CMAKE_TOOLCHAIN_FILE 这个就原来那样,但是修改cross-arm-linux-gnueabihf.cmake文件内容.指定自己的编译器.
+
+编辑 cross-arm-linux-gnueabihf.cmake 文件,修改 CROSS_PATH 指向编译器根目录.
+
+执行cmake .
+
+说UseRPMTools问题,我不需要.注销掉
+```
+CMake Error at CMakeLists.txt:762 (INCLUDE):
+  include could not find load file:
+
+    UseRPMTools
+```
+CMakeLists.txt:762这里找到,注销这个判断.
+
+make
+
+make install
