@@ -3,7 +3,7 @@
 >  http://www.im87.cn/blog/256
 
 淘一族(www.taoyizu.net)改版中遇到个奇怪的问题，有个页面需要用jquery的ajax获取数据，在chrome和ff下都能正确获取并显示数据，代码段如下：
-```
+```js
 [
 
 $.ajax({
