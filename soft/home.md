@@ -40,3 +40,4 @@
 * http://wiki.avplayer.org/Avbot qq群irc连通
 * [[minixml]] 小型xml库,适合嵌入式系统
 * [[aliyun-mirrors]] linux发行版镜像 阿里云镜像
+* [Linux安装软件](/res/img/install-software.jpg)
