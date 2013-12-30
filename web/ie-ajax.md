@@ -1,5 +1,7 @@
 # ie ajax 错误
 
+参考
+
 > * http://www.im87.cn/blog/256
 > * http://www.iefans.net/ajax-ie-baocuo-c00ce56e/
 
