@@ -10,3 +10,4 @@
 * [[reveal-js]] 漂亮的开源页面翻页特效
 * [[rfc]] 网络方面一些有用的RFC
 * [[web/websocket/home]] websocket
+* [[ie-ajax]] 错误,不能识别.但是抓包网络传输正常
