@@ -8,7 +8,7 @@
 
 需要(?) 各种模块
 
-php.ini TZ timezone 时区需要设置 RPC 或者 上海
+php.ini TZ timezone 时区需要设置 RPC 或者 上海`date.timezone = Asia/Shanghai `
 
 includes/setting.php 需要写权限
 
