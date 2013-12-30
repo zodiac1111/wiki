@@ -13,3 +13,5 @@
 includes/settings.php 需要写权限
 
 可选 需要 tmp log 目录 且有权限
+
+必须加密页面 和 url 否则很危险
