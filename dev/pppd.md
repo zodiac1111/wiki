@@ -27,6 +27,6 @@ noccp
 defaultroute
 ipcp-accept-local
 ipcp-accept-remote
-connect 'chat -s -v -f /etc/ppp/peers/chat-tdscdma-connect'
-disconnect 'chat -s -v -f /etc/ppp/peers/chat-tdscdma-disconnect'
+connect 'chat -s -v -f /etc/ppp/peers/chat-tdscdma-connect'  # 连接脚本
+disconnect 'chat -s -v -f /etc/ppp/peers/chat-tdscdma-disconnect' #断线脚本
 ```
