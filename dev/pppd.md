@@ -7,7 +7,7 @@ pppd call <脚本名称>
 pppd call tdscdma &
 ```
 脚本内容
-```
+```bash
 # cat tdscdma
 nodetach
 lock
