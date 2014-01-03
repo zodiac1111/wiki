@@ -26,9 +26,9 @@ pppd call tdscdma &
 # cat tdscdma
 nodetach
 lock
-/dev/ttyS4
-115200
-user "cmnet"
+/dev/ttyS4 # 串口设备文件 
+115200 # 波特率
+user "cmnet" #APN
 crtscts
 modem
 hide-password
