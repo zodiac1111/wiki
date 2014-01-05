@@ -10,3 +10,18 @@
 
 * Linux C编程一站式学习 http://learn.akae.cn/media/ch22s03.html
 * gnu组织 http://www.gnu.org/software/make/manual/html_node/Implicit-Variables.html
+
+# 条件语句 逻辑运算
+
+条件语句
+```
+ifeq ($(ARCH),arm)
+  CC=arm-linux-gcc
+endif
+
+ifeq ($(CC),gcc)
+  libs=$(libs_for_gcc)
+else
+  libs=$(normal_libs)
+endif
+```
