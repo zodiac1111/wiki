@@ -16,7 +16,9 @@ The CGI was not CGI/1.1 compliant.
 
 故障排除
 
-确认cgi可以执行: 在target上执行cgi程序,比如 1.cgi
+确认cgi可以执行: 在target上执行cgi程序,比如 1.cgi.
+
+如果不能执行.则.比如需要`chmod +x`等.
 
 默认boa配置文件`/etc/boa/boa.conf`使能boa执行cgi程序
 
