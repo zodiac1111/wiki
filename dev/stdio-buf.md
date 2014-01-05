@@ -3,7 +3,7 @@
 ```
 fflush
 
-setvbuf(clog_fd, (char *)NULL, _IOLBF, 0);
+setvbuf(FILE_PTR, (char *)NULL, _IOLBF, 0);
 
 ```
 相关:
