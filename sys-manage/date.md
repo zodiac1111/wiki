@@ -10,7 +10,7 @@ echo GMT0BST > /etc/TZ
 
 通过时间戳设置时间
 ```
-date -s @<时间戳>
+date +s @<时间戳>
 ```
 
 查看时区
