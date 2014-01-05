@@ -23,4 +23,5 @@
 * [[minix-setup]] minix初识
 * [[ls-time]] ls -l输出时间格式
 * debian [安装kde](http://www.binarytides.com/install-kde-plasma-desktop-on-debian-7-wheezy/)
+* [[date]] linux 时间
 * 待定
