@@ -47,4 +47,5 @@
 * 常用密码学算法 https://github.com/B-Con/crypto-algorithms
 * [[colored-svn-diff]]对 svn diff 着色
 * [[pppd]] pppd over gprs(2g)
+* [[stdio-buf]] 标准输入输出缓冲
 * 待定
