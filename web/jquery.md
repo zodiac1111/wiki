@@ -1,5 +1,6 @@
 # jQuery 使用笔记
 
+## 对象
 jQuery对象和 DOM Element区分
 
 * http://www.w3school.com.cn/jquery/jquery_ref_dom_element_methods.asp
