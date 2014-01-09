@@ -25,4 +25,5 @@ http://www.westnet.com/~gsmith/content/linux-pdflush.htm
 >To find out what the default value is on a particular server, run:
 >
 >`sysctl vm.swappiness`
+>
 >The value is also located in `/proc/sys/vm/swappiness`.
