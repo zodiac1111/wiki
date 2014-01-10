@@ -1,5 +1,6 @@
 # mate的一些配置
 
+# 查看
 `dconf-editor`
 
 > http://www.reddit.com/r/linux4noobs/comments/1kss09/keyboard_shortcuts_command/
