@@ -16,4 +16,4 @@ dconf reset -f /org/mate/desktop/keybindings/
 
 # 文件位置
 
-a single file located at ~/.config/dconf/user - you cannot edit that directly, but either via dconf-editor or 
+a single file located at `~/.config/dconf/user` - you cannot edit that directly, but either via dconf-editor or 
