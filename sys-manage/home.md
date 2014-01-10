@@ -25,4 +25,5 @@
 * debian [安装kde](http://www.binarytides.com/install-kde-plasma-desktop-on-debian-7-wheezy/)
 * [[date]] linux 时间
 * [[swap]] 使用
+* [[mate-config]] mate一些桌面的配置
 * 待定
