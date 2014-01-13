@@ -41,5 +41,6 @@
 * [[minixml]] 小型xml库,适合嵌入式系统
 * [[aliyun-mirrors]] linux发行版镜像 阿里云镜像
 * [[tar]]
+* [[dd]] 查看进度
 * **在Linux下安装软件:**
 * ![Linux安装软件](/res/img/install-software.jpg)
