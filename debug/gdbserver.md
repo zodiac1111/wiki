@@ -12,7 +12,7 @@
 
 ## 解压缩
 
-  $ tar jxvf gdb-7.2.tar.bz2
+    $ tar jxvf gdb-7.2.tar.bz2
 
 注：小技巧：Linux下一般压缩文件后缀为.tar.bz2和.tar.gz，它们解压命令有两三个选项是一致的：
 xf（v），前者再加上j选项，后者再加上z选项。
