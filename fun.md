@@ -21,6 +21,7 @@
 ## x!=x
 
 > * http://blog.chinaunix.net/uid-23629988-id-3126229.html
+> * http://blog.chinaunix.net/uid-23629988-id-3149291.html
 
 ```c
 #include <stdlib.h>
@@ -30,7 +31,8 @@
 int main(void)
 {
     float x;
-    int a = 0xffffffff;
+    int a = 1/0.0;//inf
+    int a = 0/0.0;//nan
     memcpy(&x, &a, sizeof(x));
     if (x == x) {
         printf("Equal\n");
