@@ -29,38 +29,20 @@
 
 int main(void)
 {
-    float x = 0xffffffff;
-
-    if (x == x) {
-        printf("Equal\n");
-    }
-    else {
-        printf("Not equal\n");
-    }
-
-    if (x >= 0) {
-        printf("x(%f) >= 0\n", x);
-    }
-    else if (x < 0) {
-        printf("x(%f) < 0\n", x);
-    }
-
+    float x;
     int a = 0xffffffff;
     memcpy(&x, &a, sizeof(x));
     if (x == x) {
         printf("Equal\n");
-    }
-    else {
+    } else {
         printf("Not equal\n");
     }
 
-    if (x >= 0) {
+    if (x >= 0.0) {
         printf("x(%f) >= 0\n", x);
-    }
-    else if (x < 0) {
+    } else if (x < 0.0) {
         printf("x(%f) < 0\n", x);
-    }
-    else {
+    } else {
         printf("Surprise x(%f)!!!\n", x);
     }
 
