@@ -35,4 +35,5 @@ xf（v），前者再加上j选项，后者再加上z选项。
 In file included from gdb.c:19:0:
 defs.h:105:17: fatal error: bfd.h: 没有那个文件或目录
 ```
+
     $ make install
