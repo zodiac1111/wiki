@@ -1,0 +1,1 @@
+> * http://fanqiang.chinaunix.net/a1/b4/20020606/060200245.html
