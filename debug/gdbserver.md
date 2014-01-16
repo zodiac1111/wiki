@@ -28,7 +28,7 @@ xf（v），前者再加上j选项，后者再加上z选项。
 注：
 * `--target=arm-linux`意思是说目标平台是运行于ARM体系结构的linux内核；
 * `--program-prefix=arm-linux-`是指生成的可执行文件的前缀，比如arm-linux-gdb，
-* `--prefix`是指生成的可执行文件安装在哪个目录，这个目录需要根据实际情况作选择。如果该目录不存在，会自动创建，当然，权限足够的话。
+* `--prefix`是指生成的可执行文件安装在哪个目录，这个目录需要根据实际情况作选择。如果该目录不存在，会自动创建，当然，权限足够的话。必须是绝对路径
 
 ## 编译、安装
 
@@ -39,5 +39,7 @@ xf（v），前者再加上j选项，后者再加上z选项。
 In file included from gdb.c:19:0:
 defs.h:105:17: fatal error: bfd.h: 没有那个文件或目录
 ```
+安装这个包(debian)`binutils-dev`
+
 
     $ make install
