@@ -1,6 +1,6 @@
 > * http://fanqiang.chinaunix.net/a1/b4/20020606/060200245.html
 ```
- stty -a  
+$ stty -a  
 Speed 9600 baud; line =0;intr= DEL;quit = ^;erase = ^h;kill =^U; eof =    
 ^d;start=^q;stop=^s  
 -parenb -parodd cs8 -cstopb -hupcl cread -clocal -loblk  
