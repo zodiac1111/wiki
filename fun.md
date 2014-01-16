@@ -17,3 +17,54 @@
 ## 神
 
 * 混乱c语言大赛, 8086个半字节的虚拟机.(最小的虚拟机) http://ioccc.org/2013/cable3/hint.html
+
+## x!=x
+
+> * http://blog.chinaunix.net/uid-23629988-id-3126229.html
+
+```c
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+
+int main(void)
+{
+    float x = 0xffffffff;
+
+    if (x == x) {
+        printf("Equal\n");
+    }
+    else {
+        printf("Not equal\n");
+    }
+
+    if (x >= 0) {
+        printf("x(%f) >= 0\n", x);
+    }
+    else if (x < 0) {
+        printf("x(%f) < 0\n", x);
+    }
+
+    int a = 0xffffffff;
+    memcpy(&x, &a, sizeof(x));
+    if (x == x) {
+        printf("Equal\n");
+    }
+    else {
+        printf("Not equal\n");
+    }
+
+    if (x >= 0) {
+        printf("x(%f) >= 0\n", x);
+    }
+    else if (x < 0) {
+        printf("x(%f) < 0\n", x);
+    }
+    else {
+        printf("Surprise x(%f)!!!\n", x);
+    }
+
+
+    return 0;
+}
+```
