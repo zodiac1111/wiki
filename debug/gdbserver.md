@@ -2,6 +2,7 @@
 
 > * http://www.latelee.org/using-gnu-linux/94-cross-compile-gdb-and-gdbserver.html
 > * http://blog.csdn.net/subfate/article/details/6119477
+> * `gdb-7.6/gdb/gdbserver/README`
 
 ## 下载gdb
 
