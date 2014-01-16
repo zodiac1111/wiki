@@ -52,3 +52,27 @@ int main(void)
     return 0;
 }
 ```
+非法的另一种来源
+```c
+#include <stdlib.h>
+#include <stdio.h>
+
+int main(void)
+{
+    float x;
+
+    while (1) {
+        scanf("%f", &x);
+        printf("x is %f\n", x);
+    }
+
+    return 0;
+}
+```
+```bash
+[fgao@fgao-vm-fc13 test]$ ./a.out
+inf
+x is inf
+nan
+x is nan
+```
