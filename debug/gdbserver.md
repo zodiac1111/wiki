@@ -25,7 +25,11 @@ xf（v），前者再加上j选项，后者再加上z选项。
 
     $./configure --target=arm-linux --program-prefix=arm-linux- --prefix=/home/gotohell/gdb-build
 
-注：--target=arm-linux意思是说目标平台是运行于ARM体系结构的linux内核；--program-prefix=arm-linux-是指生成的可执行文件的前缀，比如arm-linux-gdb，--prefix是指生成的可执行文件安装在哪个目录，这个目录需要根据实际情况作选择。如果该目录不存在，会自动创建，当然，权限足够的话。
+注：
+* `--target=arm-linux`意思是说目标平台是运行于ARM体系结构的linux内核；
+* `--program-prefix=arm-linux-`是指生成的可执行文件的前缀，比如arm-linux-gdb，
+* `--prefix`是指生成的可执行文件安装在哪个目录，这个目录需要根据实际情况作选择。如果该目录不存在，会自动创建，当然，权限足够的话。
+
 ## 编译、安装
 
     $ make
