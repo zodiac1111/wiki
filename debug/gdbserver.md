@@ -39,7 +39,16 @@ xf（v），前者再加上j选项，后者再加上z选项。
 In file included from gdb.c:19:0:
 defs.h:105:17: fatal error: bfd.h: 没有那个文件或目录
 ```
-安装这个包(debian)`binutils-dev`
+安装这个包(debian)`binutils-dev`可以解决
+
+```
+In file included from ../libdecnumber/decNumber.h:37:0,
+                 from ../libdecnumber/dpd/decimal128.h:58,
+                 from dfp.c:29:
+../libdecnumber/decContext.h:54:61: fatal error: gstdint.h: 没有那个文件或目录
+
+```
+
 
 
     $ make install
