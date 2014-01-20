@@ -78,3 +78,7 @@ x is nan
 ```
 一种判断方式
 http://www.opensource.apple.com/source/Libc/Libc-167/gen.subproj/ppc.subproj/isinf.c
+
+# 弧度是什么
+
+[[/res/img/How_radians_work.gif]]
