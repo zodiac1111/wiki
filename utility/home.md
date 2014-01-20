@@ -8,3 +8,4 @@
 * aes
  * [aes在线加密解密](http://www.seacha.com/tools/aes.html?src=1&mode=CBC&keylen=128&key=0000000000123456&iv=0000000000123456&bpkcs=&session=IBJlcvyr1tJzgIxi4TFa&aes=a73479046ca18aae9e29a5e73e4aa3b0&encoding=hex&type=0)
  * http://aes.online-domain-tools.com/
+* 学习shell(bash) 分析shell文件/语句 http://www.explainshell.com/
