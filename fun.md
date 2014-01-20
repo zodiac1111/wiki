@@ -82,5 +82,6 @@ http://www.opensource.apple.com/source/Libc/Libc-167/gen.subproj/ppc.subproj/isi
 # 数学
 
 ## 弧度是什么
-[[/res/img/How_radians_work.gif]]
-一些其他数学方面的图片 https://en.wikipedia.org/wiki/User:LucasVB/Gallery
+* [[/res/img/How_radians_work.gif]]
+* 一些其他数学方面的图片 https://en.wikipedia.org/wiki/User:LucasVB/Gallery
+* 此人网站 http://1ucasvb.tumblr.com/
