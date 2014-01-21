@@ -3,6 +3,7 @@
 ## 主站软件 
 
 支持平台:
+
 1. Windows
 2. Linux (x86 32-bit)
 3. Solaris (SPARC)
