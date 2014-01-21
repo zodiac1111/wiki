@@ -48,4 +48,5 @@
 * [[colored-svn-diff]]对 svn diff 着色
 * [[pppd]] pppd over gprs(2g)
 * [[stdio-buf]] 标准输入输出缓冲
+* [list-for-developers](https://noggin.intel.com/sites/default/files/Intel-Recommended-Reading-List_1H14_0.pdf) intel 开发者书单
 * 待定
