@@ -28,5 +28,5 @@ tcpdump -A -i wlan0 port 80
 # webbox监视gprs报文例子
 
 ```
-tcpdump -w save.pcap -i ppp0 port 80
+tcpdump -w save.pcap -i ppp0 port 80 -vv
 ```
