@@ -24,3 +24,9 @@ tcpdump -A -i wlan0 port 80
 ```
 * -A ascii 以ascii码显示,http是基于可见的字符的
 * port 80 指定抓取80端口的数据.
+
+# webbox监视gprs报文例子
+
+```
+tcpdump -w save.pcap -i ppp0 port 80
+```
