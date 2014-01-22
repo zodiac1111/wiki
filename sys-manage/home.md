@@ -26,4 +26,5 @@
 * [[date]] linux 时间
 * [[swap]] 使用
 * [[mate-config]] mate一些桌面的配置
+* [[clean-arp]]  清楚arp,mac地址
 * 待定
