@@ -27,4 +27,5 @@
 * [[swap]] 使用
 * [[mate-config]] mate一些桌面的配置
 * [[clean-arp]]  清除arp,mac地址
+* [[APT]] 无效的unstable
 * 待定
