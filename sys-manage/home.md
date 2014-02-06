@@ -28,4 +28,5 @@
 * [[mate-config]] mate一些桌面的配置
 * [[clean-arp]]  清除arp,mac地址
 * [[APT]] 无效的unstable
+* [[rsync]] 文件同步,复制/粘贴 本地远程同步/备份,管理
 * 待定
