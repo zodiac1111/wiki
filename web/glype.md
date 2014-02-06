@@ -1,4 +1,4 @@
-# glype 笔记
+# glype 网页代理 笔记
 
 安装 glype 
 
@@ -8,7 +8,11 @@
 
 需要(?) 各种模块
 
+php问题:
+
 `/etc/php.ini` TZ timezone 时区需要设置 RPC 或者 上海`date.timezone = Asia/Shanghai `
+
+glype各个页面权限
 
 includes/settings.php 需要写权限
 
