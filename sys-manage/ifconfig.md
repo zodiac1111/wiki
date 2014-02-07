@@ -1,6 +1,7 @@
 # 网络相关
 
 # ifconfig
+
 修改ip和子网掩码   执行这个命令：
 
 ```
@@ -37,6 +38,8 @@ route   add   default   gw   10.10.10.6
 	ifconfig em1:1 192.168.2.212 #em1是fedora新的对内建网卡设配命名.传统是eth0,1,..这样
 
 # network/interfaces
+
+> 参考: http://man.chinaunix.net/linux/debian/debian_learning/ch11s12.html
 
 所有网络接口
 
