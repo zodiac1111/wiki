@@ -56,16 +56,25 @@ iface lo inet loopback
 ```
 # 基本的eth0 有线接口
 # The primary network interface
+# (network broadcast 和 gateway 等 项是可选的)
 auto eth0 # 自动,名称
-iface eth0 inet static # 接口 名称 因特网 静态
+iface eth0 inet static # 接口 名称 因特网 静态(动态 dhcp)
 address 192.168.1.2 # ip地址
-gateway 192.168.1.1 # 网关
+gateway 192.168.1.1 # 网关(可选)
 netmask 255.255.255.0 # 子网掩码
 hwaddress ether 00:21:C8:17:1C:00 # MAC地址
-network 192.168.1.0 # 
-broadcast 192.168.1.255 #广播地址
-dns-nameservers 1.1.1.1 #dns服务器
-dns-search .com
+name em1 #(可选)
+#network 192.168.1.0 # (可选)
+#broadcast 192.168.1.255 #广播地址 (可选)
+dns-nameservers 1.1.1.1 #dns服务器 (可选)
+dns-search .com #(可选)
+```
+### 动态
+```
+# The first network card - this entry was created during the Debian installation
+# (network, broadcast and gateway are optional)
+auto eth0
+iface eth0 inet dhcp
 ```
 ### 虚拟有线
 ```
