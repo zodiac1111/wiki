@@ -58,4 +58,13 @@ netmask 255.255.255.0
 hwaddress ether 00:21:C8:17:1C:00
 #network 192.168.1.0
 #broadcast 192.168.1.255
+
+# 设定IP地址(虚拟IP地址)####
+auto eth0:1
+iface eth0:1 inet static
+address x.x.x.x
+netmask x.x.x.x
+network x.x.x.x
+broadcast x.x.x.x
+gateway x.x.x.x
 ```
