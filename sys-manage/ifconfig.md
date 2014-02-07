@@ -41,7 +41,7 @@ route   add   default   gw   10.10.10.6
 
 > 参考:
 > * http://man.chinaunix.net/linux/debian/debian_learning/ch11s12.html
-> * http://www.cyberciti.biz/faq/setting-up-an-network-interfaces-file/
+> * http://www.cyberciti.biz/faq/setting-up-an-network-interfaces-file/ 英文,详尽
 
 所有网络接口
 
