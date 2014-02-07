@@ -69,14 +69,14 @@ name em1 #(可选)
 dns-nameservers 1.1.1.1 #dns服务器 (可选)
 dns-search .com #(可选)
 ```
-### 动态
+### 例子:动态有线
 ```
 # The first network card - this entry was created during the Debian installation
 # (network, broadcast and gateway are optional)
 auto eth0
 iface eth0 inet dhcp
 ```
-### 虚拟有线
+### 例子:虚拟有线
 ```
 # 设定IP地址(虚拟IP地址)####
 auto eth0:1 # :X 虚拟网卡
