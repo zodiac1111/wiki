@@ -40,14 +40,17 @@ route   add   default   gw   10.10.10.6
 
 所有网络接口
 
-一个简单例子
+### 例子:回环接口
 
 ```
 # 基本的回环接口
 # Configure Loopback 
 auto lo
 iface lo inet loopback
+```
 
+### 例子:静态有线
+```
 # 基本的eth0 有线接口
 # The primary network interface
 auto eth0 # 自动,名称
@@ -60,7 +63,9 @@ network 192.168.1.0 #
 broadcast 192.168.1.255 #广播地址
 dns-nameservers 1.1.1.1 #dns服务器
 dns-search .com
-
+```
+### 虚拟有线
+```
 # 设定IP地址(虚拟IP地址)####
 auto eth0:1 # :X 虚拟网卡
 iface eth0:1 inet static
