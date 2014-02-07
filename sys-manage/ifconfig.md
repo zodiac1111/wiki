@@ -46,7 +46,7 @@ route   add   default   gw   10.10.10.6
 > * http://www.cyberciti.biz/faq/setting-up-an-network-interfaces-file/ 英文,详尽
 > * `man interfaces` 英文,详细,权威
 
-配合的指令: `ifup(5)` `ifdown(5)`
+配合的指令: `ifup(8)` `ifdown(8)`
 
 ### 例子:回环接口
 
