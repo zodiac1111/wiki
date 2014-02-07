@@ -39,12 +39,14 @@ route   add   default   gw   10.10.10.6
 
 # network/interfaces
 
+所有网络接口
+
 > 参考:
 > * http://man.chinaunix.net/linux/debian/debian_learning/ch11s12.html
 > * http://www.cyberciti.biz/faq/setting-up-an-network-interfaces-file/ 英文,详尽
 > * `man interfaces` 英文,详细,权威
 
-所有网络接口
+配合的指令: `ifup(5)` `ifdown(5)`
 
 ### 例子:回环接口
 
