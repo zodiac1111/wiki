@@ -1,3 +1,6 @@
+# 网络相关
+
+# ifconfig
 修改ip和子网掩码   执行这个命令：
 
 ```
@@ -32,3 +35,27 @@ route   add   default   gw   10.10.10.6
 	/var/ftp/motor &
 
 	ifconfig em1:1 192.168.2.212 #em1是fedora新的对内建网卡设配命名.传统是eth0,1,..这样
+
+# network/interfaces
+
+所有网络接口
+
+一个简单例子
+
+```
+# 基本的回环接口
+# Configure Loopback 
+auto lo
+iface lo inet loopback
+
+# 基本的eth0 有线接口
+# The primary network interface
+auto eth0
+iface eth0 inet static
+address 192.168.1.2
+gateway 192.168.1.1
+netmask 255.255.255.0
+hwaddress ether 00:21:C8:17:1C:00
+#network 192.168.1.0
+#broadcast 192.168.1.255
+```
