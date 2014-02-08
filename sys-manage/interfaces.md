@@ -20,18 +20,20 @@
 #
 # auto lo
 # iface lo inet loopback
-# An example ethernet card setup: (broadcast and gateway are optional)
+
+# An example ethernet card setup: (broadcast and gateway are optional) 广播和网关是可选的
 #
 # auto eth0
 # iface eth0 inet static
-#     address 192.168.0.42
-#     network 192.168.0.0
+#     address 192.168.0.42 # 地址可子网掩码可以写成  address 192.168.0.42/24 这种形式
 #     netmask 255.255.255.0
-#     broadcast 192.168.0.255
-#     gateway 192.168.0.1
+#     network 192.168.0.0 #可选
+#     broadcast 192.168.0.255 #可选
+#     gateway 192.168.0.1 #可选
+
 # A more complicated ethernet setup, with a less common netmask, and a downright
 # weird broadcast address: (the "up" lines are executed verbatim when the
-# interface is brought up, the "down" lines when it's brought down)
+# interface is brought up, the "down" lines when it's brought down) 复杂的以太网设置
 #
 # auto eth0
 # iface eth0 inet static
@@ -43,8 +45,9 @@
 #     up route add default gw 192.168.1.200
 #     down route del default gw 192.168.1.200
 #     down route del -net 192.168.1.128 netmask 255.255.255.128 gw 192.168.1.2
+
 # A more complicated ethernet setup with a single ethernet card with
-# two interfaces.
+# two interfaces. 单以太网卡多接口(interface)
 # Note: This happens to work since ifconfig handles it that way, not because
 # ifup/down handles the ':' any differently.
 # Warning: There is a known bug if you do this, since the state will not
@@ -66,6 +69,7 @@
 #     address 192.168.0.200
 #     network 192.168.0.0
 #     netmask 255.255.255.0
+
 # "pre-up" and "post-down" commands are also available. In addition, the
 # exit status of these commands are checked, and if any fail, configuration
 # (or deconfiguration) is aborted. So:
@@ -76,6 +80,7 @@
 #
 # will allow you to only have eth0 brought up when the file
 # /etc/network/local-network-ok exists.
+
 # Two ethernet interfaces, one connected to a trusted LAN, the other to
 # the untrusted Internet. If their MAC addresses get swapped (because an
 # updated kernel uses a different order when probing for network cards,
@@ -90,6 +95,7 @@
 # iface eth1 inet dhcp
 #     pre-up /path/to/check-mac-address.sh eth1 AA:BB:CC:DD:EE:FF
 #     pre-up /usr/local/sbin/firewall
+
 # Two ethernet interfaces, one connected to a trusted LAN, the other to
 # the untrusted Internet, identified by MAC address rather than interface
 # name:
@@ -105,8 +111,9 @@
 #     pre-up /usr/local/sbin/enable-masq $IFACE
 # iface internet inet dhcp
 #     pre-up /usr/local/sbin/firewall $IFACE
+
 # A PCMCIA interface for a laptop that is used in different locations:
-# (note the lack of an "auto" line for any of these)
+# (note the lack 缺少 of an "auto" line for any of these)
 #
 # mapping eth0
 #    script /path/to/pcmcia-compat.sh
@@ -135,6 +142,7 @@
 #             ;;
 #     esac
 #     exit 0
+
 # An alternate way of doing the same thing: (in this case identifying
 # where the laptop is is done by configuring the interface as various
 # options, and seeing if a computer that is known to be on each particular
@@ -157,6 +165,8 @@
 # Note that the ping-places script requires the iproute package installed,
 # and the same changes to /etc/pcmcia/network are required for this as for
 # the previous example.
+
+
 # Set up an interface to read all the traffic on the network. This
 # configuration can be useful to setup Network Intrusion Detection
 # sensors in 'stealth'-type configuration. This prevents the NIDS
@@ -172,6 +182,7 @@
 #       up ip link set $IFACE promisc on
 #       down ip link set $IFACE promisc off
 #       down ifconfig $IFACE down
+
 # Set up an interface which will not be allocated an IP address by
 # ifupdown but will be configured through external programs. This
 # can be useful to setup interfaces configured through other programs,
