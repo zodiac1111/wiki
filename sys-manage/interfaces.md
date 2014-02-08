@@ -21,11 +21,13 @@
 # auto lo
 # iface lo inet loopback
 
-# An example ethernet card setup: (broadcast and gateway are optional) 广播和网关是可选的
+# An example ethernet card setup: (broadcast and gateway are optional) 
+# 广播和网关是可选的
 #
 # auto eth0
 # iface eth0 inet static
-#     address 192.168.0.42 # 地址可子网掩码可以写成  address 192.168.0.42/24 这种形式
+#     地址可子网掩码可以写成  address 192.168.0.42/24 这种形式
+#     address 192.168.0.42 
 #     netmask 255.255.255.0
 #     network 192.168.0.0 #可选
 #     broadcast 192.168.0.255 #可选
@@ -33,7 +35,8 @@
 
 # A more complicated ethernet setup, with a less common netmask, and a downright
 # weird broadcast address: (the "up" lines are executed verbatim when the
-# interface is brought up, the "down" lines when it's brought down) 复杂的以太网设置
+# interface is brought up, the "down" lines when it's brought down)
+# 复杂的以太网设置
 #
 # auto eth0
 # iface eth0 inet static
