@@ -18,3 +18,13 @@ sed  -e '/^.*#/d'  \
      -e '/^.*iface eth0.*$/{:a;N;$!ba;s/netmask/AAA/}' \
      interfaces
 ```
+
+# 例子
+
+```bash
+# 修改dhcp还是静态
+sed  -e '/^[\v\t\ ]*#/d' -e '/^.*iface eth0.*$/{s/\(static\|dhcp\)/dhcp/}' interfaces
+# 匹配行到结尾查找 修改子网掩码
+sed  -e '/^[\v\t\ ]*#/d' \
+-e '/^.*iface eth1.*$/{:a;N;$!ba;s/netmask[0-9. ]*$/netmask 192.168.2.1/}' interfaces
+```
