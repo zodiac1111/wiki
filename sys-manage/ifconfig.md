@@ -48,6 +48,10 @@ route   add   default   gw   10.10.10.6
 
 配合的指令: `ifup(8)` `ifdown(8)`
 
+### 例子:官方示例文件
+
+[[interfaces]]
+
 ### 例子:回环接口
 
 ```
