@@ -13,5 +13,8 @@ sed -e '1,5d' -e 's/test/check/' example
 http://stackoverflow.com/questions/1251999/sed-how-can-i-replace-a-newline-n/1252191#1252191
 
 ```
-sed  -e '/^.*#/d'  -e '0,/^$/d' -e '/^.*iface eth0.*$/{:a;N;$!ba;s/netmask/AAA/}' interfaces
+sed  -e '/^.*#/d'  \
+     -e '0,/^$/d' \
+     -e '/^.*iface eth0.*$/{:a;N;$!ba;s/netmask/AAA/}' \
+     interfaces
 ```
