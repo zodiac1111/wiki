@@ -6,6 +6,7 @@
 
 启动服务: `service squid restart`
 
+默认端口 3128
 
 匿名设置:
 
