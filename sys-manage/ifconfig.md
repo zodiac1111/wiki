@@ -44,6 +44,7 @@ route   add   default   gw   10.10.10.6
 > 参考:
 > * http://man.chinaunix.net/linux/debian/debian_learning/ch11s12.html
 > * http://www.cyberciti.biz/faq/setting-up-an-network-interfaces-file/ 英文,详尽
+> * http://gfrog.net/2008/01/config-file-in-debian-interfaces-1/ 中文,详细,讲解interfaces配置
 > * `man interfaces` 英文,详细,权威
 
 配合的指令: `ifup(8)` `ifdown(8)`
