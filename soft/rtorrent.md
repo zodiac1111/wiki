@@ -1,6 +1,6 @@
 # rtorrent 文本界面的bt客户端
 
-另一个选择 [transmission-daemon](transmission) 
+如果条件允许,另一个更好的选择 [transmission-daemon](transmission) 
 
 # 下载安装
 redhat.fedora.centos属于epel仓库 
