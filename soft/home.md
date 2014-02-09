@@ -44,5 +44,6 @@
 * [[dd]] 查看进度
 * [[stty]] 改变并打印终端行设置
 * [[sed]] sed 使用
+* [[rtorrent]] 文本界面的bt客户端
 * **在Linux下安装软件:**
 * ![Linux安装软件](/res/img/install-software.jpg)
