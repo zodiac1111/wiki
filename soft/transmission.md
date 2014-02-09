@@ -16,6 +16,30 @@ transmission-cli
 
 # 配置
 
+必须停掉 transmission-daemon 才能修改配置文件 
+
 配置文件` ~/.config/transmission-daemon/settings.json`
+
 默认端口 :9091
-默认白名单:本机 127.0.0.1
+
+默认白名单:本机 127.0.0.1 rpc-whitelist
+
+命令行方式指定白名单 
+
+  transmission-daemon --allowed 115.198.91.197(自己的IP)
+
+可以指定多个白名单 "rpc-whitelist": "127.0.0.1,192.168.*.*"  [参见这里](https://trac.transmissionbt.com/wiki/EditConfigFiles)
+
+使用用户名密码登陆 [参见这里](http://www.hdpfans.com/thread-11614-1-1.html)
+
+```
+"rpc-authentication-required": true,
+"rpc-enabled": true,
+"rpc-password": "密码",
+"rpc-username": "root",
+```
+```
+~ # transmission-deamon --help
+-t   --auth                             Require authentication
+-T   --no-auth                          Don't require authentication
+```
