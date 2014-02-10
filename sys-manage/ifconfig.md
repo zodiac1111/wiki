@@ -101,3 +101,7 @@ gateway x.x.x.x
 # route
 
 > 鸟哥私房菜 http://linux.vbird.org/linux_server/0140networkcommand.php#route
+
+添加默认路由
+
+   route add -net 0.0.0.0 netmask 0.0.0.0 gateway 192.168.2.1 dev eth0
