@@ -56,3 +56,5 @@ In file included from ../libdecnumber/decNumber.h:37:0,
 
 
     $ make install
+
+# 使用
