@@ -97,3 +97,7 @@ network x.x.x.x
 broadcast x.x.x.x
 gateway x.x.x.x
 ```
+
+# route
+
+> 鸟哥私房菜 http://linux.vbird.org/linux_server/0140networkcommand.php#route
