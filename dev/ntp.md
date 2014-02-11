@@ -10,6 +10,7 @@
 4. 配置文件 `/etc/ntp.conf`
 5. 国内一些ntp服务器 http://www.douban.com/note/171309770/
 6. `/etc/TZ` 一些示例时区 http://zzgthk.iteye.com/blog/1935876
+7. 鸟哥,ntp.conf配置等管理/使用工作 http://linux.vbird.org/linux_server/0440ntp.php#server_ntp.conf
 
 # 配置
 ```
@@ -27,3 +28,5 @@ make && make install
 ```
 
 # 配置文件
+
+默认路径 `/etc/ntp.conf`
