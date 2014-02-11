@@ -1,5 +1,7 @@
 # The Network Time Protocol 移植
 
+版本: 4.2.6p5	2011/12/24 稳定版
+
 # 参考
 
 1. 官网: http://www.ntp.org/
