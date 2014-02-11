@@ -17,6 +17,7 @@ CC=arm-linux-gcc \
 --prefix='/home/zodiac1111/Downloads/ntp-4.2.6p5/_install' 
 ```
 
+* prefix 必须绝对路径
 # 安装
 
 ```
