@@ -30,4 +30,8 @@ make && make install
 
 # 配置文件
 
-默认路径 `/etc/ntp.conf`
+默认路径 `/etc/ntp.conf` (暂未使用)
+
+# 使用
+
+现在使用`ntpdate <服务器名称>`指令同步
