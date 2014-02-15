@@ -6,4 +6,4 @@
 * [[avr-tutorial]] 简单入门
 * [[uart]] 知识
 * [[usbasp]] avr/usbasp下载器在linux配置使用
-* [[1-line-1602]] 一个线驱动1602LCD
+* [[1-line-1602]] 一跟线驱动1602LCD
