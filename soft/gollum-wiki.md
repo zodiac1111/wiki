@@ -85,7 +85,8 @@
     Successfully installed json-1.8.0
     Successfully installed rdoc-4.0.1
 
-发现由于的CentOS官方的rubygem版本过低,不支持.
+发现由于的CentOS官方的rubygem版本过低,不支持
+* 二进制: http://rpms.southbridge.ru/rhel6/ruby-1.9.3/x86_64/
 * 所以使用gems 1.8.7 on centos 6,过程参见 这里:http://wiki.opscode.com/display/chef/Installing+Ruby+and+dependencies+on+CentOS+and+Others 
 * 从源码编译 这里 :http://www.shiftedbytes.com/2011/04/install-ruby-192-passenger-on-centos-55.html (1.92)
 * **目前方案** 从源码编译 这里: https://github.com/imeyer/ruby-1.9.2-rpm (ruby1.9.2) **gollum现在版本需要高版本的ruby**
