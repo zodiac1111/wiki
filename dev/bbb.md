@@ -8,3 +8,5 @@
 # 参考
 * U-Boot on the BBB http://www.crashcourse.ca/wiki/index.php/U-Boot_on_the_BBB
 * beaglebone http://learn.adafruit.com/category/beaglebone
+* 谷歌论坛 https://groups.google.com/forum/#!forum/beaglebone
+* 中文,个人博客.BBB相关使用笔记分享 http://blog.csdn.net/wyt2013/
