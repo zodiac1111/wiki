@@ -74,7 +74,9 @@ checking for main() in -licui18n... no
 ***************************************************************************************
 ```
 按照提示安装对应的包即可
-
+```
+yum install libicu-devel
+```
 ## 3 rdoc编码
 
     ERROR:  While generating documentation for gollum-lib-1.0.3
