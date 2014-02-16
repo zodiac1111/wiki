@@ -51,4 +51,5 @@
 * [list-for-developers](https://noggin.intel.com/sites/default/files/Intel-Recommended-Reading-List_1H14_0.pdf) intel 开发者书单
 * [[libmodbus]] modbus库使用
 * [[ntp]] The Network Time Protocol 移植
+* [[bbb]] BeagleBoneBlack 开发板相关学习
 * 待定
