@@ -24,11 +24,11 @@
 
 如果遇到以下问题
 
-## 1 需要 gcc(编译) 
+## 需要 gcc(编译) 
  
 	yum install gcc
 
-## 2 其他一些头文件
+## 其他一些头文件
 
 ### 现象
 
@@ -56,6 +56,24 @@
 解决:
 
 	yum install ruby-devel
+### 还是头文件
+```
+[root@a ~]# gem install gollum
+Building native extensions.  This could take a while...
+ERROR:  Error installing gollum:
+	ERROR: Failed to build gem native extension.
+
+        /usr/bin/ruby extconf.rb
+checking for main() in -licui18n... no
+which: no brew in (/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin)
+checking for main() in -licui18n... no
+
+
+***************************************************************************************
+*********** icu required (brew install icu4c or apt-get install libicu-dev) ***********
+***************************************************************************************
+```
+按照提示安装对应的包即可
 
 ## 3 rdoc编码
 
