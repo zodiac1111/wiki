@@ -20,22 +20,22 @@
 
 	sudo gem install gollum
 
-# 可能遇到的问题
+## 可能遇到的问题
 
 如果遇到以下问题
 
-## 需要 gcc(编译) 
+### 需要 gcc(编译) 
  
 	yum install gcc
 
-## 其他一些头文件
+### 其他一些头文件
 
-### 现象
+#### 现象
 
 	1. checking for libxml/parser.h... no
 	2. checking for libxslt/xslt.h... no
 
-### 解决方法
+#### 解决方法
 
 由于不同的包管理软件不能互通,`gem`需要的一些头文件可以使用`yum`安装   
 `*.h`文件,一般包含在`dev`/`devel`包中. 在Fedora 18中使用`yum`安装指定的*-devel包即可.
@@ -56,7 +56,7 @@
 解决:
 
 	yum install ruby-devel
-### 还是头文件
+#### 还是头文件
 ```
 [root@a ~]# gem install gollum
 Building native extensions.  This could take a while...
@@ -77,7 +77,7 @@ checking for main() in -licui18n... no
 ```
 yum install libicu-devel
 ```
-## rdoc编码
+### rdoc编码
 
     ERROR:  While generating documentation for gollum-lib-1.0.3
     ... MESSAGE:   Unhandled special: Special: type=17, text="<!-- --- title: New Title -->"
@@ -118,7 +118,7 @@ yum update rubygems
 ```
 `gem --version`可以查看版本.
 
-## 目录不支持UTF-8字符 
+### 目录不支持UTF-8字符 
 
 现象:在侧边栏(Sidebar)的目录(TOC)中不支持UTF-8字符,参见[[issues #547](https://github.com/gollum/gollum/issues/547)].
 
@@ -126,7 +126,7 @@ yum update rubygems
 
 Update:在`gollum 2.5.0`和`ruby 1.9.3`之下,这个问题已经没有再发生.项目更新非常快,请关注github页面.
 
-## markdown文件后缀
+### markdown文件后缀
 
 由`gollum`默认生成的`markdown`文件默认的文件后缀是`.md`。而`.markdown`后缀也是可以被识别的。
 
