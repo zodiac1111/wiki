@@ -164,7 +164,7 @@ Update:在`gollum 2.5.0`和`ruby 1.9.3`之下,这个问题已经没有再发生.
 ## 发布
 
 * 服务器同样搭建gollum环境 (几乎与本地相同)
-* apache ruby模块 (貌似很复杂)
+* apache ruby模块 (貌似很复杂) 参考: http://sailxjx.github.io/blog/blog/2012/07/12/ti-yan-gollum/ 
 * [gollum-site](https://github.com/dreverri/gollum-site) 生成静态文件,发布。 (有些bug未解决,不理想) [笔记](gollum-site)
 * 发布到github某个项目的wiki页面 (省了服务器) 
 
