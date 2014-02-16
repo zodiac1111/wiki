@@ -77,7 +77,7 @@ checking for main() in -licui18n... no
 ```
 yum install libicu-devel
 ```
-## 3 rdoc编码
+## rdoc编码
 
     ERROR:  While generating documentation for gollum-lib-1.0.3
     ... MESSAGE:   Unhandled special: Special: type=17, text="<!-- --- title: New Title -->"
