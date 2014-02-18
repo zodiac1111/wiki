@@ -11,7 +11,7 @@
 
 # 使用
 
-modbus/TCP:
+## 作为modbus/TCP客户端
 
 	modpoll -m tcp -a 2 -t4:hex -r 10 -c 3  127.0.0.1 -1 -p 10001
 
@@ -23,5 +23,10 @@ modbus/TCP:
 * 127.0.0.1 IP
 * -p 10001 端口
 
-参考/来源:
+## 作为modbus/RTU客户端
+
+    TODO
+
+
+## 参考/来源:
 1. 主站(master)测试端:[modpoll](http://www.modbusdriver.com/modpoll.html)
