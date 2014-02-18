@@ -9,6 +9,7 @@
 lsof - list open files
 
 # 实际例子
+一个在webbox上运行的实际例子,如下:
 ```
 # lsof -c netcomm
 COMMAND PID USER   FD   TYPE DEVICE SIZE/OFF   NODE NAME
@@ -48,6 +49,8 @@ netcomm 829 root    2w   CHR    1,3      0t0   1053 /dev/null
 netcomm 829 root    3w   REG   0,15        1  13177 /data/logs/netcomm.log
 netcomm 829 root    4u  IPv4   3523      0t0    TCP localhost:48436->115.28.134.81:www (ESTABLISHED)
 ```
+## 内容分析
+
 # lsof命令是什么？
 
 可以列出被进程所打开的文件的信息。被打开的文件可以是
