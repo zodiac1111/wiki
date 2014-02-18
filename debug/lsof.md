@@ -51,6 +51,12 @@ netcomm 829 root    4u  IPv4   3523      0t0    TCP localhost:48436->115.28.134.
 ```
 ## 内容分析
 
+* COMMAND:netcomm 程序名称
+* PID 进程号
+* USER 运行该进程的用户
+* FD 文件描述符
+
+
 # lsof命令是什么？
 
 可以列出被进程所打开的文件的信息。被打开的文件可以是
