@@ -3,10 +3,51 @@
 > 引源:
 > * http://blog.csdn.net/kozazyh/article/details/5495532
 > *  linux lsof详解 http://blog.csdn.net/guoguo1980/article/details/2324454
+> * 每天一个linux命令（51）：lsof命令 http://www.cnblogs.com/peida/archive/2013/02/26/2932972.html
 
 
 lsof - list open files
 
+# 实际例子
+```
+# lsof -c netcomm
+COMMAND PID USER   FD   TYPE DEVICE SIZE/OFF   NODE NAME
+netcomm 826 root  cwd    DIR   0,15      712     71 /data/bin
+netcomm 826 root  rtd    DIR   0,12     1184      1 /
+netcomm 826 root  txt    REG   0,15   226568  13313 /data/bin/netcomm
+netcomm 826 root  DEL    REG    0,4               0 /SYSV000003e8
+netcomm 826 root  mem    REG   0,12    21252   1302 /lib/ld-uClibc-0.9.31.so
+netcomm 826 root  DEL    REG    0,4           65538 /SYSV000003e9
+netcomm 826 root  mem    REG   0,12    96832 146307 /lib/libmxml.so.1
+netcomm 826 root  DEL    REG    0,4           98307 /SYSV0000044c
+netcomm 826 root  mem    REG   0,12   384052   1504 /lib/libuClibc-0.9.31.so
+netcomm 826 root  DEL    REG    0,4          131076 /SYSV0000044d
+netcomm 826 root  DEL    REG    0,4          163845 /SYSV0000044e
+netcomm 826 root  mem    REG   0,12    63488   1303 /lib/libpthread-0.9.31.so
+netcomm 826 root  DEL    REG    0,4          196614 /SYSV0000044f
+netcomm 826 root    0r   CHR    1,3      0t0   1053 /dev/null
+netcomm 826 root    1w   CHR    1,3      0t0   1053 /dev/null
+netcomm 826 root    2w   CHR    1,3      0t0   1053 /dev/null
+netcomm 826 root    3w   REG   0,15        1  13177 /data/logs/netcomm.log
+netcomm 829 root  cwd    DIR   0,15      712     71 /data/bin
+netcomm 829 root  rtd    DIR   0,12     1184      1 /
+netcomm 829 root  txt    REG   0,15   226568  13313 /data/bin/netcomm
+netcomm 829 root  DEL    REG    0,4               0 /SYSV000003e8
+netcomm 829 root  mem    REG   0,12    21252   1302 /lib/ld-uClibc-0.9.31.so
+netcomm 829 root  DEL    REG    0,4           65538 /SYSV000003e9
+netcomm 829 root  mem    REG   0,12    96832 146307 /lib/libmxml.so.1
+netcomm 829 root  DEL    REG    0,4           98307 /SYSV0000044c
+netcomm 829 root  mem    REG   0,12   384052   1504 /lib/libuClibc-0.9.31.so
+netcomm 829 root  DEL    REG    0,4          131076 /SYSV0000044d
+netcomm 829 root  DEL    REG    0,4          163845 /SYSV0000044e
+netcomm 829 root  mem    REG   0,12    63488   1303 /lib/libpthread-0.9.31.so
+netcomm 829 root  DEL    REG    0,4          196614 /SYSV0000044f
+netcomm 829 root    0r   CHR    1,3      0t0   1053 /dev/null
+netcomm 829 root    1w   CHR    1,3      0t0   1053 /dev/null
+netcomm 829 root    2w   CHR    1,3      0t0   1053 /dev/null
+netcomm 829 root    3w   REG   0,15        1  13177 /data/logs/netcomm.log
+netcomm 829 root    4u  IPv4   3523      0t0    TCP localhost:48436->115.28.134.81:www (ESTABLISHED)
+```
 # lsof命令是什么？
 
 可以列出被进程所打开的文件的信息。被打开的文件可以是
