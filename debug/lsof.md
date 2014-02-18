@@ -6,6 +6,7 @@
 > * 每天一个linux命令(51):lsof命令 http://www.cnblogs.com/peida/archive/2013/02/26/2932972.html
 > * 使用 lsof 查找打开的文件:http://www.ibm.com/developerworks/cn/aix/library/au-lsof.html
 > * `man 8 lsof` , `lsof(8)` **推荐,详细**
+> * man page http://www.netadmintools.com/html/lsof.man.html
 
 
 lsof - list open files
