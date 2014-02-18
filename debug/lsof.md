@@ -1,6 +1,8 @@
 # lsof socket文件查看
 
-> 参考:http://blog.csdn.net/kozazyh/article/details/5495532
+> 参考:
+> * http://blog.csdn.net/kozazyh/article/details/5495532
+> *  linux lsof详解 http://blog.csdn.net/guoguo1980/article/details/2324454
 
 # lsof命令是什么？
 
