@@ -4,6 +4,9 @@
 > * http://blog.csdn.net/kozazyh/article/details/5495532
 > *  linux lsof详解 http://blog.csdn.net/guoguo1980/article/details/2324454
 
+
+lsof - list open files
+
 # lsof命令是什么？
 
 可以列出被进程所打开的文件的信息。被打开的文件可以是
