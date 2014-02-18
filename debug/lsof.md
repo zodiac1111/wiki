@@ -5,6 +5,7 @@
 > *  linux lsof详解 http://blog.csdn.net/guoguo1980/article/details/2324454
 > * 每天一个linux命令(51):lsof命令 http://www.cnblogs.com/peida/archive/2013/02/26/2932972.html
 > * 使用 lsof 查找打开的文件:http://www.ibm.com/developerworks/cn/aix/library/au-lsof.html
+> * `man lsof` **推荐,详细**
 
 
 lsof - list open files
@@ -60,10 +61,6 @@ netcomm 829 root    4u  IPv4   3523      0t0    TCP localhost:48436->115.28.134.
   * txt program text (code and data) 类型的文件是程序代码，如应用程序二进制文件本身或共享库，如上列表中显示的 /sbin/init 程序。其次数值表示应用程序的文件描述符，这是打开该文件时返回的一个整数。如上的最后一行文件/dev/initctl，其文件描述符为 10。u 表示该文件被打开并处于读取/写入模式，而不是只读(r)或只写 (w) 模式。同时还有大写 的W 表示该应用程序具有对整个文件的写锁。该文件描述符用于确保每次只能打开一个应用程序实例。初始打开每个应用程序时，都具有三个文件描述符，从 0 到 2，分别表示标准输入、输出和错误流。所以大多数应用程序所打开的文件的 FD 都是从 3 开始。
   * rtd root directory  
   * mem memory-mapped file
-  * 后面有1u表示：  
-    * r for read access.  
-    * w for write access.  
-    * u for read and write access.  
 * Type 文件类型，如DIR、REG等
   * REG:文件
   * DIR:目录分别称为 
@@ -77,6 +74,10 @@ netcomm 829 root    4u  IPv4   3523      0t0    TCP localhost:48436->115.28.134.
 * NODE：索引节点（文件在磁盘上的标识）
 * NAME：打开文件的确切名称
 
+FD的后面有1u表示：  
+* r for read access.  
+* w for write access.  
+* u for read and write access.  
 
 # lsof命令是什么？
 
