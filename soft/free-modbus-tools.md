@@ -1,6 +1,6 @@
 # modbus调试软件
 
-modpoll modbus客户端
+modpoll:modbus客户端,支持TCP和RTU两种方式.
 
 ## 主站软件 
 
