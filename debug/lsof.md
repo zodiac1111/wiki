@@ -4,6 +4,7 @@
 > * http://blog.csdn.net/kozazyh/article/details/5495532
 > *  linux lsof详解 http://blog.csdn.net/guoguo1980/article/details/2324454
 > * 每天一个linux命令（51）：lsof命令 http://www.cnblogs.com/peida/archive/2013/02/26/2932972.html
+> * 使用 lsof 查找打开的文件:http://www.ibm.com/developerworks/cn/aix/library/au-lsof.html
 
 
 lsof - list open files
