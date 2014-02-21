@@ -1,8 +1,8 @@
 # 系统运行维护笔记
 
 * [[/sys-manage/bash-terminal-prompt]] 自定义bash终端提示符
-* [[/sys-manage/fcitx]]
-* [[/sys-manage/fedora-18-enable-lightdm]]
+* [[/sys-manage/fcitx]] 小企鹅输入法
+* [[/sys-manage/fedora-18-enable-lightdm]] 使能ldm显示管理程序
 * [[/sys-manage/fedora-change-kbd-lay]]
 * [[/sys-manage/fedora-install-man]]
 * [[/sys-manage/fedora-sys-service]]
@@ -11,11 +11,11 @@
 * [[/sys-manage/grub-splash-pic]] grub自定义启动画面
 * [[/sys-manage/ifconfig]] Linux网络相关,配置
 * [[/sys-manage/IPv6-Client-miredo]]
-* [[/sys-manage/linux-PATH-env]]
+* [[/sys-manage/linux-PATH-env]] 环境变量
 * [[/sys-manage/LPI]]
 * [[/sys-manage/rpm-yum]]
 * [[/sys-manage/string-process]]
-* [[/sys-manage/vpn]] 网络笔记
+* [[/sys-manage/vpn]] 网络笔记,虚拟私有网络
 * [[/sys-manage/debian-install]] 系统安装清单
 * [[/sys-manage/hostname]] 修改主机名
 * [[/sys-manage/kindle]]
