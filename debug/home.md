@@ -7,3 +7,4 @@
 * [[tcpdump]] 以太网抓包
 * [[gdbserver]] howto交叉编译gdbserver
 * [[lsof]] 网络socket等查看调试
+* [[bash]] bash脚本使用笔记
