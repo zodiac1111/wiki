@@ -6,5 +6,5 @@
 * [[/dev/netcat]] netcat调试以太网程序
 * [[/dev/tcpdump]] 以太网抓包
 * [[/dev/gdbserver]] howto交叉编译gdbserver
-* [[/dev/lsof]] 网络socket等查看调试
+* [[/debug/lsof]] 网络socket等查看调试
 * [[/dev/bash]] bash/shell脚本调试技巧
