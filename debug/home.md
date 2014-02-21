@@ -7,4 +7,3 @@
 * [[/debug/tcpdump]] 以太网抓包
 * [[/debug/gdbserver]] howto交叉编译gdbserver
 * [[/debug/lsof]] 网络socket等查看调试
-* [[/dev/bash]] bash/shell脚本调试技巧
