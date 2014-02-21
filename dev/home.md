@@ -52,4 +52,5 @@
 * [[libmodbus]] modbus库使用
 * [[ntp]] The Network Time Protocol 移植
 * [[bbb]] BeagleBoneBlack 开发板相关学习
+* [[/dev/bash]] bash/shell脚本调试技巧
 * 待定
