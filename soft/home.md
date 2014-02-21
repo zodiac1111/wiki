@@ -32,7 +32,6 @@
 * [[run-lua-on-mini2440]] 移植lua解释器到mini2440
 * [[dia-bug]] dia错误
 * [[boost-xtime]] boost 1.50 以前 一个bug
-* [[bash]] bash脚本使用笔记
 * [[xdotool]] Linux下的按键精灵
 * [[tesseract]] tesseract 光学识别文字.验证码等
 * [[curl]] web操作库,下载文件之类的
