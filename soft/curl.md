@@ -1,3 +1,7 @@
+# 交叉编译
+
+    ./configure --host=arm-linux --host=arm-linux --prefix='/home/zodiac1111/Downloads/curl-7.35.0/_install' 
+
 # curl库使用
 http下载文件小例子
 c/c++实现.
