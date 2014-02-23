@@ -53,4 +53,5 @@
 * [[/dev/ntp]] The Network Time Protocol 移植
 * [[/dev/bbb]] BeagleBoneBlack 开发板相关学习
 * [[/dev/bash]] bash/shell脚本调试技巧
+* [[rop]] Return-oriented programming 返回导向编程 printf等缓冲区漏洞是利用
 * 待定
