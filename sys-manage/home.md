@@ -29,4 +29,5 @@
 * [[/sys-manage/clean-arp]]  清除arp,mac地址
 * [[/sys-manage/APT]] 无效的unstable
 * [[/sys-manage/rsync]] 文件同步,复制/粘贴 本地远程同步/备份,管理
+* [[lsblk]] 列出块设备list block devices.磁盘查看/管理常用
 * 待定
