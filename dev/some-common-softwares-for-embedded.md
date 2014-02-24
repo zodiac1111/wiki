@@ -1,5 +1,8 @@
 # 常见嵌入式基础软件
 
+# 启动引导程序
+* u-boot 德国.
+
 # 系统库
 * uclibc 小型libc(c语言库)实现
 * newlibc 另一种c语言标准库实现,红帽主导?
@@ -17,6 +20,7 @@
 # 网络
 
 * curl http://curl.haxx.se/download.html
+* wget 下载的
 
 # ssh 相关
 * openssl 
