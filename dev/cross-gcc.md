@@ -66,7 +66,7 @@ Linux uclinux none
 
 最常见的一些值有，gnu，gnueabi，uclibcgnueabi等等
 
-对应关系`oabi < - >eabi` http://www.crifan.com/order_eabi_and_oabi/
+对应关系`oabi < - >eabi` http://www.crifan.com/order_eabi_and_oabi/ `readelf -h`
 
 `glibc,eglibc,uclibc` http://www.crifan.com/relation_between_uclibc_glibc_eglibc/
 #### 其他见参考
