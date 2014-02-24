@@ -1,10 +1,13 @@
 # 常见嵌入式基础软件
 
 # 基础文本
-* ncurses
-* readline
+* ncurses c实现的文本窗体图形化库.
+ * make menuconfig 界面就需要这个
+* readline 命令行数据数据的库
+ * bash输入就是依靠它实现.
 
-* gnupg/gpg 签名认证
+# 语言
+
 * lua lua语言解释器.由于使用ANIS C标准写成,非常适合移植
 
 # 网络
@@ -18,3 +21,6 @@
  * http://blog.chinaunix.net/uid-20680966-id-3232074.html [原]交叉编译openssl不修改Makefile的方法 
 * openssh [编译参考](http://cubietech.com/forum.php?mod=viewthread&tid=54)
 * dropbear 简化的sshd(ssh服务器)
+
+# 安全相关
+* gnupg/gpg 签名认证.验证文件.防止/识别篡改
