@@ -10,16 +10,24 @@
 * http://www.crifan.com/files/doc/docbook/cross_compile/release/webhelp/crosscompiler_naming_rule.html
 
 ## 一些名称例子
+
 ```
 arm-xscale-linux-gnueabi-gcc
 arm-liunx-gnu-gcc
 arm-unknown-linux-uclibcgnueabi
 ```
-* arm
-* unknown 厂商名称字段 angstrom buildroot unknown
-* linux
-* uclibc
-* gnueabi
+定义: 
+```
+arch-vendor-kernel-system
+<架构>-<供应商>-<内核>-<系统>
+```
+### 分析
+#### arch
+即系统架构.表示交叉编译器，是用于哪个目标系统架构中，用于那个平台中的
+
+即，用此交叉编译器**编译出来的程序**，是**运行在哪种CPU**上面的
+
+arch的值，常见的有很多种，比如arm，x86，mips等等。
 
 `arm-buildroot-linux-uclibcgnueabi-gcc`
 
