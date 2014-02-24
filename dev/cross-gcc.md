@@ -4,6 +4,26 @@
 #简明构建交叉编译器指导提示(gcc)
 [来源](http://www.ifp.illinois.edu/~nakazato/tips/xgcc.html#pre)
 
+# 交叉编译器命名规则
+
+## 参考
+* http://www.crifan.com/files/doc/docbook/cross_compile/release/webhelp/crosscompiler_naming_rule.html
+
+`arm-unknown-linux-uclibcgnueabi`
+* arm
+* unknown 厂商名称字段 angstrom buildroot unknown
+* linux
+* uclibc
+* gnueabi
+
+`arm-buildroot-linux-uclibcgnueabi-gcc`
+
+## 一个例子
+
+```
+root@beaglebone:/usr/bin# file arm-angstrom-linux-gnueabi-gcc   
+arm-angstrom-linux-gnueabi-gcc: ELF 32-bit LSB executable, ARM, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.16, stripped
+```
 
 #构建GCC交叉编译器
 [来源](http://wiki.osdev.org/GCC_Cross-Compiler)
