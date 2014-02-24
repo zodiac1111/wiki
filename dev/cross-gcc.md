@@ -29,10 +29,11 @@ arch-vendor-kernel-system
 
 arch的值，常见的有很多种，比如arm，x86，mips等等。
 
-`arm-buildroot-linux-uclibcgnueabi-gcc`
+#### 其他见参考
+
 
 ## 一个例子
-
+`arm-buildroot-linux-uclibcgnueabi-gcc`
 ```
 root@beaglebone:/usr/bin# file arm-angstrom-linux-gnueabi-gcc   
 arm-angstrom-linux-gnueabi-gcc: ELF 32-bit LSB executable, ARM, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.16, stripped
