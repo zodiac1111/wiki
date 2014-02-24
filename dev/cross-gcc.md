@@ -9,7 +9,12 @@
 ## 参考
 * http://www.crifan.com/files/doc/docbook/cross_compile/release/webhelp/crosscompiler_naming_rule.html
 
-`arm-unknown-linux-uclibcgnueabi`
+## 一些名称例子
+```
+arm-xscale-linux-gnueabi-gcc
+arm-liunx-gnu-gcc
+arm-unknown-linux-uclibcgnueabi
+```
 * arm
 * unknown 厂商名称字段 angstrom buildroot unknown
 * linux
