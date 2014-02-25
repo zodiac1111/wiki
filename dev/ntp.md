@@ -35,3 +35,9 @@ make && make install
 # 使用
 
 现在使用`ntpdate <服务器名称>`指令同步
+
+# 测试可用的ntp服务器
+```
+time-a.timefreq.bldrdoc.gov 132.163.4.101 NIST, Boulder, Colorado 
+ntp.sjtu.edu.cn 202.120.2.101 (上海交通大学网络中心NTP服务器地址）
+```
