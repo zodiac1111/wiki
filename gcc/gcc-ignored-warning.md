@@ -32,7 +32,7 @@
 
 在文件开头处关闭警告,在文件结尾出再开启警告,这样可以忽略该文件中的指定警告.
 
-`-fdiagnostics-show-option`可以打印出什么警告.(gcc如果不行的话,clang应该可以)
+如果不知道什么选项.`-fdiagnostics-show-option`可以打印出什么警告.(gcc如果不行的话,clang应该可以)
 
 ##项目级:命令行/编译参数指定
 
