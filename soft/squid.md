@@ -1,5 +1,6 @@
 # squid http代理
 
+# 配置
 中文翻译(Squid中文权威指南 2005年) http://home.arcor.de/pangj/squid/index.html
 
 配置文件: `/etc/squid/squid.conf`
@@ -24,4 +25,16 @@ reply_header_access X-Forwarded-For deny all
 ```
 via off
 forwarded_for delete
+```
+
+# 开机启动
+
+查看启动项
+```
+chkconfig
+```
+
+启动之
+```
+chkconfig squid on
 ```
