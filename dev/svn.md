@@ -28,7 +28,7 @@ svn: E155036: 工作副本 '/usr/local/usr/project/video/trunk/mpp' 格式太旧
 * SVN Commit
 * Copy the new folder, Schedule for addition and SVN Commit 
 
-解 释一下：
+解释一下：
 
 SVN出现这个错误的原因是我删除了一个文件夹后又创建了一个同名文件夹。在svn server端，好像是不能区分这两个文件夹，所以出现了错误。
 
