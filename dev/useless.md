@@ -23,3 +23,8 @@ int function(void) {
   }
 }
 ```
+
+# 达夫设备
+
+> http://en.wikipedia.org/wiki/Duff's_device
+> http://zh.wikipedia.org/wiki/%E8%BE%BE%E5%A4%AB%E8%AE%BE%E5%A4%87
