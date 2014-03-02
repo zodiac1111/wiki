@@ -5,6 +5,10 @@
 > * http://www.danielmiessler.com/study/tcpdump/
 > * 国内的共享 https://www.evernote.com/shard/s121/sh/45a809d9-aa4a-4e47-a569-7728a269f4b1/2cac4a3af64b952b232df9df25e8fee4
 
+部分高级的技巧
+
+> * http://docstore.mik.ua/orelly/networking_2ndEd/tshoot/index.htm
+
 # 简单使用
 
 ##### 16进制查看
