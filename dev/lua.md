@@ -12,6 +12,6 @@ local http = require("socket.http")
 ```
 
 #字符串连接
-```
+```lua
 val="a" .. "b"
 ```
