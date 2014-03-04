@@ -15,3 +15,13 @@ local http = require("socket.http")
 ```lua
 val="a" .. "b"
 ```
+
+# 解析html
+
+https://github.com/wscherphof/lua-htmlparser
+
+# 软件仓库 luarocks
+
+最新的需要lua5.2
+
+http://www.luarocks.org/
