@@ -15,3 +15,7 @@
  * 学习shell(bash) 分析shell文件/语句 http://www.explainshell.com/
  * c语言在线解释器 cdecl.org (不怎么好用)
  * 正则表达式解释器 http://regexper.com/
+* 字处理程序比较
+ * http://en.wikipedia.org/wiki/Comparison_of_word_processors
+* office套件比较
+ * http://en.wikipedia.org/wiki/Comparison_of_office_suites
