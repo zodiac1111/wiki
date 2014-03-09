@@ -1,5 +1,13 @@
 # squid http代理
 
+# 安装
+
+## debian
+
+``
+apt-get install squid
+``
+
 # 配置
 中文翻译(Squid中文权威指南 2005年) http://home.arcor.de/pangj/squid/index.html
 
