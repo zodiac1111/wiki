@@ -22,7 +22,7 @@ apt-get install squid
 
 默认端口 3128
 
-匿名设置:
+## 匿名设置:
 
 * Squid 2.x:
 ```
