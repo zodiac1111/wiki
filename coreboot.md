@@ -1,5 +1,7 @@
 # coreboot
 
+key:linux快速开机,启动,LinuxBIOS,chromebook号称1.5秒开机
+
 http://www.coreboot.org/
 
 邮件列表:
