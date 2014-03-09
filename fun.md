@@ -20,6 +20,7 @@
 
 ## 信息
 * linux博客[[podcasts]]
+* [[coreboot]]  快速开机 1.5秒
 ## x!=x
 
 > * http://blog.chinaunix.net/uid-23629988-id-3126229.html
