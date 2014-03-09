@@ -13,6 +13,7 @@ transmission-cli
 > http://pkgs.org/centos-6/epel-i386/transmission-daemon-2.13-1.el6.i686.rpm.html
 
     yum install transmission-daemon
+    apt-get install transmission-daemon
 
 # 配置
 
