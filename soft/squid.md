@@ -1,8 +1,8 @@
-# squid http代理
+# squid http 代理
 
 # 安装
 
-## debian
+## Debian
 
 ``
 apt-get install squid
