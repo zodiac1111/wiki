@@ -4,7 +4,10 @@ key:linux快速开机,启动,LinuxBIOS,chromebook号称1.5秒开机
 
 http://www.coreboot.org/
 
-邮件列表:
+* 中文介绍 http://www.oschina.net/p/coreboot
+* 中文研究报告 http://riverhippo.blogspot.com/2009/11/coreboot-linuxbios.html
+
+# 邮件列表
 
 来自遥远的建议：
 
