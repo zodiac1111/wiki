@@ -13,6 +13,11 @@ apt-get install squid
 
 配置文件: `/etc/squid/squid.conf`
 
+接下来检验我们的配制文件是否有问题
+```
+#squid -k parse
+```
+
 启动服务: `service squid restart`
 
 默认端口 3128
