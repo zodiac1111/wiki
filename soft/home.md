@@ -46,5 +46,6 @@
 * [[rtorrent]] 文本界面的bt客户端
 * [[awk]] 简单使用笔记
 * [[java]] 安装java
+* [[burp]] web扫描,漏洞检测工具
 * **在Linux下安装软件:**
 * ![Linux安装软件](/res/img/install-software.jpg)
