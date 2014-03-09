@@ -23,6 +23,8 @@ http_port <端口> vhost
 http_port IP:<端口> transparent
 ```
 两者不能同时使用,会提示错误
+
+## 参考
 中文翻译(Squid中文权威指南 2005年) http://home.arcor.de/pangj/squid/index.html
 
 配置文件: `/etc/squid/squid.conf`
