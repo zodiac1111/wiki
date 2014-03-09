@@ -18,6 +18,8 @@
 
 * 混乱c语言大赛, 8086个半字节的虚拟机.(最小的虚拟机) http://ioccc.org/2013/cable3/hint.html
 
+## 信息
+* linux博客[[podcasts]]
 ## x!=x
 
 > * http://blog.chinaunix.net/uid-23629988-id-3126229.html
