@@ -122,3 +122,4 @@ int main(void)
 2. <http://www.blogjava.net/ivanwan/archive/2005/08/04/9338.html>
 3. <http://fengyongcheng1985.blog.163.com/blog/static/115925435201191722426925/>
 4. <http://3y.uu456.com/bp-2b96985077232f60dccca105-3.html>
+5. 可供参考的gcc选项,What Are Your GCC Flags? (httrack.com) http://blog.httrack.com/blog/2014/03/09/what-are-your-gcc-flags/
