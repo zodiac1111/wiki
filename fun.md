@@ -22,6 +22,8 @@
 * linux博客[[podcasts]]
 * [[coreboot]]  快速开机 1.5秒
 * 查询自己的浏览器 http://www.whatsmybrowser.org/
+* 通过dns协议传输文件 http://www.aldeid.com/wiki/File-transfer-via-DNS
+
 ## x!=x
 
 > * http://blog.chinaunix.net/uid-23629988-id-3126229.html
