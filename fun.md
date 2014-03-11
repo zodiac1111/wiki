@@ -24,6 +24,7 @@
 * 查询自己的浏览器 http://www.whatsmybrowser.org/
 * 通过dns协议传输文件 http://www.aldeid.com/wiki/File-transfer-via-DNS
 * Real-time server monitoring in your browser 在浏览器中实时监控你的服务器 http://scoutapp.github.io/scout_realtime/
+* ia32rtools 反汇编,把x86汇编代码反编译成c语言.
 
 ## x!=x
 
