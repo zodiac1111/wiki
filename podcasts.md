@@ -12,7 +12,7 @@
 
 现在你肯能会认为只有9个会有点奇怪，为什么不是10个呢？当然所有这些事情都是10个10个地出现。那么如果我加上第十个，那么这就不再是一个货真价实的列表了，因为我只有听过9个 Podcasts。但是，你们不要犹豫在评论栏里加上你们自己的 Podcast。
 
-1. Linux Action Show
+## Linux Action Show
 
 官网：http://www.jupiterbroadcasting.com/tag/linux-action-show/
 
@@ -28,7 +28,7 @@ The Linux action show 由 Chris Fisher 和 Matt Hartley 来主持。
 
 节目的时间相对比较长，持续接近 2 个小时。这是一个非常适合你在工作时候收听的好节目。
 
-2. Linux Unplugged
+## Linux Unplugged
 
 官网：http://www.jupiterbroadcasting.com/show/linuxun/
 
@@ -38,7 +38,7 @@ The Linux action show 由 Chris Fisher 和 Matt Hartley 来主持。
 
 看直播远比看重播要爽，同样，他们也会在每个星期传递相同的信息。
 
-3. The Linux Link Tech Show
+## The Linux Link Tech Show
 
 官网：http://tllts.org/
 
@@ -50,7 +50,7 @@ The Linux Link Tech Show 是一个不算很正式的节目，基本上，他是�
 
 我听了他们上一期的节目，他们讨论了有关 Linux，GNU/Linux 等等的内容。当然，他们在下一期的节目中也会是不断地讨论讨论讨论。
 
-4. Everyday Linux
+## Everyday Linux
 
 官网：http://elementopie.com/everyday-linux-episodes
 
@@ -66,7 +66,7 @@ Everyday Linux 是由 Seth Anderson，Chirs Neves 和 Mark Cockrell 主持，并
 
 在好几个月之前，我很幸运我能够以嘉宾的身份在 Everyday Linux podcast 中登场。
 
-5. Going Linux
+## Going Linux
 
 官网：http://goinglinux.com/
 
@@ -80,7 +80,7 @@ Going Linux是由 Larry Bushey 和 Bill Smith 主持。
 
 它比之前的节目平均要短 40 分钟。
 
-6. Ubuntu UK Podcast
+## Ubuntu UK Podcast
 
 官网：http://podcast.ubuntu-uk.org/
 
@@ -94,7 +94,7 @@ Ubuntu UK Podcast 是一个英国的 Podcast，由 Laura Cowen，Mark Johnson �
 
 节目通常只有 30 分钟，你会觉得时间过得飞一般快。
 
-7. Linux Outlaws
+## Linux Outlaws
 
 官网：http://sixgun.org/linuxoutlaws
 
@@ -110,7 +110,7 @@ Ubuntu UK Podcast 是一个英国的 Podcast，由 Laura Cowen，Mark Johnson �
 
 绝对值得收听，尤其如果你不是一个特别容易被冒犯的人。
 
-8. Linux Luddites
+## Linux Luddites
 
 官网：http://linuxluddites.com/
 
@@ -124,7 +124,7 @@ Linux Luddites 是另外一个英国的 Podcast，由 Joe 和 Paddy 主持。
 
 他的观点是关于让人迷惑的 Debian 网站，安装包和其他 Debian 的特色。
 
-9. Mintcast
+## Mintcast
 
 官网：http://mintcast.org/
 
