@@ -47,5 +47,6 @@
 * [[awk]] 简单使用笔记
 * [[java]] 安装java
 * [[burp]] web扫描,漏洞检测工具
+* [[guake-debian]] guake在debian上使用的问题 http://note.drx.tw/2013/06/guake-terminal-on-mate-x-debian-70.html
 * **在Linux下安装软件:**
 * ![Linux安装软件](/res/img/install-software.jpg)
