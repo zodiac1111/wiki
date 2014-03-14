@@ -28,6 +28,9 @@
 * [Linuxbrew: Homebrew for Linux](https://linuxtoy.org/archives/linuxbrew.html)在 OS X 平台上非常流行的包管理器 Homebrew 最近正被移植 到 Linux 上而成为 Linuxbrew
 * [用一句printf实现一个简单的web server](http://tinyhack.com/2014/03/12/implementing-a-web-server-in-a-single-printf-call/)
 * [printf格式化字符串](http://crypto.stanford.edu/cs155/papers/formatstring-1.2.pdf)
+
+
+
 ## x!=x
 
 > * http://blog.chinaunix.net/uid-23629988-id-3126229.html
