@@ -25,3 +25,6 @@ iptables -I INPUT -p -tcp --dport 22 -j ACCEPT
 	$ sudo systemctl enable sshd.service
 	ln -s '/usr/lib/systemd/system/sshd.service' '/etc/systemd/system/multi-user.target.wants/sshd.service' 
 ===================================
+
+# sshd
+## 反向连接
