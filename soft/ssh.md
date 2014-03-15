@@ -28,3 +28,14 @@ iptables -I INPUT -p -tcp --dport 22 -j ACCEPT
 
 # sshd
 ## 反向连接
+
+> http://www.cnblogs.com/eshizhan/archive/2012/07/16/2592902.html
+
+* 外网 <OUT_IP>
+* 内网 <IN_IP> 运行sshd
+
+内网运行
+```
+ssh -f -N -R <本地监听的端口>:localhost:<本地sshd端口> root@vps2 [-p<vps2的sshd的端口]
+ssh -f -N -R <本地监听的端口>:localhost:22 root@vps2 [-p<vps2的sshd的端口]
+```
