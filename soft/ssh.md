@@ -39,3 +39,8 @@ iptables -I INPUT -p -tcp --dport 22 -j ACCEPT
 ssh -f -N -R <本地监听的端口>:localhost:<本地sshd端口> root@vps2 [-p<vps2的sshd的端口]
 ssh -f -N -R <本地监听的端口>:localhost:22 root@vps2 [-p<vps2的sshd的端口]
 ```
+
+图形
+```
+ssh -X 主机 [-p端口] <指令>
+```
