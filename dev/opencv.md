@@ -12,4 +12,6 @@ Linux版本下载(约80+M) http://sourceforge.net/projects/opencvlibrary/files/o
 
     cmake .
 
+make
+
     make
