@@ -49,3 +49,20 @@ error while loading shared libraries: libopencv_nonfree.so.2.4: cannot open shar
 编译:
 
 运行
+
+### 查找一个已知物体
+
+
+    g++ cornerSubPix_Demo.cpp  -lopencv_core -lopencv_highgui -lopencv_imgproc
+
+Features2D + Homography to find a known object
+
+
+http://docs.opencv.org/doc/tutorials/features2d/feature_homography/feature_homography.html
+
+
+```
+g++ XXX.cpp -lopencv_core -lopencv_features2d -lopencv_highgui -lopencv_calib3d -lopencv_nonfree  -lopencv_flann
+```
+
+测试图片路径 /samples/c
