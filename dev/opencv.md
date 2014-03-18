@@ -1,6 +1,6 @@
 #opencv
 
-opencv编译过程记录
+opencv编译过程记录 2013-12-31 version 2.4.8
 
 ##下载 
 
