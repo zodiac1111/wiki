@@ -59,4 +59,5 @@
 * [[useless]] 奇技淫巧
 * [[lua]]相关
 * [[linux-file-system]] Linux 文件系统一系列介绍说明
+* [[opencv]]
 * 待定
