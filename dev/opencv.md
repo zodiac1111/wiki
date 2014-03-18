@@ -26,6 +26,26 @@ make
 
     sudo make install
 
+更行so配置 
+
+    ldconfig
+
+否则可能出现编译实例通过,但运行是找不到so文件,例如
+
+```
+error while loading shared libraries: libopencv_nonfree.so.2.4: cannot open shared object file: No such file or directory
+```
+
 ## 期间问题
 
 ## 例子(物体检测)
+
+编译,指定lib库搜索路径,运行
+
+### 特征检测 Feature Detection
+
+官方例子: http://docs.opencv.org/doc/tutorials/features2d/feature_detection/feature_detection.html
+
+编译:
+
+运行
