@@ -1,5 +1,7 @@
 #opencv
 
+opencv编译过程记录
+
 ##下载 
 
 官网 http://opencv.org/
@@ -17,3 +19,5 @@ cmake
 make
 
     make
+
+漫长的等待(如果上天眷顾的话)编译成功
