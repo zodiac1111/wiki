@@ -50,6 +50,8 @@ error while loading shared libraries: libopencv_nonfree.so.2.4: cannot open shar
 
 运行
 
+注意使用jpg格式图片,png格式不支持
+
 ### 查找一个已知物体
 
 
