@@ -42,7 +42,7 @@ error while loading shared libraries: libopencv_nonfree.so.2.4: cannot open shar
 
 ## 例子(物体检测)
 
-> http://1.guotie.sinaapp.com/?p=329
+> 训练 http://1.guotie.sinaapp.com/?p=329
 
 训练+检测
 
