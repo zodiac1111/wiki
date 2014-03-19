@@ -1,5 +1,12 @@
 #bash shell编程
 
+# 更通用的shebang
+
+shebang: #!
+```
+#!/usr/bin/env
+```
+
 ####特殊变量
 	$0:脚本执行文件名
 	$1 命令行参数1 ... 与main函数参数列表相似
