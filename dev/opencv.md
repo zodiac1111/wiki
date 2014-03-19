@@ -38,9 +38,14 @@ error while loading shared libraries: libopencv_nonfree.so.2.4: cannot open shar
 
 ## 期间问题
 
+编译,指定lib库搜索路径,运行
+
 ## 例子(物体检测)
 
-编译,指定lib库搜索路径,运行
+> http://1.guotie.sinaapp.com/?p=329
+
+训练+检测
+
 
 ### 特征检测 Feature Detection
 
