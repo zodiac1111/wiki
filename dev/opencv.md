@@ -2,6 +2,8 @@
 
 opencv编译过程记录 2013-12-31 version 2.4.8
 
+todo: 新的级联分类器 cascade classifiers [训练](cascade_classifier_training)和[使用](todo)
+
 ##下载 
 
 官网 http://opencv.org/
