@@ -41,3 +41,7 @@
    -numPos <样本个数> -w <宽> -h <高> -numNeg <负样本个数> -featureType <类型,我选LBP> 
    -minHitRate <最小比例> -maxFalseAlarmRate <警告比例> -maxDepth <最大路径深度,1=二叉树> -maxWeakCount 2
 ```
+
+# 使用例子 
+
+* 中文(官方)  http://www.opencv.org.cn/opencvdoc/2.3.2/html/doc/tutorials/objdetect/cascade_classifier/cascade_classifier.html
