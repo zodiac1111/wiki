@@ -59,15 +59,14 @@ info.dat(32) : parse errorDone. Created 31 samples
 
 个人测试 图片不能过大 48*48 测试通过
 ```
-   opencv_traincascade -vec 1.vec -data train -bg bg.txt \
-   -numPos 20 -w 48 -h 48 -numNeg 50 -featureType LBP \
-   -minHitRate 0.99 -maxFalseAlarmRate 0.5 -maxDepth 1 -maxWeakCount 2\
+opencv_traincascade -vec 1.vec -data train -bg bg.txt -numPos 31 -w 24 -h 24 -numNeg 100    -featureType LBP -minHitRate 0.99 -maxFalseAlarmRate 0.5 -maxDepth 2 -maxWeakCount 3 -precalcValBufSize 1024
 ```
 解释
 ```
-   opencv_traincascade -vec 输入的ves文件 -data 输出的路径 -bg 负样本信息文件 \
-   -numPos 样本个数 -w 宽 -h 高 -numNeg 负样本个数 -featureType 类型,我选LBP \
-   -minHitRate 最小比例 -maxFalseAlarmRate 警告比例 -maxDepth 最大路径深度,1=二叉树 -maxWeakCount 2
+opencv_traincascade -vec 输入的ves文件 -data 输出的路径 -bg 负样本信息文件 \
+-numPos 样本个数 -w 宽 -h 高 -numNeg 负样本个数 -featureType 类型,我选LBP \
+-minHitRate 最小比例 -maxFalseAlarmRate 警告比例 -maxDepth 最大路径深度,1=二叉树 -maxWeakCount 不知道 \
+-precalcValBufSize 内存(兆)貌似不指定也可以,指定大点似乎会快点.
 ```
 
 # 使用例子 
