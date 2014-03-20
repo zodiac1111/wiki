@@ -32,7 +32,7 @@
 # 训练(花费时间)
 正样本数 31 测试中
 
-图片不能过大 48*48 测试通过
+个人测试 图片不能过大 48*48 测试通过
 ```
    opencv_traincascade -vec 1.vec -data train -bg bg.txt \
    -numPos 20 -w 48 -h 48 -numNeg 50 -featureType LBP \
