@@ -23,7 +23,9 @@
 
 ### 创建info文件
 
-    find info -name "*.jpg" 
+    find info -name "*.jpg"  | xargs -i ./mkinfo {}
+
+使用自己编译的mkinfo工具,参见这里(todo)
 
 ### 创建ves
 
