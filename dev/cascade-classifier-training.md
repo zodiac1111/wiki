@@ -69,7 +69,8 @@ opencv_traincascade -vec 输入的ves文件 -data 输出的路径 -bg 负样本�
 -precalcValBufSize 内存(兆)貌似不指定也可以,指定大点似乎会快点.
 ```
 
-* -w 宽 -h 高 必须更上面的 "创建ves" `Width: 48 Height: 48`一样大
+* `-w 宽 -h 高` 必须更上面的 "创建ves" `Width: 48 Height: 48`一样大
+* `-precalcValBufSize` 内存(兆)貌似不指定也可以,指定大点似乎会快点.
 
 # 使用例子 
 
