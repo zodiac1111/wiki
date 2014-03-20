@@ -32,6 +32,27 @@
     opencv_createsamples -info info.dat -w 48 -h 48 -vec 1.vec
     opencv_createsamples -info <信息文件> -w <宽> -h <高> -vec 输出的vec文件
 
+输出类似:
+```
+Info file name: info.dat
+Img file name: (NULL)
+Vec file name: 1.vec
+BG  file name: (NULL)
+Num: 1000
+BG color: 0
+BG threshold: 80
+Invert: FALSE
+Max intensity deviation: 40
+Max x angle: 1.1
+Max y angle: 1.1
+Max z angle: 0.5
+Show samples: FALSE
+Width: 48
+Height: 48
+Create training samples from images collection...
+info.dat(32) : parse errorDone. Created 31 samples
+```
+
 
 # 训练(花费时间)
 正样本数 31 测试中
