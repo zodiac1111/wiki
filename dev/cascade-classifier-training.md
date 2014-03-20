@@ -52,12 +52,12 @@ Height: 48
 Create training samples from images collection...
 info.dat(32) : parse errorDone. Created 31 samples
 ```
-
+个人测试 图片不能过大 48*48 测试通过,96*96 通过
 
 # 训练(花费时间)
 正样本数 31 测试中
 
-个人测试 图片不能过大 48*48 测试通过
+
 ```
 opencv_traincascade -vec 1.vec -data train -bg bg.txt -numPos 31 -w 24 -h 24 -numNeg 100    -featureType LBP -minHitRate 0.99 -maxFalseAlarmRate 0.5 -maxDepth 2 -maxWeakCount 3 -precalcValBufSize 1024
 ```
