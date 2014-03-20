@@ -33,7 +33,7 @@
 正样本数 31 测试中
 
 图片不能过大 48*48 测试通过
-`
+```
    opencv_traincascade -vec 1.vec -data train -bg bg.txt 
    -numPos 20 -w 48 -h 48 -numNeg 50 -featureType LBP 
    -minHitRate 0.99 -maxFalseAlarmRate 0.5 -maxDepth 1 -maxWeakCount 2
@@ -42,7 +42,7 @@
    opencv_traincascade -vec <输入的ves文件> -data <输出的路径> -bg <负样本信息文件> 
    -numPos <样本个数> -w <宽> -h <高> -numNeg <负样本个数> -featureType <类型,我选LBP> 
    -minHitRate <最小比例> -maxFalseAlarmRate <警告比例> -maxDepth <最大路径深度,1=二叉树> -maxWeakCount 2
-`
+```
 
 # 使用例子 
 
