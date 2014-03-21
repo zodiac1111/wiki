@@ -48,5 +48,6 @@
 * [[java]] 安装java
 * [[burp]] web扫描,漏洞检测工具
 * [[guake-debian]] guake在debian上使用的问题 
+* [[music]] linux下音频转换,ape mp3 wav flac
 * **在Linux下安装软件:**
 * ![Linux安装软件](/res/img/install-software.jpg)
