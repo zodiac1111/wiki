@@ -35,6 +35,8 @@ shnsplit -f CDImage.cue -i ape -o flac CDImage.ape
 shnsplit -f CDImage.cue -i ape \
 -o "cust ext=mp3 lame -b 320 - %f" CDImage.ape 
 ```
-#APE <-> FLAC 互相转换 
+#APE <-> FLAC 互相转换
+```
 shnconv -i ape -o flac CDImage.ape 
-shnconv -i flac -o ape CDImage.flac 
+shnconv -i flac -o ape CDImage.flac
+```
