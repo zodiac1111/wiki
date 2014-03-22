@@ -31,4 +31,5 @@
 * [[/sys-manage/rsync]] 文件同步,复制/粘贴 本地远程同步/备份,管理
 * [[lsblk]] 列出块设备list block devices.磁盘查看/管理常用
 * [[set-time]] 设置时间时区等
+* [[nslookup]] 通过域名查找ip(通过dns服务器)
 * 待定
