@@ -1,6 +1,7 @@
 # kindle相关
 
 # 参考
+* kindle 亚马逊 源代码 http://www.amazon.com/gp/help/customer/display.html?nodeId=200203720
 * wiki http://wiki.mobileread.com/wiki/Kindle_Touch_Hacking#USB_Networking
 * 各版本固件 http://ixtab.tk/kindle-touch-updates.php
 * 越狱 http://www.mobileread.com/forums/showthread.php?t=198446
