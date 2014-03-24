@@ -3,7 +3,8 @@
 # 另一种思路
 
 > PIN http://www.geekfan.net/7846/
-> 具体的方法 http://xiao106347.blog.163.com/blog/static/21599207820136161132836/
+
+具体的方法 http://xiao106347.blog.163.com/blog/static/21599207820136161132836/
 
 # 查看
 
