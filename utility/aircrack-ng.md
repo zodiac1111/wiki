@@ -1,5 +1,9 @@
 >http://netsecurity.51cto.com/art/201105/264844_3.htm
 
+# 另一种思路
+
+> http://www.geekfan.net/7846/
+
 # 查看
 
 当然，通过输入iwconfig查看也是可以滴。这个命令专用于查看无线网卡，不像ifconfig那样查看所有适配器。
