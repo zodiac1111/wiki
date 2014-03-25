@@ -77,12 +77,12 @@ server.modules              = (
                             "mod_auth"
                            )
 
-# mimetype mapping
+# mimetype mapping  这一系列待定
 mimetype.assign             = (
   ".pdf"          =>      "application/pdf",
   ".sig"          =>      "application/pgp-signature",
   ".spl"          =>      "application/futuresplash",
   ".class"        =>      "application/octet-stream",
-  ".ps"           =>      "application/postscript",
+  ".ps"           =>      "application/postscript")
 
 ```
