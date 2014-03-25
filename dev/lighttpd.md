@@ -14,18 +14,17 @@
 
 主要参考1
 
-```
-wget -c ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.34.zip # 下载
-```
-```
-unzip pcre-8.34.zip #解压
-```
-```
-cd pcre-8.34/
-```
-```
-./configure --host=arm-linux CC=arm-linux-gcc AR=arm-linux-ar STRIP=arm-linux-strip RANLIB=arm-linux-ranlib --prefix='/home/zodiac1111/Downloads/lighttpd-1.4.33/install'
-```
+
+    wget -c ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.34.zip # 下载
+
+
+    unzip pcre-8.34.zip #解压
+
+
+    cd pcre-8.34/
+
+
+    ./configure --host=arm-linux CC=arm-linux-gcc AR=arm-linux-ar STRIP=arm-linux-strip RANLIB=arm-linux-ranlib --prefix='/home/zodiac1111/Downloads/lighttpd-1.4.33/install'
 
 ## lighttpd
 
