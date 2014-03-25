@@ -4,6 +4,7 @@
 
 1. http://www.cyberciti.biz/faq/howto-lighttpd-add-pcre-support/
 2. http://www.ridgesolutions.ie/index.php/2013/06/05/build-cross-compile-lighttpd-for-arm-linux-with-pcre/
+
 # 编译
 
 ## pcre
