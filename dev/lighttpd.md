@@ -49,15 +49,20 @@
 
 复制`tests`(前端代码)目录到合适位置.
 
-```
-lighttpd -f /etc/lighttpd.conf -m /data/lib/
-```
+运行
+
+    lighttpd -f /etc/lighttpd.conf -m /data/lib/
+
 显示
-```
-2014-03-25 16:17:02: (log.c.166) server started
-```
+
+    2014-03-25 16:17:02: (log.c.166) server started
+
 则完成
-最简单的`lighttpd.conf`配置文件
+
+## 配置文件
+
+最简单的`lighttpd.conf`配置文件:
+
 ```
 # 前端跟目录,必须
 server.document-root = "/data/var/www"
