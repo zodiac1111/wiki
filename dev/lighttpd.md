@@ -11,8 +11,10 @@
 
 首先需要pcre
 
+主要参考1
 
 ```
 wget -c ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.34.zip # 下载
 unzip pcre-8.34.zip #解压
+cd pcre-8.34/
 ```
