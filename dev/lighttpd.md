@@ -13,6 +13,6 @@
 
 
 ```
-wget -c ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.34.zip
-unzip pcre-8.34.zip
+wget -c ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.34.zip # 下载
+unzip pcre-8.34.zip #解压
 ```
