@@ -30,13 +30,12 @@
 
 ## lighttpd
 
-```
-./configure --host=arm-linux CC=arm-linux-gcc AR=arm-linux-ar STRIP=arm-linux-strip RANLIB=arm-linux-ranlib \
- --prefix='/home/zodiac1111/Downloads/lighttpd-1.4.33/install' \
-PCRECONFIG='/home/zodiac1111/Downloads/lighttpd-1.4.33/install/bin/pcre-config' \
-PCRE_LIB='/home/zodiac1111/Downloads/lighttpd-1.4.33/install/lib/libpcre.a' \
-CFLAGS="$CFLAGS -DHAVE_PCRE_H=1 -DHAVE_LIBPCRE=1 -I/home/zodiac1111/Downloads/lighttpd-1.4.33/install/include"
-```
+    ./configure --host=arm-linux CC=arm-linux-gcc AR=arm-linux-ar STRIP=arm-linux-strip RANLIB=arm-linux-ranlib \
+    --prefix='/home/zodiac1111/Downloads/lighttpd-1.4.33/install' \
+    PCRECONFIG='/home/zodiac1111/Downloads/lighttpd-1.4.33/install/bin/pcre-config' \
+    PCRE_LIB='/home/zodiac1111/Downloads/lighttpd-1.4.33/install/lib/libpcre.a' \
+    CFLAGS="$CFLAGS -DHAVE_PCRE_H=1 -DHAVE_LIBPCRE=1 -I/home/zodiac1111/Downloads/lighttpd-1.4.33/install/include"
+
 
 ```
 make && make install
