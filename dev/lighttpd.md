@@ -5,6 +5,10 @@
 1. http://www.cyberciti.biz/faq/howto-lighttpd-add-pcre-support/
 2. http://www.ridgesolutions.ie/index.php/2013/06/05/build-cross-compile-lighttpd-for-arm-linux-with-pcre/
 3. http://www.cyberciti.biz/tips/installing-and-configuring-lighttpd-webserver-howto.html
+4. 中文 http://blog.163.com/ljf_gzhu/blog/static/131553440201212852848584
+5. 编译 中文 http://blog.sina.com.cn/s/blog_6277d6450100ka5u.html
+6. c语言 cgi 
+  * http://blog.csdn.net/lanmanck/article/details/5355451
 
 # 编译
 
