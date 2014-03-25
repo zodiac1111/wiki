@@ -39,3 +39,7 @@ CFLAGS="$CFLAGS -DHAVE_PCRE_H=1 -DHAVE_LIBPCRE=1 -I/home/zodiac1111/Downloads/li
 ```
 make && make install
 ```
+
+# 使用
+
+复制 `lighttpd`和`libpcre.so`文件到指定目录,并做好符号连接
