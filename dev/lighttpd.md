@@ -56,3 +56,33 @@ lighttpd -f /etc/lighttpd.conf -m /data/lib/
 ```
 则完成
 最简单的`lighttpd.conf`配置文件
+```
+# 前端跟目录,必须
+server.document-root = "/data/var/www"
+
+#server.port = 8080 #默认80
+#server.username = "lighttpd" #默认运行的用户
+#server.groupname = "lighttpd" #不指定则运行的用户组
+#server.bind  = "127.0.0.1" # 不指定则都监听
+#server.tag ="lighttpd" #可以不指定
+
+#server.errorlog            = "/var/log/lighttpd/error.log" #不指定则不记录
+#accesslog.filename         = "/var/log/lighttpd/access.log" #不指定则不记录
+
+server.modules              = (
+                            "mod_access",
+                            "mod_accesslog",
+                            "mod_fastcgi",
+                            "mod_rewrite",
+                            "mod_auth"
+                           )
+
+# mimetype mapping
+mimetype.assign             = (
+  ".pdf"          =>      "application/pdf",
+  ".sig"          =>      "application/pgp-signature",
+  ".spl"          =>      "application/futuresplash",
+  ".class"        =>      "application/octet-stream",
+  ".ps"           =>      "application/postscript",
+
+```
