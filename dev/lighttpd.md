@@ -87,6 +87,7 @@ server.modules              = (
                             "mod_rewrite",
                             "mod_auth"
                            )
+server.modules +=("mod_cgi") # 使用c语言编写cgi程序的话,这里必须
 
 # mimetype mapping  这一系列待定
 mimetype.assign             = (
