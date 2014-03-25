@@ -60,4 +60,5 @@
 * [[lua]]相关
 * [[linux-file-system]] Linux 文件系统一系列介绍说明
 * [[opencv]]
+* [[lighttpd]] 网页服务器
 * 待定
