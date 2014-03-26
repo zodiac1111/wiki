@@ -68,7 +68,7 @@
 最简单的`lighttpd.conf`配置文件:
 
 ```
-# 前端跟目录,必须
+# 前端根目录,必须
 server.document-root = "/data/var/www"
 
 #server.port = 8080 #默认80
@@ -98,3 +98,15 @@ mimetype.assign             = (
   ".ps"           =>      "application/postscript")
 
 ```
+
+## 使能压缩
+
+参考
+* 英文,简单 http://www.cyberciti.biz/tips/lighttpd-mod_compress-gzip-compression-tutorial.html
+* 中文,简要 http://www.deepvps.com/config-lighttpd-with-gzip-and-cache.html
+
+注意点:
+
+* `server.modules += ( "mod_compress" )` 压缩模块
+* `compress.cache-dir = "/tmp/lighttpdcompress/"` cache保存路径
+* `compress.filetype           = ("text/plain","text/css", "text/xml", "text/javascript" )` 压缩的文件类型
