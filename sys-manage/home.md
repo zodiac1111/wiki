@@ -32,4 +32,5 @@
 * [[lsblk]] 列出块设备list block devices.磁盘查看/管理常用
 * [[set-time]] 设置时间时区等
 * [[nslookup]] 通过域名查找ip(通过dns服务器)
+* [[ipcrm]] ipcs 共享内存操作
 * 待定
