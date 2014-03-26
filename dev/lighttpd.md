@@ -104,6 +104,7 @@ mimetype.assign             = (
 参考
 * 英文,简单 http://www.cyberciti.biz/tips/lighttpd-mod_compress-gzip-compression-tutorial.html
 * 中文,简要 http://www.deepvps.com/config-lighttpd-with-gzip-and-cache.html
+* 官方英文详细 http://redmine.lighttpd.net/projects/lighttpd/wiki/Docs_ModCompress
 
 注意点:
 
