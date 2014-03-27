@@ -24,7 +24,8 @@ https://github.com/wscherphof/lua-htmlparser
 
     luarocks install htmlparser
 
-如果不知默认的版本,用下面的命令指定编译好的版本
+如果不知默认的版本,用下面的命令指定编译好的本地版本
+
     /usr/local/bin/luarocks  install htmlparser
     
 可能需要
