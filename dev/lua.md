@@ -24,4 +24,12 @@ https://github.com/wscherphof/lua-htmlparser
 
 最新的需要lua5.2
 
+目前新版本没有进debian仓库,需要自己编译
+
 http://www.luarocks.org/
+
+# luasocket
+
+套接字,3.0版本包含http等
+
+    apt-get install lua-socket
