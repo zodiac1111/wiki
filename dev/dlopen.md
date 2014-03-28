@@ -9,5 +9,5 @@
 window/linux 简单的重命名so库,分别调用是可以实现加载多个实例的.(脏)
 
 
-一种方式 dlmopen glibc
+一种方式 dlmopen glibc(uclibc不支持!)
 
