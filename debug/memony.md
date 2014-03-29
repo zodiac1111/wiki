@@ -2,11 +2,19 @@
 
 # 内存检测
 
-
+内存泄露
 
 * DrMemory:http://www.ibm.com/developerworks/cn/linux/1309_liuming_drmemory/index.html?ca=drs-
 * Valgrind 一系列内存检测工具(让程序飞系列) 介绍 http://www.osfans.org/category/tools/
 * Purify IBM $3000+ ...
+
+查看占用内存
+
+> http://bbs.csdn.net/topics/390184624
+
+/proc/pid/maps pid为进程号，显示当前进程所占用的虚拟地址。
+
+/proc/pid/statm 进程所占用的内存
 
 # 调用检测
 callgrind 
