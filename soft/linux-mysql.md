@@ -29,3 +29,17 @@ mysql和qt连接 需要驱动 形如 libqsqlmysql.so
 	select name *from information where name！="蜡笔小新"；
 	select current_time; select current_date;   select version();
 	drop databases;   drop tables;    (删除)
+
+# 导出
+
+   mysqldump -u root -p  -h 127.0.0.1 db >1.sql
+
+# 导入
+
+  msyql -u root -p < 1.sql
+
+数据库存在必须
+
+php 安装
+
+http://www.php.net/manual/zh/install.unix.debian.php
