@@ -43,3 +43,9 @@ mysql和qt连接 需要驱动 形如 libqsqlmysql.so
 php 安装
 
 http://www.php.net/manual/zh/install.unix.debian.php
+
+# 外部连接
+
+默认只能本机访问,外部访问/连接,参考:
+
+> http://www.cyberciti.biz/tips/how-do-i-enable-remote-access-to-mysql-database-server.html
