@@ -10,7 +10,7 @@
 
 使用 `--exclude` 选项
 
-   rsync -av  --exclude=".*" /src/ /dst/ -r
+    rsync -av  --exclude=".*" /src/ /dst/ -r
 
 # alias
 
