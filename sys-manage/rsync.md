@@ -6,6 +6,8 @@
 
 # 忽略
 
+> http://ubuntuforums.org/showthread.php?t=1727787
+
 同步文件夹,但忽略点(.)开始的文件(隐藏文件)
 
 使用 `--exclude` 选项
