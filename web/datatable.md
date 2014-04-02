@@ -81,3 +81,11 @@ $(document).ready( function() {
 	}
 }
 ```
+
+## 显示页码样式
+
+显示页码: `sPaginationType`
+
+页码样式不正确:
+
+> http://datatables.net/forums/discussion/126/spaginationtype-full_numbers-buttons-not-being-shown/p1
