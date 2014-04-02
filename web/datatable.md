@@ -6,6 +6,8 @@
 
 > http://www.datatables.net/forums/discussion/9816/noobie-help-server-side-default-sorting/p1
 
+`aaSorting`
+
 ```js
 $(document).ready(function() {
     $('#dietTable').dataTable( {
