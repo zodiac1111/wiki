@@ -2,6 +2,8 @@
 
 ## 服务端
 
+`sAjaxSource`
+
 ## 默认排序
 
 > http://www.datatables.net/forums/discussion/9816/noobie-help-server-side-default-sorting/p1
