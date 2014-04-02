@@ -54,3 +54,30 @@ $(document).ready( function() {
   } );
 } );
 ```
+
+定义数据源项
+
+```js
+"mData" : "item_name",
+"aTargets" : [2],
+```
+
+## 单元格整理格式
+
+`mRender`
+
+```js
+"mRender" : function(data, type, full) {
+    // 'full' is the row's data object, and 'data' is this column's data
+    // e.g. 'full[0]' is the comic id, and 'data' is the comic title
+	if(data=="0"){
+		return '<span class="tag tgwtb">wtb</span>';
+	}else if(data=="1"){
+		return '<span class="tag tgwts">wts</span>';
+	}else if(data=="2"){
+		return '<span class="tag tgwtt">wtt</span>';
+	}else{
+		return "E:"+data;
+	}
+}
+```
