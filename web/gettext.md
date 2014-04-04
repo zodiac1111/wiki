@@ -6,3 +6,4 @@
 * [教程1](https://hacks.mozilla.org/2013/04/localization-community-tools-process-part-2-of-3-a-node-js-holiday-season-part-10/)
 * [国际化网站教程2 php后端语言](http://www.techrecite.com/gettext-tutorial-for-internationalization-and-localization-of-webites/)
 * po文件编辑软件:[poedit](http://www.poedit.net/)
+* [教程 php](http://blog.lingohub.com/developers/2013/07/php-internationalization-with-gettext-tutorial/)
