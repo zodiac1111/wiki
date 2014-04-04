@@ -14,3 +14,4 @@
 * [[glype]] web 代理 配置
 * [[boa-cgi]] 笔记
 * [[jquery]] 笔记
+* [[gettext]] 国际化工具,网页国际化,程序国际化 l10n i18n
