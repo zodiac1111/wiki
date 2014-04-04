@@ -7,3 +7,9 @@
 * [国际化网站教程2 php后端语言](http://www.techrecite.com/gettext-tutorial-for-internationalization-and-localization-of-webites/)
 * po文件编辑软件:[poedit](http://www.poedit.net/)
 * [教程 php](http://blog.lingohub.com/developers/2013/07/php-internationalization-with-gettext-tutorial/)
+
+# 创建pot文件
+
+```bash
+xgettext --from-code=UTF-8 -o messages.pot *.php
+```
