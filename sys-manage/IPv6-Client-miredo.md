@@ -1,10 +1,5 @@
----
-layout: post
-title: "hello world"
-date: 2012-07-03 09:01
-comments: true
-categories: 
----
+介绍
+[[http://www.ipv6tf.org/images/figure_teredo.jpg]]
 
 #ipv6
 ##客户端 miredo
