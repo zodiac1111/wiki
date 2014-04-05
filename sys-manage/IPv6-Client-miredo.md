@@ -17,3 +17,13 @@ start:启动 stop 停止 restart 重启服务.
 配置文件:<code>/etc/miredo/miredo.conf</code>
 
 配合google docs上的ipv6地址文档可以(一定程度)突破网络封锁.能访问一些有ipv6网址的网站(大部分是大网站)例如 twitter facebook google wiki百科(英文忘了...)
+
+# debian
+
+```
+sudo service miredo restart
+```
+配置文件
+```
+sudo vim /etc/miredo.conf 
+```
