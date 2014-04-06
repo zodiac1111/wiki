@@ -47,4 +47,5 @@ Warning: mysql_free_result() expects parameter 1 to be resource, boolean given i
 ```
 
 > http://stackoverflow.com/questions/14527864/mysql-free-result-expects-parameter-1-to-be-resource
+
 > mysql_query() only returns a resource for SELECT, SHOW, EXPLAIN, and DESCRIBE queries.
