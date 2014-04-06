@@ -1,6 +1,6 @@
 # 打印错误可警告
 
-http://my.oschina.net/mingtingling/blog/118588
+> http://my.oschina.net/mingtingling/blog/118588
 
 g纠结了半天，才发现问题的症结:原来的PHP 关闭了错误的显示。
 
