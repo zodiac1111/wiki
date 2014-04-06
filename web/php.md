@@ -39,3 +39,12 @@ php_value error_reporting       2039
 ```
 sudo /etc/init.d/apache2 restart
 ```
+
+# mysql 数据库警告
+
+```
+Warning: mysql_free_result() expects parameter 1 to be resource, boolean given in 
+```
+
+> http://stackoverflow.com/questions/14527864/mysql-free-result-expects-parameter-1-to-be-resource
+> mysql_query() only returns a resource for SELECT, SHOW, EXPLAIN, and DESCRIBE queries.
