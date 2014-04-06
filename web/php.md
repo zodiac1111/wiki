@@ -45,6 +45,7 @@ sudo /etc/init.d/apache2 restart
 ```
 Warning: mysql_free_result() expects parameter 1 to be resource, boolean given in 
 ```
+只有select等语句需要释放资源,如添加和更新操作是不需要释放支援的. 其是一个布尔型的返回值
 
 > http://stackoverflow.com/questions/14527864/mysql-free-result-expects-parameter-1-to-be-resource
 
