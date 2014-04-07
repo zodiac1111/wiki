@@ -10,3 +10,14 @@
 * 各家的实现 http://en.wikipedia.org/wiki/Comparison_of_WebSocket_implementations
 * [[compile-ws]]编译libwebsockets
 * 最简单的websocket,使用libwebsockets库. http://martinsikora.com/libwebsockets-simple-websocket-server
+
+# php实现
+
+> http://www.sanwebe.com/2013/05/chat-using-websocket-php-socket
+
+下载demo
+
+运行服务器程序
+```
+php -q c:\path-to-server\server.php
+```
