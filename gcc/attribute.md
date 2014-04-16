@@ -44,3 +44,13 @@ void T::foo(void) __restrict__
 ```
 void foo(int x, float y);
 ```
+
+# 标记为废弃的(过时的)
+
+```
+int old_fn () __attribute__ ((deprecated));
+```
+
+# 一些函数属性
+
+http://gcc.gnu.org/onlinedocs/gcc-3.1/gcc/Function-Attributes.html
