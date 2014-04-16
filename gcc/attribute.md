@@ -47,6 +47,8 @@ void foo(int x, float y);
 
 # 标记为废弃的(过时的)
 
+在其他地方调用这个函数会给出警告
+
 ```
 int old_fn () __attribute__ ((deprecated));
 ```
