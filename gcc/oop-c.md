@@ -168,3 +168,13 @@ int main(int argc, char** argv) {
   tmp;                                                        \
 })
 ```
+
+# 命名参数
+
+用结构体构建参数列表.
+
+参考以下:
+
+* http://blog.csdn.net/haoel/article/details/6212499
+* http://www.cnblogs.com/cbscan/archive/2012/10/26/2741817.html
+
