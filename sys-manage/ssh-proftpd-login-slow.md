@@ -16,7 +16,7 @@
 * proftpd 服务器: 配置文件加 `UseReverseDNS off`
 * vsftpd: 配置文件 .conf 加 `reverse_lookup_enable=NO`
 
-## 开始dns服务
+## 启用dns服务
 
 `dns -d`可能还要跟`/etc/resolv.conf`域名解析配合
 
