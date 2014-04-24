@@ -26,12 +26,14 @@
 
 # ssh登陆缓慢,也是dns惹的祸
 
-## openSSH
+## 解决方式
+
+openSSH
 
 * add "UseDNS no" to /etc/ssh/sshd_config
 * add the client's net address to the server's /etc/hosts
 
-## dropbear
+dropbear
 
 * edit options.h and comment out where DO_HOST_LOOKUP is defined -
 * recompile.
