@@ -1,11 +1,13 @@
 # ftp/ssh登陆缓慢
 
-# 现象
+# ftp登陆缓慢
+
+## 现象
 因为没有dns,ftp先查找dns.所以等待很久.
 
 表现为登陆非常慢,可能等待一个固定的值,12/15/30/60秒等. 登陆之后操作完全没问题.
 
-# 解决方式
+## 解决方式
 
 ## 修改不要查找dns服务器
 
@@ -24,12 +26,12 @@
 
 # ssh登陆缓慢,也是dns惹的祸
 
-openSSH:
+## openSSH
 
 * add "UseDNS no" to /etc/ssh/sshd_config
 * add the client's net address to the server's /etc/hosts
 
-dropbear:
+## dropbear
 
 * edit options.h and comment out where DO_HOST_LOOKUP is defined -
 * recompile.
