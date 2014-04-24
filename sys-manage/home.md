@@ -34,4 +34,5 @@
 * [[nslookup]] 通过域名查找ip(通过dns服务器)
 * [[ipcrm]] ipcs 共享内存操作
 * [[java]] 
+* [[proftpd-login-slow]] 在嵌入式系统上的proftp服务器登陆缓慢
 * 待定
