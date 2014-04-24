@@ -21,3 +21,19 @@
 # 参考
 * [proftpd](http://trinityhome.org/Home/index.php?content=SLOW_RESPONSE_ON_CONNECTING_TO_PROFTPD_SERVER__SLO&front_id=18&lang=en&locale=en)
 * [vsftpd](http://serverfault.com/questions/406437/slow-ftp-issue-when-there-is-no-dns-server)
+
+# ssh登陆缓慢,也是dns惹的祸
+
+openSSH:
+
+* add "UseDNS no" to /etc/ssh/sshd_config
+* add the client's net address to the server's /etc/hosts
+
+dropbear:
+
+* edit options.h and comment out where DO_HOST_LOOKUP is defined -
+* recompile.
+ 
+## 参考
+*  http://www.turnkeylinux.org/blog/slow-ssh
+* http://forum.stmlabs.com/showthread.php?tid=10683
