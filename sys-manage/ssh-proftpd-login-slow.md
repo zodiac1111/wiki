@@ -38,6 +38,10 @@ dropbear
 * edit options.h and comment out where DO_HOST_LOOKUP is defined -
 * recompile.
  
+也可以直接.
+
+* add the client's net address to the server's /etc/hosts
+
 ## 参考
 *  http://www.turnkeylinux.org/blog/slow-ssh
 * http://forum.stmlabs.com/showthread.php?tid=10683
