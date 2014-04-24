@@ -1,4 +1,4 @@
-# ftp登陆缓慢
+# ftp/ssh登陆缓慢
 
 # 现象
 因为没有dns,ftp先查找dns.所以等待很久.
@@ -18,7 +18,7 @@
 
 `dns -d`可能还要跟`/etc/resolv.conf`域名解析配合
 
-# 参考
+## 参考
 * [proftpd](http://trinityhome.org/Home/index.php?content=SLOW_RESPONSE_ON_CONNECTING_TO_PROFTPD_SERVER__SLO&front_id=18&lang=en&locale=en)
 * [vsftpd](http://serverfault.com/questions/406437/slow-ftp-issue-when-there-is-no-dns-server)
 
