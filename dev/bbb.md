@@ -7,9 +7,10 @@
 
 # 安装debian
 
-* 1 http://blogs.bu.edu/mhirsch/2013/11/install-debian-7-to-emmc-internal-flash-drive-of-beaglebone-black/
+* 1 简单博客 http://blogs.bu.edu/mhirsch/2013/11/install-debian-7-to-emmc-internal-flash-drive-of-beaglebone-black/
 * 2 http://learn.adafruit.com/downloads/pdf/beaglebone-black-installing-operating-systems.pdf
 * 3 http://elinux.org/Beagleboard:Debian_On_BeagleBone_Black
+* 4 比较全面 http://eewiki.net/display/linuxonarm/BeagleBone+Black
 
 A: 使用sd卡引导,不安装到flash
 
