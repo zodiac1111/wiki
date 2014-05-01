@@ -24,6 +24,14 @@ B: 安装到flash (我的选择)
 * 从host复制镜像到bbb上
 * 在bbb上,解压镜像到块设备上 lsblk ` mmcblk1      179:8    0   1.8G  0 disk`
 
+
+# debian上的i2c
+
+参考 https://groups.google.com/d/msg/beagleboard/7reYt7Tmdjs/5LLRvCTPNuoJ
+
+```
+echo BB-I2C1 > /sys/devices/bone_capemgr.????/slots
+```
 # 参考资料
 * wiki elinux http://elinux.org/Beagleboard:BeagleBoneBlack
 * 全面入门简要指南 http://eewiki.net/display/linuxonarm/BeagleBone+Black
