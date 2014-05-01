@@ -49,5 +49,6 @@
 * [[burp]] web扫描,漏洞检测工具
 * [[guake-debian]] guake在debian上使用的问题 
 * [[music]] linux下音频转换,ape mp3 wav flac
+* [gitbook](https://github.com/GitbookIO/gitbook) 使用git写书,支持网页,可导出pdf,例 http://es6.ruanyifeng.com/
 * **在Linux下安装软件:**
 * ![Linux安装软件](/res/img/install-software.jpg)
