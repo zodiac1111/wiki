@@ -313,3 +313,36 @@ int adxl_read_six_byte(int fd, unsigned char reg,struct Pos *pos)
 本文代码保存在[这里](https://github.com/zodiac1111/i2c-test),也包括中间折腾的一些东西.
 
 暂时对adxl345的折腾就到这里.驱动层搞不定啊.
+
+# beaglebone black + debian 
+
+在beaglebone black+debian上使用i2c.
+
+参考:
+
+* 中文,bbb+原来的系统 http://blog.csdn.net/wyt2013/article/details/16874823
+* 英文,各种检测i2c总线/驱动的方式,主要是内存地址要正确 http://datko.net/2013/11/03/bbb_i2c/
+
+## 各种查找地址
+
+So, it’s best to check the memory addresses:
+
+* i2c0: 0x44E0_B000
+* i2c1: 0x4802_A000
+* i2c2: 0x4819_C000
+
+```
+ls -l /sys/bus/i2c/devices/i2c-*
+lrwxrwxrwx 1 root root 0 Jan  1  2000 /sys/bus/i2c/devices/i2c-0 -> ../../../devices/ocp.3/44e0b000.i2c/i2c-0
+lrwxrwxrwx 1 root root 0 Jan  1  2000 /sys/bus/i2c/devices/i2c-1 -> ../../../devices/ocp.3/4819c000.i2c/i2c-1
+lrwxrwxrwx 1 root root 0 Apr 19 05:32 /sys/bus/i2c/devices/i2c-2 -> ../../../devices/ocp.3/4802a000.i2c/i2c-2
+```
+
+## 查找i2c设备的地址:
+
+```
+i2cdetect -y -r 1 
+```
+* -y 选项用来屏蔽讨厌的确认环节
+* -r 是因为AM3359不支持一种叫做Quick Write的东东，
+* 1 代表我们要查看i2c-1总线上的设备（也就是P9_19和P9_20上插着的设备,更具上文得）。我用2.
