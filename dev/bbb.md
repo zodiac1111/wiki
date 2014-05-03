@@ -33,7 +33,9 @@ B: 安装到flash (我的选择)
 ```
 echo BB-I2C1 > /sys/devices/bone_capemgr.????/slots
 ```
+
 # 参考资料
+* debian 无线网卡 http://my.oschina.net/robeer/blog/207715
 * wiki elinux http://elinux.org/Beagleboard:BeagleBoneBlack
 * 全面入门简要指南 http://eewiki.net/display/linuxonarm/BeagleBone+Black
 * U-Boot on the BBB http://www.crashcourse.ca/wiki/index.php/U-Boot_on_the_BBB
