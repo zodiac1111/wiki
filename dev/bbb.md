@@ -34,6 +34,9 @@ B: 安装到flash (我的选择)
 echo BB-I2C1 > /sys/devices/bone_capemgr.????/slots
 ```
 
+## bbb i2c adxl345
+
+[[/dev/driver-adxl345]] 后面部分记录在debian下使用i2c读取adxl345 
 # 参考资料
 * debian 无线网卡 http://my.oschina.net/robeer/blog/207715
 * wiki elinux http://elinux.org/Beagleboard:BeagleBoneBlack
