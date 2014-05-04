@@ -29,7 +29,7 @@
 * [用一句printf实现一个简单的web server](http://tinyhack.com/2014/03/12/implementing-a-web-server-in-a-single-printf-call/)
 * [printf格式化字符串](http://crypto.stanford.edu/cs155/papers/formatstring-1.2.pdf)
 
-
+* 天使与魔鬼字体双向体 http://www.flipscript.com/ambigram-font.aspx
 
 ## x!=x
 
