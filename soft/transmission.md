@@ -17,7 +17,7 @@ transmission-cli
 
 # 配置
 
-必须停掉 transmission-daemon 才能修改配置文件 
+必须 **停掉** transmission-daemon 才能修改配置文件 
 
 配置文件` ~/.config/transmission-daemon/settings.json`
 
