@@ -27,6 +27,6 @@ sudo iwlist wlan0 scan
 ```
 生成密钥文件 
 ```bash
-debian@arm:~$ sudo wpa_passphrase  TEST  12345678  > /etc/wpa_supplicant.conf 
-debian@arm:~$ sudo wpa_passphrase  <ssid>  <密码>  > /etc/wpa_supplicant.conf 
+sudo wpa_passphrase  TEST  12345678  > /etc/wpa_supplicant.conf 
+sudo wpa_passphrase  <ssid>  <密码>  > /etc/wpa_supplicant.conf 
 ```
