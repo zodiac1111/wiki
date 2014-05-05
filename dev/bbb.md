@@ -39,6 +39,8 @@ echo BB-I2C1 > /sys/devices/bone_capemgr.????/slots
 [[/dev/driver-adxl345]] 后面部分记录在debian下使用i2c读取adxl345 
 # 参考资料
 * debian 无线网卡 http://my.oschina.net/robeer/blog/207715 [自己整理](bbb-debian-wifi)
+* 技术博客cape相关 http://papermint-designs.com/community/node/338
+* 技术博客硬件cape相关 http://azkeller.com/blog/?p=62
 * wiki elinux http://elinux.org/Beagleboard:BeagleBoneBlack
 * 全面入门简要指南 http://eewiki.net/display/linuxonarm/BeagleBone+Black
 * U-Boot on the BBB http://www.crashcourse.ca/wiki/index.php/U-Boot_on_the_BBB
