@@ -306,9 +306,7 @@ int adxl_read_six_byte(int fd, unsigned char reg,struct Pos *pos)
 
 在进行读取应该就比较完善了.
 
-## 例3:然后,没有了
-
-参考数据手册,发觉更多的知识.学长只能帮你到这里了.勇敢的少年啊,快去创造奇迹:D
+# 其他
 
 本文代码保存在[这里](https://github.com/zodiac1111/i2c-test),也包括中间折腾的一些东西.
 
@@ -322,6 +320,13 @@ int adxl_read_six_byte(int fd, unsigned char reg,struct Pos *pos)
 
 * 中文,bbb+原来的系统 http://blog.csdn.net/wyt2013/article/details/16874823
 * 英文,各种检测i2c总线/驱动的方式,主要是内存地址要正确 http://datko.net/2013/11/03/bbb_i2c/
+
+## 使能i2c
+
+```bash
+echo BB-I2C1 > /sys/devices/bone_capemgr.*/slots
+```
+其中编号与启动系统顺序有关.
 
 ## 各种查找地址
 
