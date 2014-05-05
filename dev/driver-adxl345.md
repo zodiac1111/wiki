@@ -102,12 +102,12 @@ arm-linux-gcc adxl345-helloworld.c -o app -Wall
 ### 运行
 
 在mini2440开发板上运行:
-```
+```bash
 [root@FriendlyARM plg]# ./app 
 器件ID[0x00]=0xe5
 ```
 如果参考[这里](i2c-stub)设置了一些i2c调试信息,则`cat /proc/kmsg` 可以看到
-```
+```bash
 <7>i2c i2c-0: ioctl, cmd=0x703, arg=0x53
 <7>i2c i2c-0: ioctl, cmd=0x720, arg=0xbecf1cf4
 <7>i2c i2c-0: master_xfer[0] W, addr=0x53, len=1
@@ -131,7 +131,7 @@ arm-linux-gcc adxl345-helloworld.c -o app -Wall
 ### 代码
 
 大部分代码与上面一样,增加了一个写入一个字节的函数`adxl_write()`,一个读取2个字节数据的函数`adxl_read_short()`
-```
+```c
 ///@filename adxl345-simplest-use.c
 #include <stdio.h>
 #include <unistd.h>
@@ -245,7 +245,7 @@ signed short  adxl_read_short(int fd, unsigned char reg)
 arm-linux-gcc adxl345-simplest-use.c -o app -Wall
 ```
 ### 运行
-```
+```bash
 [root@FriendlyARM plg]# ./app 
 器件ID[0x00]=0xe5
 x=  -70 y=  214 z=  123
@@ -331,7 +331,7 @@ So, it’s best to check the memory addresses:
 * i2c1: 0x4802_A000
 * i2c2: 0x4819_C000
 
-```
+```bash
 ls -l /sys/bus/i2c/devices/i2c-*
 lrwxrwxrwx 1 root root 0 Jan  1  2000 /sys/bus/i2c/devices/i2c-0 -> ../../../devices/ocp.3/44e0b000.i2c/i2c-0
 lrwxrwxrwx 1 root root 0 Jan  1  2000 /sys/bus/i2c/devices/i2c-1 -> ../../../devices/ocp.3/4819c000.i2c/i2c-1
@@ -340,7 +340,7 @@ lrwxrwxrwx 1 root root 0 Apr 19 05:32 /sys/bus/i2c/devices/i2c-2 -> ../../../dev
 
 ## 查找i2c设备的地址:
 
-```
+```bash
 i2cdetect -y -r 1 
 ```
 * -y 选项用来屏蔽讨厌的确认环节
