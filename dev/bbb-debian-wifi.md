@@ -45,7 +45,6 @@ auto wlan0
 
 # 动态获取(二选一)
 iface wlan0 inet dhcp
-
     wpa-ssid "<SSID>"
     wpa-psk  "<密码>"
 
@@ -56,4 +55,32 @@ iface wlan0 inet dhcp
 #    network 192.168.1.0
 #    gateway 192.168.1.1
 ```
-##
+## 启动wlan0
+```bash
+root@arm:~# ifup wlan0
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/wlan0/xx:xx:6d:xx:xx:e8
+Sending on   LPF/wlan0/xx:xx:6d:xx:xx:e8
+Sending on   Socket/fallback
+DHCPREQUEST on wlan0 to 255.255.255.255 port 67
+DHCPREQUEST on wlan0 to 255.255.255.255 port 67
+DHCPREQUEST on wlan0 to 255.255.255.255 port 67
+DHCPDISCOVER on wlan0 to 255.255.255.255 port 67 interval 3
+DHCPDISCOVER on wlan0 to 255.255.255.255 port 67 interval 4
+DHCPDISCOVER on wlan0 to 255.255.255.255 port 67 interval 11
+DHCPDISCOVER on wlan0 to 255.255.255.255 port 67 interval 20
+DHCPREQUEST on wlan0 to 255.255.255.255 port 67
+DHCPOFFER from 192.168.1.1
+DHCPACK from 192.168.1.1
+bound to 192.168.1.136 -- renewal in 39170 seconds.
+```
+
+## 测试一下网络
+```bash
+ping 8.8.8.8
+ping baidu.com
+```
