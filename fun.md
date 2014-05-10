@@ -1,6 +1,7 @@
 # 有趣的东西
 
 *  欧姆龙环,纸币防伪 圆圈星座防伪技术 [链接](http://zh.wikipedia.org/zh/%E5%9C%86%E5%9C%88%E6%98%9F%E5%BA%A7%E9%98%B2%E4%BC%AA%E6%8A%80%E6%9C%AF)
+
 ## 虚拟Linux
 * Javascript实现的最小化的Linux虚拟机 http://s-macke.github.io/jor1k/
 * http://bellard.org/jslinux/ 不开源 
