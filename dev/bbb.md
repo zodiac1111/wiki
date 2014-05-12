@@ -38,6 +38,7 @@ echo BB-I2C1 > /sys/devices/bone_capemgr.????/slots
 
 [[/dev/driver-adxl345]] 后面部分记录在debian下使用i2c读取adxl345 
 # 参考资料
+* 国内论坛 http://bbs.eetop.cn/forum-266-1.html
 * 安装xfce桌面环境 http://www.huement.com/blog/?p=971
 * debian 无线网卡 http://my.oschina.net/robeer/blog/207715 [自己整理](bbb-debian-wifi)
 * 技术博客cape相关 http://papermint-designs.com/community/node/338
