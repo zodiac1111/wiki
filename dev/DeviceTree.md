@@ -11,4 +11,5 @@
 ./drivers/pinctrl/pinctrl-tz1090.c:536:	"uart1",
 ./drivers/pinctrl/pinctrl-adi2-bf60x.c:481:	ADI_PMX_FUNCTION("uart1", uart1grp, uart1_mux),
 看上去各种宏定义和数组把字符串和具体的地址关联在了一起
+./Documentation/devicetree/bindings/pinctrl/pinctrl_spear.txt:134:
 ```
