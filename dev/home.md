@@ -1,6 +1,6 @@
 # 开发目录
 
-
+* [[DeviceTree]] 设备树
 * [[/dev/mini2440/customize-mini2440-softwave]] 配置 mini2440 软件部分 
 * [[/dev/linux-system-call]] Linux系统调用列表
 * [[/dev/crt]] crt C run time
