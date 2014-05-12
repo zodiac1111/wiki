@@ -3,7 +3,9 @@
 # 参考资料
 
 * 官方 http://www.devicetree.org/Main_Page
+* 树结构,节点和属性 http://devicetree.org/Device_Tree_Usage
 * 简介 https://learn.adafruit.com/introduction-to-the-beaglebone-black-device-tree
+* pin定义 https://www.kernel.org/doc/Documentation/devicetree/bindings/pinctrl/pinctrl-single.txt
 
 ```text
 /linux-3.14.2/drivers/pinctrl 这里看上去也是具体厂商的各种实现文件..
