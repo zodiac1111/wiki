@@ -157,11 +157,11 @@ int main(int argc, char* argv[])
 
 ```
 编译
-```
+```bash
 arm-linux-gcc i2c-other.c -o app -Wall
 ```
 运行应用程序
-```
+```bash
 [root@FriendlyARM plg]# ./app 
 0x10读取结果: 0x0
 在 0x10 处写入 0xab 
@@ -169,7 +169,7 @@ arm-linux-gcc i2c-other.c -o app -Wall
 ```
 
 同时查看debug信息(需要上面编译内核时选择):
-```
+```bash
 cat /proc/kmesg
 <7>i2c i2c-1: ioctl, cmd=0x705, arg=0xbe928cf4
 <7>i2c i2c-1: ioctl, cmd=0x703, arg=0x1d
