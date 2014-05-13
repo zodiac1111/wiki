@@ -25,7 +25,7 @@
 配置编译模块
 
 `make menuconfig` 时
-```
+```bash
 Device Drivers  ---> 
    I2C support  --->
       I2C Hardware Bus support  --->
@@ -35,7 +35,7 @@ Device Drivers  --->
 选择编译成为模块.
 
 同时强烈建议选择一下几项,输出调试信息,非常有帮助:
-```
+```bash
 Device Drivers  ---> 
    I2C support  --->
       * I2C Core debugging messages
@@ -48,7 +48,7 @@ Device Drivers  --->
 ### 使用
 
 加载内核:
-```
+```bash
 insmod i2c-stub.ko chip_addr=0x1d
 ```
 *  i2c-stub.ko 测试桩模块,用于测试,仅实现了部分的驱动函数
@@ -56,7 +56,7 @@ insmod i2c-stub.ko chip_addr=0x1d
 
 这时候如果内核编译了上一步的调试信息的话:
 
-```
+```bash
 cat /proc/kmesg
 <6>i2c-stub: Virtual chip at 0x1d //<-虚拟芯片地址(虚拟的从设备)
 <7>i2c i2c-1: adapter [SMBus stub driver] registered
@@ -64,11 +64,11 @@ cat /proc/kmesg
 ```
 
 查看是不是新增了一个设备文件
-```
+```bash
 ls /dev/i2c*
 ```
 查看mod
-```
+```bash
 [root@FriendlyARM plg]# lsmod
 i2c_stub 2256 0 - Live 0xbf02a000
 
