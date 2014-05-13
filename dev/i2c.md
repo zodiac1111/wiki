@@ -4,7 +4,7 @@
 
 udev设配规则:https://xgoat.com/wp/2008/01/29/i2c-device-udev-rule/
 
-```
+```bash
 KERNEL=="i2c-[0-9]*", GROUP="i2c"
 ```
 
@@ -65,7 +65,7 @@ SMbus是普通i2c的子集,支持普通i2c就可以支持SMbus,看实现.有些�
 
 i2c 驱动 设备
 
-```
+```bash
 /sys/bus/i2c/devices 设配
 /sys/bus/i2c/drivers 驱动
 
@@ -78,12 +78,12 @@ i2c 驱动 设备
 
 重要文件
 
-```
+```bash
 include/linux/i2c.h 结构体  i2c_adapter(适配器) i2c_algorithm(算法)
 ```
 
 目录结构:
-```
+```bash
 $ tree /sys/class/i2c-adapter/
 /sys/class/i2c-adapter/
 `-- i2c-0
@@ -92,7 +92,7 @@ $ tree /sys/class/i2c-adapter/
 ```
 
 算法例子:
-```
+```bash
 static struct i2c_algorithm tiny_algorithm = {
     .name           = "tiny algorithm",
     .id             = I2C_ALGO_SMBUS,
