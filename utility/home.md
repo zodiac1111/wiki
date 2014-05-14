@@ -5,6 +5,7 @@
 * [[online-IEEE-754-Analysis]] 浮点数分析
 * [[utility/aircrack-ng]] 无线网络(破解)工具
 * crc
+ * 块加密原理,类别 wiki: https://en.wikipedia.org/wiki/Block_cipher_modes_of_operation
  * 在线计算 http://depa.usst.edu.cn/chenjq/www2/SDesign/JavaScript/CRCcalculation.htm
  * 在线计算 crc16 modbus http://cht.nahua.com.tw/index.php?url=http://cht.nahua.com.tw/software/crc16/&key=Modbus,%20RTU,%20CRC16&title=%E8%A8%88%E7%AE%97%20Modbus%20RTU%20CRC16
  * 在线计算 http://www.lammertbies.nl/comm/info/crc-calculation.html
