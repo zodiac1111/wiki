@@ -5,7 +5,12 @@
 内存泄露
 
 * DrMemory:http://www.ibm.com/developerworks/cn/linux/1309_liuming_drmemory/index.html?ca=drs-
-* Valgrind 一系列内存检测工具(让程序飞系列) 介绍 http://www.osfans.org/category/tools/
+* Valgrind 一系列内存检测工具(让程序飞系列) 
+ * 介绍 http://www.osfans.org/category/tools/
+ * 转载 http://www.haogongju.net/art/1534535
+ * 转载2 http://www.cnblogs.com/lexus/archive/2011/11/13/2247508.html
+ * 转载 http://blog.csdn.net/zhangm168/article/details/6286133
+ * 转载 http://blog.csdn.net/powersaven/article/details/9466671
 * Purify IBM $3000+ ...
 
 查看占用内存
