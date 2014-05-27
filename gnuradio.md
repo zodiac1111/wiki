@@ -2,9 +2,13 @@
 
 **中文博客备份**
 
-网址1: http://blog.sina.com.cn/s/blog_67cdafe201014odm.html
+网址总体1: http://blog.sina.com.cn/s/blog_67cdafe201014odm.html
 
-前篇: http://blog.sina.com.cn/s/blog_67cdafe201014ipa.html
+前篇跟踪飞机: http://blog.sina.com.cn/s/blog_67cdafe201014ipa.html
+
+三大运营商TD-LTE频谱全抓  http://blog.sina.com.cn/s/blog_67cdafe20101djcu.html
+
+LTE扫描 http://blog.sina.com.cn/s/blog_67cdafe20101djdd.html
 
 背景1:
 
@@ -327,4 +331,90 @@ rtl-sdr, <wbr>RTL2832电视棒跟踪飞机轨迹(1090MHz <wbr>ADS-B/TCAS/SSR信�
 rtl-sdr, <wbr>RTL2832电视棒跟踪飞机轨迹(1090MHz <wbr>ADS-B/TCAS/SSR信号)
 
 
+# 手机三大运行商频率
 
+继续折腾rtl-sdr电视棒。
+  
+第一张图是在雍和宫附近室内扫到的2500～2700Mhz频谱图。
+根据这里
+http://it.sohu.com/20131120/n390446437.shtml
+的说法，2500～2690为TD-LTE频段，具体为：
+中国联通 2555-2575 MHz；
+中国移动 2575-2635 MHz；
+中国电信 2635-2655 MHz。
+ 土法again: <wbr>LTE <wbr>D频段(2500~2690MHz)三大运营商TD-LTE频谱全抓
+
+ 
+和频谱图对应的非常好。图中有4个明显的20MHz宽度矩形谱。
+第一个最矮个头的矩形即中国联通的2555-2575
+接下来一高一矮两个矩形以及后面的凹槽即中国移动2575-2635
+最后一个矩形正好是中国电信2635-2655。
+  
+第二张图是我用的设备。820t tuner的电视棒加一个MMDS的LNB（本振1998MHz）。
+土法again: <wbr>LTE <wbr>D频段(2500~2690MHz)三大运营商TD-LTE频谱全抓
+
+
+大家都知道820t tuner最高频率也就1.7GHz左右，E4000最高大约2.2GHz，对2.5GHz以上望尘莫及。最近rtl-sdr社区的一个家伙用MMDS的 LNB下变频后用电视棒解调了2.4GHz频段大量的GFSK信号（蓝牙之类的）。受他启发，到淘宝一搜MMDS LNB，还真有。随即买了一个扫频谱。
+  
+图中那个灰色的长家伙即MMDS LNB，白色小圆棒头子是它自己的天线。黑色的电视棒不用说了。银色的小方块是LNB的电源模块，它一个口给LNB供电，另一个口输出LNB下变频的信号给电视棒。
+  
+提供一些接口规格信息给不熟悉的同学（如果也想搞）：
+LNB和它的电源模块都是英制F头外螺内孔（阴头）。
+  
+你需要两根RF电缆，一根连接电源模块和LNB，另一根连接电源模块和电视棒。
+第一根RF电缆两头都得是英制F头内螺内针（阳头）连接电源模块和LNB供电口（电源模块上写着天线的那个口）。
+  
+第二根RF电缆：
+如果你手头的电视棒是MCX天线接口，也就是那种小型金黄色接头，你需要一根RF电缆：一头是英制F头内螺内针（阳头）连接电源模块转接出来的LNB信号（电源模块上写着电视的那个口），另一头是MCX阳头连接电视棒。
+  
+如果你手头的电视棒是IEC天线接口，也就是那种较大的银色接头，你需要一根RF电缆：一头是英制F头内螺内针（阳头）连接电源模块转接出来的LNB信号（电源模块上写着电视的那个口），另一头是IEC阳头连接电视棒。
+  
+good luck！
+
+# LTE扫描
+
+首先关于LTE频率，网上都有，比如这里： http://labs.chinamobile.com/news/101634_p2
+简单总结就是：
+-------TD-LTE：
+中国移动 1880-1900MHz、2320-2370MHz、2575-2635MHz
+中国联通 2300-2320MHz、2555-2575MHz
+中国电信 2370-2390MHz、2635-2655MHz
+-------FDD LTE：
+中国移动 无
+中国联通 1955-1980MHz（上行）/ 2145-2170MHz（下行）
+中国电信 1755-1785MHZ（上行）/ 1850-1880MHz（下行）
+
+最近终于搞定TD-LTE解调（原软件只支持FDD LTE），在立水桥和雍和宫室内粗扫了一下，扫到12个LTE小区信息，其中两个为电信的FDD LTE，其余全是三家的TD-LTE信号，见附表。可以确认之前扫到的20MHz的频谱的确都是LTE的。
+搞定LTE <wbr>Scanner的TDD以及LNB模式,rtl-sdr电视棒扫描小区MIB
+
+
+    
+细说一下：
+    
+前段时间这个帖子：
+http://blog.sina.com.cn/s/blog_67cdafe20101cydq.html
+以及这个用MMDS-LNB把电视棒扩展到2500~2700MHz的帖子：
+http://blog.sina.com.cn/s/blog_67cdafe20101djcu.html
+
+主要是频谱扫描，扫描到1860,1880，2565, 2585, 2605, 2645MHz中心频率有疑似20MHz带宽LTE频谱，但仅成功解调1860的电信FDD-LTE的小区MIB信息。
+    
+原因是这个LTE-Cell-Scanner仅支持FDD模式：
+https://github.com/Evrytania/LTE-Cell-Scanner
+    
+鉴于TD-LTE和FDD的LTE差别有限，于是我给上面的软件加入了TDD支持，链接如下：
+https://github.com/JiaoXianjun/LTE-Cell-Scanner
+（有些朋友说github下载比较慢，增加一个网盘链接：
+http://pan.baidu.com/s/1kTLoX07
+但这个不会及时更新，所以最新的还是需要访问github。因为里面有大量空中抓取的测试信号，所以初次clone较慢，之后增量pull就会比较快了。）
+    
+终于能解调1890的中国移动的TD-LTE了。
+    
+但是对于用了MMDS-LNB的2500~2700MHz信号还是不能解调。因为LTE-Cell-Scanner的算法中假设了载波频偏和采样频偏有严 格的解析关系，即下变频本振和A/D采样钟同源（电视棒本身的确如此），但用了外置的MMDS-LNB之后，这个解析关系就不存在了，因为外置LNB本振 和电视棒不相干。
+    
+于是我写了一个前置的采样频偏补偿模块，先于原来的LTE-Cell-Scanner程序调用，并且简单的把原来的程序改为仅对付载波频偏（使它认为无采样频偏，因为前面补偿过了），于是也能检测2500~2700MHz里的LTE信号了。代码在此：
+https://github.com/JiaoXianjun/rtl-sdr-LTE
+    
+做了一个简单的视频：
+youku： http://v.youku.com/v_show/id_XNjc1MjIzMDEy.html
+youtube：http://www.youtube.com/watch?v=4zRLgxzn4Pc
+新浪视频直接给我审核不通过。。。。
