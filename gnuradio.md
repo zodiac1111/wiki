@@ -12,7 +12,7 @@ LTE扫描 http://blog.sina.com.cn/s/blog_67cdafe20101djdd.html
 
 背景1:
 
-前段日子用电视棒成功跟踪到了飞机(见这篇跟踪结果的博文:http://blog.sina.com.cn/s/blog_67cdafe201014ipa.html).不少人问有没有windows下的软件.业余无线电爱好者中目前看来熟悉linux的看起来不多.其实这是一种遗憾,因为开源世界里关于业余无线电的资源非常多.
+前段日子用电视棒成功跟踪到了飞机(见这篇跟踪结果的博文:http://blog.sina.com.cn/s/blog_67cdafe201014ipa.html .不少人问有没有windows下的软件.业余无线电爱好者中目前看来熟悉linux的看起来不多.其实这是一种遗憾,因为开源世界里关于业余无线电的资源非常多.
 
 背景2: 
 
