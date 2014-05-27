@@ -4,6 +4,8 @@
 
 网址1: http://blog.sina.com.cn/s/blog_67cdafe201014odm.html
 
+前篇: http://blog.sina.com.cn/s/blog_67cdafe201014ipa.html
+
 背景1:
 
 前段日子用电视棒成功跟踪到了飞机(见这篇跟踪结果的博文:http://blog.sina.com.cn/s/blog_67cdafe201014ipa.html).不少人问有没有windows下的软件.业余无线电爱好者中目前看来熟悉linux的看起来不多.其实这是一种遗憾,因为开源世界里关于业余无线电的资源非常多.
@@ -275,3 +277,54 @@ https://github.com/Evrytania/LTE-Cell-Scanner
 希望这篇文章给你打开了一扇大门. (通向哪里就看你了)
 再次提醒各位,信息的共享,交流,发布务必遵循相关无线电和航空安全法规.
 祝你好运.
+
+# 前篇
+
+rtl-sdr, RTL2832电视棒跟踪飞机轨迹(1090MHz ADS-B/TCAS/SSR信号)  此博文包含图片 (2012-11-25 00:52:18)转载▼
+标签： rtl-sdr 电视棒 1090mhz ads-b rtl2832e4k	分类： 通信技术
+http://blog.sina.com.cn/s/blog_67cdafe201014ipa.html
+
+想看详细教程的点击这里： http://blog.sina.com.cn/s/blog_67cdafe201014odm.html
+此外推荐另外一种更简单的跟踪飞机的办法：
+用dump1090这个软件吧，只需要按照（http://sdr.osmocom.org/trac/wiki/rtl-sdr）确保rtl-sdr能用（比如听FM）即可。不需要什么GNURadio UHD之类的。
+
+以下是原文：
+  
+验证了两种rtl-sdr电视棒,一个是E4k tuner另外一个是新的r820t tuner.  
+关于什么是rtl-sdr，请参考这个网页：  
+http://sdr.osmocom.org/trac/wiki/rtl-sdr   
+你会发现大家搞的不亦乐乎。 
+  
+我手头电视棒实测: 
+1. 
+E4k tuner 电视棒Terratec T Stick PLUS不丢包最大采样率2.4Msps,增益范围-1 ~ 42dB,频率范围: 
+E4K range: 52 to 2205 MHz 
+E4K L-band gap: 1104 to 1243 MHz 
+2.048Msps时有大概正负60Hz的采样频差. 
+  
+2. 
+ezcap USB 2.0 DVB-T/DAB/FM dongle电视棒 
+不丢包最大采样率2.4Msps,增益范围0 ~ 49.6dB,频率范围rtl_test测不到,因为不支持测非E4k的电视棒. 
+2.048Msps时有200多Hz的采样频差. 
+  
+使用上面网页给的链接，linux下的软件:   
+gr-air-modes    ADS-B RX    Nick Foster     https://www.cgran.org/wiki/gr-air-modes call with --rtlsdr option   
+  
+可以接收飞机自行广播的数据，以及空中防撞系统TCAS和空中监视二次雷达的查询和飞机的应答信号，直观的说你可以获得地平线以上飞机的飞行信息：位置高度速度id等等。 
+  
+接收时注意要把增益设置的高一些,记录的坐标可以存为kml文件.   
+因为google封掉了,可以用gpsprune看轨迹或者上传到gpsies.com看轨迹.   
+      
+从那张白图（gpsprune软件）可以看到一些轨迹是飞机高度从4000多米降下来的过程(白图最下面是高度)(或者起飞?)  
+rtl-sdr, <wbr>RTL2832电视棒跟踪飞机轨迹(1090MHz <wbr>ADS-B/TCAS/SSR信号)
+
+rtl-sdr, <wbr>RTL2832电视棒跟踪飞机轨迹(1090MHz <wbr>ADS-B/TCAS/SSR信号)
+
+另外一次采集最远采集到了144km之外承德上空的飞机，高度万米以上，
+另外能清楚地看到图中首都机场左边和中间跑到上起降的过程和进近路线。
+rtl-sdr, <wbr>RTL2832电视棒跟踪飞机轨迹(1090MHz <wbr>ADS-B/TCAS/SSR信号)
+
+rtl-sdr, <wbr>RTL2832电视棒跟踪飞机轨迹(1090MHz <wbr>ADS-B/TCAS/SSR信号)
+
+
+
