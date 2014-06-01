@@ -6,12 +6,11 @@
 
 安装参考1提到的一些软件
 ```text
-
 gr-air-modes
 rtl-sdr
 ```
 运行程序如果出现以下的提示:
-```bash
+```text
 Kernel driver is active, or device is claimed by second instance of librtlsdr.
 In the first case, please either detach or blacklist the kernel module
 (dvb_usb_rtl28xxu), or enable automatic detaching at compile time.
