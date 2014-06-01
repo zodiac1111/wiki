@@ -5,7 +5,7 @@
 # 在debian上
 
 安装参考1提到的一些软件
-```bash
+```text
 
 gr-air-modes
 rtl-sdr
