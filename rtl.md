@@ -5,7 +5,10 @@
 # 在debian上
 
 安装参考1提到的一些软件
-
+```
+gr-air-modes
+rtl-sdr
+```
 运行程序如果出现以下的提示:
 ```bash
 Kernel driver is active, or device is claimed by second instance of librtlsdr.
