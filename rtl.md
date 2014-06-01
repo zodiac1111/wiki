@@ -19,3 +19,7 @@ In the first case, please either detach or blacklist the kernel module
 ```bash
 sudo rmmod dvb_usb_rtl28xxu rtl2832 
 ```
+
+# 听fm
+
+参考 http://kmkeen.com/rtl-demod-guide/
