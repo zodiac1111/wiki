@@ -23,3 +23,9 @@ sudo rmmod dvb_usb_rtl28xxu rtl2832
 # 听fm
 
 参考 http://kmkeen.com/rtl-demod-guide/
+
+参考 http://sdr.osmocom.org/trac/wiki/rtl-sdr
+
+```bash
+rtl_fm -f 93M -M wbfm -s 200000 -r 48000 - | aplay -r 48k -f S16_LE
+```
