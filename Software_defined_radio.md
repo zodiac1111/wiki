@@ -35,3 +35,13 @@ rtl_eeprom
 ```bash
 rtl_fm -f 93M -M wbfm -s 200000 -r 48000 - | aplay -r 48k -f S16_LE
 ```
+
+# 飞机
+
+参考  http://www.hamradioscience.com/the-rtl-2832u-sdr-and-ads-b/
+
+参考 追踪飞机 http://www.irrational.net/2012/08/06/tracking-planes-for-20-or-less/
+
+```bash
+modes_rx -d -P use -s osmocom --kml=1.kml
+```
