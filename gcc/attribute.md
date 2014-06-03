@@ -8,13 +8,13 @@
 
 限定作用范围,减少 **耦合** ,利于编译器优化,可以尽量减少不必要的运行时计算.
 
-```
+```c
 int foo(int x,int y) __attribute__((const));
 ```
 
 foo中不会修改全局的变量.类似c++ const成员函数不会修改成员变量.每次调用返回值都一样.让编译器知道优化选项.多次调用则仅计算一次,之后会记下返回值.比较强.
 
-```
+```c
 int foo(int x,int y) __attribute__((pure));
 ```
 
@@ -27,14 +27,14 @@ int foo(int x,int y) __attribute__((pure));
 `__restrict__`修饰指针,使指针指向的地址唯一.c99 和 c++.
 
 ### c99中
-```
+```c
 void foo(int * __restrict__ x, int * __restrict__ y); //x和y不会/能够指向同一个地址.
 ```
 ### c++中
 
 甚至可以修饰成员函数.
 
-```
+```c
 void T::foo(void) __restrict__ 
 {
     /* ... */
@@ -45,17 +45,17 @@ void T::foo(void) __restrict__
 ### 编译时选项
 
 ` -fstrict-aliasing`选项,视不同type的参数为strict:
-```
+```c
 void foo(int x, float y);
 ```
 
 # 标记为废弃的(过时的)
 
-标记为废弃的/过时的/陈旧的
+标记为废弃的/过时的/陈旧的,在函数声明时.
 
 在其他地方调用这个函数会给出警告
 
-```
+```c
 int old_fn () __attribute__ ((deprecated));
 ```
 
