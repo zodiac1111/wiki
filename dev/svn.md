@@ -6,7 +6,7 @@
 
 参考: http://blog.chinaunix.net/uid-10769062-id-3754341.html
 
-```
+```bash
 svn: E155036: 请参阅命令 'svn upgrade'
 svn: E155036: 工作副本 '/usr/local/usr/project/video/trunk/mpp' 格式太旧 (格式 10, Subversion 1.6 创建)
 ```
@@ -41,3 +41,11 @@ SVN出现这个错误的原因是我删除了一个文件夹后又创建了一�
 * SVN Commit
 * 重新创建文件夹
 * SVN Commit
+
+# 忽略
+
+参考: http://my.oschina.net/shelllife/blog/142257
+
+```bash
+$ svn propedit svn:ignore <目录>
+```
