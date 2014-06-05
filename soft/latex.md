@@ -88,3 +88,17 @@ http://linux-wiki.cn/wiki/zh-hans/LaTeX%E4%B8%AD%E6%96%87%E6%8E%92%E7%89%88%EF%B
                                                   
 l.5   {SimSun}
 ```
+
+**没有解决**
+
+## xeJCK
+
+http://tex.stackexchange.com/questions/160666/how-can-i-install-a-chinese-font-in-a-ubuntu-13-10-in-a-way-that-xelatex-can-see
+
+```latex
+\documentclass{article} 
+% 中文库和字体设置
+\usepackage{xeCJK}
+\setCJKmainfont{WenQuanYi Zen Hei}
+\begin{document} 
+```
