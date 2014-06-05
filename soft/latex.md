@@ -7,7 +7,7 @@
 
 中文 xelatex
 
-# 简单的方式
+## 简单的方式
 
 **段落显示有问题,很难看**
 
@@ -51,3 +51,8 @@ fc-list
 FZShuSong\-Z01
 ```
 但是dash(-) 不需要反斜杠转义.
+
+## cjk
+
+http://linux-wiki.cn/wiki/zh-hans/LaTeX%E4%B8%AD%E6%96%87%E6%8E%92%E7%89%88%EF%BC%88%E4%BD%BF%E7%94%A8XeTeX%EF%BC%89
+
