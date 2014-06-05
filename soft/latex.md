@@ -125,3 +125,5 @@ http://hi.baidu.com/southhill/item/06c4ddd2b4f144e3b2f7776f
 # 封面设计
 
 http://www.latexstudio.net/latex-make-cover-resource-sharing/
+
+官方例子(一般) http://ftp.ctex.org/mirrors/CTAN/info/latex-samples/TitlePages/titlepages.pdf
