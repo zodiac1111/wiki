@@ -124,6 +124,33 @@ http://hi.baidu.com/southhill/item/06c4ddd2b4f144e3b2f7776f
 
 目录pdf 超链接 http://blog.sina.com.cn/s/blog_5e16f1770100fkcz.html
 
+
+关闭目录编号 http://www.tuicool.com/articles/bMV3U3
+
+```text
+更改章节编号的格式： 
+\renewcommand\thesection{\arabic{section}.} 
+\renewcommand\thesection{\arabic{section}.~} 
+\renewcommand\thesection{\arabic{section}.\kern -.5em}
+
+\section{chapter} 
+\subsection{sub1} 
+\subsection{sub2}
+
+\section*{Appendix} 
+\subsection{Appendix1} 
+\subsection{Appendix2}
+
+\section*不显示章节编号，但是有两个问题：1）章节编号会计数，后面的章节编号会增加；2）不会编入目录中
+
+对于问题一可以用这一行重新开始计数： 
+\setcounter{subsection}{0} 
+\setcounter{subsection}{1}
+
+对于问题二，如果不想显示章节编号，又想要目录项，可关闭编号： 
+\setcounter{secnumdepth}{-1}
+```
+
 # 封面设计
 
 http://www.latexstudio.net/latex-make-cover-resource-sharing/
