@@ -1,5 +1,6 @@
 # 软件索引
 
+* [[latex]]
 * Linux学习:[[lfs]] linux构建
 * [[learn-linux]] Linux学习建议
 * [json在线解析](http://jsoneditoronline.org/) (外部连接)
