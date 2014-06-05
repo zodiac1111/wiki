@@ -23,7 +23,9 @@
 
 
 
-## cjk
+## ctex
+
+ctex 宏包说明 ∗
 
 http://linux-wiki.cn/wiki/zh-hans/LaTeX%E4%B8%AD%E6%96%87%E6%8E%92%E7%89%88%EF%BC%88%E4%BD%BF%E7%94%A8XeTeX%EF%BC%89
 
