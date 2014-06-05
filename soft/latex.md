@@ -2,7 +2,12 @@
 
 页眉页脚: http://blog.sina.com.cn/s/blog_9908653401010lx6.html
 
+# 中文
+
+
 中文 xelatex
+
+# 简单的方式
 
 使用字体
 ```latex
