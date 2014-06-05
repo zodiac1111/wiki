@@ -160,3 +160,7 @@ http://zh.wikibooks.org/zh/LaTeX/%E7%94%9F%E6%88%90%E5%B0%81%E9%9D%A2%E5%92%8C%E
 http://www.latexstudio.net/latex-make-cover-resource-sharing/
 
 官方例子(一般) http://ftp.ctex.org/mirrors/CTAN/info/latex-samples/TitlePages/titlepages.pdf
+
+# 页面边距
+
+一个页面的设置 http://blog.sina.com.cn/s/blog_531bb7630101832g.html
