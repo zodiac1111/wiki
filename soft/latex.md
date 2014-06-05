@@ -93,6 +93,9 @@ l.5   {SimSun}
 
 ## xeJCK
 
+目前正在使用!
+
+参考:
 http://tex.stackexchange.com/questions/160666/how-can-i-install-a-chinese-font-in-a-ubuntu-13-10-in-a-way-that-xelatex-can-see
 
 ```latex
