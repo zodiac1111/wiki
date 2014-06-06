@@ -164,3 +164,18 @@ http://www.latexstudio.net/latex-make-cover-resource-sharing/
 # 页面边距
 
 一个页面的设置 http://blog.sina.com.cn/s/blog_531bb7630101832g.html
+
+# 字体大小
+
+http://blog.sina.com.cn/s/blog_5caa94a0010106ut.html
+http://blog.csdn.net/xiazdong/article/details/8892070
+```text
+\fontsize{字号}{行距}
+这个命令对其后所有文本都起作用，在使用此命令后需要用 \selectfont 才能使字体大小设置起作用。
+
+我们通常会遇到别人规定：“正文用小四，宋体”，但是 LaTeX 并没有小四，只有 pt，因此下表为字号对应的转换表：
+
+字号	 初号	 小初	 一号	 小一	 二号	 小二	 三号	 小三	 四号	 小四	 五号	 小五	 六号	 小六	 七号	 小七
+大小	 42pt	 36pt	 26pt	 24pt	 22pt	 18pt	 16pt	 15pt	 14pt	 12pt	 10.5pt	 9pt	 7.5pt	 6.5pt	 5.5pt	 5pt
+1.5行距时的 \baselineskip 设置值	 63pt	 54pt	 39pt	 36pt	 33pt	 27pt	 24pt	 22.5pt	 21pt	 18pt	 15.75pt	 13.5	 11.25	 9.75pt	 8.25pt	 7.5pt
+```
