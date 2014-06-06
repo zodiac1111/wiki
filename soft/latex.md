@@ -183,3 +183,9 @@ http://blog.csdn.net/xiazdong/article/details/8892070
 # 日期
 
 中文日期 http://blog.sina.com.cn/s/blog_5e16f1770100fve1.html
+
+# 表格
+
+图,墙 http://en.wikibooks.org/wiki/LaTeX/Tables
+
+# 图片
