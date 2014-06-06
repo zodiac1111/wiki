@@ -179,3 +179,7 @@ http://blog.csdn.net/xiazdong/article/details/8892070
 大小	 42pt	 36pt	 26pt	 24pt	 22pt	 18pt	 16pt	 15pt	 14pt	 12pt	 10.5pt	 9pt	 7.5pt	 6.5pt	 5.5pt	 5pt
 1.5行距时的 \baselineskip 设置值	 63pt	 54pt	 39pt	 36pt	 33pt	 27pt	 24pt	 22.5pt	 21pt	 18pt	 15.75pt	 13.5	 11.25	 9.75pt	 8.25pt	 7.5pt
 ```
+
+# 日期
+
+中文日期 http://blog.sina.com.cn/s/blog_5e16f1770100fve1.html
