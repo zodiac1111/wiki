@@ -189,3 +189,36 @@ http://blog.csdn.net/xiazdong/article/details/8892070
 图,墙 http://en.wikibooks.org/wiki/LaTeX/Tables
 
 # 图片
+
+
+# 一些错误
+
+## 错误1
+
+类似这样的提示
+
+```text
+grep: pzdr.log: 没有那个文件或目录
+mktextfm: `mf-nowin -progname=mf \mode:=ljfour; mag:=1; nonstopmode; input pzdr' failed to make pzdr.tfm.
+kpathsea: Appending font creation commands to missfont.log.
+
+! Font \XeTeXLink@font=pzdr at 0.00002pt not loadable: Metric (TFM) file or ins
+talled font not found.
+<to be read again> 
+                   \relax 
+l.5125   \font\XeTeXLink@font=pzdr at 1sp\relax
+                                               
+? ^C! Interruption.
+l.5125   \font\XeTeXLink@font=pzdr at 1sp\relax
+                                               
+? 
+```
+
+
+试试这个
+
+参考 http://tex.stackexchange.com/questions/50596/latex-font-error-i-cant-find-file-pzdr
+```bash
+sudo apt-get install texlive-fonts-recommended
+```
+
