@@ -68,26 +68,30 @@ debian系:
 	apt-get install ruby-dev
 
 #### 还是头文件
-```
-[root@a ~]# gem install gollum
-Building native extensions.  This could take a while...
-ERROR:  Error installing gollum:
-	ERROR: Failed to build gem native extension.
 
-        /usr/bin/ruby extconf.rb
-checking for main() in -licui18n... no
-which: no brew in (/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin)
-checking for main() in -licui18n... no
+	[root@a ~]# gem install gollum
+	Building native extensions.  This could take a while...
+	ERROR:  Error installing gollum:
+		ERROR: Failed to build gem native extension.
+
+		    /usr/bin/ruby extconf.rb
+	checking for main() in -licui18n... no
+	which: no brew in (/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin)
+	checking for main() in -licui18n... no
 
 
-***************************************************************************************
-*********** icu required (brew install icu4c or apt-get install libicu-dev) ***********
-***************************************************************************************
-```
+	***************************************************************************************
+	*********** icu required (brew install icu4c or apt-get install libicu-dev) ***********
+	***************************************************************************************
+
 按照提示安装对应的包即可
-```
-yum install libicu-devel
-```
+
+	yum install libicu-devel
+
+debian:
+
+	apt-get install libicu-dev
+
 ### rdoc编码
 
     ERROR:  While generating documentation for gollum-lib-1.0.3
@@ -124,9 +128,9 @@ yum install libicu-devel
 * 或者这里 http://www.server-world.info/en/note?os=CentOS_6&p=ruby19
 
 之后升级`rubygems`:
-```
-yum update rubygems
-```
+
+	yum update rubygems
+
 `gem --version`可以查看版本.
 
 ### 目录不支持UTF-8字符 
@@ -200,23 +204,22 @@ Update:在`gollum 2.5.0`和`ruby 1.9.3`之下,这个问题已经没有再发生.
 ## 更新时的错误
 
 更新到gollum 2.5.1 (`sudo gem install gollum`)可能会遇到类似以下提示
-```
-$ sudo gem install gollum
-Building native extensions.  This could take a while...
-ERROR:  Error installing gollum:
-	ERROR: Failed to build gem native extension.
 
-        /usr/bin/ruby1.9.1 extconf.rb
-checking for main() in -licui18n... no
-checking for main() in -licui18n... no
+	$ sudo gem install gollum
+	Building native extensions.  This could take a while...
+	ERROR:  Error installing gollum:
+		ERROR: Failed to build gem native extension.
+
+		    /usr/bin/ruby1.9.1 extconf.rb
+	checking for main() in -licui18n... no
+	checking for main() in -licui18n... no
 
 
-***************************************************************************************
-*********** icu required (brew install icu4c or apt-get install libicu-dev) ***********
-***************************************************************************************
-*** extconf.rb failed ***
-```
+	***************************************************************************************
+	*********** icu required (brew install icu4c or apt-get install libicu-dev) ***********
+	***************************************************************************************
+	*** extconf.rb failed ***
+
 按照提示`(brew install icu4c or apt-get install libicu-dev)`安装即可,在debian下即
-```
-sudo apt-get install libicu-dev
-```
+
+	sudo apt-get install libicu-dev
