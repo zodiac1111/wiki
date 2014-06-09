@@ -92,6 +92,62 @@ debian:
 
 	apt-get install libicu-dev
 
+#### libz
+
+	checking for unicode/ucnv.h... yes
+	checking for main() in -lz... no
+	libz missing
+	*** extconf.rb failed ***
+	Could not create Makefile due to some reason, probably lack of necessary
+	libraries and/or headers.  Check the mkmf.log file for more details.  You may
+	need configuration options.
+
+	Provided configuration options:
+		--with-opt-dir
+		--without-opt-dir
+		--with-opt-include
+		--without-opt-include=${opt-dir}/include
+		--with-opt-lib
+		--without-opt-lib=${opt-dir}/lib
+		--with-make-prog
+		--without-make-prog
+		--srcdir=.
+		--curdir
+		--ruby=/usr/bin/ruby2.1
+		--with-icu-dir
+		--without-icu-dir
+		--with-icu-include
+		--without-icu-include=${icu-dir}/include
+		--with-icu-lib
+		--without-icu-lib=${icu-dir}/lib
+		--with-icui18nlib
+		--without-icui18nlib
+		--with-icui18nlib
+		--without-icui18nlib
+		--with-zlib
+		--without-zlib
+	ERROR:  Error installing gollum:
+		ERROR: Failed to build gem native extension.
+
+		Building has failed. See above output for more information on the failure.
+	extconf failed, exit code 1
+
+	Gem files will remain installed in /var/lib/gems/2.1.0/gems/charlock_holmes-0.7.3 for inspection.
+	Results logged to /var/lib/gems/2.1.0/extensions/x86_64-linux/2.1.0/charlock_holmes-0.7.3/gem_make.out
+
+参考 http://www.codeweavers.com/support/wiki/diag/missinglibz
+
+Resolution
+
+To install this library, run one of the following commands as root, or look for the corresponding package names in your favorite package manager:
+
+    32-bit Debian or Ubuntu : apt-get install zlib1g
+    64-bit Debian or Ubuntu : apt-get install lib32z1
+    32/64-bit Fedora : yum install zlib.i686
+    32/64-bit Mandriva : urpmi zlib1
+    32-bit SUSE : zypper install libz1
+    64-bit SUSE : zypper install libz1-32bit
+
 ### rdoc编码
 
     ERROR:  While generating documentation for gollum-lib-1.0.3
