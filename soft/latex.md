@@ -1,6 +1,7 @@
 # LaTex使用
 
 [[http://cdn.sstatic.net/tex/img/logo.png]]
+
 ex爆栈网的Tex专题 [tex.stackexchange.com](http://tex.stackexchange.com/)
 
 
