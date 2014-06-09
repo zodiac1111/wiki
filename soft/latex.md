@@ -1,6 +1,10 @@
 # LaTex使用
 
 ex爆栈网的Tex专题 [tex.stackexchange.com](http://tex.stackexchange.com/)
+
+
+# 页眉页脚
+
 页眉页脚: http://blog.sina.com.cn/s/blog_9908653401010lx6.html
 
 # 中文
