@@ -14,7 +14,7 @@ ex爆栈网的Tex专题 [tex.stackexchange.com](http://tex.stackexchange.com/)
 
 中文 xelatex
 
-[[http://linux-wiki.cn/wiki/zh-cn/LaTeX%E4%B8%AD%E6%96%87%E6%8E%92%E7%89%88%EF%BC%88%E4%BD%BF%E7%94%A8XeTeX%EF%BC%89]]
+[LaTeX中文排版（使用XeTeX）](http://linux-wiki.cn/wiki/zh-cn/LaTeX%E4%B8%AD%E6%96%87%E6%8E%92%E7%89%88%EF%BC%88%E4%BD%BF%E7%94%A8XeTeX%EF%BC%89)
 
 ## 简单的方式
 
