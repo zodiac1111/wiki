@@ -148,6 +148,8 @@ To install this library, run one of the following commands as root, or look for 
     32-bit SUSE : zypper install libz1
     64-bit SUSE : zypper install libz1-32bit
 
+需要dev包,包含头文件的.
+
 ### rdoc编码
 
     ERROR:  While generating documentation for gollum-lib-1.0.3
