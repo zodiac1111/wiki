@@ -55,7 +55,14 @@
 
 解决:
 
+redhat系:
+
 	yum install ruby-devel
+
+debian系:
+
+	apt-get install ruby-dev
+
 #### 还是头文件
 ```
 [root@a ~]# gem install gollum
