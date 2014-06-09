@@ -1,5 +1,6 @@
 # 有趣的东西
 
+* 你想过如何通过程序————创作、处理、分析音乐吗？ [github.io](http://music-suite.github.io/docs/ref/)
 *  一种编码[ECMA](http://www.polyomino.org.uk/computer/ECMA-10/),[wiki]()
 *  开源无线电,飞机基站等[中文博客](http://blog.sina.com.cn/s/blog_67cdafe201014odm.html).[本地备份](gnuradio)
 *  欧姆龙环,纸币防伪 圆圈星座防伪技术 [链接](http://zh.wikipedia.org/zh/%E5%9C%86%E5%9C%88%E6%98%9F%E5%BA%A7%E9%98%B2%E4%BC%AA%E6%8A%80%E6%9C%AF)
