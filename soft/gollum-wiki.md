@@ -20,6 +20,10 @@
 
 	sudo gem install gollum
 
+是否要用sudo(root)用户安装gem? 不必须的情况下不要. ref: http://stackoverflow.com/questions/2119064/sudo-gem-install-or-gem-install-and-gem-locations
+
+
+
 ## 可能遇到的问题
 
 如果遇到以下问题
