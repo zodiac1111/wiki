@@ -150,6 +150,8 @@ To install this library, run one of the following commands as root, or look for 
 
 需要dev包,包含头文件的.
 
+比如debian系的 `lib32z1-dev`
+
 ### rdoc编码
 
     ERROR:  While generating documentation for gollum-lib-1.0.3
