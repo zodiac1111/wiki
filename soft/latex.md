@@ -14,6 +14,8 @@ ex爆栈网的Tex专题 [tex.stackexchange.com](http://tex.stackexchange.com/)
 
 中文 xelatex
 
+[http://linux-wiki.cn/wiki/zh-cn/LaTeX中文排版（使用XeTeX）]
+
 ## 简单的方式
 
 **段落显示有问题,很难看**
