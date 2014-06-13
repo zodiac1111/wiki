@@ -119,3 +119,9 @@ Failed to initialize PNG writer.
 configue后 找到makefile,把png14改成png12
 
 编译好的png12 lib和include目录复制到交叉编译器的`/opt/rt9x5/arm-linux-uclibcgnueabi/usr/arm-unknown-linux-uclibcgnueabi/sysroot`目录下,注意文件结构一致.
+
+
+然后target的png14改成png12库;
+```bash
+ln -s /lib/libpng14.so.14 /lib/libpng12.so.0
+```
