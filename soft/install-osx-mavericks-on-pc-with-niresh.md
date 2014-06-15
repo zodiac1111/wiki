@@ -7,3 +7,4 @@
 * **You don't need a real Mac.** 不需要真实的Mac
 * **The post-installation is easier.**
 * **You can install it on a hard drive that already has Windows installed.**
+* **Niresh supports AMD.**
