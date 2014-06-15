@@ -13,4 +13,4 @@
 
 * **An existing Windows computer/Mac/Hackintosh**
 * **A Hackintosh-compatible computer with an empty hard drive**
-* **[Niresh](http://www.niresh.co/files/file/75-niresh-mavericks-for-intel-and-amd/) 10.9 (Free)** (需要Twitter或者Facebook赞一下,百度镜像:[usb](http://pan.baidu.com/s/1ntJTpTB) [iso](http://pan.baidu.com/s/1bnq11UZ))
+* **[Niresh](http://www.niresh.co/files/file/75-niresh-mavericks-for-intel-and-amd/) 10.9 (Free)** 译:需要Twitter或者Facebook赞一下,百度镜像:[usb](http://pan.baidu.com/s/1ntJTpTB) [iso](http://pan.baidu.com/s/1bnq11UZ)
