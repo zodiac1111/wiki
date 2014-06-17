@@ -45,3 +45,13 @@ ipcp-accept-remote
 connect 'chat -s -v -f /etc/ppp/peers/chat-tdscdma-connect'  # 连接脚本
 disconnect 'chat -s -v -f /etc/ppp/peers/chat-tdscdma-disconnect' #断线脚本
 ```
+
+# 调试
+
+参考一个例子 http://www.spinics.net/lists/linux-ppp/msg01283.html
+
+追踪
+
+```bash
+root@mymachine:~# strace -e trace=open,close,ioctl pppd dump debug nodetach call gprs
+```
