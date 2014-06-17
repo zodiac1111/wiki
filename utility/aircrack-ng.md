@@ -1,12 +1,14 @@
->http://netsecurity.51cto.com/art/201105/264844_3.htm
+# 破解无线
 
-# 另一种思路
+> 参考 http://netsecurity.51cto.com/art/201105/264844_3.htm
 
-> PIN http://www.geekfan.net/7846/
+* 另一种思路
+
+> 参考 PIN http://www.geekfan.net/7846/
 
 具体的方法 http://xiao106347.blog.163.com/blog/static/21599207820136161132836/
 
-# 怎样的可以pin
+## 怎样的可以pin
 
 `54e.` 的即可
 
