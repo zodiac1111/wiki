@@ -133,9 +133,15 @@ FZShuSong\-Z01
 
 http://hi.baidu.com/southhill/item/06c4ddd2b4f144e3b2f7776f
 
-目录pdf 超链接 http://blog.sina.com.cn/s/blog_5e16f1770100fkcz.html
+## 目录pdf
+ 
+超链接 http://blog.sina.com.cn/s/blog_5e16f1770100fkcz.html
 
+超链接包一些参数 http://zzg34b.w3.c361.com/package/links.htm
 
+比如url显示文本的颜色,默认品红.
+
+> urlcolor	网页与电邮链接颜色	magenta	默认值
 关闭目录编号 http://www.tuicool.com/articles/bMV3U3
 
 ```text
