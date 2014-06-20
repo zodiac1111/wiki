@@ -1,9 +1,12 @@
 # shell in a box
 
+**未完成**
+
 移植到arm.
 
-官网:
+官网:http://code.google.com/p/shellinabox/
 
+# 期间错误
 
 ## 版本不对
 
@@ -19,4 +22,9 @@ libtool: and run autoconf again.
 autoreconf --force --install
 ./configure
 make
+```
+
+其中configure:
+```bash
+./configure CC=arm-linux-gcc --host=arm --prefix='$HOME/Downloads/shellinabox-2.14/install'
 ```
