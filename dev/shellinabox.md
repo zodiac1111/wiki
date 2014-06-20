@@ -28,3 +28,16 @@ make
 ```bash
 ./configure CC=arm-linux-gcc --host=arm --prefix='$HOME/Downloads/shellinabox-2.14/install'
 ```
+
+# 相关软件
+
+## 类似的软件 
+
+* http://www.admin-magazine.com/Articles/Shell-in-a-Browser 需要php
+* http://alternativeto.net/software/shell-in-a-box/ 一些类似软件
+* http://www.5p.dk/tinyshell/ 需要PHP!与MySQL整合
+* https://github.com/davidmoreno/onion/wiki/Oterm 看上去不错
+* Termlib.js: http://www.masswerk.at/termlib/s...
+* PHPTerm: http://phpterm.sourceforge.net/
+* CGI-telnet: http://www.rohitab.com/cgi-telnet
+* Goosh: http://goosh.org/ Terminal-style web shell for Google services (and others) 谷歌雅虎的页面,不合适
