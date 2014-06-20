@@ -5,26 +5,26 @@
 * http://blog.sina.com.cn/s/blog_643493600100uje6.html
 
 1.启动SSH服务
-```
+```bash
 systemctl start sshd.service
 ```
 2.随系统一起启动服务
-```
+```bash
 systemctl enable sshd.service
 ```
 3.开启防火墙22端口
-```
+```bash
 iptables -I INPUT -p -tcp --dport 22 -j ACCEPT
 ```
 
 
-===================================
+```bash
 
 	$ sudo systemctl start sshd.service
                               
 	$ sudo systemctl enable sshd.service
 	ln -s '/usr/lib/systemd/system/sshd.service' '/etc/systemd/system/multi-user.target.wants/sshd.service' 
-===================================
+```
 
 # sshd
 ## 反向连接
@@ -35,12 +35,12 @@ iptables -I INPUT -p -tcp --dport 22 -j ACCEPT
 * 内网 <IN_IP> 运行sshd
 
 内网运行
-```
+```bash
 ssh -f -N -R <本地监听的端口>:localhost:<本地sshd端口> root@vps2 [-p<vps2的sshd的端口]
 ssh -f -N -R <本地监听的端口>:localhost:22 root@vps2 [-p<vps2的sshd的端口]
 ```
 
 图形
-```
+```bash
 ssh -X 主机 [-p端口] <指令>
 ```
