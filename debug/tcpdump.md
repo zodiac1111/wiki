@@ -36,6 +36,18 @@ tcpdump -A -i wlan0 port 80
 
 # webbox监视gprs报文例子
 
-```
+```bash
 tcpdump -w save.pcap -i ppp0 port 80 -vv
 ```
+
+# 详细抓包
+
+```bash
+tcpdump -AXX  -vv  -i ppp0 port 80 
+```
+
+* 结合A ascii码和 XX 十六进制显示
+* -vv 非常详细模式
+* 如果要保存,再使用-w <文件名. 保存
+* -i 指定interface
+* port 指定端口
