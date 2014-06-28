@@ -14,7 +14,7 @@
 # 条件语句 逻辑运算
 
 条件语句
-```
+```bash
 ifeq ($(ARCH),arm)
   CC=arm-linux-gcc
 endif
