@@ -12,28 +12,30 @@
 
 在一个c语言源文件中指定启用/忽略的警告
 
+### 使用
+
 在源代码中加入下面的代码
 
 	#pragma GCC diagnostic [error|warning|ignored] "-W<警告选项>"
 
 可能有些第版本的gcc不支持在个别函数内指定，仅支持整个文件的作用域
 
-诊断-忽略:(关闭警告)
+### 诊断-忽略:(关闭警告)
 
 	#pragma  GCC diagnostic ignored  "-Wunused"
 	#pragma  GCC diagnostic ignored  "-Wunused-parameter"
 
-诊断-警告:(开启警告)
+### 诊断-警告:(开启警告)
 
 	#pragma  GCC diagnostic warning  "-Wunused"
 	#pragma  GCC diagnostic warning  "-Wunused-parameter"
 
-诊断-错误:(开启警告-升级为错误)
+### 诊断-错误:(开启警告-升级为错误)
 
 	#pragma  GCC diagnostic error  "-Wunused"
 	#pragma  GCC diagnostic error  "-Wunused-parameter"
 
-用法:
+### 一般实际用法:
 
 在文件开头处关闭警告,在文件结尾出再开启警告,这样可以忽略该文件中的指定警告.
 
