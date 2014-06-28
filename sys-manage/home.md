@@ -1,8 +1,8 @@
 # 系统运行维护笔记
 
-* [[/sys-manage/bash-terminal-prompt]] 自定义bash终端提示符
-* [[/sys-manage/fcitx]] 小企鹅输入法
-* [[/sys-manage/fedora-18-enable-lightdm]] 使能ldm显示管理程序
+* [[bash-terminal-prompt]] 自定义bash终端提示符
+* [[fcitx]] 小企鹅输入法
+* [[fedora-18-enable-lightdm]] 使能ldm显示管理程序
 * [[/sys-manage/fedora-change-kbd-lay]]
 * [[/sys-manage/fedora-install-man]]
 * [[/sys-manage/fedora-sys-service]]
@@ -24,11 +24,11 @@
 * [[/sys-manage/ls-time]] ls -l输出时间格式
 * debian [安装kde](http://www.binarytides.com/install-kde-plasma-desktop-on-debian-7-wheezy/)
 * [[/sys-manage/date]] linux 时间
-* [[/sys-manage/swap]] 使用
-* [[/sys-manage/mate-config]] mate一些桌面的配置
-* [[/sys-manage/clean-arp]]  清除arp,mac地址
-* [[/sys-manage/APT]] 无效的unstable
-* [[/sys-manage/rsync]] 文件同步,复制/粘贴 本地远程同步/备份,管理
+* [[swap]] 使用
+* [[mate-config]] mate一些桌面的配置
+* [[clean-arp]]  清除arp,mac地址
+* [[APT]] 无效的unstable
+* [[rsync]] 文件同步,复制/粘贴 本地远程同步/备份,管理
 * [[lsblk]] 列出块设备list block devices.磁盘查看/管理常用
 * [[set-time]] 设置时间时区等
 * [[nslookup]] 通过域名查找ip(通过dns服务器)
