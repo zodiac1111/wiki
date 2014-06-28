@@ -15,7 +15,7 @@
 
 条件语句
 
-make没有‘if-elseif-endif`语句。只能使用`if-else`嵌套
+make没有`if-elseif-endif`语句。只能使用`if-else`嵌套
 
 ```bash
 ifeq ($(ARCH),arm)
