@@ -37,9 +37,13 @@
 ##项目级:命令行/编译参数指定
 
 警告:
+
 	gcc main.c -Wall
+
 忽略:
-	gcc mian.c -Wall -Wno-unused-parameter  //开去`all`警告,但是忽略 `-unused-parameter`警告
+
+	gcc mian.c -Wall -Wno-unused-parameter  
+	#开启`all`警告,但是忽略 `-unused-parameter`警告
 
 选项格式: `-W[no-]<警告选项>`  
 如:
