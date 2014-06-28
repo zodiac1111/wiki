@@ -6,7 +6,7 @@
 * [[gcc/home]] gcc 相关
 * [[debug/home]] 各种调试技巧相关
 * [[blog/home]] 博客程序相关操作
-* [web](web) 
+* [web/home](web) 
 * [实用工具](utility) 
 * [avr](avr) 
 * [[fun]] 有趣的东西
