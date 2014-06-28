@@ -9,9 +9,14 @@
 指定该变量为"未使用的".即使这个变量没有被使用,编译时也会忽略则个警告输出.
 
 ##文件级:在源代码文件中诊断(忽略/警告)
-语法:
+
+在一个c语言源文件中指定启用/忽略的警告
+
+在源代码中加入下面的代码
 
 	#pragma GCC diagnostic [error|warning|ignored] "-W<警告选项>"
+
+可能有些第版本的gcc不支持在个别函数内指定，仅支持整个文件的作用域
 
 诊断-忽略:(关闭警告)
 
@@ -42,8 +47,8 @@
 
 忽略:
 
-	gcc mian.c -Wall -Wno-unused-parameter  
 	#开启`all`警告,但是忽略 `-unused-parameter`警告
+	gcc mian.c -Wall -Wno-unused-parameter  
 
 选项格式: `-W[no-]<警告选项>`  
 如:
