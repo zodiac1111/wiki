@@ -1,10 +1,10 @@
 # 知识管理
 
-* [[soft]] 软件使用
-* [[sys-manage]] 系统运行和维护
-* [[dev]] 开发 
-* [[gcc]] gcc 相关
-* [[debug]] 各种调试技巧相关
+* [[soft/homr]] 软件使用
+* [[sys-manage/home]] 系统运行和维护
+* [[dev/home]] 开发 
+* [[gcc/home]] gcc 相关
+* [[debug/home]] 各种调试技巧相关
 * [[blog]] 博客程序相关操作
 * [web](web) 
 * [实用工具](utility) 
