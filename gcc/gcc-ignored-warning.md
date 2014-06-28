@@ -61,8 +61,10 @@ gcc main.c -Wall
 
 忽略:
 
-	#开启`all`警告,但是忽略 `-unused-parameter`警告
-	gcc mian.c -Wall -Wno-unused-parameter  
+```bash
+#开启`all`警告,但是忽略 `-unused-parameter`警告
+gcc mian.c -Wall -Wno-unused-parameter  
+```
 
 选项格式: `-W[no-]<警告选项>`  
 如:
