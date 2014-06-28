@@ -3,7 +3,7 @@
 * [[shellinabox]] 微型web shell
 * [[install]] 修改覆盖正在运行的程序
 * [[DeviceTree]] 设备树
-* [[mini2440/customize-mini2440-softwave]] 配置 mini2440 软件部分 
+* [[/dev/mini2440/customize-mini2440-softwave]] 配置 mini2440 软件部分 
 * [[/dev/linux-system-call]] Linux系统调用列表
 * [[/dev/crt]] crt C run time
 * [[/dev/exe-code]] c语言可执行程序各个段
