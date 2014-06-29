@@ -1,5 +1,7 @@
 # AddressSanitizer
 
+c语言程序编译器官方诊断工具,查找潜在错误.源自llvm.
+
 官方
 
 * gcc的介绍 http://gcc.gnu.org/gcc-4.8/changes.html (更新日志),[详细](https://code.google.com/p/address-sanitizer/) 4.8以后支持
