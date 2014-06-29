@@ -2,7 +2,7 @@
 
 官方
 
-* gcc的介绍 http://gcc.gnu.org/gcc-4.8/changes.html [详细](https://code.google.com/p/address-sanitizer/) 
+* gcc的介绍 http://gcc.gnu.org/gcc-4.8/changes.html (更新日志),[详细](https://code.google.com/p/address-sanitizer/) 4.8以后支持
 * clang的介绍 http://clang.llvm.org/docs/AddressSanitizer.html
 
 个人
