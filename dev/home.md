@@ -1,5 +1,6 @@
 # 开发目录
 
+* [网线接法](wire)
 * [[shellinabox]] 微型web shell
 * [[install]] 修改覆盖正在运行的程序
 * [[DeviceTree]] 设备树
