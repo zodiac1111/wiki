@@ -6,7 +6,7 @@ c语言程序编译器官方诊断工具,查找潜在错误.源自llvm.
 
 * gcc的介绍 http://gcc.gnu.org/gcc-4.8/changes.html (更新日志),[详细](https://code.google.com/p/address-sanitizer/) 4.8以后支持
 * clang的介绍 http://clang.llvm.org/docs/AddressSanitizer.html
-* 介绍幻灯片/ppt http://llvm.org/devmtg/2011-11/Serebryany_FindingRacesMemoryErrors.pdf
+* [介绍幻灯片/ppt](http://llvm.org/devmtg/2011-11/Serebryany_FindingRacesMemoryErrors.pdf)
 
 个人
 
