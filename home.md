@@ -11,5 +11,5 @@
 * [avr](avr/home) 
 * [[fun]] 有趣的东西
 * [[book]] 技术方面的书籍,总体意义上的
-* [测试页面](test)
+* [测试页面](test/home)
 * [about](about) 
