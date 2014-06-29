@@ -17,4 +17,4 @@
 http://blog.sina.com.cn/s/blog_622a99700100pjv3.html
 
 > install 的方式跟cp不同，先unlink再creat，当unlink的时候，已经map的虚拟空间vma中的inode结点没有变，只有inode结点的引用数为0是，kernel才把它干掉。
-> 也就是新的so和旧的so用的不是同一个inode结点，所以不会相互影响。这时只有得启程序才会使用到新的so。所以采用这种方式的话就可以避免> 先stop进程，更新so，再重启进程这样比较耗时的操作。
+> 也就是新的so和旧的so用的不是同一个inode结点，所以不会相互影响。这时只有得启程序才会使用到新的so。所以采用这种方式的话就可以避先stop进程，更新so，再重启进程这样比较耗时的操作。
