@@ -7,13 +7,15 @@
 
     apt-get install flac
 
-flac -> wav
+## flac -> wav
 
     flac -d <输入_flac文件> -o <输出_wav文件>
 
-wav -> flac 
+## wav -> flac 
 
     flac <输入_wav文件> <输出_flac文件> -<压缩比率 1-8 , 默认为 5>
+
+最简单的
 
 
 # 分割APE/CUE镜像 
