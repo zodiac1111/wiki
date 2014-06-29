@@ -3,6 +3,10 @@
 > 参考 http://www.linuxidc.com/Linux/2008-10/16212.htm
 
 # FLAC 和 WAV 之间相互转换
+需要 flac 程序
+
+    apt-get install flac
+
 flac -> wav
 
     flac -d <输入_flac文件> -o <输出_wav文件>
