@@ -4,13 +4,13 @@
 
 # FLAC 和 WAV 之间相互转换
 flac -> wav
-``` 
-flac -d <输入_flac文件> -o <输出_wav文件>
-```
+
+    flac -d <输入_flac文件> -o <输出_wav文件>
+
 wav -> flac 
-```
-flac <输入_wav文件> <输出_flac文件> -<压缩比率 1-8 , 默认为 5>
-```
+
+    flac <输入_wav文件> <输出_flac文件> -<压缩比率 1-8 , 默认为 5>
+
 
 # 分割APE/CUE镜像 
 ##  先解码成WAV格式
