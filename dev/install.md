@@ -11,3 +11,7 @@
   
 你可以试试直接 open+write 是啥结果，要么是 text file busy（可执行文件），要么原来的进程崩溃（动态库） 
 ```
+
+# 使用cp覆盖的问题
+
+http://blog.sina.com.cn/s/blog_622a99700100pjv3.html
