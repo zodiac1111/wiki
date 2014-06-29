@@ -23,4 +23,4 @@ http://blog.sina.com.cn/s/blog_622a99700100pjv3.html
 
 实验 http://www.linuxidc.com/Linux/2011-01/31622p2.htm
 
-也是实际例子 http://www.piao2010.com/%E4%B8%BA%E4%BD%95cp%E8%A6%86%E7%9B%96%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%8A%A8%E6%80%81%E5%BA%93so%E4%BC%9A%E5%AF%BC%E8%87%B4coredump
+也是实际例子 [例子2](http://www.piao2010.com/%E4%B8%BA%E4%BD%95cp%E8%A6%86%E7%9B%96%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%8A%A8%E6%80%81%E5%BA%93so%E4%BC%9A%E5%AF%BC%E8%87%B4coredump)
