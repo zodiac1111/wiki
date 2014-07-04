@@ -1,6 +1,6 @@
 # 开发目录
 
-* [wifi](wifi,wpa_cli使用笔记)
+* [wifi,wpa_cli使用笔记](wifi)
 * [地址分析](AddressSanitizer) gcc clang 程序诊断工具
 * [网线接法](wire)
 * [[shellinabox]] 微型web shell
