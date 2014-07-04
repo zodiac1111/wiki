@@ -32,11 +32,12 @@ Definitions:
 WIFI 各种加密模式
 
 1.AP
-a: open 开放式 (没有加密选项)
-74:ea:3a:54:eb:2c       2442    53      [ESS]   webbox-wifi-test
 
-开启,自动选择, 16进制 ascii密码
-74:ea:3a:54:eb:2c       2412    73      [ESS]   webbox-wifi-test
+	a: open 开放式 (没有加密选项)
+	74:ea:3a:54:eb:2c       2442    53      [ESS]   webbox-wifi-test
+
+	开启,自动选择, 16进制 ascii密码
+	74:ea:3a:54:eb:2c       2412    73      [ESS]   webbox-wifi-test
 
 开放系统
 
@@ -77,6 +78,12 @@ a: open 开放式 (没有加密选项)
 
 	ad_hoc Wireless ad hoc network无线临时网络 (暂时不考虑)
 
+一种同类的概念
+
+	加密类型 WEP/2 WAP/2
+	密码管理模式 EAP PSK
+	密码 TKIP AES
+
 # 有用的指令
 
 	#  查询状态
@@ -108,5 +115,29 @@ a: open 开放式 (没有加密选项)
 	group_cipher=CCMP
 	key_mgmt=WPA-PSK
 	wpa_state=COMPLETED
+
+`wpa_state=COMPLETED` 可以用来判断连接状态(?)
+
+
+手册: http://hostap.epitest.fi/wpa_supplicant/devel/ctrl_iface_page.html
+
+设置
+
+	SET_NETWORK <network id> <variable> <value>
+
+Set network variables. Network id can be received from the `LIST_NETWORKS` command output.
+
+This command uses the same variables and data formats as the configuration file. See example wpa_supplicant.conf for more details.
+
+* ssid (network name, SSID)
+* psk (WPA passphrase or pre-shared key)
+* key_mgmt (key management protocol)
+* identity (EAP identity)
+* password (EAP password)
+* ...
+
+
+wpa_cli -p/var/run/wpa_supplicant set_network 0 ssid \'webbox-wifi-test\'
+
 
 
