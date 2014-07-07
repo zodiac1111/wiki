@@ -30,9 +30,9 @@ B: 安装到flash (我的选择)
 
 参考 https://groups.google.com/d/msg/beagleboard/7reYt7Tmdjs/5LLRvCTPNuoJ
 
-```
-echo BB-I2C1 > /sys/devices/bone_capemgr.????/slots
-```
+
+    echo BB-I2C1 > /sys/devices/bone_capemgr.????/slots
+
 
 ## bbb i2c adxl345
 
