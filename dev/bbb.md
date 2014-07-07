@@ -20,10 +20,10 @@ B: 安装到flash (我的选择)
 主要步骤参考1, 镜像在3上找到
 
 * 复制到sd卡
-* 把sd卡插到bbb上,用户名密码 debian/temppwd
-* 启动sd卡上的系统
-* 从host复制镜像到bbb上
-* 在bbb上,解压镜像到块设备上 lsblk ` mmcblk1      179:8    0   1.8G  0 disk`
+* 把sd卡插到bbb上,直接上电,不用按键 用户名密码 debian/temppwd
+* 启动sd卡上的系统(类似livecd)
+* 从host复制镜像到bbb上 (这个livecd内容小,所有从host安装,类似livecd安装到硬盘)
+* 在bbb上,解压镜像到块设备上 lsblk ` mmcblk1      179:8    0   1.8G  0 disk` 类似镜像恢复
 
 
 # debian上的i2c
