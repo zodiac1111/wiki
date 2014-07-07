@@ -13,11 +13,16 @@
 * 3 [elinux.org bbb安装debian](http://elinux.org/Beagleboard:Debian_On_BeagleBone_Black)
 * 4 [比较全面,从bootloader,交叉编译器到根文件系统都有](http://eewiki.net/display/linuxonarm/BeagleBone+Black)
 
+
 A: 使用sd卡引导,不安装到flash
+
+## 我的尝试(成功)
+
+主要参考上面1
 
 B: 安装到flash (我的选择)
 
-主要步骤参考1, 镜像在3上找到
+主要步骤参考1, 镜像在1的目录上找到
 
 * 复制到sd卡
 * 把sd卡插到bbb上,While holding down the 'boot' button, apply power to the board. Continue to hold the 'boot' button until the USER LEDs begin to flash 用户名密码 debian/temppwd
