@@ -1,5 +1,6 @@
 # 开发目录
 
+* [2013年最多搜索的论文,干货](http://googleresearch.blogspot.co.uk/2014/06/influential-papers-for-2013.html)
 * [wifi,wpa_cli使用笔记](wifi)
 * [地址分析](AddressSanitizer) gcc clang 程序诊断工具
 * [网线接法](wire)
