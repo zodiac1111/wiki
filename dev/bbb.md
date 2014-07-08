@@ -1,5 +1,9 @@
 # BeagleBone Black 相关笔记
 
+ARM EABIhf
+
+hf=hardware float 硬件浮点型
+
 # 准备
 ##  硬件获得
 * 购买: chipsee 官方指定中国代理商;  http://www.chipsee.com/  淘宝 http://item.taobao.com/item.htm?id=20044299382
