@@ -11,6 +11,10 @@ hf=hardware float 硬件浮点型
   * 淘宝 http://item.taobao.com/item.htm?id=20044299382
 * 中国版BB-Black 英蓓特 http://www.embedinfo.com/ (我没有使用这个版本)
 
+# 资料
+
+* elinux的维基 http://elinux.org/Beagleboard:BeagleBoneBlack
+
 # 安装debian
 
 * 1 [简单博客](http://blogs.bu.edu/mhirsch/2013/11/install-debian-7-to-emmc-internal-flash-drive-of-beaglebone-black/) 安装到eMMC ,他的文件是[这里](https://rcn-ee.net/deb/microsd/wheezy/) 下的,下bone * img.xz
