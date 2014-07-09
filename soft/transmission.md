@@ -33,14 +33,21 @@ transmission-cli
 
 使用用户名密码登陆 [参见这里](http://www.hdpfans.com/thread-11614-1-1.html)
 
-```
+```bash
 "rpc-authentication-required": true,
 "rpc-enabled": true,
 "rpc-password": "密码",
 "rpc-username": "root",
 ```
-```
+
+```bash
 ~ # transmission-deamon --help
 -t   --auth                             Require authentication
 -T   --no-auth                          Don't require authentication
 ```
+
+# 开机启动
+
+> http://raspberrypi.stackexchange.com/questions/3380/how-to-enable-transmission-daemon-start-at-startup
+
+    update-rc.d transmission-daemon defaults
