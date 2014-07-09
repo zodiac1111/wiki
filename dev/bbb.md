@@ -48,6 +48,9 @@ B: 安装到flash (我的选择)
 
     echo BB-I2C1 > /sys/devices/bone_capemgr.????/slots
 
+# 其他
+
+砖了? [修砖不擦除eMMC](http://hipstercircuits.com/unbrick-beaglebone-black-without-erasing-emmc/)
 
 ## bbb i2c adxl345
 
@@ -64,3 +67,4 @@ B: 安装到flash (我的选择)
 * beaglebone 玩法项目 http://learn.adafruit.com/category/beaglebone
 * 谷歌论坛 https://groups.google.com/forum/#!forum/beaglebone
 * 中文,个人博客.BBB相关使用笔记分享 http://blog.csdn.net/wyt2013/
+
