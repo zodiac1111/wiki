@@ -1,4 +1,4 @@
-# id 操作
+# id操作
 
 > http://www.cyberciti.biz/faq/howto-change-rename-user-name-id/
 
