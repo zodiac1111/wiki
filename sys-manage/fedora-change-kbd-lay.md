@@ -29,3 +29,9 @@ The installer should guide you through a wizard. If it is not the case, type:
     $ sudo dpkg-reconfigure console-data
 
 and choose your layout.
+
+# 更多
+
+> http://www.emacswiki.org/emacs/MovingTheCtrlKey
+
+包含gk等桌面系统,控制台,debian系等多种控制台工具
