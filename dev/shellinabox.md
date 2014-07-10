@@ -1,8 +1,14 @@
 # shell in a box
 
+web页面的shell工具
+
+# debian/redhat/centos安装
+
+> http://www.pc-freak.net/blog/install-shellinabox-debian-gnu-linux/
+
 **未完成**
 
-移植到arm.
+# 移植到arm 未完成.
 
 官网:http://code.google.com/p/shellinabox/
 
