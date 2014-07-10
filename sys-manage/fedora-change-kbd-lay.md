@@ -34,4 +34,4 @@ and choose your layout.
 
 > http://www.emacswiki.org/emacs/MovingTheCtrlKey
 
-包含gk等桌面系统,控制台,debian系等多种控制台工具
+包含gk等桌面系统,控制台,debian系等多种控制台工具,mac,window,linux等都有.非常全面
