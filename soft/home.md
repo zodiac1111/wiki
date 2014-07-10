@@ -1,5 +1,6 @@
 # 软件索引
 
+* [[grep]] 
 * [[install-osx-mavericks-on-pc-with-niresh]]
 * [[latex]]
 * Linux学习:[[lfs]] linux构建
