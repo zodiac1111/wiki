@@ -2,6 +2,10 @@
 
 > http://blog.mitemitreski.com/2012/01/aria2-awesome-command-line-download.html#.U8CQa3WSzrc
 
+官方网址 http://aria2.sourceforge.net/
+
+官方手册  http://aria2.sourceforge.net/manual/en/html/aria2c.html
+
 # 安装
 
 For Debian based (Ubuntu , Linux Mint):
