@@ -65,6 +65,15 @@ Download  a list of files from URL provided in a file
     aria2c -i file-with-urls.txt 
 
 # 示例配置文件
+
+默认使用 `~/.aria2/aria2.conf` 作为配置文件
+
+以下指令可以设置使用的配置文件
+
+   aria2c --conf-path=<PATH>
+
+一个简单的配置文件例子和说明
+
 ```text
 # 启动时使用下面选项可以指定配置文件  
 # --conf-path=<PATH>
