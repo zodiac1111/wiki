@@ -153,9 +153,9 @@ debian@arm:~$
 	debian@arm:~$ xz -cd bone-debian-7.5-2014-05-06-2gb.img.xz > /dev/mmcblk1
 	# 需要一段时间,取决于SD的读取速度
 
-过了大约 3-5分钟,完成输入`sudo poweroff`关机,然后移除microSD卡
+过了大约 3-5分钟,完成输入`sudo poweroff`关机,电源灯熄灭.然后移除microSD卡
 
-再次启动电源后就重mmc启动了debian
+再次启动,按一下电源按钮,就从mmc启动了debian
 
 # debian上的i2c
 
