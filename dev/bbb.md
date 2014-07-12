@@ -47,7 +47,13 @@ B: 安装到flash (我的选择)
 * 下载 img.xz 文件而不是 .tar.xz文件,比如我下载`bone-debian-7.5-2014-05-06-2gb.img.xz`
 * 解压这个文件,官方说用7z,我用debian自带的也行.
 * 得到文件:`bone-debian-7.5-2014-05-06-2gb.img`
-* window磁盘写入工具,我用debian自带的"磁盘"工具:附件>磁盘>
+* window磁盘写入工具,我用debian自带的"磁盘"工具
+* 电脑上插入microSD卡,我用usb读卡器也是可以的
+* host:附件>磁盘找到卡的那个磁盘.设置按钮>从磁盘映像恢复>选择`bone-debian-7.5-2014-05-06-2gb.img`文件>开始恢复
+* 等
+* 完成后,bbb关机,插到bbb上
+* 
+
 # debian上的i2c
 
 参考 https://groups.google.com/d/msg/beagleboard/7reYt7Tmdjs/5LLRvCTPNuoJ
