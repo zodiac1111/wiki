@@ -54,59 +54,29 @@ B: 安装到flash (我的选择)
 * 完成后,bbb关机,插到bbb上
 * 如果可能,连接串口,连接电源适配器.
 * 按住boot按钮.开机
-* 直到 USER LED 开始闪烁
-* 约一分钟后可以看到命令提示符
+* 直到 USER LED 开始闪烁 (一会儿的事)
+* 约一分钟后可以看到命令提示符,登陆
 
-systemd-fsck[218]: rootfs: clean, 23493/102752 files, 115814/410368 blocks              
-[   10.042624] libphy: PHY 4a101000.mdio:01 not found                                   
-[   10.047677] net eth0: phy 4a101000.mdio:01 not found on slave 1                      
-                                                                                        
-Debian GNU/Linux 7 arm ttyO0                                                            
-                                                                                        
-default username:password is [debian:temppwd]                                           
-                                                                                        
-arm login: debian                                                                       
-Password:                                                                               
-                                                                                        
-Login incorrect                                                                         
-arm login: temppwd                                                                      
-Password:                                                                               
-                                                                                        
-Login incorrect                                                                         
-arm login: debian                                                                       
-Password:                                                                               
-                                                                                        
-Login incorrect                                                                         
-arm login: root                                                                         
-Password:                                                                               
-                                                                                        
-Login incorrect                                                                         
-arm login: zodiac1111                                                                   
-Password:                                                                               
-                                                                                        
-Login incorrect                                                                         
-Maximum number of tries exceeded (5)                                                    
-                                                                                        
-Debian GNU/Linux 7 arm ttyO0                                                            
-                                                                                        
-default username:password is [debian:temppwd]                                           
-                                                                                        
-The IP Address for usb0 is: 192.168.7.2                                                 
-arm login: debian                                                                       
-Password:                                                                               
-                                                                                        
-Login incorrect                                                                         
-arm login: debian                                                                       
-Password:                                                                               
-Linux arm 3.8.13-bone49 #1 SMP Fri May 2 06:36:13 UTC 2014 armv7l                       
-                                                                                        
-The programs included with the Debian GNU/Linux system are free software;               
-the exact distribution terms for each program are described in the                      
-individual files in /usr/share/doc/*/copyright.                                         
-                                                                                        
-Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent                       
-permitted by applicable law.                                                            
-debian@arm:~$ 
+	systemd-fsck[218]: rootfs: clean, 23493/102752 files, 115814/410368 blocks              
+	[   10.042624] libphy: PHY 4a101000.mdio:01 not found                                   
+	[   10.047677] net eth0: phy 4a101000.mdio:01 not found on slave 1                      
+	# 这里等了比较久 = =                                                                                   
+	Debian GNU/Linux 7 arm ttyO0                                                            
+		                                                                                    
+	default username:password is [debian:temppwd]                                           
+		                                                                                    
+	The IP Address for usb0 is: 192.168.7.2                                                 
+	arm login: debian                                                                       
+	Password:                                                                               
+	Linux arm 3.8.13-bone49 #1 SMP Fri May 2 06:36:13 UTC 2014 armv7l                       
+		                                                                                    
+	The programs included with the Debian GNU/Linux system are free software;               
+	the exact distribution terms for each program are described in the                      
+	individual files in /usr/share/doc/*/copyright.                                         
+		                                                                                    
+	Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent                       
+	permitted by applicable law.                                                            
+	debian@arm:~$ 
 
 
 # debian上的i2c
