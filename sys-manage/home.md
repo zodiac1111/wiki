@@ -1,6 +1,6 @@
 # 系统运行维护笔记
 
-* [查uid,改id,改用户名](id)
+* [[id]]查uid,改id,改用户名
 * [[debain-mount-hfsplus]] debian系统上挂载mac的hfs+磁盘
 * [[bash-terminal-prompt]] 自定义bash终端提示符
 * [[fcitx]] 小企鹅输入法
