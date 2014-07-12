@@ -11,6 +11,7 @@ hf=hardware float 硬件浮点型
   * 淘宝 http://item.taobao.com/item.htm?id=20044299382
 * 中国版BB-Black 英蓓特 http://www.embedinfo.com/ (我没有使用这个版本)
 
+最新的镜像文件可以在[这里](http://beagleboard.org/latest-images/)获得,包括debian和Angstrom
 # 资料
 
 * elinux的维基 http://elinux.org/Beagleboard:BeagleBoneBlack
