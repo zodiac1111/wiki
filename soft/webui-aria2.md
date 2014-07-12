@@ -15,3 +15,9 @@ aria2
 web服务器例如简单的webfs.
 
 配置文件 `configuration.js`
+
+# 详细配置
+
+> http://blog.binux.me/2012/12/aria2-examples/
+
+用户名密码功能需要1.15.2以上
