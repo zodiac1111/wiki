@@ -43,6 +43,13 @@ B: 安装到flash (我的选择)
 
 ### 再来一次的记录(启动livecd系统)
 
+参考
+
+> http://blogs.bu.edu/mhirsch/2013/11/install-debian-7-to-emmc-internal-flash-drive-of-beaglebone-black/
+> http://elinux.org/Beagleboard:Debian_On_BeagleBone_Black
+
+主要步骤
+
 * 从[这里](http://elinux.org/Beagleboard:Debian_On_BeagleBone_Black)看到
 * 下载 img.xz 文件而不是 .tar.xz文件,比如我下载`bone-debian-7.5-2014-05-06-2gb.img.xz`
 * 解压这个文件,官方说用7z,我用debian自带的也行.
