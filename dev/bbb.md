@@ -191,3 +191,30 @@ debian@arm:~$
 * 谷歌论坛 https://groups.google.com/forum/#!forum/beaglebone
 * 中文,个人博客.BBB相关使用笔记分享 http://blog.csdn.net/wyt2013/
 
+# apt-get无效
+
+```bash
+W: A error occurred during the signature verification. The repository is not updated and the previous
+ index files will be used. GPG error: http://security.debian.org wheezy/updates Release: The followin
+g signatures were invalid: KEYEXPIRED 1587841717
+
+W: GPG error: http://ftp.us.debian.org wheezy Release: The following signatures were invalid: KEYEXPI
+RED 1587841717 KEYEXPIRED 1557241909
+W: A error occurred during the signature verification. The repository is not updated and the previous
+ index files will be used. GPG error: http://ftp.us.debian.org wheezy-updates Release: The following 
+signatures were invalid: KEYEXPIRED 1587841717
+```
+
+查看系统时间
+
+```bash
+root@arm:~# date
+Wed Nov 15 01:31:20 UTC 2028
+root@arm:~# date
+```
+呵呵呵
+
+更新一下时间
+```
+ntpdate time.apple.com
+```
