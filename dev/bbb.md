@@ -18,7 +18,7 @@ hf=hardware float 硬件浮点型
 
 # 安装debian
 
-* 1 [简单博客](http://blogs.bu.edu/mhirsch/2013/11/install-debian-7-to-emmc-internal-flash-drive-of-beaglebone-black/) 安装到eMMC ,他的文件是[这里](https://rcn-ee.net/deb/microsd/wheezy/) 下的,下bone * img.xz
+* 1 [简单博客](http://blogs.bu.edu/mhirsch/2013/11/install-debian-7-to-emmc-internal-flash-drive-of-beaglebone-black/) 安装到eMMC ,他的文件是[这里](https://rcn-ee.net/deb/microsd/wheezy/) 下的,下bone * img.xz ,[flasher](https://rcn-ee.net/deb/flasher/wheezy/)
 * 1.1 [安装debian/ubuntu](http://www.gigamegablog.com/2012/09/03/ubuntu-on-the-beaglebone-enabling-analog-in-pwm-i2c-and-spi/)
 * 2 [adafruit的专题](http://learn.adafruit.com/downloads/pdf/beaglebone-black-installing-operating-systems.pdf)
 * 3 [elinux.org bbb安装debian](http://elinux.org/Beagleboard:Debian_On_BeagleBone_Black)
