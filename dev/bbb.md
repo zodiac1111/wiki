@@ -218,3 +218,8 @@ root@arm:~# date
 ```
 ntpdate time.apple.com
 ```
+
+* 启动是挂载硬盘,可以在`/etc/rc.local`中添加
+
+   mount -t ext4  /dev/sda1 /mnt
+
