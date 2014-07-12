@@ -12,6 +12,11 @@ Fedora and yum based
 
     sudo yum install aria2
 
+
+启动下载
+
+    aria2c --conf-path=/mnt/aria2.conf
+
 # 使用
 
 Few simple examples 
@@ -58,3 +63,56 @@ this way we instruct aria2c to use 7 concurrent connections with max 2 connectio
 Download  a list of files from URL provided in a file
 
     aria2c -i file-with-urls.txt 
+
+# 示例配置文件
+```text
+# 启动时使用下面选项可以指定配置文件  
+# --conf-path=<PATH>
+
+
+#允许rpc
+enable-rpc=true
+
+#允许非外部访问
+rpc-listen-all=true
+
+#允许所有来源, web界面跨域权限需要
+rpc-allow-origin-all=true
+
+# 保存的路径
+dir=/mnt/aria2
+
+#保存会话
+save-session=/mnt/session 
+
+# 重新启动时加载会话
+input-file=/mnt/session
+
+# 自动保存会话
+--save-session-interval=60
+
+#断点续传
+continue=true
+
+#最大同时下载数(任务数), 路由建议值: 3
+max-concurrent-downloads=5
+
+#同服务器连接数
+max-connection-per-server=5
+#最小文件分片大小, 下载线程数上限取决于能分出多少片, 对于小文件重要
+#min-split-size=10M
+#单文件最大线程数, 路由建议值: 5
+#split=5
+#下载速度限制
+max-overall-download-limit=0
+#单文件速度限制
+max-download-limit=0
+#上传速度限制
+max-overall-upload-limit=0
+#单文件速度限制
+max-upload-limit=0
+#断开速度过慢的连接
+#lowest-speed-limit=0
+#验证用，需要1.16.1之后的release版本
+#referer=*
+```
