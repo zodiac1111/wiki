@@ -41,7 +41,7 @@ B: 安装到flash (我的选择)
 * 从host复制镜像到bbb上 (这个livecd内容小,所有从host安装,类似livecd安装到硬盘)
 * 在bbb上,解压镜像到块设备上 lsblk ` mmcblk1      179:8    0   1.8G  0 disk` 类似镜像恢复
 
-### 再来一次的记录
+### 再来一次的记录(启动livecd系统)
 
 * 从[这里](http://elinux.org/Beagleboard:Debian_On_BeagleBone_Black)看到
 * 下载 img.xz 文件而不是 .tar.xz文件,比如我下载`bone-debian-7.5-2014-05-06-2gb.img.xz`
@@ -79,6 +79,83 @@ Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
 permitted by applicable law.                                                            
 debian@arm:~$ 
 ```
+
+到目前为止类似livecd的模式已经可以了.接下来就是通过这个livecd模式把文件下载到bbb上,实现安装系统到emmc
+
+### 安装到emmc
+
+接之前的livecd模式,之前以debian/temppwd登陆.
+
+#### 复制镜像到bbb上
+
+通过以太网.`sudo ifconfig`查看bbb的ip
+
+
+	eth0      Link encap:Ethernet  HWaddr 1c:ba:8c:9f:d2:df  
+		      inet addr:192.168.1.107  Bcast:255.255.255.255  Mask:255.255.255.0
+		      inet6 addr: fe80::1eba:8cff:fe9f:d2df/64 Scope:Link
+		      UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+		      RX packets:40230 errors:0 dropped:0 overruns:0 frame:0
+		      TX packets:14412 errors:0 dropped:0 overruns:0 carrier:0
+		      collisions:0 txqueuelen:1000 
+		      RX bytes:60678623 (57.8 MiB)  TX bytes:983048 (960.0 KiB)
+		      Interrupt:40 
+
+	lo        Link encap:Local Loopback  
+		      inet addr:127.0.0.1  Mask:255.0.0.0
+		      inet6 addr: ::1/128 Scope:Host
+		      UP LOOPBACK RUNNING  MTU:65536  Metric:1
+		      RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+		      TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+		      collisions:0 txqueuelen:0 
+		      RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+	usb0      Link encap:Ethernet  HWaddr 26:16:34:0b:af:d7  
+		      inet addr:192.168.7.2  Bcast:192.168.7.3  Mask:255.255.255.252
+		      UP BROADCAST MULTICAST  MTU:1500  Metric:1
+		      RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+		      TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+		      collisions:0 txqueuelen:1000 
+		      RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+我就通过eth0上传了,usb0也是可以的.
+
+在本机上
+
+	zodiac1111@debian:music$ scp 'bone-debian-7.5-2014-05-06-2gb.img.xz' debian@192.168.1.107:
+	The authenticity of host '192.168.1.107 (192.168.1.107)' can't be established.
+	ECDSA key fingerprint is 2d:9d:c5:07:1d:54:65:2a:cc:ec:ac:8e:94:ee:ba:f1.
+	Are you sure you want to continue connecting (yes/no)? yes
+	Warning: Permanently added '192.168.1.107' (ECDSA) to the list of known hosts.
+	debian@192.168.1.107's password: 
+	bone-debian-7.5-2014-05-06-2gb.img.xz      100%  162MB   2.8MB/s   00:57 
+
+在bbb上看看是不是在家目录上了
+
+	debian@arm:~$ ls
+	bin  bone-debian-7.5-2014-05-06-2gb.img.xz
+
+查看bbb上磁盘结构(我这里正好两个都是2g的,看挂载点就区分出来了)
+
+	debian@arm:~$ lsblk
+	NAME         MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+	mmcblk1boot0 179:16   0     1M  1 disk 
+	mmcblk1boot1 179:24   0     1M  1 disk 
+	mmcblk0      179:0    0   1.8G  0 disk  <-这是livecd挂载的
+	├─mmcblk0p1  179:1    0    96M  0 part /boot/uboot
+	└─mmcblk0p2  179:2    0   1.6G  0 part /
+	mmcblk1      179:8    0   1.8G  0 disk  <-这个是bbb上本身的emmc,我之前刷过,所以结构颇像
+	├─mmcblk1p1  179:9    0    96M  0 part 
+	└─mmcblk1p2  179:10   0   1.6G  0 part 
+
+在bbb上解压镜像并写入到mmc中
+
+	debian@arm:~$ xz -cd bone-debian-7.5-2014-05-06-2gb.img.xz > /dev/mmcblk1
+	# 需要一段时间,取决于SD的读取速度
+
+过了大约 3-5分钟,完成输入`sudo poweroff`关机,然后移除microSD卡
+
+再次启动电源后就重mmc启动了debian
 
 # debian上的i2c
 
