@@ -55,6 +55,6 @@ Download using multiple connections
 
 
 this way we instruct aria2c to use 7 concurrent connections with max 2 connections per server
-Download  a list of files from URI provided in a file
+Download  a list of files from URL provided in a file
 
-    aria2c -i file-with-uris.txt 
+    aria2c -i file-with-urls.txt 
