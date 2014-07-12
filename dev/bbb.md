@@ -41,7 +41,13 @@ B: 安装到flash (我的选择)
 * 从host复制镜像到bbb上 (这个livecd内容小,所有从host安装,类似livecd安装到硬盘)
 * 在bbb上,解压镜像到块设备上 lsblk ` mmcblk1      179:8    0   1.8G  0 disk` 类似镜像恢复
 
+### 再来一次的记录
 
+* 从[这里](http://elinux.org/Beagleboard:Debian_On_BeagleBone_Black)看到
+* 下载 img.xz 文件而不是 .tar.xz文件,比如我下载`bone-debian-7.5-2014-05-06-2gb.img.xz`
+* 解压这个文件,官方说用7z,我用debian自带的也行.
+* 得到文件:`bone-debian-7.5-2014-05-06-2gb.img`
+* window磁盘写入工具,我用debian自带的"磁盘"工具:附件>磁盘>
 # debian上的i2c
 
 参考 https://groups.google.com/d/msg/beagleboard/7reYt7Tmdjs/5LLRvCTPNuoJ
