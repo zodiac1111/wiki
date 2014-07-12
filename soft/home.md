@@ -1,5 +1,6 @@
 # 软件索引
 
+* [[deadbeef]]音乐播放器,可以识别cue
 * [[aria2]] 命令行下的多文件下载管理器
 * [[grep]] 
 * [[install-osx-mavericks-on-pc-with-niresh]]
