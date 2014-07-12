@@ -44,7 +44,7 @@ Limit speed for upload ( on torrent files for example )
  
 Limit speed for download
 
-    aria2c --max-download-limit=100K location of file
+    aria2c --max-download-limit=100K location-of-file
 
  
 Pause and resume
