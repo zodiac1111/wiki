@@ -6,7 +6,8 @@
 
 # json-rpc
 
-[JSON-RPC轻量级远程调用协议介绍及使用](http://gubaojian.blog.163.com/blog/static/1661799082012101439591/)
+* [中文JSON-RPC轻量级远程调用协议介绍及使用](http://gubaojian.blog.163.com/blog/static/1661799082012101439591/)
+* [英文wiki](http://en.wikipedia.org/wiki/JSON-RPC#Implementations)
 
 json-rpc是基于json的跨语言远程调用协议，
 
@@ -14,3 +15,7 @@ json-rpc是基于json的跨语言远程调用协议，
 * 相对hessian、java-rpc等二进制协议**便于调试、实现、扩展**，是非常优秀的一种远程调用协议。
 
 目前主流语言都已有json-rpc的实现框架，java语言中较好的json-rpc实现框架有jsonrpc4j、jpoxy、json-rpc。三者之中jsonrpc4j既可独立使用，又可与spring无缝集合，比较适合于基于spring的项目开发。
+
+# 资料
+
+如何实现[官方的实现建议](http://json-rpc.org/wiki/implementations)
