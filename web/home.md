@@ -1,4 +1,5 @@
 # 目录
+* [[rpc]]
 * css词汇表(中/英)和简单例子 https://github.com/yisibl/css-vocabulary
 * [[datatable]] 使用笔记
 * [[dns_crypt]] 使dns协议运行在tcp之上,而非udp,可以加密dns协议
