@@ -190,7 +190,7 @@ debian@arm:~$
 * beaglebone 玩法项目 http://learn.adafruit.com/category/beaglebone
 * 谷歌论坛 https://groups.google.com/forum/#!forum/beaglebone
 * 中文,个人博客.BBB相关使用笔记分享 http://blog.csdn.net/wyt2013/
-
+* 第4周开始硬件部分使用beaglebone black教学 https://class.coursera.org/conrob-002/lecture/150
 # apt-get无效
 
 ```bash
