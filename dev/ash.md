@@ -57,7 +57,8 @@ mk_modules_json()
 
 ### 函数的参数列表
 
-> http://stackoverflow.com/questions/16461656/bash-how-to-pass-array-as-an-argument-to-a-function
+* http://stackoverflow.com/questions/16461656/bash-how-to-pass-array-as-an-argument-to-a-function
+* bash的传递参数例子 http://bash.cyberciti.biz/guide/Pass_arguments_into_a_function
 
 这个例子将所有参数列表合在一起,使用`$@`.
 ```sh
