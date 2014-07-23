@@ -7,6 +7,13 @@
 * man手册 http://minix1.woodhull.com/manpages/man1/ash.1.html
 * 官方网站 http://www.in-ulm.de/~mascheck/various/ash/
 
+## 变量
+
+### 检查变量是否为空
+
+* http://stackoverflow.com/questions/3061036/how-to-find-variable-is-empty-or-in-shell-script
+* 是否设置,设置为空,设置为非空 http://serverfault.com/questions/7503/how-to-determine-if-a-bash-variable-is-empty
+
 
 ## 数组
 > https://forum.openwrt.org/viewtopic.php?id=10824
