@@ -4,6 +4,7 @@
 
 * wiki介绍 http://en.wikipedia.org/wiki/Almquist_shell
 * wiki中文 http://zh.wikipedia.org/wiki/Almquist_shell
+* man手册 http://minix1.woodhull.com/manpages/man1/ash.1.html
 * 官方网站 http://www.in-ulm.de/~mascheck/various/ash/
 
 
