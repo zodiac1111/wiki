@@ -63,7 +63,7 @@ mk_modules_json()
 ```sh
 isConnect()
 {	
-	servers=$@
+	local servers=$@
 	echo "所有服务器:"$servers
 	local i=1 ;
 	local j=0 ;
