@@ -1,5 +1,6 @@
 # 开发目录
 
+* [[udhcpd]] 微型dhcp服务器
 * [[ash]] 全称 Almquist shell,广泛用于busybox 
 * [[stackoverflow-ebooks]] stackoverflow 上比较热门的问题归类
 * [2013年最多搜索的论文,干货](http://googleresearch.blogspot.co.uk/2014/06/influential-papers-for-2013.html)
