@@ -10,6 +10,8 @@
 ## 数组
 > https://forum.openwrt.org/viewtopic.php?id=10824
 
+简单示例
+
 ```sh
 #!/bin/ash
 
@@ -26,6 +28,8 @@ do
 done
 ```
 ## 函数
+
+简单示例
 
 ```sh
 mk_modules_json()
