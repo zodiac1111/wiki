@@ -54,3 +54,24 @@ mk_modules_json()
 	fi
 }
 ```
+
+### 函数的参数列表
+
+> http://stackoverflow.com/questions/16461656/bash-how-to-pass-array-as-an-argument-to-a-function
+
+这个例子将所有参数列表合在一起,使用`$@`.
+```sh
+isConnect()
+{	
+	servers=$@
+	echo "所有服务器:"$servers
+	local i=1 ;
+	local j=0 ;
+	for j in $servers
+	do
+		    echo $i: $j
+		    i=`expr $i + 1`
+	done
+	return 2  ;
+}
+```
