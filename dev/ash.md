@@ -9,6 +9,7 @@
 
 ## 数组
 > https://forum.openwrt.org/viewtopic.php?id=10824
+
 ```sh
 #!/bin/ash
 
