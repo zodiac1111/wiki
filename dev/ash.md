@@ -26,7 +26,7 @@ done
 ```
 ## 函数
 
-```ash
+```sh
 mk_modules_json()
 {
 	file=$1
