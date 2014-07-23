@@ -9,6 +9,9 @@
 	或者
 	ifconfig   eth0:0   192.168.1.103   netmask   255.255.255.0
 
+删除指定路由
+
+	route del -net 192.168.2.0 gw 192.168.1.1 netmask 255.255.255.0 dev eth1
 
 网关的设定执行这个命令:
 
