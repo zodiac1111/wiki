@@ -1,5 +1,7 @@
 # 语义版本
 
+版本号的说明
+
 来源: http://semver.org/
 
 Given a version number MAJOR.MINOR.PATCH, increment the:
