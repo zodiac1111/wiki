@@ -8,3 +8,9 @@
 打印
 
     awk '{print $1, $4}' in.txt
+
+# 不要打印换行
+
+参考 http://stackoverflow.com/questions/2021982/awk-without-printing-newline
+
+`print`-> `printf`
