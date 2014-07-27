@@ -10,7 +10,7 @@
 
     find -mmin -60 -exec ls -l {} \;
 
-    find  -iname *.wav  -exec flac {} \; 转换所有wav到flac
+    find -iname *.wav  -exec flac {} \; 转换所有wav到flac
 
 
 详细
