@@ -1,4 +1,6 @@
-# golden dict
+# Golden Dict
+
+Linux下的词典,
 
 * 官网 http://goldendict.org/
 * 源代码 https://github.com/goldendict
