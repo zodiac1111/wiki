@@ -28,3 +28,4 @@ Project ERROR: Package ao not found
 zodiac1111@debian:goldendict$ aot-get install libao-dev
 
 ```
+目前可能还需要的包:`libao-dev`,`libavutil-dev`
