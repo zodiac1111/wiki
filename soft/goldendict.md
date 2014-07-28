@@ -16,7 +16,7 @@ Make sure you use qmake from the qt4 install. You can then optionally do make in
 ```
 
 如果提示缺少一些包,安装它
-```text
+```bash
 zodiac1111@debian:goldendict$ ./configure 
 
 To build the program, run qmake, then make.
