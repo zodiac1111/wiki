@@ -5,9 +5,9 @@
 
 编译安装 
 
-```text
-Make sure you have those dependency packages installed: libvorbis-dev, zlib1g-dev, libhunspell-dev, x11proto-record-dev, qt4-qmake, libqt4-dev, g++, libxtst-dev, libphonon-dev, liblzo2-dev, libbz2-dev, libao-dev, libavutil-dev, libavformat-dev. They can be named slightly different in different distributions.
+Make sure you have those dependency packages installed: `libvorbis-dev`, `zlib1g-dev`, `libhunspell-dev`, `x11proto-record-dev`, `qt4-qmake`, `libqt4-dev`, `g++`, `libxtst-dev`, `libphonon-dev`, `liblzo2-dev`, `libbz2-dev`, `libao-dev`, `libavutil-dev`, `libavformat-dev`. They can be named slightly different in different distributions.
 
+```text
 $ git clone git://github.com/goldendict/goldendict.git
 $ cd goldendict && qmake && make
 
