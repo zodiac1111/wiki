@@ -8,7 +8,7 @@
 * 简单例子 http://fortawesome.github.io/Font-Awesome/examples/
 * 图标表格即unicode码表 http://fortawesome.github.io/Font-Awesome/cheatsheet/ 
   * 分类的? http://fortawesome.github.io/Font-Awesome/icons/
-* 自定义 Fontawesome 图标字体(选择需要的,放弃不要的) http://vimarch.com/archives/18/
+* 自定义 Fontawesome 图标字体(选择需要的,放弃不要的) http://vimarch.com/archives/18/ 或者 http://fontello.com/
 
 
 自定义,教程,工具
