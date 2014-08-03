@@ -20,3 +20,4 @@
 科普,入门
 
 * 如何把你的图标转换成web字体 http://www.w3cplus.com/css3/how-to-turn-your-icons-into-a-web-font.html
+* 再探@font-face及webIcon制作 http://www.cnblogs.com/hustskyking/p/manufacture-font-face-in-web.html
