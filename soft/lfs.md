@@ -10,7 +10,7 @@
 
 当前版本 Linux From Scratch - Version 7.5
 
-lfs遵循的标准
+## lfs遵循的标准
 
 * [POSIX.1-2008.](http://pubs.opengroup.org/onlinepubs/9699919799/) 
 * [Filesystem Hierarchy Standard version 3.0 Draft 1 (FHS)](http://www.linuxfoundation.org/collaborate/workgroups/lsb/fhs-30-draft-1)
