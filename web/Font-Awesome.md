@@ -10,11 +10,12 @@
   * 分类的? http://fortawesome.github.io/Font-Awesome/icons/
 
 
-国内,自定义,教程
+自定义,教程,工具
 
 * 腾讯的自定义图标 http://isux.tencent.com/icon-font.html
 * 阿里/淘宝的库 http://www.iconfont.cn/
   * 阿里制作图标 http://www.iconfont.cn/help/iconmake.html
+* 在线导入,制作下载 https://icomoon.io/app/
 
 科普,入门
 
