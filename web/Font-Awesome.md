@@ -15,3 +15,7 @@
 * 腾讯的自定义图标 http://isux.tencent.com/icon-font.html
 * 阿里/淘宝的库 http://www.iconfont.cn/
   * 阿里制作图标 http://www.iconfont.cn/help/iconmake.html
+
+科普,入门
+
+* 如何把你的图标转换成web字体 http://www.w3cplus.com/css3/how-to-turn-your-icons-into-a-web-font.html
