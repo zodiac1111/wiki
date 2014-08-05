@@ -49,3 +49,18 @@ SVN出现这个错误的原因是我删除了一个文件夹后又创建了一�
 ```bash
 $ svn propedit svn:ignore <目录>
 ```
+
+忽略某个文件下的子文件,或者匹配,比如不跟踪`/scss/common.scss`文件
+```text
+├── plant_data.html
+├── scss
+│   ├── common.scss
+│   ├── demo_page.scss
+```
+则
+```
+svn propedit svn:ignore scss
+或者可能是
+cd scss && svn propedit svn:ignore .
+```
+然后编辑文件中写入`common.scss`也可以使用`*`匹配.
