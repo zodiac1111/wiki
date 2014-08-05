@@ -58,7 +58,7 @@ $ svn propedit svn:ignore <目录>
 │   ├── demo_page.scss
 ```
 则
-```
+```bash
 svn propedit svn:ignore scss
 或者可能是
 cd scss && svn propedit svn:ignore .
