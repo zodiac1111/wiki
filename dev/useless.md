@@ -33,7 +33,9 @@ int function(void) {
 
 按名称传递参数,可以指定任一顺序的参数,只需要之处参数名称,可以使用默认值,巧用结构体.
 
-lisp也叫关键字参数
+lisp也叫关键字参数 
+
+[Keyword arguments in C](http://www.darkcoding.net/software/keyword-arguments-in-c/) 
 
 头文件
 ```c
