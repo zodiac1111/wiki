@@ -67,7 +67,7 @@ Issue all the warnings demanded by strict ISO C and ISO C++.
           -Wmissing-parameter-type (C only)  
           -Wold-style-declaration (C only)  
           -Woverride-init  
-          -Wsign-compare  
+          -Wsign-compare  比较有符号和无符号类型
           -Wtype-limits  
           -Wuninitialized  
           -Wunused-parameter (only with -Wunused or -Wall) 
