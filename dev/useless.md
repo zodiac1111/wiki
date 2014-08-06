@@ -33,6 +33,19 @@ int function(void) {
 头文件
 ```c
 #define uart_led_blink(...) led_blink_fun((struct led_blink_args){__VA_ARGS__})
+/// 一个串口拥有的led,两个:收/发
+enum eUartLed {
+	eUartLed_TX = 0,
+	eUartLed_RX,
+};
+/// 串口led闪烁函数的参数列表
+struct led_blink_args {
+	DrvGPIOCallBackFun blink;
+	int comNo;
+	enum eUartLed led;
+	int count;
+	int delay;
+};
 ```
 实现
 ```c
