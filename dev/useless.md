@@ -35,7 +35,8 @@ int function(void) {
 
 lisp也叫关键字参数 
 
-[Keyword arguments in C](http://www.darkcoding.net/software/keyword-arguments-in-c/) 
+* [Keyword arguments in C](http://www.darkcoding.net/software/keyword-arguments-in-c/) 
+* 有限价值的参考:http://c2.com/cgi/wiki?SimulatingKeywordArguments
 
 头文件
 ```c
