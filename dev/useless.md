@@ -30,6 +30,9 @@ int function(void) {
 > http://zh.wikipedia.org/wiki/%E8%BE%BE%E5%A4%AB%E8%AE%BE%E5%A4%87
 
 # 参数名传递参数
+
+按名称传递参数,可以指定任一顺序的参数,只需要之处参数名称,可以使用默认值,巧用结构体
+
 头文件
 ```c
 #define uart_led_blink(...) led_blink_fun((struct led_blink_args){__VA_ARGS__})
