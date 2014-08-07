@@ -1,5 +1,6 @@
 # 开发目录
 
+* [2014-OSCON幻灯片和视频](http://www.oscon.com/oscon2014/public/schedule/proceedings)
 * [[modbus]] 一些解释
 * [[udhcpd]] 微型dhcp服务器
 * [[ash]] 全称 Almquist shell,广泛用于busybox 
