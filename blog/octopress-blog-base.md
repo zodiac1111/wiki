@@ -31,7 +31,7 @@ rake new_post["Title"]
 
 编辑生成文章
 
-```
+```text
 ---
 layout: post
 title: "可以改成中文名"
@@ -60,7 +60,7 @@ rake gen_deploy
 ```
 
 ## 保存source(可选)
-```
+```bash
 #保存博客源代码之 页面的source分支下。
 cd /home/zodiac1111/blog/octopress
 git add .
