@@ -74,3 +74,29 @@ git push origin source
 cd octopress
 git pull git://github.com/imathis/octopress.git #pull官方程序
 ```
+
+# 顺带:rake目标补全
+
+参考 https://github.com/ai/rake-completion
+
+Ubuntu
+
+Add Ubuntu on Rails PPA:
+
+    $ sudo add-apt-repository ppa:ubuntu-on-rails/ppa
+
+Install `rake-completion` package:
+
+    $ sudo apt-get install rake-completion
+
+其他类UNIX系统
+
+全局
+
+复制`rake`脚本到`/etc/bash_completion.d/`.
+
+用户
+
+Copy rake script (for example, to ~/scripts/) and add to your .bashrc:
+
+    . ~/scripts/rake
