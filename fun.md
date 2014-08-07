@@ -1,5 +1,6 @@
 # 有趣的东西
 
+* [有趣的话](talk)
 * 你想过如何通过程序—创作、处理、分析音乐吗？([github.io](http://music-suite.github.io/docs/ref/))
 * 一种编码[ECMA](http://www.polyomino.org.uk/computer/ECMA-10/),[wiki]()
 * 开源无线电,飞机基站等[中文博客](http://blog.sina.com.cn/s/blog_67cdafe201014odm.html).[本地备份](gnuradio)
