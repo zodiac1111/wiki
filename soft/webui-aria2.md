@@ -1,7 +1,7 @@
 # aria2的web界面
 
-示例 demo: http://ziahamza.github.io/webui-aria2/
-参考 ref : https://github.com/ziahamza/webui-aria2
+* [示例 demo](http://ziahamza.github.io/webui-aria2/) 
+* [官方github](https://github.com/ziahamza/webui-aria2) 
 
 你需要
 
