@@ -1,3 +1,5 @@
+# octopress github微件
+
 例子:
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 <script type="text/javascript" src="/javascripts/libs/jquery.githubRepoWidget.min.js"></script>
