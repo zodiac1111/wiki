@@ -24,19 +24,22 @@ debian系
 sudo service transmission-daemon stop # 停止
 sudo service transmission-daemon start  # 启动
 ```
-配置文件` ~/.config/transmission-daemon/settings.json`
+
+个人用户配置文件` ~/.config/transmission-daemon/settings.json`
+
+debian系的配置文件可能被全局配置文件`/etc/transmission-daemon/settings.json`覆盖,参见[这里](https://trac.transmissionbt.com/wiki/UnixServer/Debian).
 
 默认端口 :9091
 
-默认白名单:本机 127.0.0.1 rpc-whitelist
+默认白名单:本机 127.0.0.1 rpc-whitelist 全局默认开启(true)
 
 命令行方式指定白名单 
 
-  transmission-daemon --allowed 115.198.91.197(自己的IP)
+    transmission-daemon --allowed 115.198.91.197(自己的IP)
 
 可以指定多个白名单 "rpc-whitelist": "127.0.0.1,192.168.*.*"  [参见这里](https://trac.transmissionbt.com/wiki/EditConfigFiles)
 
-使用用户名密码登陆 [参见这里](http://www.hdpfans.com/thread-11614-1-1.html)
+使用用户名密码登陆[参见这里](http://www.hdpfans.com/thread-11614-1-1.html),当然前提是IP在白名单或者关闭白名单功能.
 
 ```bash
 "rpc-authentication-required": true,
