@@ -1,4 +1,4 @@
-# transmission bt客户端 
+# Transmission BT客户端 
 
 需要图形界面依赖.
 
@@ -19,6 +19,11 @@ transmission-cli
 
 必须 **停掉** transmission-daemon 才能修改配置文件 
 
+debian系
+```bash
+sudo service transmission-daemon stop # 停止
+sudo service transmission-daemon start  # 启动
+```
 配置文件` ~/.config/transmission-daemon/settings.json`
 
 默认端口 :9091
