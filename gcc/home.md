@@ -1,6 +1,6 @@
 # 文件列表
 
-* [Macro-Pitfalls](gcc宏 陷阱(坑))
+* [gcc宏 陷阱(坑)](Macro-Pitfalls)
 * [[gcc-cstd]] gcc 对c语言标准的支持进度
 * [[gdb-useful]] 有用的gdb调试命令
 * [[gcc-ignored-warning]] gcc各种范围警告
