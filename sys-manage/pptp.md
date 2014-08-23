@@ -40,14 +40,12 @@ timestamp=1408782468
 [vpn]
 service-type=org.freedesktop.NetworkManager.pptp
 gateway=192.168.2.100 # vpn 主机
-require-mppe=yes #一些选项
 user=bbb #vpn用户名
-password-flags=1
+password-flags=1 #保存密码
+require-mppe=yes #一些选项
 require-mppe=yes
-user=bbb
 refuse-chap=yes
 refuse-eap=yes
-password-flags=1
 refuse-pap=yes
 
 
