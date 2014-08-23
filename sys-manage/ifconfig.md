@@ -104,7 +104,27 @@
 
 # windows xp 路由操作
 
-[官方介绍](https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/sag_tcpip_pro_removestaticroute.mspx)
+[官方介绍](http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/route.mspx?mfr=true)
+
 打印路由表
 
     route print
+
+根据网络删除路由表项
+
+    route delete 10.0.0.0 
+
+更多方式删除
+
+    route delete 10.41.0.0 mask 255.255.0.0
+
+根据gateway网关删除,后面的是网关
+
+    route delete 0.0.0.0 10.0.0.1
+
+# pptpd 服务器,安装配置
+
+1. http://www.ebayram.net/howto-vpn-pptp-server-debian-ubuntu/
+2. http://www.networkinghowtos.com/howto/configure-a-pptp-vpn-server-on-ubuntu-linux/
+3. 详细(包括客户端设置) http://www.howtogeek.com/51237/setting-up-a-vpn-pptp-server-on-debian/
+4. windowXP 不代替默认路由(连上vpn还可以通过本机访问互联网,而不是通过vpn访问互联网) http://service.tp-link.com.cn/detail_article_414.html
