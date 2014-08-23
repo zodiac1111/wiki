@@ -22,5 +22,33 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 linux
 
 * debian/mate/gnome(gui): 编辑连接->IPv4设置->路由->勾选"仅将此连接用于相对应的网络上的资源"
-* webbox(command line/配置文件)
+* webbox(command line/配置文件) 配置文件见下面
 
+# debian network
+
+gui的配置文件`sudo cat '/etc/NetworkManager/system-connections/本机测试' `
+
+```text
+[connection]
+id=本机测试 # gui上显示的名称
+uuid=428ad377-aab9-4d95-9e9c-xxxxxxxxx
+type=vpn
+permissions=user:zodiac1111:;
+autoconnect=false
+timestamp=1408782468
+
+[vpn]
+service-type=org.freedesktop.NetworkManager.pptp
+gateway=192.168.2.100 # vpn 主机
+require-mppe=yes #一些选项
+user=bbb #vpn用户名
+password-flags=1
+
+[ipv6]
+method=auto
+
+[ipv4]
+method=auto
+never-default=true #上文的:"仅将此连接用于相对应的网络上的资源"
+
+```
