@@ -1,5 +1,6 @@
 # 软件索引
 
+* [[traceroute]] 路由追踪
 * [[goldendict]] 词典安装
 * [[webui-aria2]] aria2的web interface
 * [[deadbeef]]音乐播放器,可以识别cue
