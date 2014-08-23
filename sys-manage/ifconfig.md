@@ -101,3 +101,8 @@
 添加默认路由
 
 	route add -net 0.0.0.0 netmask 0.0.0.0 gateway 192.168.2.1 dev eth0
+
+# windows xp 路由操作
+
+打印路由表
+    route print
