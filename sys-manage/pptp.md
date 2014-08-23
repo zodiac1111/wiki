@@ -43,6 +43,13 @@ gateway=192.168.2.100 # vpn 主机
 require-mppe=yes #一些选项
 user=bbb #vpn用户名
 password-flags=1
+require-mppe=yes
+user=bbb
+refuse-chap=yes
+refuse-eap=yes
+password-flags=1
+refuse-pap=yes
+
 
 [ipv6]
 method=auto
