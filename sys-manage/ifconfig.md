@@ -104,6 +104,7 @@
 
 # windows xp 路由操作
 
+[官方介绍](https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/sag_tcpip_pro_removestaticroute.mspx)
 打印路由表
 
     route print
