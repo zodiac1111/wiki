@@ -63,16 +63,16 @@ http://wiki.hidemyass.com/Tutorials:Connect_PPTP_on_Linux_command_line
 
 Check if ppp-generic module exists. If not, it will probably not work:
 
-   modprobe ppp-generic
+    modprobe ppp-generic
  
 
 Install necessary packages:
 
-   apt-get install pptp-linux pptpd ppp curl
+    apt-get install pptp-linux pptpd ppp curl
  
 Create PPTP configuration file:
 
-   nano /etc/ppp/peers/hmavpn
+    nano /etc/ppp/peers/hmavpn
 
 
 Enter this as content of the "hmavpn" file:
