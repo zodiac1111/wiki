@@ -57,3 +57,78 @@ method=auto
 never-default=true #上文的:"仅将此连接用于相对应的网络上的资源"
 
 ```
+# webbox/linux命令行
+
+http://wiki.hidemyass.com/Tutorials:Connect_PPTP_on_Linux_command_line
+
+Check if ppp-generic module exists. If not, it will probably not work:
+
+   modprobe ppp-generic
+ 
+
+Install necessary packages:
+
+   apt-get install pptp-linux pptpd ppp curl
+ 
+Create PPTP configuration file:
+
+   nano /etc/ppp/peers/hmavpn
+
+
+Enter this as content of the "hmavpn" file:
+
+(replace 72.11.154.130 is the IP of the PPTP server you want to connect to, and MYHMAACCOUNTUSERNAME with your username)
+
+```
+pty "pptp 72.11.154.130 --nolaunchpppd"
+lock
+noauth
+nobsdcomp
+nodeflate
+name MYHMAACCOUNTUSERNAME #用户名
+remotename hmavpn #接口名
+ipparam hmavpn #接口名
+require-mppe-128  # 加密方式,debian默认是这样的,windosxp可以通过
+usepeerdns # 使用vpnserver的dns,不上网可以不用
+defaultroute # 没有设置也可以连上私有网络,反正不上网
+persist # 自己加的,不知道
+password 123456 # 直接这里写密码也是可以的
+```
+
+Enter VPN login credentials into chap-secrets file:
+([tab] being replaced by a tab, username with your VPN account username and password with your PPTP password):
+
+    nano /etc/ppp/chap-secrets 编辑连接用户
+    username[tab]hmavpn[tab]password[tab]*
+
+Create script to replace default routes - otherwise the VPN is not being used by your system:
+
+    nano /etc/ppp/ip-up.local
+
+Enter this as content of the "ip-up.local" file: 使用vpn的路由.如果不用可以不添加
+
+```bash
+#!/bin/bash
+H=`ps aux | grep 'pppd pty' | grep -v grep | awk '{print $14}'`
+DG=`route -n | grep UG | awk '{print $2}'`
+DEV=`route -n | grep UG | awk '{print $8}'`
+route add -host $H gw $DG dev $DEV
+route del default $DEV
+route add default dev ppp0
+```
+
+Make this script executable:
+
+    chmod +x /etc/ppp/ip-up.local
+
+To connect to the VPN:
+
+    pon hmavpn
+
+To disconnect from the VPN:
+
+    poff hmavpn
+
+Check your current IP:
+
+    curl http://checkip.dyndns.org
