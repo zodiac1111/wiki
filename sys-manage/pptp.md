@@ -105,7 +105,9 @@ Create script to replace default routes - otherwise the VPN is not being used by
 
     nano /etc/ppp/ip-up.local
 
-Enter this as content of the "ip-up.local" file: 使用vpn的路由.如果不用可以不添加
+Enter this as content of the "ip-up.local" file: 使用vpn的路由.如果不用可以不添加,仅与vpn服务器连接.
+
+如果vpn服务器做了转发(如客户端间)则配置后可以访问其他客户端(像局域网一样).
 
 ```bash
 #!/bin/bash
