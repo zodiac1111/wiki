@@ -132,3 +132,11 @@ To disconnect from the VPN:
 Check your current IP:
 
     curl http://checkip.dyndns.org
+
+# 客户端之间访问
+
+http://superuser.com/questions/516634/pptp-linux-clients-unreachable
+
+由vpnserver负责ip转发
+
+ip转发 http://www.net-gyver.com/?p=1317
