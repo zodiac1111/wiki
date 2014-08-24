@@ -157,3 +157,4 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 192.168.2.100   0.0.0.0         255.255.255.255 UH    0      0        0 eth0
 192.168.7.0     0.0.0.0         255.255.255.252 U     0      0        0 usb0
 ```
+如果不使用vpn的路由(即不使用vpn上网)则客户端需要手动配置路由表,linux如上,window不知道
