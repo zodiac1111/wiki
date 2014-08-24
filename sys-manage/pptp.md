@@ -135,8 +135,25 @@ Check your current IP:
 
 # 客户端之间访问
 
+## 服务端转发
+
 http://superuser.com/questions/516634/pptp-linux-clients-unreachable
 
 由vpnserver负责ip转发
 
 ip转发 http://www.net-gyver.com/?p=1317
+
+## 客户端路由表必须路由到vpn server
+
+```
+root@arm:/etc/ppp/peers# route add  10.0.0.0  gw 10.0.0.1 dev ppp0                                                          
+root@arm:/etc/ppp/peers# route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         192.168.2.253   0.0.0.0         UG    0      0        0 eth0
+10.0.0.0        10.0.0.1        255.255.255.255 UGH   0      0        0 ppp0 # 路由转发给10.0.0.1,可以连接其他客户端
+10.0.0.1        0.0.0.0         255.255.255.255 UH    0      0        0 ppp0 # 默认与服务器的连接
+192.168.2.0     0.0.0.0         255.255.255.0   U     0      0        0 eth0
+192.168.2.100   0.0.0.0         255.255.255.255 UH    0      0        0 eth0
+192.168.7.0     0.0.0.0         255.255.255.252 U     0      0        0 usb0
+```
