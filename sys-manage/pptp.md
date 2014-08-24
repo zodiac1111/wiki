@@ -135,7 +135,7 @@ Check your current IP:
 
 # 客户端之间访问
 
-## 服务端转发
+## 1.服务端转发
 
 http://superuser.com/questions/516634/pptp-linux-clients-unreachable
 
@@ -143,7 +143,7 @@ http://superuser.com/questions/516634/pptp-linux-clients-unreachable
 
 ip转发 http://www.net-gyver.com/?p=1317
 
-## 客户端路由表必须路由到vpn server
+## 2.客户端路由表必须路由到vpn server
 
 ```
 root@arm:/etc/ppp/peers# route add  10.0.0.0  gw 10.0.0.1 dev ppp0                                                          
