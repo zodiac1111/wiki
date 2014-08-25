@@ -159,6 +159,14 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 192.168.2.100   0.0.0.0         255.255.255.255 UH    0      0        0 eth0
 192.168.7.0     0.0.0.0         255.255.255.252 U     0      0        0 usb0
 ```
+
+或者这样
+```
+route add -net 192.168.9.0 netmask 255.255.255.0 gw 192.168.9.1 dev ppp1
+```
+
+即指定网络`-net`和子网掩码`netmask`.网关`gw`从`192.168.9.1`出去.
+
 如果不使用vpn的路由(即不使用vpn上网)则客户端需要手动配置路由表,linux如上,window不知道.
 
 为了简单起见,可以放弃"不使用vpn路由",这样就是不一定能上网.
