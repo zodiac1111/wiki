@@ -24,3 +24,9 @@ sudo vim /etc/ppp/pptpd-options
 sudo vim /etc/ppp/chap-secrets 
 
 ```
+
+# 更多的IP
+
+给客户端分配更多ip地址: 笨办法 http://serverfault.com/questions/512751/more-than-254-client-ips-in-pptp-pptpd
+
+    remoteip 192.168.0.2-254,192.168.1.2-254
