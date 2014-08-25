@@ -47,4 +47,4 @@ http://www.net-gyver.com/?p=1317
 
 IPtable
 
-    iptalebs -A FORWARD -s 10.0.0.0/8 -d 10.0.0.0/8 -j ACCEPT
+    iptables -A FORWARD -s 10.0.0.0/8 -d 10.0.0.0/8 -j ACCEPT
