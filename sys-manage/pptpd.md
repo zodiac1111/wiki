@@ -30,3 +30,21 @@ sudo vim /etc/ppp/chap-secrets
 给客户端分配更多ip地址: 笨办法 http://serverfault.com/questions/512751/more-than-254-client-ips-in-pptp-pptpd
 
     remoteip 192.168.0.2-254,192.168.1.2-254
+
+# 转发客户端之间
+
+http://superuser.com/questions/516634/pptp-linux-clients-unreachable
+
+http://www.net-gyver.com/?p=1317
+
+使能转发 
+
+    echo 1 > /proc/sys/net/ipv4/ip_forward
+
+或者
+    
+    sysctl -w net.ipv4.ip_forward=1
+
+IPtable
+
+    iptalebs -A FORWARD -s 10.0.0.0/8 -d 10.0.0.0/8 -j ACCEPT
