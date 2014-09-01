@@ -1,6 +1,6 @@
 # 目录
 
-* [[kss]] 前段部件库
+* [[kss]] 前端部件库
 * [[Font-Awesome]] 图标字体
 * [[responsive-web-design]] 响应式设计
 * [[rpc]]
