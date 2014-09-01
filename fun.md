@@ -20,6 +20,8 @@ http://notanumber.net/archives/83/label-your-chips
 也可以用在 LED 点阵上。
 ```
 
+## 可视化算法
+
 * [可视化算法1](http://www.comp.nus.edu.sg/~stevenha/visualization/index.html) 用作教育不错
 * [算法可视化](http://bindog.github.io/%E7%90%86%E8%AE%BA/2014/08/09/visualizing-algorithms/)
 * [有趣的话](talk)
