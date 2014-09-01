@@ -1,5 +1,6 @@
 # 有趣的东西
 
+## [迷你标签打印机](http://www.chiphell.com/thread-1110371-1-1.html)
 ## [机械模型/发动机/德国](http://www.en.boehm-stirling.com/)
  
 ## 极小的等宽英文字符集
