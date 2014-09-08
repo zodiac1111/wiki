@@ -1,5 +1,9 @@
 # 有趣的东西
 
+重力模拟
+
+* [浏览器模拟重力](http://www.nowykurier.com/toys/gravity/gravity.html)
+
 风力仿生,不行,多足,机械
 
 * [分离仿生兽](http://www.strandbeest.com/beests_leg.php)
