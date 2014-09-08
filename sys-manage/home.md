@@ -1,5 +1,6 @@
 # 系统运行维护笔记
 
+* [Linux 性能监控、测试、优化工具](http://www.vpsee.com/2014/09/linux-performance-tools/)
 * [[pptp]],[[pptpd]] 一种vpn使用配置
 * [[find]] find命令行使用
 * [[id]]查uid,改id,改用户名
