@@ -133,8 +133,8 @@ http://www.opensource.apple.com/source/Libc/Libc-167/gen.subproj/ppc.subproj/isi
 
 # 数学
 
-* 弧度演示
-* [[/res/img/How_radians_work.gif]]
-* 一些其他数学方面的图片 https://en.wikipedia.org/wiki/User:LucasVB/Gallery
-* 此人网站 http://1ucasvb.tumblr.com/
+* 弧度演示 [[/res/img/How_radians_work.gif]]
+* 一些其他数学方面的图片 https://en.wikipedia.org/wiki/User:LucasVB/Gallery [个人网站](http://1ucasvb.tumblr.com/)
+* [图形化的数学,齿轮艺术](http://bugman123.com/Gears/index.html)
+
 * 傅里叶变换演示 [[/res/img/Fourier_transform.gif]] http://1ucasvb.tumblr.com/post/43816237610/the-fourier-transform-takes-an-input-function-f
