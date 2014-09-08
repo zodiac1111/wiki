@@ -1,5 +1,6 @@
 # 软件索引
 
+* [搜狗输入法linux黑框](http://my.oschina.net/qsjfighting/blog/223699) `xcompmgr`
 * [[traceroute]] 路由追踪
 * [[goldendict]] 词典安装
 * [[webui-aria2]] aria2的web interface
