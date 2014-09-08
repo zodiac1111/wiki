@@ -4,7 +4,7 @@
 * [分离仿生兽2](http://knewone.com/things/da-ren-de-ke-xue-xi-lie-di-30-qi-feng-li-fang-sheng-shou/reviews/54029e0431302d6cc1fc0700)
 
 
-*[迷你标签打印机](http://www.chiphell.com/thread-1110371-1-1.html)
+* [迷你标签打印机](http://www.chiphell.com/thread-1110371-1-1.html)
 * [另一款brother](http://www.chiphell.com/thread-856599-1-1.html)
 
 
