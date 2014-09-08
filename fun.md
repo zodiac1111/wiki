@@ -4,7 +4,7 @@
 
 * [浏览器模拟重力](http://www.nowykurier.com/toys/gravity/gravity.html)
 
-风力仿生,不行,多足,机械
+风力仿生,步行,多足,机械
 
 * [风力仿生兽](http://www.strandbeest.com/beests_leg.php)
 * [风力仿生兽2](http://knewone.com/things/da-ren-de-ke-xue-xi-lie-di-30-qi-feng-li-fang-sheng-shou/reviews/54029e0431302d6cc1fc0700)
