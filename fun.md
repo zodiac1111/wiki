@@ -53,7 +53,7 @@ http://notanumber.net/archives/83/label-your-chips
 ## 3d
 * github上的3d图形差异演示 https://github.com/skalnik/peg-board-spindle/commit/7a1039fe5709ff49eec7800aa7259a5e5b536d05#diff-0
 
-## 神
+## 计算机,虚拟化
 
 * 混乱c语言大赛, 8086个半字节的虚拟机.(最小的虚拟机) http://ioccc.org/2013/cable3/hint.html
 
