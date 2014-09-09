@@ -1,6 +1,7 @@
 # 开发目录
 
 * [丰田汽车软件教训](http://www.amobbs.com/thread-5557598-1-1.html)  
+  [较早的翻译,应该是最早的](http://club.tgfcer.com/thread-6817371-1-1.html)
   [英文专访](http://cybergibbons.com/wp-content/uploads/2013/10/Bookout_v_Toyota_Barr_REDACTED.pdf)
   邮件列表:[shlug]从丰田看写软件。还是转全文过来，这样不容易原链接丢失不见
 * [不停机调试内核](http://www.infoq.com/cn/presentations/gdb-sharp-knife-kgtp-linux-kernel)
