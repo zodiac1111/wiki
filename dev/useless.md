@@ -1,5 +1,11 @@
 # 各种奇技淫巧
 
+# 手动分配栈内存
+
+`alloca`
+
+[手动分配栈内存](http://blog.csdn.net/suoluotree/article/details/5649670)
+
 # c语言协程
 
 一个“蝇量级” C 语言协程库
