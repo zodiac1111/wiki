@@ -1,6 +1,7 @@
 # 开发目录
 
-* [丰田汽车软件教训](http://www.amobbs.com/thread-5557598-1-1.html),邮件列表:[shlug]从丰田看写软件。还是转全文过来，这样不容易原链接丢失不见
+* [丰田汽车软件教训](http://www.amobbs.com/thread-5557598-1-1.html)  
+  邮件列表:[shlug]从丰田看写软件。还是转全文过来，这样不容易原链接丢失不见
 * [不停机调试内核](http://www.infoq.com/cn/presentations/gdb-sharp-knife-kgtp-linux-kernel)
 * [网络基本功系列：细说网络那些事儿](https://community.emc.com/thread/197851)
 * [2014-OSCON幻灯片和视频](http://www.oscon.com/oscon2014/public/schedule/proceedings)
