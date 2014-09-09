@@ -1,5 +1,6 @@
 # 开发目录
 
+* [不停机调试内核](http://www.infoq.com/cn/presentations/gdb-sharp-knife-kgtp-linux-kernel)
 * [网络基本功系列：细说网络那些事儿](https://community.emc.com/thread/197851)
 * [2014-OSCON幻灯片和视频](http://www.oscon.com/oscon2014/public/schedule/proceedings)
 * [[modbus]] 一些解释
