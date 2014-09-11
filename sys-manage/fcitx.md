@@ -28,3 +28,9 @@ export QT_IM_MODULE=xim
 
 ##云输入法
 fedora: fcitx-cloudpinyin
+
+# 黑框
+
+搜狗 黑框 linux 黑块 http://my.oschina.net/qsjfighting/blog/223699
+
+`xcompmgr`
