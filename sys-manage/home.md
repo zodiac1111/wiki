@@ -1,6 +1,6 @@
 # 系统运行维护笔记
 
-* [Linux 性能监控、测试、优化工具](http://www.vpsee.com/2014/09/linux-performance-tools/),[英文连接](http://wiert.me/2014/03/19/reference-card-for-linux-performance-and-analysis-tools%EF%BB%BF-via-antony-peel-google/)
+* [Linux 性能监控、测试、优化工具](http://www.vpsee.com/2014/09/linux-performance-tools/),[英文连接](http://wiert.me/2014/03/19/reference-card-for-linux-performance-and-analysis-tools%EF%BB%BF-via-antony-peel-google/),[原始演讲](http://www.brendangregg.com/linuxperf.html)
 * [[pptp]],[[pptpd]] 一种vpn使用配置
 * [[find]] find命令行使用
 * [[id]]查uid,改id,改用户名
