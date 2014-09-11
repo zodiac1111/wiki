@@ -33,4 +33,6 @@ fedora: fcitx-cloudpinyin
 
 搜狗 黑框 linux 黑块 http://my.oschina.net/qsjfighting/blog/223699
 
+Alt+F2 运行
+
 `xcompmgr`
