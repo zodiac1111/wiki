@@ -1,6 +1,6 @@
 # 目录
 
-* [CSS 置中完全指南 (Chris Coyier)](http://css-tricks.com/centering-css-complete-guide/):Centering in CSS: A Complete Guide
+* CSS 置中完全指南 (Chris Coyier):[Centering in CSS: A Complete Guide]((http://css-tricks.com/centering-css-complete-guide/))
 * [[kss]] 前端部件库
 * [[Font-Awesome]] 图标字体
 * [[responsive-web-design]] 响应式设计
