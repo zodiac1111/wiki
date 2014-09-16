@@ -29,3 +29,7 @@ read(4, "UTC-8\n", 68)                  = 6
 * c整合可能不太方便
 * 不能不影响运行的情况下启动/关闭监视
 * 输出字符串
+
+# 调试串口程序
+
+When I debug interaction of my application with a serial port, I use [moserial](https://help.gnome.org/users/moserial/stable/basic-usage.html.en).
