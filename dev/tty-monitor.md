@@ -33,3 +33,35 @@ read(4, "UTC-8\n", 68)                  = 6
 # 调试串口程序
 
 When I debug interaction of my application with a serial port, I use [moserial](https://help.gnome.org/users/moserial/stable/basic-usage.html.en).
+
+# usb串口检视
+
+http://sourceforge.net/projects/ttyusbspy/?source=navbar 仅限usb
+
+wireshark 也可以监视usb
+
+# socat
+
+[使用socat实现Linux虚拟串口](http://blog.csdn.net/rainertop/article/details/26706847)
+
+（1）打开终端0，输入
+```
+socat -d -d pty,raw,echo=0 pty,raw,echo=0
+```
+返回结果：
+```
+2014/05/23 14:56:05 socat[2220] N PTY is /dev/pts/1
+2014/05/23 14:56:05 socat[2220] N PTY is /dev/pts/3
+2014/05/23 14:56:05 socat[2220] N starting data transfer loop with FDs [3,3] and [5,5]
+```
+（2）打开终端1，输入
+```
+cat < /dev/pst/1
+```
+（3）打开另一个终端2，输入
+```
+echo "Test" > /dev/pts/3，此时，终端1中会显示“Test”。
+```
+上述实验在vmware + ubuntu 12.04 环境下完成。
+
+原文地址：http://stackoverflow.com/questions/52187/virtual-serial-port-for-linux
