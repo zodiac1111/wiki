@@ -2,7 +2,7 @@
 
 # strace
 
-```shell
+```bash
 strace -s9999 -o myapp.strace -eread,write,ioctl ./myapp
 ```
 
