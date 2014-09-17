@@ -1,5 +1,9 @@
 # 有趣的东西
 
+ATM
+
+* [ATM读卡,密码截取装置(分离器)](http://krebsonsecurity.com/all-about-skimmers/)
+
 重力模拟
 
 * [浏览器模拟重力](http://www.nowykurier.com/toys/gravity/gravity.html)
