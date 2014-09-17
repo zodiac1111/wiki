@@ -30,3 +30,19 @@ zodiac1111@debian:ecl-13.5.1$ arm-linux-gcc -v
 线程模型：posix
 gcc 版本 4.3.5 (Buildroot 2011.05-dirty) 
 ```
+
+# host编译
+
+```text
+./configrue
+make
+sudo make install
+```
+
+# arm
+
+```
+./configrue --host=arm-linux
+```
+
+
