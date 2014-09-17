@@ -31,11 +31,13 @@ trigger the crash again.
 ## 默认对齐到网格
 
 找到`$(HOME)/.dia/persistence`配置文件中
-```
+
+```xml
 <dia:boolean role="grid_snap">
   <dia:attribute name="booleanvalue">
     <dia:boolean val="true"/>
   </dia:attribute>
 </dia:boolean>
 ```
+
 将`grid_snap`项的值修改为`ture`.默认对齐到网格.
