@@ -1,5 +1,6 @@
 # 开发目录
 
+* [arm上运行lisp](arm-ecl)
 * [各种方式的串口监视](tty-monitor)
 * [丰田汽车软件教训](http://www.amobbs.com/thread-5557598-1-1.html)  
   [较早的文章,应该是最早的](http://club.tgfcer.com/thread-6817371-1-1.html)
