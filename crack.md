@@ -161,7 +161,7 @@ In linux , ptrace is an abbreviation for "Process Trace".With ptrace , you can c
 
 Debuggers use ptrace a lot :) it's their job. 调试器使用 ptrace
 
-If we imagine code , it should look like this.
+If we imagine code , it should look like this.程序类似这样
 
 ```c
 int main()
@@ -176,3 +176,242 @@ int main()
 ```
 
 By the way , you can only do once `ptrace[PTRACE_TRACEMe]` 只能ptrace一次  , so debugger ptraced the program before, there our call will return false so we figured out there is something out there controlling our program
+
+捕获程序里的ptrace
+```text
+~/.gdbinit
+set disassembly-flavor intel # Intel syntax is better
+set disassemble-next-line on
+catch syscall ptrace #Catch the syscall.
+commands 1
+set ($eax) = 0
+continue
+end
+```
+
+eax will hold the result of the syscall.And it's ia always 0 or let me say TRUE
+
+this way , we bypass the ptrace protection and now we need to switch back to gdb
+
+```
+eren@lisa:~$ gdb ./CrackTheDoor 
+GNU gdb (GDB) 7.4.1-debian
+Copyright (C) 2012 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Catchpoint 1 (syscall 'ptrace' [26])
+Reading symbols from /home/eren/CrackTheDoor...(no debugging symbols found)...done.
+(gdb) r
+Starting program: /home/eren/CrackTheDoor 
+
+Catchpoint 1 (call to syscall ptrace), 0x08047698 in ?? ()
+=> 0x08047698:    3d 00 f0 ff ff   cmp    eax,0xfffff000
+
+Catchpoint 1 (returned from syscall ptrace), 0x08047698 in ?? ()
+=> 0x08047698:    3d 00 f0 ff ff   cmp    eax,0xfffff000
+
+        *** DOOR CONTROL SYSTEM  ***
+
+
+
+PASSWORD:
+```
+
+Ok , at least we can use our debugger as we want :)
+
+i put another breakpoint here PJeGPC4TIVaKFmmy53DJ
+
+```
+Breakpoint 2, 0x08048534 in PJeGPC4TIVaKFmmy53DJ ()
+=> 0x08048534 <PJeGPC4TIVaKFmmy53DJ+0>: 1e  push   ds
+(gdb) x/40i $pc
+=> 0x8048534 <PJeGPC4TIVaKFmmy53DJ>:    push   ds
+   0x8048535 <PJeGPC4TIVaKFmmy53DJ+1>:    mov    ebp,esp
+   0x8048537 <PJeGPC4TIVaKFmmy53DJ+3>:    sub    esp,0x20
+   0x804853a <PJeGPC4TIVaKFmmy53DJ+6>:    mov    BYTE PTR [ebp-0x1],0xe4
+   0x804853e <PJeGPC4TIVaKFmmy53DJ+10>:   mov    BYTE PTR [ebp-0x2],0x87
+   0x8048542 <PJeGPC4TIVaKFmmy53DJ+14>:   mov    BYTE PTR [ebp-0x3],0xfb
+   0x8048546 <PJeGPC4TIVaKFmmy53DJ+18>:   mov    BYTE PTR [ebp-0x4],0xbe
+   0x804854a <PJeGPC4TIVaKFmmy53DJ+22>:   mov    BYTE PTR [ebp-0x5],0xc9
+   0x804854e <PJeGPC4TIVaKFmmy53DJ+26>:   mov    BYTE PTR [ebp-0x6],0x93
+   0x8048552 <PJeGPC4TIVaKFmmy53DJ+30>:   mov    BYTE PTR [ebp-0x7],0x84
+   0x8048556 <PJeGPC4TIVaKFmmy53DJ+34>:   mov    BYTE PTR [ebp-0x8],0xfc
+   0x804855a <PJeGPC4TIVaKFmmy53DJ+38>:   mov    BYTE PTR [ebp-0x9],0x8d
+   0x804855e <PJeGPC4TIVaKFmmy53DJ+42>:   mov    BYTE PTR [ebp-0xa],0xe5
+   0x8048562 <PJeGPC4TIVaKFmmy53DJ+46>:   mov    BYTE PTR [ebp-0xb],0xbf
+   0x8048566 <PJeGPC4TIVaKFmmy53DJ+50>:   mov    BYTE PTR [ebp-0xc],0x5c
+   0x804856a <PJeGPC4TIVaKFmmy53DJ+54>:   mov    BYTE PTR [ebp-0xd],0xe2
+   0x804856e <PJeGPC4TIVaKFmmy53DJ+58>:   mov    BYTE PTR [ebp-0xe],0x76
+   0x8048572 <PJeGPC4TIVaKFmmy53DJ+62>:   mov    BYTE PTR [ebp-0xf],0x21
+   0x8048576 <PJeGPC4TIVaKFmmy53DJ+66>:   mov    BYTE PTR [ebp-0x10],0xb8
+   0x804857a <PJeGPC4TIVaKFmmy53DJ+70>:   mov    DWORD PTR [ebp-0x14],0x0
+   0x8048581 <PJeGPC4TIVaKFmmy53DJ+77>:   mov    eax,DWORD PTR [ebp-0x14]
+   0x8048584 <PJeGPC4TIVaKFmmy53DJ+80>:   add    eax,DWORD PTR [ebp+0x8]
+   0x8048587 <PJeGPC4TIVaKFmmy53DJ+83>:   movzx  eax,BYTE PTR [eax]
+   0x804858a <PJeGPC4TIVaKFmmy53DJ+86>:   test   al,al
+   0x804858c <PJeGPC4TIVaKFmmy53DJ+88>:   je     0x8048808 <PJeGPC4TIVaKFmmy53DJ+724>
+   0x8048592 <PJeGPC4TIVaKFmmy53DJ+94>:   mov    eax,DWORD PTR [ebp-0x14]
+   0x8048595 <PJeGPC4TIVaKFmmy53DJ+97>:   add    eax,DWORD PTR [ebp+0x8]
+   0x8048598 <PJeGPC4TIVaKFmmy53DJ+100>:  mov    edx,DWORD PTR [ebp-0x14]
+   0x804859b <PJeGPC4TIVaKFmmy53DJ+103>:  add    edx,DWORD PTR [ebp+0x8]
+   0x804859e <PJeGPC4TIVaKFmmy53DJ+106>:  movzx  edx,BYTE PTR [edx]
+   0x80485a1 <PJeGPC4TIVaKFmmy53DJ+109>:  xor    dl,BYTE PTR [ebp-0x1]
+   0x80485a4 <PJeGPC4TIVaKFmmy53DJ+112>:  mov    BYTE PTR [eax],dl
+   0x80485a6 <PJeGPC4TIVaKFmmy53DJ+114>:  add    DWORD PTR [ebp-0x14],0x1
+   0x80485aa <PJeGPC4TIVaKFmmy53DJ+118>:  mov    eax,DWORD PTR [ebp-0x14]
+   0x80485ad <PJeGPC4TIVaKFmmy53DJ+121>:  add    eax,DWORD PTR [ebp+0x8]
+   0x80485b0 <PJeGPC4TIVaKFmmy53DJ+124>:  movzx  eax,BYTE PTR [eax]
+   0x80485b3 <PJeGPC4TIVaKFmmy53DJ+127>:  test   al,al
+   0x80485b5 <PJeGPC4TIVaKFmmy53DJ+129>:  je     0x804880b <PJeGPC4TIVaKFmmy53DJ+727>
+   0x80485bb <PJeGPC4TIVaKFmmy53DJ+135>:  mov    eax,DWORD PTR [ebp-0x14]
+   0x80485be <PJeGPC4TIVaKFmmy53DJ+138>:  add    eax,DWORD PTR [ebp+0x8]
+   0x80485c1 <PJeGPC4TIVaKFmmy53DJ+141>:  mov    edx,DWORD PTR [ebp-0x14]
+   0x80485c4 <PJeGPC4TIVaKFmmy53DJ+144>:  add    edx,DWORD PTR [ebp+0x8]
+   0x80485c7 <PJeGPC4TIVaKFmmy53DJ+147>:  movzx  edx,BYTE PTR [edx]
+   0x80485ca <PJeGPC4TIVaKFmmy53DJ+150>:  xor    dl,BYTE PTR [ebp-0x2]
+```
+
+Now this part is interesting
+
+i see some constants moving somewhere and the inputs i gave to program xored with those constants
+
+i continued to investigate more..
+
+```
+(gdb) x/30i X1bdrhN8Yk9NZ59Vb7P2
+   0x8048838 <X1bdrhN8Yk9NZ59Vb7P2>:  sbb    ecx,DWORD PTR [ecx+0x20ec83e5]
+   0x804883e <X1bdrhN8Yk9NZ59Vb7P2+6>:    mov    DWORD PTR [ebp-0x18],0x0
+   0x8048845 <X1bdrhN8Yk9NZ59Vb7P2+13>:   mov    BYTE PTR [ebp-0x1],0xd9
+   0x8048849 <X1bdrhN8Yk9NZ59Vb7P2+17>:   mov    BYTE PTR [ebp-0x2],0xcd
+   0x804884d <X1bdrhN8Yk9NZ59Vb7P2+21>:   mov    BYTE PTR [ebp-0x3],0xc9
+   0x8048851 <X1bdrhN8Yk9NZ59Vb7P2+25>:   mov    BYTE PTR [ebp-0x4],0xe5
+   0x8048855 <X1bdrhN8Yk9NZ59Vb7P2+29>:   mov    BYTE PTR [ebp-0x5],0x9e
+   0x8048859 <X1bdrhN8Yk9NZ59Vb7P2+33>:   mov    BYTE PTR [ebp-0x6],0xd0
+   0x804885d <X1bdrhN8Yk9NZ59Vb7P2+37>:   mov    BYTE PTR [ebp-0x7],0xe8
+   0x8048861 <X1bdrhN8Yk9NZ59Vb7P2+41>:   mov    BYTE PTR [ebp-0x8],0xa5
+   0x8048865 <X1bdrhN8Yk9NZ59Vb7P2+45>:   mov    BYTE PTR [ebp-0x9],0xaf
+   0x8048869 <X1bdrhN8Yk9NZ59Vb7P2+49>:   mov    BYTE PTR [ebp-0xa],0x87
+   0x804886d <X1bdrhN8Yk9NZ59Vb7P2+53>:   mov    BYTE PTR [ebp-0xb],0xd2
+   0x8048871 <X1bdrhN8Yk9NZ59Vb7P2+57>:   mov    BYTE PTR [ebp-0xc],0x79
+   0x8048875 <X1bdrhN8Yk9NZ59Vb7P2+61>:   mov    BYTE PTR [ebp-0xd],0xa9
+   0x8048879 <X1bdrhN8Yk9NZ59Vb7P2+65>:   mov    BYTE PTR [ebp-0xe],0x5d
+   0x804887d <X1bdrhN8Yk9NZ59Vb7P2+69>:   mov    BYTE PTR [ebp-0xf],0x7
+   0x8048881 <X1bdrhN8Yk9NZ59Vb7P2+73>:   mov    BYTE PTR [ebp-0x10],0x81
+   0x8048885 <X1bdrhN8Yk9NZ59Vb7P2+77>:   mov    DWORD PTR [ebp-0x14],0x0
+   0x804888c <X1bdrhN8Yk9NZ59Vb7P2+84>:   mov    eax,DWORD PTR [ebp-0x14]
+   0x804888f <X1bdrhN8Yk9NZ59Vb7P2+87>:   add    eax,DWORD PTR [ebp+0x8]
+   0x8048892 <X1bdrhN8Yk9NZ59Vb7P2+90>:   movzx  eax,BYTE PTR [eax]
+   0x8048895 <X1bdrhN8Yk9NZ59Vb7P2+93>:   cmp    al,BYTE PTR [ebp-0x1]
+   0x8048898 <X1bdrhN8Yk9NZ59Vb7P2+96>:   je     0x80488a2 <X1bdrhN8Yk9NZ59Vb7P2+106>
+   0x804889a <X1bdrhN8Yk9NZ59Vb7P2+98>:   mov    eax,DWORD PTR [ebp-0x18]
+```
+
+This is also similar :) Now we pushing another bunch of constants....
+
+Ok here's the remaining part of the function
+
+```
+0x804889d <X1bdrhN8Yk9NZ59Vb7P2+101>:    jmp    0x8048a20 <X1bdrhN8Yk9NZ59Vb7P2+488>
+   0x80488a2 <X1bdrhN8Yk9NZ59Vb7P2+106>:  add    DWORD PTR [ebp-0x14],0x1
+   0x80488a6 <X1bdrhN8Yk9NZ59Vb7P2+110>:  mov    eax,DWORD PTR [ebp-0x14]
+   0x80488a9 <X1bdrhN8Yk9NZ59Vb7P2+113>:  add    eax,DWORD PTR [ebp+0x8]
+   0x80488ac <X1bdrhN8Yk9NZ59Vb7P2+116>:  movzx  eax,BYTE PTR [eax]
+   0x80488af <X1bdrhN8Yk9NZ59Vb7P2+119>:  cmp    al,BYTE PTR [ebp-0x2]
+   0x80488b2 <X1bdrhN8Yk9NZ59Vb7P2+122>:  je     0x80488bc <X1bdrhN8Yk9NZ59Vb7P2+132>
+   0x80488b4 <X1bdrhN8Yk9NZ59Vb7P2+124>:  mov    eax,DWORD PTR [ebp-0x18]
+   0x80488b7 <X1bdrhN8Yk9NZ59Vb7P2+127>:  jmp    0x8048a20 <X1bdrhN8Yk9NZ59Vb7P2+488>
+   0x80488bc <X1bdrhN8Yk9NZ59Vb7P2+132>:  add    DWORD PTR [ebp-0x14],0x1
+   0x80488c0 <X1bdrhN8Yk9NZ59Vb7P2+136>:  mov    eax,DWORD PTR [ebp-0x14]
+   0x80488c3 <X1bdrhN8Yk9NZ59Vb7P2+139>:  add    eax,DWORD PTR [ebp+0x8]
+   0x80488c6 <X1bdrhN8Yk9NZ59Vb7P2+142>:  movzx  eax,BYTE PTR [eax]
+   0x80488c9 <X1bdrhN8Yk9NZ59Vb7P2+145>:  cmp    al,BYTE PTR [ebp-0x3]
+   0x80488cc <X1bdrhN8Yk9NZ59Vb7P2+148>:  je     0x80488d6 <X1bdrhN8Yk9NZ59Vb7P2+158>
+   0x80488ce <X1bdrhN8Yk9NZ59Vb7P2+150>:  mov    eax,DWORD PTR [ebp-0x18]
+   0x80488d1 <X1bdrhN8Yk9NZ59Vb7P2+153>:  jmp    0x8048a20 <X1bdrhN8Yk9NZ59Vb7P2+488>
+   0x80488d6 <X1bdrhN8Yk9NZ59Vb7P2+158>:  add    DWORD PTR [ebp-0x14],0x1
+   0x80488da <X1bdrhN8Yk9NZ59Vb7P2+162>:  mov    eax,DWORD PTR [ebp-0x14]
+   0x80488dd <X1bdrhN8Yk9NZ59Vb7P2+165>:  add    eax,DWORD PTR [ebp+0x8]
+---Type <return> to continue, or q <return> to quit---
+   0x80488e0 <X1bdrhN8Yk9NZ59Vb7P2+168>:  movzx  eax,BYTE PTR [eax]
+   0x80488e3 <X1bdrhN8Yk9NZ59Vb7P2+171>:  cmp    al,BYTE PTR [ebp-0x4]
+   0x80488e6 <X1bdrhN8Yk9NZ59Vb7P2+174>:  je     0x80488f0 <X1bdrhN8Yk9NZ59Vb7P2+184>
+   0x80488e8 <X1bdrhN8Yk9NZ59Vb7P2+176>:  mov    eax,DWORD PTR [ebp-0x18]
+   0x80488eb <X1bdrhN8Yk9NZ59Vb7P2+179>:  jmp    0x8048a20 <X1bdrhN8Yk9NZ59Vb7P2+488>
+   0x80488f0 <X1bdrhN8Yk9NZ59Vb7P2+184>:  add    DWORD PTR [ebp-0x14],0x1
+   0x80488f4 <X1bdrhN8Yk9NZ59Vb7P2+188>:  mov    eax,DWORD PTR [ebp-0x14]
+   0x80488f7 <X1bdrhN8Yk9NZ59Vb7P2+191>:  add    eax,DWORD PTR [ebp+0x8]
+   0x80488fa <X1bdrhN8Yk9NZ59Vb7P2+194>:  movzx  eax,BYTE PTR [eax]
+   0x80488fd <X1bdrhN8Yk9NZ59Vb7P2+197>:  cmp    al,BYTE PTR [ebp-0x5]
+   0x8048900 <X1bdrhN8Yk9NZ59Vb7P2+200>:  je     0x804890a <X1bdrhN8Yk9NZ59Vb7P2+210>
+   0x8048902 <X1bdrhN8Yk9NZ59Vb7P2+202>:  mov    eax,DWORD PTR [ebp-0x18]
+   0x8048905 <X1bdrhN8Yk9NZ59Vb7P2+205>:  jmp    0x8048a20 <X1bdrhN8Yk9NZ59Vb7P2+488>
+   0x804890a <X1bdrhN8Yk9NZ59Vb7P2+210>:  add    DWORD PTR [ebp-0x14],0x1
+   0x804890e <X1bdrhN8Yk9NZ59Vb7P2+214>:  mov    eax,DWORD PTR [ebp-0x14]
+```
+
+Do you see the pattern that i see here ? If you not , no problem..
+
+Here , the program compares the my xored inputs with the constants again.
+
+Now , we look at the inputs again , first inputs were xored with some constants and outputs compared with other constants
+
+So last 2 functions should be like this.
+
+```c
+void PJeGPC4TIVaKFmmy53DJ (int * p)
+{
+  int array[] = {0xe4,0x87,0xfb,0xbe,0xc9,0x93,0x84,0xfc,0x8d,0xe5,0xbf,0x5c,0xe2,0x76,0x21,0xb8}
+  for(i=0;i<16;i++)
+ {
+    p[i] = p[i] ^ array[i]
+ }
+}
+
+int X1bdrhN8Yk9NZ59Vb7P2(int * p)
+{
+   int array = {0xd9,0xcd,0xc9,0xe5,0x9e,0xd0,0xe8,0xa5,0xaf,0x87,0xd2,0x79,0xa9,0x5d,0x7,0x81}
+   for(i=0;i<16;i++)
+ {
+    if(p[i] != array[i])
+         return false; // fail..
+ }
+  return true 
+}
+```
+
+So write up a simple python script to xor those two constants to find the key
+
+```python
+#!/usr/bin/python
+firstConst = [0xe4,0x87,0xfb,0xbe,0xc9,0x93,0x84,0xfc,0x8d,0xe5,0xbf,0x5c,0xe2,0x76,0x21,0xb8]
+secondConst = [0xd9,0xcd,0xc9,0xe5,0x9e,0xd0,0xe8,0xa5,0xaf,0x87,0xd2,0x79,0xa9,0x5d,0x7,0x81]
+ret =""
+for x in range(16):
+        ret+=chr(firstConst[x] ^ secondConst[x])
+print ret
+```
+
+```bash
+
+eren@lisa:~$ ./CrackTheDoor 
+
+        *** DOOR CONTROL SYSTEM  ***
+
+
+
+PASSWORD: =J2[WClY"bm%K+&9
+
+        ***  ACCESS GRANTED  ***
+
+        ***  THE DOOR OPENED ***
+```
+
+后记:
+
+看评论,使用 `strings` 可以作为第一个尝试的.
+
