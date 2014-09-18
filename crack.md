@@ -121,7 +121,7 @@ gdb) x/30i $pc
 
 试试别的,追踪
 
-```bash
+```text
 root@lisa:~# strace ./CrackTheDoor 
 execve("./CrackTheDoor", ["./CrackTheDoor"], [/* 17 vars */]) = 0
 [ Process PID=31085 runs in 32 bit mode. ]
@@ -150,14 +150,16 @@ mprotect(0x8049000, 4096, PROT_READ)    = 0
 mprotect(0xf7733000, 4096, PROT_READ)   = 0
 munmap(0xf770c000, 35597)               = 0
 ptrace(PTRACE_TRACEME, 0, 0x1, 0)       = -1 EPERM (Operation not permitted)
-ptrace(PTRACE_TRACEME, 0, 0x1, 0)       = -1 EPERM (Operation not permitted) <最后一句
+ptrace(PTRACE_TRACEME, 0, 0x1, 0)       = -1 EPERM (Operation not permitted)
+
 ```
+
 
 If you look at the last lines , the program crashed itself again.That's because ptrace syscall.
 
-In linux , `ptrace` is an abbreviation for "Process Trace".With `ptrace` , you can control another process , changing its internal state like debuggers.
+In linux , ptrace is an abbreviation for "Process Trace".With ptrace , you can control another process , changing its internal state like debuggers.
 
-Debuggers use `ptrace` a lot :) it's their job. 调试器使用 `ptrace`
+Debuggers use ptrace a lot :) it's their job. 调试器使用 ptrace
 
 If we imagine code , it should look like this.
 
