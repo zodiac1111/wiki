@@ -1,5 +1,8 @@
 # 有趣的东西
 
+破解
+
+* [面试时被要求破解(crack)一个程序](crack):记录的过程[原文](http://erenyagdiran.github.io/I-was-just-asked-to-crack-a-program-Part-1/)
 ATM
 
 * [ATM读卡,密码截取装置(分离器)](http://krebsonsecurity.com/all-about-skimmers/)
