@@ -102,7 +102,7 @@ gdb) x/30i $pc
    0x804764c:   push   $0x80476c1
    0x8047651:   pusha  
    0x8047652:   mov    $0x55,%al
-   0x8047654:   xor    $0x99,%al
+   0x8047654:   xor    $0x99,%al  ;< 这里
    0x8047656:   mov    $0x8047656,%edi
    0x804765b:   mov    $0x80476e5,%ecx
    0x8047660:   sub    $0x8047656,%ecx
@@ -150,5 +150,27 @@ mprotect(0x8049000, 4096, PROT_READ)    = 0
 mprotect(0xf7733000, 4096, PROT_READ)   = 0
 munmap(0xf770c000, 35597)               = 0
 ptrace(PTRACE_TRACEME, 0, 0x1, 0)       = -1 EPERM (Operation not permitted)
-ptrace(PTRACE_TRACEME, 0, 0x1, 0)       = -1 EPERM (Operation not permitted)
+ptrace(PTRACE_TRACEME, 0, 0x1, 0)       = -1 EPERM (Operation not permitted) <最后一句
 ```
+
+If you look at the last lines , the program crashed itself again.That's because ptrace syscall.
+
+In linux , `ptrace` is an abbreviation for "Process Trace".With `ptrace` , you can control another process , changing its internal state like debuggers.
+
+Debuggers use `ptrace` a lot :) it's their job. 调试器使用 `ptrace`
+
+If we imagine code , it should look like this.
+
+```c
+int main()
+{
+    if (ptrace(PTRACE_TRACEME, 0, 1, 0) < 0) {
+        printf("DEBUGGING... Bye\n");
+        return 1;
+    }
+    printf("Hello\n");
+    return 0;
+}
+```
+
+By the way , you can only do once `ptrace[PTRACE_TRACEMe]` 只能ptrace一次  , so debugger ptraced the program before, there our call will return false so we figured out there is something out there controlling our program
