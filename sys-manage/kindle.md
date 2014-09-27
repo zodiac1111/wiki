@@ -11,6 +11,7 @@
  * 下载 https://github.com/koreader/koreader/wiki/Download
  * mobileread http://www.mobileread.com/forums/showthread.php?t=209276
 * usbnet 查询本机IP :`;711`
+* 注册您的kindle时出错
 
 其他一些指令:
 ```text
