@@ -35,6 +35,10 @@ sudo apt-get install shadowsocks
 sslocal -c /etc/shadowsocks/config.json
 ```
 
+浏览器使用
+
+SwitchySharp 扩展,**仅**选择`SOCKS 代理`,选择 SOCKS5. IP选本机:127.0.0.1
+
 ## 服务端
 
 ```bash
