@@ -7,11 +7,11 @@
 
 ### 软件安装
 
-```
+```bash
 sudo apt-get install shadowsocks
 ```
 
-配置文件:`/etc/shadowsocks/config.json`
+默认配置文件:`/etc/shadowsocks/config.json`
 
 ```json
 {
@@ -27,4 +27,23 @@ sudo apt-get install shadowsocks
 }
 ```
 
+修改配置ip和密码
+
+运行
+
+```bash
+sslocal -c /etc/shadowsocks/config.json
+```
+
 ## 服务端
+
+```bash
+sudo apt-get install shadowsocks
+```
+
+修改IP(不知道是否必要)和密码
+
+启动
+```bash
+/etc/init.d/shadowsocks start
+```
