@@ -1,3 +1,3 @@
 # 设计
 
-* [Dieter rams](design/dieter-rams) 德国,简约,苹果
+* [Dieter rams](dieter-rams) 德国,简约,苹果
