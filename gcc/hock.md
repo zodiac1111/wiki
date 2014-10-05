@@ -69,4 +69,6 @@ My MALLOC called: 12
 ```
 # 附
 
-如果仅`malloc`那一套,gnu lib c 下可以 `man __malloc_hook`.
+如果仅`malloc`那一套,gnu lib c 下可以 `man __malloc_hook`. "还得加锁，不好用"
+
+`LD_PRELOAD`关键字可能也可以修改行为
