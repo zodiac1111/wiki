@@ -67,3 +67,6 @@ My MALLOC called: 12
 	as  "__wrap_malloc";  if you do, the assembler may resolve the call 
 	before the linker has a chance to wrap it to "malloc". 
 ```
+# 附
+
+如果仅`malloc`那一套,gnu lib c 下可以 `man __malloc_hook`.
