@@ -1,5 +1,6 @@
 # 开发目录
 
+* 代码格式化工具indent、astyle、clang-format
 * [arm上运行lisp](arm-ecl)
 * [各种方式的串口监视](tty-monitor)
 * [丰田汽车软件教训](http://www.amobbs.com/thread-5557598-1-1.html)  
