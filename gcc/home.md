@@ -1,5 +1,6 @@
 # 文件列表
 
+* [[hock]] 给调用的函数下钩子,比如自己hlod malloc函数
 * [gcc宏 陷阱(坑)](Macro-Pitfalls)
 * [[gcc-cstd]] gcc 对c语言标准的支持进度
 * [[gdb-useful]] 有用的gdb调试命令
