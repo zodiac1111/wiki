@@ -1,5 +1,6 @@
 # 文件列表
 
+* [[point-addr]] 多字节类型指针指向的地址
 * [[hock]] 给调用的函数下钩子,比如自己hlod malloc函数
 * [gcc宏 陷阱(坑)](Macro-Pitfalls)
 * [[gcc-cstd]] gcc 对c语言标准的支持进度
