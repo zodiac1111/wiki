@@ -35,6 +35,8 @@ Bus 003 Device 017: ID 16c0:05dc Van Ooijen Technische Informatica shared ID for
 
 不需要驱动,很好.在本人的Fedora 18和Debian 7上也测试通过.
 
+面包板搭建 http://www.protostack.com/blog/2009/07/atmega8-breadboard-circuit-part-2-of-3-the-microcontroller/
+
 # 软件
 
 > [AVRDUDE](http://www.nongnu.org/avrdude/) is an utility to download/upload/manipulate the ROM and EEPROM contents of AVR microcontrollers using the in-system programming technique (ISP).
