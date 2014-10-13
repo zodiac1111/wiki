@@ -138,3 +138,7 @@ avrdude: safemode: Fuses OK
 avrdude done.  Thank you.
 ```
 恩,正确识别的单片机 :D
+
+# eclipse插件
+
+教程 http://www.instructables.com/id/How-to-get-started-with-Eclipse-and-AVR/
