@@ -3,6 +3,7 @@
 语义饱和
 
 * [语义饱和](http://zh.wikipedia.org/zh/%E8%AF%AD%E4%B9%89%E9%A5%B1%E5%92%8C)
+
 破解
 
 * [面试时被要求破解(crack)一个程序](fun/crack),([原文](http://erenyagdiran.github.io/I-was-just-asked-to-crack-a-program-Part-1/))
