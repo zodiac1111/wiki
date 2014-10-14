@@ -8,3 +8,6 @@
 * [[uart]] 知识
 * [[usbasp]] avr/usbasp下载器在linux配置使用
 * [[1-line-1602]] 一跟线驱动1602LCD
+* [avr c编程不用ide](http://www.tuxgraphics.org/electronics/200904/avr-c-programming.shtml)
+* [avr 教程网站](http://www.avrfreaks.net/)
+* [avr 教程网站2](http://electrons.psychogenic.com/modules/arms/art/3/AVRGCCProgrammingGuide.php)
