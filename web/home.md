@@ -1,7 +1,8 @@
 # 目录
 
-* CSS 置中完全指南 (Chris Coyier):[Centering in CSS: A Complete Guide](http://css-tricks.com/centering-css-complete-guide/)
-  * CSS布局 [justify-content](http://css-tricks.com/almanac/properties/j/justify-content/)
+* [css 控制文本两端对齐](http://demo.doyoe.com/css3/justify/)缺点:文字之间需要加个空格
+* css 置中完全指南 (Chris Coyier):[Centering in CSS: A Complete Guide](http://css-tricks.com/centering-css-complete-guide/)
+  * css布局 [justify-content](http://css-tricks.com/almanac/properties/j/justify-content/)
 * [[kss]] 前端部件库
 * [[Font-Awesome]] 图标字体
 * [[responsive-web-design]] 响应式设计
