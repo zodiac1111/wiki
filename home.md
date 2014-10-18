@@ -10,7 +10,7 @@
 * [web](web/home) 
 * [设计](design/home)
 * [实用工具](utility/home) 
-* [电子方面](avr/home) 
+* [avr](avr/home) 
 * [[fun]] 有趣的东西
 * [[book]] 技术方面的书籍,总体意义上的
 * [测试页面](test/home)
