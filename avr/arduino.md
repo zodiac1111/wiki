@@ -1,6 +1,8 @@
 # arduino
 
+* [arduino官网](http://arduino.cc/)
 * 硬件[使用Atmega8搭建最简单的arduino](m8-ardunio)
+  * [自己制作电路板](http://www.mitchellpage.com.au/research/?p=212)
 * IDE:
   * [使用Eclipse,官方](http://playground.arduino.cc/Code/Eclipse#Eclipse_and_additional_plugins).大方向参考
   * [使用Eclipse作为IDE](http://www.wikihow.com/Write-Arduino-Software-in-C),windows,教详细
