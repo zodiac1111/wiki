@@ -1,4 +1,4 @@
-# arduino
+# Arduino
 
 * [arduino官网](http://arduino.cc/)
 * 硬件[使用Atmega8搭建最简单的arduino](m8-ardunio)
