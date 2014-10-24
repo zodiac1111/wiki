@@ -3,6 +3,7 @@
 x进制
 
 * [各种稀奇古怪的进制](jinzhi)
+
 语义饱和
 
 * [语义饱和](http://zh.wikipedia.org/zh/%E8%AF%AD%E4%B9%89%E9%A5%B1%E5%92%8C)
