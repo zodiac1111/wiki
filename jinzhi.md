@@ -9,7 +9,7 @@
 
 [四进制](http://zh.wikipedia.org/wiki/%E5%9B%9B%E9%80%B2%E5%88%B6) quaternary
 * 以脱氧核糖核酸 (DNA) 表示的遗传密码
-* [希尔伯特曲线](http://zh.wikipedia.org/zh/%E5%B8%8C%E7%88%BE%E4%BC%AF%E7%89%B9%E6%9B%B2%E7%B7%9A_
+* [希尔伯特曲线](http://zh.wikipedia.org/zh/%E5%B8%8C%E7%88%BE%E4%BC%AF%E7%89%B9%E6%9B%B2%E7%B7%9A)
 * [四进制的视觉展示](http://zh.wikipedia.org/zh/%E5%9B%9B%E9%80%B2%E5%88%B6#.E5.9B.9B.E9.80.B2.E5.88.B6.E7.9A.84.E8.A6.96.E8.A6.BA.E5.B1.95.E7.A4.BA)
 
 [五进制](http://zh.wikipedia.org/zh/%E4%BA%94%E9%80%B2%E5%88%B6) Quinary
@@ -42,7 +42,8 @@
 
 [15进制](http://en.wikipedia.org/wiki/Pentadecimal) Pentadecimal
 
-[16进制] hexadecimal
+[16进制](http://zh.wikipedia.org/wiki/%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6) hexadecimal
+* 各种计算机
 
 20进制 vigesimal
 * 玛雅文明
@@ -53,6 +54,16 @@
 32进制 base 32 
 * [Ngiti language](http://en.wikipedia.org/wiki/Ngiti_language)
 
+36进制 base 36
+* 0-9a-z
+
+[60进制](http://baike.baidu.com/view/1333290.htm) sexagesimal
+* 巴比伦 美索不达米亚文明 
+* 时间、角度和地理座标 
+* 农历中，有六十甲子的概念，以天干与地支两者经一定的组合方式搭配成六十对，为一个周期。
+
+64进制 Base64
+* 常用于在通常处理文本数据的场合，表示、传输、存储一些二进制数据。包括MIME的email，email via MIME, 在XML中存储复杂数据.
 
 平衡进制
 
