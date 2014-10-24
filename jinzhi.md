@@ -37,6 +37,8 @@
 * 中国古代设有12地支，与一天的12个时辰对应 
 * 一个地支还对应两个节气 从而表示一年的二十四节气 
 * 乐理
+[十三进制](http://zh.wikipedia.org/zh/%E5%8D%81%E4%B8%89%E9%80%B2%E5%88%B6),Base-13, tridecimal, tredecimal, or triskaidecimal 
+* 以十三作為進制，則是奇數素數用於數制的擴展，應該是更大空間的運動規律的描述。奇數素數作為進制往往具有奇點效應。這種奇點效應就反映在螺旋特性上。
 
 [14进制](http://en.wikipedia.org/wiki/Tetradecimal) Tetradecimal
 
