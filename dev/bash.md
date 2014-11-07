@@ -29,3 +29,16 @@ shebang: #!
 * 执行失败的命令被忽略
 
 参考 http://www.vaikan.com/bash-scripting/
+
+# 批量匹配
+
+```
+echo {0..9}{a,b}
+0a
+0b
+1a
+1b
+...
+9a
+9b
+```
