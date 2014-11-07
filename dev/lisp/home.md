@@ -7,7 +7,8 @@ ide emacs+slime+(sbcl)
 变量 defvar
 
 函数 defun
-```
+
+```lisp
 CL-USER> (lambda (x) (* x x))
 #<FUNCTION (LAMBDA (X)) {10052F8D6B}> 
 
