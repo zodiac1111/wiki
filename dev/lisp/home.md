@@ -2,6 +2,12 @@
 
 # 类别
 
+ide emacs+slime+(sbcl)
+
+变量 defvar
+
+函数 defun
+
 ## sbcl
 
 # 独立的可执行程式
