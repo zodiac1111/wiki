@@ -30,7 +30,7 @@ CL-USER> ((lambda (x) (* x x)) 2)
 控制结构
 
 if
-```
+```text
 (if (< x 0) (- x) x))
 (if 判断依据
     成立则这个值
@@ -42,6 +42,9 @@ if
 (if (> x 0) 
     1))
 
+(if 1 2 3)
+(if () 2 3)
+(if nil 2)
 ```
 ## sbcl
 
