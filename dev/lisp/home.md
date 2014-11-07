@@ -8,7 +8,7 @@ ide emacs+slime+(sbcl)
 
 函数 defun
 
-```lisp
+```cl
 (defun double (x) (* x 2))
 (defun 函数名 (参数列表) 函数体)
 ```
