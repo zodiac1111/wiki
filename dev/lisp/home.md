@@ -8,7 +8,7 @@ ide emacs+slime+(sbcl)
 
 函数 defun
 
-```lisp
+```text
 CL-USER> (lambda (x) (* x x))
 #<FUNCTION (LAMBDA (X)) {10052F8D6B}> 
 
