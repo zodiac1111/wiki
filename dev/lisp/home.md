@@ -8,6 +8,11 @@ ide emacs+slime+(sbcl)
 
 函数 defun
 
+```lisp
+(defun double (x) (* x 2))
+(defun 函数名 (参数列表) 函数体)
+```
+
 ```text
 CL-USER> (lambda (x) (* x x))
 #<FUNCTION (LAMBDA (X)) {10052F8D6B}> 
