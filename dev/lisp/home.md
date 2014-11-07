@@ -8,6 +8,12 @@ ide emacs+slime+(sbcl)
 
 函数 defun
 
+CL-USER> (lambda (x) (* x x))
+#<FUNCTION (LAMBDA (X)) {10052F8D6B}> 
+
+CL-USER> ((lambda (x) (* x x)) 2)
+4    
+
 ## sbcl
 
 # 独立的可执行程式
