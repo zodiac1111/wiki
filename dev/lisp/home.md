@@ -10,7 +10,7 @@ ide emacs+slime+(sbcl)
 
 ```
 (defun double (x) (* x 2))
-(defun 函数名 (参数列表) 函数体)
+(defun 函数名 <参数列表> <函数体>)
 例子
 (defun xxx nil 2)
 ```
