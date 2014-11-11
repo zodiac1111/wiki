@@ -1,4 +1,9 @@
-mate-application-menu-miss
+点击应用程序无菜单弹出
+
+* debian jessie
+* mate1.8.1
+
+由于一次非正常关机
 
 现象: 
 
