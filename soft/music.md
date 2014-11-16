@@ -83,6 +83,9 @@ See also:
 	"faac --license" for the license terms for FAAC.
 
 converter: write error (-1 bytes written out of 8000)
+
+由于许可问题,debian库默认不包含mp4支持,自己编译或者在[这里](https://launchpad.net/~foresto/+archive/ubuntu/ubuntutweaks/+build/6222167)下载包含mp4支持的faac
+
 ```
 其他默认即可
 
