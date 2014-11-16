@@ -60,3 +60,28 @@
 foobar2000支持cue,utf8的编码必须包含dom
 
 linux deadbeef 支持转换,需要相应编码器 faac lame flac 等
+
+例如转换为apple aac.
+
+debian 下载faac包
+
+deadbeef右键歌曲->转换->编码器选择AAC(Nero FAAC)->右侧编辑->编辑->命令行`faac -o %o -`
+
+deadbeef0.6.1 FAAC 1.28 下参数不对,使用命令行打开并转化出错,提示不支持w选项
+
+```
+FAAC 1.28
+
+faac: invalid option -- 'w'
+Usage: faac [options] [-o outfile] infiles ...
+
+	<infiles> and/or <outfile> can be "-", which means stdin/stdout.
+
+See also:
+	"faac --help" for short help on using FAAC
+	"faac --long-help" for a description of all options for FAAC.
+	"faac --license" for the license terms for FAAC.
+
+converter: write error (-1 bytes written out of 8000)
+```
+其他默认即可
