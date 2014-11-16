@@ -85,3 +85,5 @@ See also:
 converter: write error (-1 bytes written out of 8000)
 ```
 其他默认即可
+
+%a - %t 等占位符见[这里](https://github.com/Alexey-Yakovenko/deadbeef/blob/e4960feb27ed97a34ca6442ee1a917b568c1859d/deadbeef.h#L741)
