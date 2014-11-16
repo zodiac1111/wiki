@@ -53,3 +53,10 @@
 
 	shnconv -i ape -o flac CDImage.ape 
 	shnconv -i flac -o ape CDImage.flac
+
+
+#apple
+
+foobar2000支持cue,utf8的编码必须包含dom
+
+linux deadbeef 支持转换,需要相应编码器 faac lame flac 等
