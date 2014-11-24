@@ -1,5 +1,6 @@
 # 系统运行维护笔记
 
+* [io-err]  输入输出错误
 * [VirtualBox guest Win7/8/10闪退](vbox-usb-crash)或者某些usb设备无法使用
 * [Linux 性能监控、测试、优化工具](http://www.vpsee.com/2014/09/linux-performance-tools/),[英文连接](http://wiert.me/2014/03/19/reference-card-for-linux-performance-and-analysis-tools%EF%BB%BF-via-antony-peel-google/),[原始演讲](http://www.brendangregg.com/linuxperf.html)
 * [[pptp]],[[pptpd]] 一种vpn使用配置
