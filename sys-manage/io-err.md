@@ -4,6 +4,15 @@ linux下文件系统,mac下挂载过以后可能出现的 无法rm ls 等
 
 使用 fsck检查一下磁盘
 
+先umount磁盘
+
+找到磁盘的设备文件,比如这里的`sdc`
+
+`fsck`检查磁盘
+
+`sudo fsck /dev/sdc`
+
+
 ```
 fd3308d/.Trashes' zodiac1111/note# rm -rf '/media/zodiac1111/bcb95e11-a242-494e-bd4c-b88f5 
 fd3308d/.fseventsd' diac1111/note# rm -rf '/media/zodiac1111/bcb95e11-a242-494e-bd4c-b88f5 
