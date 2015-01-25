@@ -43,4 +43,5 @@
 * [[java]] 
 * [[dns]] 配置使用刷新dns
 * [[ssh-proftpd-login-slow]] 在嵌入式系统上的proftp服务器登陆缓慢
+* 访问 [[google]]
 * 待定
