@@ -7,7 +7,7 @@
 * [[gcc/home]] gcc 相关
 * [[debug/home]] 各种调试技巧相关
 * [[blog/home]] 博客程序相关操作
-* [web](web/home.md) 
+* [web](web/home) 
 * [设计](design/home)
 * [实用工具](utility/home) 
 * [avr](avr/home) 
