@@ -11,7 +11,7 @@
 * [设计](design/home)
 * [实用工具](utility/home) 
 * [avr](avr/home) 
-* [[fun]] 有趣的东西
-* [[book]] 技术方面的书籍,总体意义上的
+* [fun](fun) 有趣的东西
+* [book](book) 技术方面的书籍,总体意义上的
 * [测试页面](test/home)
 * [about](about) 
