@@ -16,6 +16,9 @@ httpd
 ##启动服务
 
 	service httpd start
+	# debian
+	service apache2 start
+
 其被重定向到(Redirecting to)
 
 	Redirecting to /bin/systemctl  start httpd.service
