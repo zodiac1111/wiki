@@ -2,7 +2,7 @@
 
 
 * [软件使用](/soft/home.md)
-* [[sys-manage/home.md]] 系统运行和维护
+* [系统运行和维护](sys-manage/home) 
 * [[dev/home]] 开发 
 * [[gcc/home]] gcc 相关
 * [[debug/home]] 各种调试技巧相关
