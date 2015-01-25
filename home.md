@@ -1,7 +1,7 @@
 # 知识管理
 
 
-* [软件使用](/soft/home) [[/soft/home.md]]
+* [软件使用](/soft/home)
 * [系统运行和维护](sys-manage/home) 
 * [[dev/home]] 开发 
 * [[gcc/home]] gcc 相关
