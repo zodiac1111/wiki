@@ -1,10 +1,4 @@
----
-layout: post
-title: "apache"
-date: 2012-07-03 09:01
-comments: true
-categories: 
----
+
 
 #fedora 17 x86_64 Apache
 httpd
