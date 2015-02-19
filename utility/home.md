@@ -1,5 +1,6 @@
 # 实用工具
 
+* [包装](http://www.zhihu.com/question/23147527#answer-10580764)
 * [[wago]]WAGO接线端子选型样本
 * [简单gif制作](https://scottlinux.com/2011/07/31/create-animated-gif-in-linux-from-command-line/)
 * ieee标准浮点(float)数[在线分析](http://babbage.cs.qc.cuny.edu/IEEE-754/),[在线转换](http://www.binaryconvert.com/)(外部链接).
