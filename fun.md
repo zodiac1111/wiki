@@ -1,5 +1,6 @@
 # 有趣的东西
 
+* IP over ICMP,DNS,etc. http://thomer.com/icmptx/
 * x进制
 
 * [各种稀奇古怪的进制](jinzhi)
