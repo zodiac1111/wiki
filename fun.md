@@ -1,5 +1,6 @@
 # 有趣的东西
 
+* [多种语言的helloworld](http://helloworldcollection.de/) 
 * IP over ICMP,DNS,etc. http://thomer.com/icmptx/
 * x进制
 
