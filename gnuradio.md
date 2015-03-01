@@ -105,17 +105,25 @@ rtl-sdr的正常运行也需要GNURadio(版本>= v3.5.3).
 GNURadio项目网站:http://gnuradio.org
 GNURadio安装有人做了一个脚本,非常方便,只需要下载该脚本并在命令键入该脚本名字运行即可:
 打开命令行终端,
-mkdir src
+
+  mkdir src
+
 建立一个src目录你希望gnuradio源代码存储于此,
-cd src
-wget http://www.sbrac.org/files/build-gnuradio && chmod a+x ./build-gnuradio && ./build-gnuradio (这是一整行)
+
+  cd src
+  wget http://www.sbrac.org/files/build-gnuradio && chmod a+x ./build-gnuradio && ./build-gnuradio (这是一整行)
+
 如果下载有问题的话请检查代理配置等.
 可以通过以下命令行查看代理服务器设置:
-echo $http_proxy
-echo $https_proxy
+
+  echo $http_proxy
+  echo $https_proxy
+
 可以通过以下命令设置代理服务器:
-export http_proxy=ip地址
-export https_proxy=ip地址
+
+  export http_proxy=ip地址
+  export https_proxy=ip地址
+
 如果不需要代理服务器，则ip地址以空格代替。
 也可以在UI下更改代理设置，具体是找到鼠标找到 System Settings --> Network --> Network proxy进行设置。
 有防火墙的网络可能会无法下载成功，这时应该考虑关闭防火墙，或者更换一个没有防火墙的网络（比如从公司换到家里）。
@@ -124,16 +132,19 @@ export https_proxy=ip地址
 
 2.1 rtl-sdr软件安装及测试
 
-(以下内容大都来自http://sdr.osmocom.org/trac/wiki/rtl-sdr及其相关链接)
+(以下内容大都来自 http://sdr.osmocom.org/trac/wiki/rtl-sdr 及其相关链接)
 在安装真正的飞机信号解调软件之前，需要首先安装驱动（也就是破解的控制软件），以便解调软件能够顺利获取解调器中的A/D采样值。
 
 进入命令行.
 
 进入home目录:
 
-cd ~
+  cd ~
+
 下载git软件（这是个版本管理软件，用于从远端版本仓库中获取rtl-sdr软件至本地）:
-sudo apt-get install git
+
+  sudo apt-get install git
+
 使用刚才安装的git软件下载rtl-sdr驱动软件: (进入你想放rtl-sdr源码的目录后)
 git clone git://git.osmocom.org/rtl-sdr.git
 一般会显示:
@@ -148,11 +159,14 @@ Cloning into 'rtl-sdr'...
 gedit README &
 打开后,你会发现它给出了网页链接,接下来我们按照网页链接上的内容来编译安装rtl-sdr
 你需要预先安装libusb1.0开发包! (还记得介绍过的安装软件的几种方法吗?)
-apt-get install libusb-1.0-0-dev
+
+  apt-get install libusb-1.0-0-dev
+
 如果之前安装过rtl-sdr,记得先进入rtl-sdr/build目录运行make uninstall进行卸载.
 
 rtl-sdr安装过程如下(依次敲命令,看各个命令是否都成功运行)
-方法1:
+### 方法1
+```
 cd rtl-sdr/ (如果已经在rtl-sdr目录下,则该步省略)
 mkdir build
 cd build
@@ -160,14 +174,17 @@ cmake ../ -DINSTALL_UDEV_RULES=ON
 make
 sudo make install
 sudo ldconfig
+```
 
-方法2:
+### 方法2
+```
 cd rtl-sdr/ (如果已经在rtl-sdr目录下,则该步省略)
 autoreconf -i
 ./configure
 make
 sudo make install-udev-rules
 sudo ldconfig
+```
 
 可执行文件在rtl-sdr/src/目录下.
 
@@ -189,20 +206,49 @@ sudo ldconfig
 现在可以测试电视棒是否正常. 
 首先将电视棒插入电脑usb口.
 可以运行的命令有 (在命令后加上 --help 可以看到命令帮助)
-rtl_eeprom
+
+   rtl_eeprom
+
 一般会显示你的电视棒的信息
 
+例如
+```
+Found 1 device(s):
+  0:  Generic RTL2832U OEM
+
+Using device 0: Generic RTL2832U OEM
+Found Rafael Micro R820T tuner
+
+Current configuration:
+__________________________________________
+Vendor ID:		0x0bda
+Product ID:		0x2838
+Manufacturer:		Realtek
+Product:		RTL2838UHIDIR
+Serial number:		00000001
+Serial number enabled:	yes
+IR endpoint enabled:	yes
+Remote wakeup enabled:	no
+__________________________________________
+
+```
+
+```
 rtl_sdr -f xxx -s yyy -g zzz -n aaa
+
 xxx是目标频率,单位Hz
 yyy是目标采样率,单位Hz,缺省2048000
 zzz是增益,单位dB,缺省0自动增益
 aaa是读多少个样值,缺省是0无限样值,这个最好设置一下,不然如果有问题没法推出来,可能需要重启电脑.
+```
 
+```
 rtl_test -s yyy -t -p
 yyy是目标采样率,单位Hz,缺省2048000
 -t 测试E4000 tuner性能, 比如频率覆盖范围等等 R820T tuner不支持此测试.
 -p 测试采样时钟PPM误差
 -s -t 和 -p请各自单独使用.
+```
 使用-s加不同的采样率运行,注意观察有没有丢包提示,能够找到最大不丢包采样率.
 
 rtl_fm可以用来听FM广播, 加上--help运行,会看到听广播方法
@@ -213,8 +259,8 @@ rtl_tcp没用过,你可以用--help自己研究一下
 2.2 解调软件安装及使用
 
 电视棒及其破解的驱动就绪了,接下来安装飞机信号解调软件.
-打开https://github.com/bistromath/gr-air-modes
-你可以看到该软件的git链接:https://github.com/bistromath/gr-air-modes.git
+打开 https://github.com/bistromath/gr-air-modes
+你可以看到该软件的git链接: https://github.com/bistromath/gr-air-modes.git
 打开命令行,进入一个你希望软件源代码存放的目录,然后
 ```bash
 git clone https://github.com/bistromath/gr-air-modes.git
@@ -223,6 +269,7 @@ gedit README &
 ```
 查看安装方法
 在README中给了需要预安装的软件包:
+```
 =================================
 REQUIREMENTS
 
@@ -235,22 +282,26 @@ gr-air-modes requires:
 * osmosdr (any version) for use with RTLSDR dongles
 * SQLite 3.7 or later
 * CMake 2.6 or later
+```
 其中NumPy and SciPy are required for the FlightGear output plugin.和Ettus UHD >= 3.4.0 for use with USRPs我们这里暂时用不到.osmosdr (any version) for use with RTLSDR dongles和Gnuradio前面安装好了. 其他软件包请按照之前介绍的各种软件安装方法自行搞定(如果在接下来的安装过程中有相关的错误)
 
 接着编译安装:
+```
 mkdir build
 cd build
 cmake ../
 make
 sudo make install
 sudo ldconfig
+```
 成功执行后,飞机解调软件的可执行文件已经安装于/usr/local/bin
 
 2.3 解调数据/飞机轨迹的可视化
 如果想详尽研究该解调软件的用法,请命令行输入modes_rx --help
 
 如果现在就想接收飞机信号,那么请靠近窗口,天线尽可能靠近屋外,命令行运行:
-modes_rx --gain=60 --output-all --rtlsdr --kml=xxx.kml
+
+    modes_rx --gain=60 --output-all --rtlsdr --kml=xxx.kml
 
 可以用--gain调整增益,我的经验是增益高一些接收能力强一些
 xxx.kml是把接收到的飞机航班号位置高度信息等存为kml文件的文件名.
@@ -261,7 +312,8 @@ linux下一个看kml的程序是gpsprune, 请自行安装. apt-get, 软件中心
 
 3. 结束语
 至此,如果顺利的话,相信你也成功的监测到了飞机,切身感受到了软件无线电的强大. (这里夹带一点私货:个人觉得开源软件运动配合软件无线电在将来会掀起一场无线信息共享/交换的革命,就像Linux那样对人类社会产生深远的影响)
-rtl-sdr还能玩很多其他东西(不就是软件嘛,无所不能),如果你仔细看这个http://sdr.osmocom.org/trac/wiki/rtl-sdr的话,你会发现一些别人已经做或者正在做的工作(你也可以申请加入一起搞):
+rtl-sdr还能玩很多其他东西(不就是软件嘛,无所不能),如果你仔细看这个 http://sdr.osmocom.org/trac/wiki/rtl-sdr 的话,你会发现一些别人已经做或者正在做的工作(你也可以申请加入一起搞):
+
 * GNURadio: 这是软件无线电目前在开源世界的大本营,你可以认为是非常多软件无线电功能的合集,它支持至少两种硬件,一个是rtl-sdr,另外一个是USRP: http://www.ettus.com/ USRP对于业余玩玩来说挺贵的,因此主要是大学以及工业界的一些lab在用. rtl-sdr则亲民许多了.
 *多模接收机 multimode RX https://www.cgran.org/browser/projects/multimode/trunk 就是各种也余无线电接收方式.
 * FM接收 simple_fm_rvc https://www.cgran.org/browser/projects/simple_fm_rcv/trunk
