@@ -9,6 +9,9 @@
 gr-air-modes
 rtl-sdr
 ```
+
+安装`rtl-sdr`
+
 运行程序如果出现以下的提示:
 ```text
 Kernel driver is active, or device is claimed by second instance of librtlsdr.
