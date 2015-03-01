@@ -28,6 +28,27 @@ sudo rmmod dvb_usb_rtl28xxu rtl2832
 ```bash
 rtl_eeprom
 ```
+大致信息如下
+```
+zodiac1111@debian:~$ rtl_eeprom
+Found 1 device(s):
+  0:  Generic RTL2832U OEM
+
+Using device 0: Generic RTL2832U OEM
+Found Rafael Micro R820T tuner
+
+Current configuration:
+__________________________________________
+Vendor ID:		0x0bda
+Product ID:		0x2838
+Manufacturer:		Realtek
+Product:		RTL2838UHIDIR
+Serial number:		00000001
+Serial number enabled:	yes
+IR endpoint enabled:	yes
+Remote wakeup enabled:	no
+__________________________________________
+```
 
 # 听fm
 
