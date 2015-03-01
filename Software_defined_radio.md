@@ -62,6 +62,8 @@ rtl_fm -f 93M -M wbfm -s 200000 -r 48000 - | aplay -r 48k -f S16_LE
 
 # 飞机
 
+飞机通讯的基础 http://zh.wikipedia.org/wiki/%E9%A3%9E%E6%9C%BA%E9%80%9A%E4%BF%A1%E5%AF%BB%E5%9D%80%E4%B8%8E%E6%8A%A5%E5%91%8A%E7%B3%BB%E7%BB%9F
+
 参考  http://www.hamradioscience.com/the-rtl-2832u-sdr-and-ads-b/
 
 参考 追踪飞机 http://www.irrational.net/2012/08/06/tracking-planes-for-20-or-less/
