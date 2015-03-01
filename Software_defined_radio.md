@@ -65,7 +65,7 @@ rtl_fm -f 93M -M wbfm -s 200000 -r 48000 - | aplay -r 48k -f S16_LE
 
 [更简单的方式](http://sdr-x.github.io/rtl-sdr-rtl2832%E7%94%B5%E8%A7%86%E6%A3%92%E8%B7%9F%E8%B8%AA%E9%A3%9E%E6%9C%BA-%E6%9B%B4%E7%AE%80%E5%8D%95%E7%9A%84%E6%96%B9%E6%B3%95%E5%9C%A8Windows%E5%92%8CLinux%E4%B8%8B(simpler%20way%20to%20track%20plane%20by%20rtl-sdr)/) 已经测试成功
 
-  ./dump1090 --aggressive --net --interactive --enable-agc 
+    ./dump1090 --aggressive --net --interactive --enable-agc 
 
 参考  http://www.hamradioscience.com/the-rtl-2832u-sdr-and-ads-b/
 
