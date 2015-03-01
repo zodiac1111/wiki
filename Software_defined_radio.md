@@ -63,6 +63,8 @@ rtl_fm -f 93M -M wbfm -s 200000 -r 48000 - | aplay -r 48k -f S16_LE
 # 飞机
 [飞机通讯的基础](http://zh.wikipedia.org/wiki/%E9%A3%9E%E6%9C%BA%E9%80%9A%E4%BF%A1%E5%AF%BB%E5%9D%80%E4%B8%8E%E6%8A%A5%E5%91%8A%E7%B3%BB%E7%BB%9F)
 
+[更简单的方式](http://sdr-x.github.io/rtl-sdr-rtl2832%E7%94%B5%E8%A7%86%E6%A3%92%E8%B7%9F%E8%B8%AA%E9%A3%9E%E6%9C%BA-%E6%9B%B4%E7%AE%80%E5%8D%95%E7%9A%84%E6%96%B9%E6%B3%95%E5%9C%A8Windows%E5%92%8CLinux%E4%B8%8B(simpler%20way%20to%20track%20plane%20by%20rtl-sdr)/) 已经测试成功
+
 参考  http://www.hamradioscience.com/the-rtl-2832u-sdr-and-ads-b/
 
 参考 追踪飞机 http://www.irrational.net/2012/08/06/tracking-planes-for-20-or-less/
