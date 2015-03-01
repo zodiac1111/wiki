@@ -51,16 +51,26 @@ btw2: 本文内容全部来自互联网,主要是以下网站:http://sdr.osmocom
 1.1 电视棒
 
 首先需要得到一根支持rtl-sdr的电视棒(即有破解驱动的电视棒). 有很多种支持rtl-sdr的电视棒,他们的共同特点是采用了RTL2832U解调芯片.因此此类基于电视帮的SDR玩法统称为rtl-sdr. 支持如下几种tuner芯片:
+
+```
 Tuner 芯片	频率范围
 Elonics E4000	 52 - 2200 MHz, 其中1100 MHz to 1250 MHz无法覆盖
 Rafael Micro R820T	 24 - 1766 MHz
 Fitipower FC0013	 22 - 1100 MHz 
 Fitipower FC0012	 22 - 948.6 MHz
-FCI FC2580	 146 - 308 MHz, 438 - 924 MHz  其实以上关于rtl-sdr信息可以在如下网站找到:http://sdr.osmocom.org/trac/wiki/rtl-sdr
-那个网站上给出了网友汇总的所有支持的电视棒型号:http://www.reddit.com/r/RTLSDR/comments/s6ddo/rtlsdr_compatibility_list_v2_work_in_progress/
+FCI FC2580	 146 - 308 MHz, 438 - 924 MHz 
+```
+
+其实以上关于rtl-sdr信息可以在如下网站找到:http://sdr.osmocom.org/trac/wiki/rtl-sdr
+那个网站上给出了网友汇总的所有支持的电视棒型号:
+
+http://www.reddit.com/r/RTLSDR/comments/s6ddo/rtlsdr_compatibility_list_v2_work_in_progress/
+
 据说E4000 tuner已经停产,以后电视棒大量采用R820T tuner.我验证过的两个国内容易买到的电视棒淘宝链接如下:
+
 E4000 tuner:
 http://item.taobao.com/item.htm?spm=a1z09.5.0.40.eu3hl4&id=17573063276
+
 R820T tuner
 http://item.taobao.com/item.htm?spm=a1z09.5.0.40.staNYH&id=14870003255
 
