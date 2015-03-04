@@ -50,6 +50,12 @@ Remote wakeup enabled:	no
 __________________________________________
 ```
 
+下面是几种玩法介绍
+
+# 逆向433Mhz
+
+http://oszine.com/matlab-sdr-433mhz/
+
 # 听fm
 
 参考 http://kmkeen.com/rtl-demod-guide/
