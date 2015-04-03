@@ -1,5 +1,8 @@
 # 有趣的东西
 
+* 多岔路口 http://ww3.sinaimg.cn/mw600/444d7111jw1ep6uldgz32j20hs0dcq4n.jpg
+* [多种语言的helloworld](http://helloworldcollection.de/) 
+* IP over ICMP,DNS,etc. http://thomer.com/icmptx/
 * x进制
 
 * [各种稀奇古怪的进制](jinzhi)
