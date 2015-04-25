@@ -1,5 +1,6 @@
 # 文件列表
 
+* [[eclipse-kernel]] 使用 eclipse-cdt 查看linux kernel 的配置
 * [[printf-len]] 获得打印的字符串长度
 * [[point-addr]] 多字节类型指针指向的地址
 * [[hock]] 给调用的函数下钩子,比如自己hlod malloc函数
