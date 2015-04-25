@@ -1,3 +1,5 @@
+# 基本配置
+
 参考 [[https://wiki.eclipse.org/HowTo_use_the_CDT_to_navigate_Linux_kernel_source]]
 
 简单内容摘录如下:
@@ -45,3 +47,15 @@
 41. The Project will index automatically.
 42. On a platter drive indexing will take upwards of 20 minutes to complete, on a SSD indexing will take about 5 minutes to complete.
 
+# 交叉编译
+
+参考 [[http://kloggsays.blogspot.com/2011/06/kernel-development-using-eclipse-omap4.html]]
+
+交叉编译环境可能有些许不同的地方.
+
+* Step 14: since we are doing cross compilation, I need to add custom build variables in the corresponding menu of the C/C++ Build options. Add ARCH with value arm and CROSS_COMPILE with value arm-linux-gnueabi- to all configurations. Maybe I will need to add some compiler options later here, but for now it is quite enough
+* Step 15: use arm-linux-gnueabi-gcc for compiler command
+* Step 25: here I have arch/arm/include, also I had to add arch/arm/plat-omap/include and arch/arm/mach-omap2/include
+* Step 33: here I have everything except arch/arm
+Additionally in C/C++ Build options I am setting Build target in the Behavior tab to uImage and Build command in the Builder Settings tab to make ARCH=${ARCH} CROSS_COMPILE=${CROSS_COMPILE}
+In the end you will need to clean and rebuild from Eclipse to get the list of issues 
