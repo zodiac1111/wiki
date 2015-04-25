@@ -1,6 +1,7 @@
 参考 [[https://wiki.eclipse.org/HowTo_use_the_CDT_to_navigate_Linux_kernel_source]]
 
 简单内容摘录如下:
+
 1. Download and install Eclipse plus the CDT.
 2. Configure and build your kernel to define CONFIG_* and generate autoconf.h. This can be done before or after downloading and installing Eclipse.
 3. Ensure that you have the right kernel source (e.g. make sure you are on the right git branch). If you check out another branch later, that's ok, but you will need to re-index the source, and that takes about 20 minutes.
