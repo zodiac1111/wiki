@@ -1,6 +1,6 @@
 # 软件索引
 
-* Upnp服务器 miniupnpd.配置文件
+* Upnp服务器 miniupnpd.配置文件 /etc/minidlna.conf
 * [[gnome3-mouse-resize]] gnome3像gnome2一样alt+鼠标左/右键拖动/缩放窗体
 * [[shadowsocks]] shadowsocks
 * [搜狗输入法linux黑框](http://my.oschina.net/qsjfighting/blog/223699) `xcompmgr`
