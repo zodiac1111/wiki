@@ -2,7 +2,8 @@
 
 参考资料
 
-http://blog.chinaunix.net/uid-27717694-id-3753746.html
+* http://blog.chinaunix.net/uid-27717694-id-3753746.html
+* http://wiki.ubuntu.org.cn/UbuntuHelp:ConsoleFramebuffer/zh
 
 液晶类型
 
@@ -80,5 +81,18 @@ struct fb_bitfield {
     __u32 offset;//位域偏移
     __u32 length;//位域长度
     __u32 msb_right;//MSB（最高有效位）指示
+};
+```
+
+```
+//fb_cmap：设备独立的颜色表信息，可以通过 ioctl 的 FBIOGETCMAP 和 FBIOPUTCMAP 命令设置 colormap；
+struct fb_cmap {
+    __u32 start;//第一个元素入口
+    __u32 len;//元素数量
+    //RGB透明度
+    __u16 *red;            /* Red values    */
+    __u16 *green;
+    __u16 *blue;
+    __u16 *transp;            /* transparency, can be NULL */
 };
 ```
