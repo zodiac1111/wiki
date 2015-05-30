@@ -6,6 +6,8 @@
 
 [手动分配栈内存](http://blog.csdn.net/suoluotree/article/details/5649670)
 
+已经不被推荐
+
 # c语言协程
 
 一个“蝇量级” C 语言协程库
