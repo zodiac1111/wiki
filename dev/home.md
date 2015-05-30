@@ -1,6 +1,6 @@
 # 开发目录
 
-* [gprs](gprs0 相关知识
+* [gprs](gprs) 相关知识
 * [lcd](lcd)
 * 代码格式化工具indent、astyle、clang-format
 * [arm上运行lisp](arm-ecl)
