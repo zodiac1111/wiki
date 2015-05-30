@@ -14,3 +14,8 @@
 参考 http://stackoverflow.com/questions/2021982/awk-without-printing-newline
 
 `print`-> `printf`
+
+# 自定义分隔符
+
+    awk -F, 'program' input-files
+
