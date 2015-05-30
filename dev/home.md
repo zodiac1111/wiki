@@ -1,5 +1,6 @@
 # 开发目录
 
+* [key](key) 各种键盘映射
 * [gprs](gprs) 相关知识
 * [lcd](lcd)
 * 代码格式化工具indent、astyle、clang-format
