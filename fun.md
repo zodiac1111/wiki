@@ -1,5 +1,6 @@
 # 有趣的东西
 
+* [英语星期的意义](http://www.crowl.org/lawrence/time/days.html) 日语也一样
 * 多岔路口 [[http://ww3.sinaimg.cn/mw600/444d7111jw1ep6uldgz32j20hs0dcq4n.jpg]]
 * [多种语言的helloworld](http://helloworldcollection.de/) 
 * IP over ICMP,DNS,etc. http://thomer.com/icmptx/
