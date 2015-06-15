@@ -2,6 +2,10 @@
 
 导出 mkv 文件内嵌的字幕.
 
+    mkvtoolnix
+
+软件 `mkvinfo-gui`
+
 参考:
 
 * http://www.ahowto.net/linux/how-to-extract-embedded-subtitles-srt-ass-from-mkv-files/
