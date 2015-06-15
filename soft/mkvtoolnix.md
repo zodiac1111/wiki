@@ -6,6 +6,8 @@
 
 软件 `mkvinfo-gui`
 
+`flip`
+
 参考:
 
 * http://www.ahowto.net/linux/how-to-extract-embedded-subtitles-srt-ass-from-mkv-files/
