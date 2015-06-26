@@ -1,5 +1,6 @@
 # 软件索引
 
+* 命令行网速查看,各个进程的网速 nethogs :`sudo nethogs  wlan0`
 * [[mkvtoolnix]] 视频工具
 * Upnp服务器 miniupnpd.配置文件 /etc/minidlna.conf
 * [[gnome3-mouse-resize]] gnome3像gnome2一样alt+鼠标左/右键拖动/缩放窗体
