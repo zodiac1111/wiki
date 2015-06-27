@@ -2,6 +2,12 @@
 
 加密dns,换tcp协议(默认是udp),换端口,防止
 
+原始repo
+
+https://github.com/jedisct1/dnscrypt-proxy
+
+forked repo
+
 https://github.com/opendns/dnscrypt-proxy/
 
 	# dnscrypt-proxy -T
