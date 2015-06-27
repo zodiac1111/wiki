@@ -12,12 +12,12 @@
 Redirecting the standard error (stderr) and stdout to file
 Use the following syntax:
 
-  $ command-name &>file
+    $ command-name &>file
 
 OR
 
-  $ command > file-name 2>&1
+    $ command > file-name 2>&1
 
 Another useful example:
 
-  # find /usr/home -name .profile 2>&1 | more
+    # find /usr/home -name .profile 2>&1 | more
