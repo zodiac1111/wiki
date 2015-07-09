@@ -1,5 +1,6 @@
 # 实用工具
 
+* FreeCAD 学习[[freecad]]
 * [礼品包装](http://www.zhihu.com/question/23147527#answer-10580764)
 * [[wago]]WAGO接线端子选型样本
 * [简单gif制作](https://scottlinux.com/2011/07/31/create-animated-gif-in-linux-from-command-line/)
