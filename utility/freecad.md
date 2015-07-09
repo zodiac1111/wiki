@@ -10,7 +10,7 @@
 
 论坛
 
-[论坛](http://forum.freecadweb.org/viewforum.php?f=8)
+* [论坛](http://forum.freecadweb.org/viewforum.php?f=8)
 
 官方教程 http://freecadweb.org/wiki/index.php?title=Video_tutorials
 
