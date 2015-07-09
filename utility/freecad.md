@@ -4,6 +4,7 @@
 
 软件本体:
 
+* [项目的管理者ppa](https://launchpad.net/~freecad-maintainers)
 * [每日构建版(ppa)](https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-daily)
 * [组件扩展(社区贡献版)](https://launchpad.net/~freecad-community/+archive/ubuntu/ppa)
 
