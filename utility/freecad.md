@@ -11,6 +11,7 @@
 论坛
 
 * [论坛](http://forum.freecadweb.org/viewforum.php?f=8)
+* [小甲虫例子](https://github.com/bq/printbots/tree/master/Beetle)
 
 官方教程 http://freecadweb.org/wiki/index.php?title=Video_tutorials
 
