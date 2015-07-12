@@ -19,6 +19,13 @@ debian包: https://packages.debian.org/sid/amd64/dnscrypt-proxy/download
 	/etc/resolv.conf 
 	nameserver 127.0.0.1
 
+以上貌似过期,
+
+参考[这里](https://github.com/jedisct1/dnscrypt-proxy/blob/master/dnscrypt-resolvers.csv)
+
+    dnscrypt-proxy -R <名字>
+
+
 dns测试
 
 	dig @8.8.8.8 github
