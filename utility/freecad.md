@@ -13,6 +13,12 @@
 * [论坛](http://forum.freecadweb.org/viewforum.php?f=8)
 * [小甲虫例子](https://github.com/bq/printbots/tree/master/Beetle)
 
+日语版教程(无声音)
+
+* [Free CAD : Getting started](https://www.youtube.com/playlist?list=PLHm_82X7K9BXbDlxazQOWmThZQxq2vJiC)
+* [FreeCAD tutorial](https://www.youtube.com/playlist?list=PLHm_82X7K9BUo-XxOYDpFW3lL5qkWpNlX)
+* [FreeCAD Mechanical drawing](https://www.youtube.com/playlist?list=PLHm_82X7K9BVMNNgSwvwT1TnSAxIPpzTS)
+
 官方教程 http://freecadweb.org/wiki/index.php?title=Video_tutorials
 
 * 一般: 零件设计 Part Design
