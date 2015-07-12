@@ -1,6 +1,8 @@
 # 配置dns协议
 
-加密dns,换tcp协议(默认是udp),换端口,防止
+加密dns/自定义dns服务,一定程度防止dns劫持
+
+加密dns,换tcp协议(默认是udp),换端口,防止劫持
 
 原始repo
 
