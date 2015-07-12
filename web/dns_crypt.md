@@ -4,13 +4,7 @@
 
 加密dns,换tcp协议(默认是udp),换端口,防止劫持
 
-原始repo
-
-https://github.com/jedisct1/dnscrypt-proxy
-
-forked repo
-
-https://github.com/opendns/dnscrypt-proxy/
+原始repo https://github.com/jedisct1/dnscrypt-proxy
 
 debian包: https://packages.debian.org/sid/amd64/dnscrypt-proxy/download
 
