@@ -8,4 +8,8 @@ midi键盘 (F37)
 * vmpk 生成midi
 * timidity / timidity-daemon midi播放
 
+vmpk,连接,允许转发xxx
+vmpk,连接,输入F37
+vmpk,连接,输出选择timidity
+
 
