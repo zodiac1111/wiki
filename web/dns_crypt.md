@@ -13,6 +13,7 @@ https://github.com/opendns/dnscrypt-proxy/
 debian包: https://packages.debian.org/sid/amd64/dnscrypt-proxy/download
 
 使用
+
 	# dnscrypt-proxy -T
 
 	/etc/resolv.conf 
