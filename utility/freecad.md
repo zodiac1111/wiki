@@ -25,3 +25,8 @@
 * 草绘,草稿 Sketcher
 
 * [组件教程](https://www.youtube.com/watch?v=swz5iZum4Y0&index=5&list=PLHm_82X7K9BVMNNgSwvwT1TnSAxIPpzTS)
+
+# 参考
+
+Freecad/工程师/Linux相关
+http://linuxforanengineer.blogspot.com/
