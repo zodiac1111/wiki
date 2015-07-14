@@ -1,6 +1,7 @@
 # 有趣的东西
 
-* [[VMPK]]
+* [2.007](http://me-2007.mit.edu/videos) MIT六足机器人课程
+* [[VMPK]] 虚拟键盘
 * [英语星期的意义](http://www.crowl.org/lawrence/time/days.html) 日语也一样
 * 多岔路口 [[http://ww3.sinaimg.cn/mw600/444d7111jw1ep6uldgz32j20hs0dcq4n.jpg]]
 * [多种语言的helloworld](http://helloworldcollection.de/) 
