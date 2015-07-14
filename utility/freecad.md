@@ -15,9 +15,9 @@
 
 日语版教程(无声音)
 
-* [Free CAD : Getting started](https://www.youtube.com/playlist?list=PLHm_82X7K9BXbDlxazQOWmThZQxq2vJiC)
+* 基础教程 [Free CAD : Getting started](https://www.youtube.com/playlist?list=PLHm_82X7K9BXbDlxazQOWmThZQxq2vJiC)
 * [FreeCAD tutorial](https://www.youtube.com/playlist?list=PLHm_82X7K9BUo-XxOYDpFW3lL5qkWpNlX)
-* [FreeCAD Mechanical drawing](https://www.youtube.com/playlist?list=PLHm_82X7K9BVMNNgSwvwT1TnSAxIPpzTS)
+* 机械,组装[FreeCAD Mechanical drawing](https://www.youtube.com/playlist?list=PLHm_82X7K9BVMNNgSwvwT1TnSAxIPpzTS)
 
 官方教程 http://freecadweb.org/wiki/index.php?title=Video_tutorials
 
