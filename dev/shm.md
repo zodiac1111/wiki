@@ -22,6 +22,7 @@ Pick one batch of memory (so for example 00621000-00622000) then use gdb as root
 ```
 $ gdb --pid [pid]
 (gdb) dump memory /root/output 0x00621000 0x00622000
+(gdb) dump memory /data/[文件名] 开始地址 结束地址
 ```
 
 Then analyse /root/output with the strings command, less you want the PuTTY all over your screen.
