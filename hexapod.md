@@ -18,3 +18,8 @@
 * [多种步行视频](http://www.armure.ch/WALKING.htm)
 
 [机器人,步态](http://www.projectbiped.com/updates/blog)
+
+### 另一种结构
+
+* [视频演示和简单介绍](https://www.youtube.com/watch?v=is7x_atNl94) 不好懂
+* [一个网站](http://www.tampabay.com/news/science/inventor-builds-a-robot-large-enough-to-ride-in/432472)
