@@ -11,9 +11,10 @@
 ### 仿生瘦
 
 * 仿生兽 Jensen / Klann Linkage style “hexapods” [动画](https://www.youtube.com/watch?v=WsRVu8BoSN4) .[跑的贼快啊](https://www.youtube.com/watch?v=4XiRxNkZleY)
-  * [这种结构的研究](http://www.mechanicalspider.com/comparison.html)
-  * [维基百科](https://en.wikipedia.org/wiki/Jansen%27s_linkage)
-  * 相似的结构[Klann linkage](https://en.wikipedia.org/wiki/Klann_linkage)
-  * [3d打印的](http://www.instructables.com/id/3D-Printed-Walking-Robot-Klann-Linkage/)
+* [这种结构的研究](http://www.mechanicalspider.com/comparison.html)
+* [维基百科](https://en.wikipedia.org/wiki/Jansen%27s_linkage)
+* 相似的结构[Klann linkage](https://en.wikipedia.org/wiki/Klann_linkage)
+* [3d打印的](http://www.instructables.com/id/3D-Printed-Walking-Robot-Klann-Linkage/)
+* [多种步行视频](http://www.armure.ch/WALKING.htm)
 
 [机器人,步态](http://www.projectbiped.com/updates/blog)
