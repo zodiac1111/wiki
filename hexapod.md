@@ -4,3 +4,4 @@
 * 3个舵机 [微型](https://www.pololu.com/docs/0J42)
 * [各种教程](https://hackaday.io/project/770-stubby-the-teaching-hexapod)
 * [4足](http://www.thingiverse.com/thing:30088)
+* [3d打印和各种例子](http://www.thingiverse.com/search/page:2?q=hexapod&sa=)
