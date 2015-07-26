@@ -5,3 +5,5 @@
 * [各种教程](https://hackaday.io/project/770-stubby-the-teaching-hexapod)
 * [4足](http://www.thingiverse.com/thing:30088)
 * [3d打印和各种例子](http://www.thingiverse.com/search/page:2?q=hexapod&sa=)
+* 仿生兽 Jensen / Klann Linkage style “hexapods” [动画](https://www.youtube.com/watch?v=WsRVu8BoSN4) .[跑的贼快啊](https://www.youtube.com/watch?v=4XiRxNkZleY)
+* [六足速度,障碍比赛](https://www.youtube.com/watch?v=-Soq9qpK5Ac)
