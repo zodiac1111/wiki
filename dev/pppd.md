@@ -2,6 +2,9 @@
 
 > * http://www.apinpai.com/b53019/
 
+[PPP Link Control Protocol (LCP)](http://www.tcpipguide.com/free/t_PPPLinkControlProtocolLCP.htm)
+
+
 一个ppp会话分为四个步骤:
 
 1. 连接建立
