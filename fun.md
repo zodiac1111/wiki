@@ -1,6 +1,6 @@
 # 有趣的东西
 
-
+* [翼地效应](ge)
 * [2.007:MIT六足机器人课程](http://me-2007.mit.edu/videos) ,[整理](hexapod)
   * http://hexacon2013.mit.edu/
   * [迷你六足(3个舵机)](http://letsmakerobots.com/node/15032)
