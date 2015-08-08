@@ -9,3 +9,5 @@ tar --numeric-owner --owner=0 --group=0 -cz -f install_tree.tar.gz ${STAGING_DIR
 ```
 
 `-h` 包含符号连接,不转储动态链接，转储动态链接指向的文件。 **符号连接变真实文件** 
+
+-T 使用文件列表创建
