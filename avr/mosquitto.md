@@ -7,3 +7,10 @@
     mosquitto_sub -h test.mosquitto.org -t "#" -v
 
 默认端口 1883
+
+    mosquitto_sub -h test.mosquitto.org -t "hello" 
+
+参数
+
+  -h 主机名
+  -t topic 主题
