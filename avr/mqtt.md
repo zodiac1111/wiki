@@ -72,4 +72,26 @@
 * [MQTT协议笔记之连接和心跳](https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=14&ved=0CDEQFjADOApqFQoTCOHJicuvnMcCFYTZLAodErQATg&url=http%3a%2f%2fwww%2eblogjava%2enet%2fyongboy%2farchive%2f2015%2f04%2f23%2f409630%2ehtml&ei=N3nHVaHSK4SzswGS6ILwBA&usg=AFQjCNHBeglW__iEpsTfpZZLp2_6A9pmjg)
   * 报文结构分析很详细,推荐
 * [物联网协议比较 MQTT CoAP RESTful/HTTP XMPP](http://www.phodal.com/blog/iot-protocols-coap-mqtt-xmpp-restful-http/)
-  * 一句话接收,没啥比较(鸡肋):CoAP唯一可比的协议:[wiki](https://en.wikipedia.org/wiki/Constrained_Application_Protocol),[译文介绍](http://blog.csdn.net/xukai871105/article/details/17734163)
+  * 一句话接收,没啥比较(鸡肋):CoAP唯一可比的协议:[wiki](https://en.wikipedia.org/wiki/Constrained_Application_Protocol),
+
+# CoAP(竞争协议)
+
+基于udp,更小,起草阶段.类比http协议的理念.来历未知
+
+## 实现
+
+* [有名的小巧c实现](http://sourceforge.net/projects/libcoap/)
+* [arduino](https://github.com/dgiannakop/Arduino-CoAP)
+* [arduino](https://github.com/1248/microcoap)
+
+## 参考
+
+### 英文
+
+* [各种语言的实现](https://en.wikipedia.org/wiki/Constrained_Application_Protocol)
+
+### 中文
+
+* [介绍](http://blog.csdn.net/tulun/article/details/8869241)
+* [译文介绍](http://blog.csdn.net/xukai871105/article/details/17734163)
+* [中文介绍](http://www.phodal.com/blog/use-constrained-application-protocol-in-internet-of-things/)
