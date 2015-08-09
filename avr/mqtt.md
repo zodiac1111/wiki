@@ -14,6 +14,9 @@
 
 # 简单例子
 
+* subscribe 订阅 抓取数据
+* publish 发布 发送数据
+
 测试服务器 http://test.mosquitto.org/
 
 简单测试
@@ -68,4 +71,5 @@
   * 安卓相关,写的一般
 * [MQTT协议笔记之连接和心跳](https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=14&ved=0CDEQFjADOApqFQoTCOHJicuvnMcCFYTZLAodErQATg&url=http%3a%2f%2fwww%2eblogjava%2enet%2fyongboy%2farchive%2f2015%2f04%2f23%2f409630%2ehtml&ei=N3nHVaHSK4SzswGS6ILwBA&usg=AFQjCNHBeglW__iEpsTfpZZLp2_6A9pmjg)
   * 报文结构分析很详细,推荐
-
+* [物联网协议比较 MQTT CoAP RESTful/HTTP XMPP](http://www.phodal.com/blog/iot-protocols-coap-mqtt-xmpp-restful-http/)
+  * 一句话接收,没啥比较(鸡肋):CoAP唯一可比的协议:[wiki](https://en.wikipedia.org/wiki/Constrained_Application_Protocol),[译文介绍](http://blog.csdn.net/xukai871105/article/details/17734163)
