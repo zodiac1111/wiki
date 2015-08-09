@@ -12,5 +12,15 @@
 
 参数
 
-  -h 主机名
-  -t topic 主题
+    -h 主机名
+    -t topic 主题
+
+简单流程
+
+```
+1. 发:连接命令
+2. 收:ack
+3. 发:订阅请求 topic:hello
+4. 收:ack
+5. 收:Publish message 发布的消息 "ggjhkgplopplopjfjkljdqsjklmjspppkmd23502"
+```
