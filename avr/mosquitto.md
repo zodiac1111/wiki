@@ -2,6 +2,8 @@
 
 物联网传输协议,ibm开发
 
+[[http://www.hivemq.com/wp-content/uploads/mqtt-tcp-ip-stack.png]]
+
 测试服务器 http://test.mosquitto.org/
 
 简单测试
