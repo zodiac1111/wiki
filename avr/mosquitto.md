@@ -8,6 +8,9 @@
 
 [[http://www.hivemq.com/wp-content/uploads/connect-flow.png]]
 
+包例子,很多都是可选的
+
+[[http://www.hivemq.com/wp-content/uploads/connect.png]]
 
 测试服务器 http://test.mosquitto.org/
 
