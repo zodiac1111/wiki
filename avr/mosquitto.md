@@ -38,3 +38,8 @@
 6) 发:ping 请求 (定时重复)
 7) 收:ping 响应 (定时重复)
 ```
+
+
+# 参考
+
+* http://www.hivemq.com/mqtt-essentials-part-3-client-broker-connection-establishment/
