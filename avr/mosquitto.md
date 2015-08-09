@@ -4,6 +4,11 @@
 
 [[http://www.hivemq.com/wp-content/uploads/mqtt-tcp-ip-stack.png]]
 
+网络连接示意图
+
+[[http://www.hivemq.com/wp-content/uploads/connect-flow.png]]
+
+
 测试服务器 http://test.mosquitto.org/
 
 简单测试
