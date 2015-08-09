@@ -42,13 +42,24 @@
 ```
 # 待定
 
-# 参考
+# 既有实现
+## 客户端
+
+* [mosquitto](http://mosquitto.org/)
+* [java实现的客户端](https://github.com/fusesource/mqtt-client)
+* [chrome插件](https://chrome.google.com/webstore/detail/mqttlens/hemojaaeigabkbcookmlgmdigohjobjm)
+
+# 参考(英文)
 
 * [官网](http://mqtt.org/)
 * [文档](http://mqtt.org/documentation),[pdf](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.pdf)
+* [维基百科](https://en.wikipedia.org/wiki/MQTT),[日本語](https://en.wikipedia.org/wiki/MQTT)
 * http://www.hivemq.com/mqtt-essentials-part-3-client-broker-connection-establishment/
 
-# 参考,中文
+# 参考(中文)
 
+* [通过 WebSphere MQ 遥测传输 (MQTT) 将 Android 手机引入物联网ibm](https://www.ibm.com/developerworks/cn/websphere/library/techarticles/1109_wangb_mqandroid/1109_wangb_mqandroid.html)
+  * 安卓相关,写的一般
 * [MQTT协议笔记之连接和心跳](https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=14&ved=0CDEQFjADOApqFQoTCOHJicuvnMcCFYTZLAodErQATg&url=http%3a%2f%2fwww%2eblogjava%2enet%2fyongboy%2farchive%2f2015%2f04%2f23%2f409630%2ehtml&ei=N3nHVaHSK4SzswGS6ILwBA&usg=AFQjCNHBeglW__iEpsTfpZZLp2_6A9pmjg)
   * 报文结构分析很详细,推荐
+
