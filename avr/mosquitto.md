@@ -23,6 +23,6 @@
 3. 发:订阅请求 topic:hello
 4. 收:ack
 5. 收:Publish message 发布的消息 "ggjhkgplopplopjfjkljdqsjklmjspppkmd23502"
-6) 发:ping 请求
+6) 发:ping 请求 (定时重复)
 7) 收:ping 响应 (定时重复)
 ```
