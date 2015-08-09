@@ -1,5 +1,7 @@
 # mosquitto
 
+物联网传输协议,ibm开发
+
 测试服务器 http://test.mosquitto.org/
 
 简单测试
