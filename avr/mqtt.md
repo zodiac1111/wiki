@@ -54,14 +54,15 @@
 * ibm的,不开源,需注册(放弃)
 * 比较少
 
-# 参考(英文)
+# 参考
 
+## 英文
 * [官网](http://mqtt.org/)
 * [文档](http://mqtt.org/documentation),[pdf](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.pdf)
 * [维基百科](https://en.wikipedia.org/wiki/MQTT),[日本語](https://en.wikipedia.org/wiki/MQTT)
 * http://www.hivemq.com/mqtt-essentials-part-3-client-broker-connection-establishment/
 
-# 参考(中文)
+## 中文
 
 * [通过 WebSphere MQ 遥测传输 (MQTT) 将 Android 手机引入物联网ibm](https://www.ibm.com/developerworks/cn/websphere/library/techarticles/1109_wangb_mqandroid/1109_wangb_mqandroid.html)
   * 安卓相关,写的一般
