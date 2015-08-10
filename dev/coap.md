@@ -18,6 +18,7 @@
 ./configure
 make
 ```
+examples下coap-client就是服务器
 
 ## 测试
 
