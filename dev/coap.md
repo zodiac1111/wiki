@@ -22,9 +22,9 @@
 ### 交叉编译
 
     ./configure
-    make
+    make CC=arm-linux-gcc AR=arm-linux-ar LD=arm-linux-ld
 
-examples下coap-client就是服务器
+examples下coap-client就是客户端例子
 
 ## 测试
 
@@ -36,9 +36,11 @@ examples下coap-client就是服务器
 
 * [协议文档rfc7252](http://tools.ietf.org/html/rfc7252)
 * [各种语言的实现](https://en.wikipedia.org/wiki/Constrained_Application_Protocol)
+* [arm公司的介绍幻灯片](http://www.slideshare.net/zdshelby/coap-tutorial)
 
 ## 中文
 
+* [CoAP学习笔记——Libcoap安装和使用](http://blog.csdn.net/xukai871105/article/details/44980041)
 * [构建基于CoAP协议的物联网系统(图灵社区)](http://www.ituring.com.cn/tupubarticle/3795)
 * [介绍](http://blog.csdn.net/tulun/article/details/8869241)
 * [译文介绍](http://blog.csdn.net/xukai871105/article/details/17734163)
