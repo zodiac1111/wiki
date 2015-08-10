@@ -7,14 +7,17 @@
 # 实现
 
 * 有名的小巧c实现:[libcoap](http://sourceforge.net/projects/libcoap/)
+* [arduino](https://github.com/dgiannakop/Arduino-CoAP)
+* [arduino](https://github.com/1248/microcoap)
+
+# libcoap
+
+编译
+
 ```
 ./configure
 make
 ```
-
-* [arduino](https://github.com/dgiannakop/Arduino-CoAP)
-* [arduino](https://github.com/1248/microcoap)
-
 # 参考
 
 ## 英文
