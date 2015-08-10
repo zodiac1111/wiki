@@ -45,8 +45,19 @@
 6) 发:ping 请求 (定时重复)
 7) 收:ping 响应 (定时重复)
 ```
-# 待定
+# mosquitto
 
+## 编译
+
+首先设置`config.mk`中所有选项为no
+
+    make CC=arm-linux-gcc CXX=arm-linux-gcc
+
+## 测试
+
+    ./mosquitto_sub -h test.mosquitto.org -t "hello"
+
+    
 # 既有实现
 ## 客户端
 
