@@ -51,7 +51,8 @@
 
 首先设置`config.mk`中所有选项为no
 
-    make CC=arm-linux-gcc CXX=arm-linux-gcc
+    make  # host编译
+    make CC=arm-linux-gcc CXX=arm-linux-gcc #交叉编译
 
 ## 测试
 
