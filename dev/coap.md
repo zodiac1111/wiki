@@ -46,8 +46,10 @@ wireshark 过滤
 
 ## 中文
 
+* [多协议物联网演示](https://github.com/iot-works/diaonan)
+* [基于CoAP的无线传感器网络与互联网的互联研究](http://www.itcast.cn/news/20140606/14323875164.shtml)
 * [CoAP学习笔记——Libcoap安装和使用](http://blog.csdn.net/xukai871105/article/details/44980041)
 * [构建基于CoAP协议的物联网系统(图灵社区)](http://www.ituring.com.cn/tupubarticle/3795)
 * [介绍](http://blog.csdn.net/tulun/article/details/8869241)
-* [译文介绍](http://blog.csdn.net/xukai871105/article/details/17734163)
-* [中文介绍](http://www.phodal.com/blog/use-constrained-application-protocol-in-internet-of-things/)
+* [译:CoAP协议学习——CoAP基础](http://blog.csdn.net/xukai871105/article/details/17734163)
+* [CoAP与物联网系统](http://www.phodal.com/blog/use-constrained-application-protocol-in-internet-of-things/)
