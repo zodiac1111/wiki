@@ -46,6 +46,7 @@ wireshark 过滤
 
 ## 中文
 
+* [CoAP学习笔记——IETF文档和draft文档](http://blog.csdn.net/xukai871105/article/details/45097841)
 * [多协议物联网演示](https://github.com/iot-works/diaonan)
 * [基于CoAP的无线传感器网络与互联网的互联研究](http://www.itcast.cn/news/20140606/14323875164.shtml)
 * [CoAP学习笔记——Libcoap安装和使用](http://blog.csdn.net/xukai871105/article/details/44980041)
