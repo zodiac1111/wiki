@@ -14,18 +14,21 @@
 
 ## 编译
 
-```
-./configure
-make
-```
+
+    ./configure
+    make
+
 examples下coap-client就是服务器
 
 ## 测试
+
+    ./examples/coap-client get  coap://coap.me/.well-known/core
 
 # 参考
 
 ## 英文
 
+* [协议文档rfc7252](http://tools.ietf.org/html/rfc7252)
 * [各种语言的实现](https://en.wikipedia.org/wiki/Constrained_Application_Protocol)
 
 ## 中文
