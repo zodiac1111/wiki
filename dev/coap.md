@@ -14,7 +14,6 @@
 
 ## 编译
 
-
     ./configure
     make
 
