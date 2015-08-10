@@ -1,5 +1,7 @@
 # mqtt协议
 
+同类协议[coap](/dev/coap)
+
 物联网传输协议,ibm开发
 
 [[http://www.hivemq.com/wp-content/uploads/mqtt-tcp-ip-stack.png]]
