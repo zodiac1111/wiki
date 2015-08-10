@@ -32,6 +32,10 @@ examples下coap-client就是客户端例子
 
 默认支持的ipv6似乎关不掉
 
+wireshark 过滤
+
+    udp.port==5683
+
 # 参考
 
 ## 英文
