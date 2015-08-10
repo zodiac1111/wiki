@@ -14,6 +14,13 @@
 
 ## 编译
 
+### host编译
+
+    ./configure
+    make
+
+### 交叉编译
+
     ./configure
     make
 
