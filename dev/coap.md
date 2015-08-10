@@ -1,6 +1,6 @@
 # CoAP
 
-同类协议mqtt
+同类协议[mqtt](/dev/mqtt)
 
 基于udp,更小,起草阶段.类比http协议的理念.来历未知
 
