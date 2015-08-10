@@ -28,7 +28,9 @@ examples下coap-client就是客户端例子
 
 ## 测试
 
-    ./examples/coap-client get  coap://coap.me/.well-known/core
+    ./examples/coap-client coap://coap.me/.well-known/core
+
+默认支持的ipv6似乎关不掉
 
 # 参考
 
