@@ -28,7 +28,8 @@ examples下coap-client就是客户端例子
 
 ## 测试
 
-客户端工具(模拟器) [firefox插件copper](https://addons.mozilla.org/en-US/firefox/addon/copper-270430/)
+* 客户端工具(模拟器) [firefox插件copper](https://addons.mozilla.org/en-US/firefox/addon/copper-270430/)
+
 ### 列举资源
 
     ./examples/coap-client coap://coap.me/.well-known/core
