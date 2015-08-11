@@ -28,7 +28,20 @@ examples下coap-client就是客户端例子
 
 ## 测试
 
+列举资源
+
     ./examples/coap-client coap://coap.me/.well-known/core
+
+###
+
+异步例子
+
+* 客户端发送
+* 服务端先回复ack
+* 等一段时间后服务端再返回实际内容
+* 客户端回复确认
+
+    ./examples/coap-client  coap://127.0.0.1/async
 
 默认支持的ipv6似乎关不掉
 
