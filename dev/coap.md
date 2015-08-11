@@ -40,7 +40,7 @@ wireshark 过滤
 
 ## 英文
 
-* [coap](http://coap.technology/)
+* [coap官网](http://coap.technology/)
 * [协议文档rfc7252](http://tools.ietf.org/html/rfc7252)
 * [各种语言的实现](https://en.wikipedia.org/wiki/Constrained_Application_Protocol)
 * [arm公司的介绍幻灯片](http://www.slideshare.net/zdshelby/coap-tutorial)
