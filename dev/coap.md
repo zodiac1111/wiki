@@ -36,7 +36,7 @@ examples下coap-client就是客户端例子
 
 1. 客户端发送
 2. 服务端先回复ack
-3. 等一段时间后服务端再返回实际内容,
+3. 等一段时间后服务端再返回实际内容
 4. 客户端回复确认
 
     ./examples/coap-client  coap://127.0.0.1/async
