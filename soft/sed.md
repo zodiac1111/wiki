@@ -1,6 +1,6 @@
 # sed 使用
 
-[sed](https://zh.wikipedia.org/wiki/Sed):流编辑器 stream editor
+[sed](https://zh.wikipedia.org/wiki/Sed)既流编辑器(stream editor).
 
 ```
  sed -e '1,5d' -e 's/test/check/' example   
