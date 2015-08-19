@@ -10,7 +10,7 @@
 * Upnp服务器 miniupnpd.配置文件 /etc/minidlna.conf
 * [[gnome3-mouse-resize]] gnome3像gnome2一样alt+鼠标左/右键拖动/缩放窗体
 * [[shadowsocks]] shadowsocks
-* [搜狗输入法linux黑框](http://my.oschina.net/qsjfighting/blog/223699) `xcompmgr`
+* [搜狗输入法linux黑框^](http://my.oschina.net/qsjfighting/blog/223699) `xcompmgr`
 * [[traceroute]] 路由追踪
 * [[goldendict]] 词典安装
 * [[webui-aria2]] aria2的web interface
@@ -21,7 +21,7 @@
 * [[latex]]
 * Linux学习:[[lfs]] linux构建
 * [[learn-linux]] Linux学习建议
-* [json在线解析](http://jsoneditoronline.org/) (外部连接)
+* [json在线解析^](http://jsoneditoronline.org/) (外部连接)
 * [[gollum-wiki]] wiki安装使用
 * [[gollum-site]] gollum-wiki静态化(不理想)
 * [[rubygems-taobao]] rubygems 淘宝镜像站
@@ -68,6 +68,6 @@
 * [[burp]] web扫描,漏洞检测工具
 * [[guake-debian]] guake在debian上使用的问题 
 * [[music]] linux下音频转换,ape mp3 wav flac
-* [gitbook](https://github.com/GitbookIO/gitbook) 使用git写书,支持网页,可导出pdf,例 http://es6.ruanyifeng.com/
+* [gitbook^](https://github.com/GitbookIO/gitbook) 使用git写书,支持网页,可导出pdf,例 http://es6.ruanyifeng.com/
 * **在Linux下安装软件:**
 * ![Linux安装软件](/res/img/install-software.jpg)
