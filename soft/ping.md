@@ -4,7 +4,7 @@
 ping 127.0.0.1 -s 0 # 指定ping包大小 size
 ```
 
-# 高级
+# 进阶工具
 
 [fping](https://en.wikipedia.org/wiki/Ping_sweep)
 
