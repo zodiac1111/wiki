@@ -21,3 +21,6 @@ find path -option [ -print ] [ -exec -ok command ] {} \;
 #-exec command {} \; —–将查到的文件执行command操作,{} 和 \;之间有空格
 #-ok 和-exec相同，只不过在操作前要询用户
 ```
+
+# 参考
+* [能否查找或显示指定多个后缀名的文件](http://bbs.chinaunix.net/thread-1924056-1-1.html)
