@@ -1,5 +1,7 @@
 # sed 使用
 
+[sed](https://zh.wikipedia.org/wiki/Sed):流编辑器 stream editor
+
 ```
  sed -e '1,5d' -e 's/test/check/' example   
    -e <表达式> # 执行(多个)表达式
