@@ -1,4 +1,4 @@
-ping
+# ping
 
 ```
 ping 127.0.0.1 -s 0 # 指定ping包大小 size
