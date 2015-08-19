@@ -7,8 +7,11 @@
    -i 插入,修改原来的文件而不是输出到标准输出
 ```
 
-多个单词匹配`\(static\|dhcp\)`
+多个单词匹配
 
+    \(static\|dhcp\)
+
+参考:
 http://stackoverflow.com/questions/1251999/sed-how-can-i-replace-a-newline-n/1252191#1252191
 
 ```
