@@ -4,3 +4,4 @@
 * 黑客与画家 技术思想
 * [信息简史](/book/info)
 * [数学游戏(上下)](http://book.douban.com/subject/3178576/)
+* [天才引导的历程-数学中的伟大定理](http://book.douban.com/subject/20453160/)
