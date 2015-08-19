@@ -1,15 +1,15 @@
  日志
 ======
 
-# 控制台输出彩色日志
+## 控制台输出彩色日志
 
 [stackoverflow](http://stackoverflow.com/questions/27464492/sending-ansi-colored-codes-text-to-3-outputs-screen-file-and-file-filtering-an)
 
-# 自定义终端提示符
+## 自定义终端提示符
 
 http://venus585625.iteye.com/blog/1174567
 
-# 数组长度
+## 数组长度
 
 头文件include/linux/kernel.h包含了一些宏
 如果你需要计算一个数组的长度，使用这个宏
