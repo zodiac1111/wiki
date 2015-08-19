@@ -1,6 +1,6 @@
 # mqtt协议
 
-同类协议[coap](/dev/coap)
+同类协议[coap](/dev/coap).可以参考一下.思维方式不一样.
 
 物联网传输协议,ibm开发
 
