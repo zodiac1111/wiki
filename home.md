@@ -1,5 +1,3 @@
-## 知识管理
-
 [[https://upload.wikimedia.org/wikipedia/en/c/c9/9posterfinal.jpg]]
 * [软件使用](/soft/home)
 * [系统运行和维护](sys-manage/home) 
