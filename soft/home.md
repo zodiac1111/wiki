@@ -3,7 +3,8 @@
 * [[ping]]
 * [[ser-eth]] 串口,网络转换
 * [[tee]] 管道各种使用
-* mini命令行串口软件 `picocom <设备文件> -b <波特率>`
+* mini命令行串口软件(可以支持标准颜色的终端)
+  * `picocom <设备文件> -b <波特率>`
 * 命令行网速查看,各个进程的网速 nethogs :`sudo nethogs  wlan0`
 * [[mkvtoolnix]] 视频工具
 * Upnp服务器 miniupnpd.配置文件 /etc/minidlna.conf
