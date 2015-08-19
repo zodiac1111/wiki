@@ -1,8 +1,13 @@
 # 日志
+======
 
-控制台输出彩色日志
+# 控制台输出彩色日志
 
-http://stackoverflow.com/questions/27464492/sending-ansi-colored-codes-text-to-3-outputs-screen-file-and-file-filtering-an
+[stackoverflow](http://stackoverflow.com/questions/27464492/sending-ansi-colored-codes-text-to-3-outputs-screen-file-and-file-filtering-an)
+
+# 自定义终端提示符
+
+http://venus585625.iteye.com/blog/1174567
 
 # 数组长度
 
