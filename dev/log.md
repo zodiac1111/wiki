@@ -20,7 +20,7 @@ http://venus585625.iteye.com/blog/1174567
 
     #define FIELD_SIZEOF(t, f) (sizeof(((t*)0)->f))
 
-# 时间戳表示法
+## 时间戳表示法
 
     yyyy-MM-dd HH:mm:ss,dddd 
 
