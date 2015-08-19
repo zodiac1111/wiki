@@ -14,3 +14,11 @@ http://stackoverflow.com/questions/27464492/sending-ansi-colored-codes-text-to-3
 如果你要计算某结构体成员的大小，使用
 
     #define FIELD_SIZEOF(t, f) (sizeof(((t*)0)->f))
+
+# 时间戳表示法
+
+    yyyy-MM-dd HH:mm:ss,dddd 
+
+2013-04-15 00:20:41,星期一
+
+2013-04-15 00:21:04,星期一 +08:002013-04-15 00:21:21+08:00,星期一
