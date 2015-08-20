@@ -239,17 +239,11 @@ Update:在`gollum 2.5.0`和`ruby 1.9.3`之下,这个问题已经没有再发生.
 ## 发布
 
 * 服务器同样搭建gollum环境 (几乎与本地相同)
-* apache ruby模块 (貌似很复杂) 参考: http://sailxjx.github.io/blog/blog/2012/07/12/ti-yan-gollum/ 
-* [gollum-site](https://github.com/dreverri/gollum-site) 生成静态文件,发布。 (有些bug未解决,不理想) [笔记](gollum-site)
+* apache ruby模块 (貌似很复杂) 参考: [这里^](http://sailxjx.github.io/blog/blog/2012/07/12/ti-yan-gollum/)
+* [gollum-site^](https://github.com/dreverri/gollum-site) 生成静态文件,发布。 (有些bug未解决,不理想) [笔记](gollum-site)
 * 发布到github某个项目的wiki页面 (省了服务器) 
 
-### 内容更新
-
-* 直接通过web编辑/保存
-* web服务器从git仓库`git pull`抽取
-* 手动/自动上传到webs，比如同步工具
-
-#### 服务器部署
+### 服务器部署
 
 服务器可以安装gollum.定时从github上抓取
 
@@ -259,6 +253,12 @@ crontab -e
 ```
 
 有问题可以`mail`看看邮件.
+
+### 内容更新
+
+* 直接通过web编辑/保存
+* web服务器从git仓库`git pull`抽取
+* 手动/自动上传到webs，比如同步工具
 
 # 参考
 
