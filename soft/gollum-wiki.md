@@ -249,6 +249,17 @@ Update:在`gollum 2.5.0`和`ruby 1.9.3`之下,这个问题已经没有再发生.
 * web服务器从git仓库`git pull`抽取
 * 手动/自动上传到webs，比如同步工具
 
+#### 服务器部署
+
+服务器可以安装gollum.定时从github上抓取
+
+```
+crontab -e
+0 * * * * cd /root/wiki && git pull
+```
+
+有问题可以`mail`看看邮件.
+
 # 参考
 
 1. 发布到github的wiki页面: http://ju.outofmemory.cn/entry/28388 
