@@ -2,6 +2,7 @@
 
     stackoverflow  you meet Pitfalls
 
+* [各种语言奇怪的特性(Strangest language feature)史诗巨坑](http://stackoverflow.com/questions/1995113/strangest-language-feature
 # web
 * [angularjs的$resource()（好大一个坑）](http://www.storagelab.org.cn/xiaweiyi/2013/09/07/angularjs%E7%9A%84resource%EF%BC%88%E5%A5%BD%E5%A4%A7%E4%B8%80%E4%B8%AA%E5%9D%91%EF%BC%89/)
 * [移动端页面坑与排坑技巧](http://www.cocoachina.com/webapp/20141210/10583.html)
