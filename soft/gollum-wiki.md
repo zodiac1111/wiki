@@ -221,8 +221,7 @@ Update:在`gollum 2.5.0`和`ruby 1.9.3`之下,这个问题已经没有再发生.
 
 如果出错很可能是wiki目录本身不是一个git仓库,最简单的方式是`git init`初始化一个仓库。
 
-提示：
-* `--port` 选项可以指定端口 
+ `--port` 选项可以指定端口 
 
 ## 编辑
 
@@ -248,10 +247,8 @@ Update:在`gollum 2.5.0`和`ruby 1.9.3`之下,这个问题已经没有再发生.
 
 服务器可以安装gollum.定时从github上抓取
 
-```
-crontab -e
-0 * * * * cd /root/wiki && git pull
-```
+	crontab -e
+	0 * * * * cd /root/wiki && git pull
 
 有问题可以`mail`看看邮件.
 
@@ -263,8 +260,8 @@ crontab -e
 
 # 参考
 
-1. 发布到github的wiki页面: http://ju.outofmemory.cn/entry/28388 
-2. gollum的git页面: https://github.com/gollum/gollum
+1. [发布到github的wiki页面](http://ju.outofmemory.cn/entry/28388 )
+2. [gollum的git页面](https://github.com/gollum/gollum)
 
 -----
 # 更新
