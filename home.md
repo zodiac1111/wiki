@@ -10,7 +10,7 @@
 * [设计](design/home)
 * [实用工具](utility/home) 
 * [e:电子方面](avr/home)
-* [fun](fun) 有趣的东西
-* [book](book) 技术方面的书籍,总体意义上的
+* [有趣的东西](fun) 
+* [书籍](book)
 * [测试页面](test/home)
 * [about](about) 
