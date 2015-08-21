@@ -3,7 +3,7 @@
 [Strangest language feature](http://stackoverflow.com/questions/1995113/strangest-language-feature?answertab=votes#tab-top) //巨坑
 
 * 因为原问题被关闭,[这里](https://www.reddit.com/r/programming/comments/1woxcu/strangest_programming_language_feature/),[这里](https://news.ycombinator.com/item?id=7159768)有些补充.
-* [一些总结](http://www.itworld.com/article/2823746/cloud-computing/163234-Head-scratchers-10-confounding-programming-language-features.html#slide1)
+* [一些总结(幻灯片)](http://www.itworld.com/article/2823746/cloud-computing/163234-Head-scratchers-10-confounding-programming-language-features.html#slide1),并有些讲解链接.
 * 中文版[最奇特的编程语言特征](http://www.vaikan.com/strangest-language-feature/)
 
 # web
