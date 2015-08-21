@@ -10,8 +10,6 @@
 
 # 反向代理
 
-请勿传播
-
 * https://www.out1000.com/
 * http://www.gugesou.com/
 * http://www.glgoo.com/
