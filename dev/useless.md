@@ -1,5 +1,9 @@
 # 各种奇技淫巧
 
+# 杂交代码
+
+[中文介绍](http://coolshell.cn/articles/2529.html),叫做[Polyglot](https://en.wikipedia.org/wiki/Polyglot_%28computing%29),[Stack Overflow 404 page](http://meta.stackoverflow.com/questions/252184/whats-the-joke-in-the-stack-overflow-404-page-code)也是实际的一个例子.
+
 # 手动分配栈内存
 
 `alloca`
