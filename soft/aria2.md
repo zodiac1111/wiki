@@ -1,6 +1,6 @@
 # 命令行下下载管理器aria2
 
-> http://blog.mitemitreski.com/2012/01/aria2-awesome-command-line-download.html#.U8CQa3WSzrc
+> [来源](http://blog.mitemitreski.com/2012/01/aria2-awesome-command-line-download.html#.U8CQa3WSzrc)
 
 官方网址 http://aria2.sourceforge.net/
 
@@ -8,14 +8,10 @@
 
 # 安装
 
-For Debian based (Ubuntu , Linux Mint):
-
+	#For Debian based (Ubuntu , Linux Mint):
     sudo apt-get install aria2 
-
-Fedora and yum based
-
+	#Fedora and yum based
     sudo yum install aria2
-
 
 启动下载
 
@@ -74,7 +70,7 @@ Download  a list of files from URL provided in a file
 
 以下指令可以设置使用的配置文件
 
-   aria2c --conf-path=<PATH>
+	aria2c --conf-path=<PATH>
 
 一个简单的配置文件例子和说明
 
