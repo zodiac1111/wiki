@@ -14,15 +14,14 @@
 
 需要 [`ruby`](http://en.wikipedia.org/wiki/Ruby_programming_language) [`rubygems`](http://en.wikipedia.org/wiki/RubyGems):
 
-	yum install ruby rubygems
+	yum install ruby rubygems # redhat
+	apt-get install ruby rubygems # debian
  
 到这里`rubygems`ruby的包管理软件安装完成.可以使用`gem`安装各种软件.
 
-	sudo gem install gollum
+	sudo gem install gollum -V # -V 可以看到详细安装过程信息
 
-是否要用sudo(root)用户安装gem? 不必须的情况下不要. ref: http://stackoverflow.com/questions/2119064/sudo-gem-install-or-gem-install-and-gem-locations
-
-
+是否要用sudo(root)用户安装gem? 不必须的情况下不要.[参考这里](http://stackoverflow.com/questions/2119064/sudo-gem-install-or-gem-install-and-gem-locations)
 
 ## 可能遇到的问题
 
@@ -30,7 +29,8 @@
 
 ### 需要 gcc(编译) 
  
-	yum install gcc
+	yum install gcc # redhat
+	apt-get install gcc # debian
 
 ### 其他一些头文件
 
