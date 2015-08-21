@@ -1,6 +1,6 @@
 # xdotool
 
-[xdotool](http://www.semicomplete.com/projects/xdotool/) X桌面下模拟鼠标按键等(按键精灵)
+[xdotool](http://www.semicomplete.com/projects/xdotool/)X桌面下模拟鼠标按键等(类似Win下的按键精灵)
 
 [一些技巧](http://pratyeka.org/fake-x-input/)
 
