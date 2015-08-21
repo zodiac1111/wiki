@@ -1,4 +1,3 @@
-
 [5个stackoverflow上的欢乐主题](http://javarevisited.blogspot.com/2015/08/5-entertaining-posts-from-stackoverflow.html)
 
 * [What is your best programmer joke?](http://stackoverflow.com/questions/234075/what-is-your-best-programmer-joke)
@@ -6,6 +5,7 @@
 * [What's your favorite “programmer” cartoon?](http://stackoverflow.com/questions/84556/whats-your-favorite-programmer-cartoon)
 * [New Programming Jargon](http://www.codinghorror.com/blog/2012/07/new-programming-jargon.html)
 * [Strangest language feature](http://stackoverflow.com/questions/1995113/strangest-language-feature)
+
 # 杂交代码
 
 [中文介绍](http://coolshell.cn/articles/2529.html),叫做[Polyglot](https://en.wikipedia.org/wiki/Polyglot_%28computing%29),[Stack Overflow 404 page](http://meta.stackoverflow.com/questions/252184/whats-the-joke-in-the-stack-overflow-404-page-code)也是实际的一个例子.
