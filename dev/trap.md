@@ -1,4 +1,6 @@
-看!坑
+看!坑 Pitfalls
+
+    stackoverflow  you meet Pitfalls
 
 # web
 * [angularjs的$resource()（好大一个坑）](http://www.storagelab.org.cn/xiaweiyi/2013/09/07/angularjs%E7%9A%84resource%EF%BC%88%E5%A5%BD%E5%A4%A7%E4%B8%80%E4%B8%AA%E5%9D%91%EF%BC%89/)
@@ -8,3 +10,6 @@
 
 # c
 * [C语言里面的一些陷阱](http://whatsdjgpp.github.io/2014/03/03/C%E8%AF%AD%E8%A8%80%E9%87%8C%E9%9D%A2%E7%9A%84%E4%B8%80%E4%BA%9B%E9%99%B7%E9%98%B1/)
+
+#
+* [Golang中的各种坑](http://studygolang.com/articles/2912)
