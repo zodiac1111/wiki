@@ -34,8 +34,9 @@ int function(void) {
 
 # 达夫设备
 
-> http://en.wikipedia.org/wiki/Duff's_device
-> http://zh.wikipedia.org/wiki/%E8%BE%BE%E5%A4%AB%E8%AE%BE%E5%A4%87
+* [英文wiki](http://en.wikipedia.org/wiki/Duff's_device)
+* [中文wiki](http://zh.wikipedia.org/wiki/%E8%BE%BE%E5%A4%AB%E8%AE%BE%E5%A4%87)
+* [how-does-duffs-device-work](http://stackoverflow.com/questions/514118/how-does-duffs-device-work)
 
 # 参数名传递参数
 
