@@ -11,5 +11,9 @@
 # c
 * [C语言里面的一些陷阱](http://whatsdjgpp.github.io/2014/03/03/C%E8%AF%AD%E8%A8%80%E9%87%8C%E9%9D%A2%E7%9A%84%E4%B8%80%E4%BA%9B%E9%99%B7%E9%98%B1/)
 
+# c++
+* [How do I use arrays in C++?](http://stackoverflow.com/questions/4810664/how-do-i-use-arrays-in-c/7439261#7439261)
+* [Why is f(i = -1, i = -1) undefined behavior?](http://stackoverflow.com/questions/21670459/why-is-fi-1-i-1-undefined-behavior)
+
 #
 * [Golang中的各种坑](http://studygolang.com/articles/2912)
