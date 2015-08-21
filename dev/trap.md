@@ -1,6 +1,4 @@
-看!坑 Pitfalls
-
-    stackoverflow  you meet Pitfalls
+看!坑
 
 * [Strangest language feature](http://stackoverflow.com/questions/1995113/strangest-language-feature?answertab=votes#tab-top) //巨坑
 * 中文版[最奇特的编程语言特征](http://www.vaikan.com/strangest-language-feature/)
