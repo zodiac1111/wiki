@@ -1,0 +1,1 @@
+* [angularjs的$resource()（好大一个坑）](http://www.storagelab.org.cn/xiaweiyi/2013/09/07/angularjs%E7%9A%84resource%EF%BC%88%E5%A5%BD%E5%A4%A7%E4%B8%80%E4%B8%AA%E5%9D%91%EF%BC%89/)
