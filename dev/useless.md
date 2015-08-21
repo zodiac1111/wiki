@@ -6,6 +6,8 @@
 * [New Programming Jargon](http://www.codinghorror.com/blog/2012/07/new-programming-jargon.html)
 * [Strangest language feature](http://stackoverflow.com/questions/1995113/strangest-language-feature)
 
+[程序员笑话漫画](http://xkcd.com/)
+
 # 杂交代码
 
 [中文介绍](http://coolshell.cn/articles/2529.html),叫做[Polyglot](https://en.wikipedia.org/wiki/Polyglot_%28computing%29),[Stack Overflow 404 page](http://meta.stackoverflow.com/questions/252184/whats-the-joke-in-the-stack-overflow-404-page-code)也是实际的一个例子.
