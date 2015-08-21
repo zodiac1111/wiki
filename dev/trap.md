@@ -1,7 +1,7 @@
 看!坑
 
 * [Strangest language feature](http://stackoverflow.com/questions/1995113/strangest-language-feature?answertab=votes#tab-top) //巨坑
-* 因为原问题被关闭,[这里](https://www.reddit.com/r/programming/comments/1woxcu/strangest_programming_language_feature/)有些补充.
+* 因为原问题被关闭,[这里](https://www.reddit.com/r/programming/comments/1woxcu/strangest_programming_language_feature/),[这里](https://news.ycombinator.com/item?id=7159768)有些补充.
 * 中文版[最奇特的编程语言特征](http://www.vaikan.com/strangest-language-feature/)
 
 # web
