@@ -6,11 +6,11 @@
 * [[gcc/home]] gcc 相关
 * [[debug/home]] 各种调试技巧相关
 * [[blog/home]] 博客程序相关操作
-* [web](web/home) 
+* [web开发](web/home) 
 * [设计](design/home)
 * [实用工具](utility/home) 
 * [e:电子方面](avr/home)
 * [有趣的东西](fun) 
 * [书籍](book)
 * [测试页面](test/home)
-* [about](about) 
+* [关于](about) 
