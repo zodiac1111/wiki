@@ -10,5 +10,4 @@
 
 * https://www.out1000.com/
 * http://www.gugesou.com/
-* http://www.glgoo.com/
 * http://www.g363.com/
