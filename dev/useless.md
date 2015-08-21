@@ -1,4 +1,6 @@
-# 各种奇技淫巧
+
+
+[5个stackoverflow上的欢乐主题](http://javarevisited.blogspot.com/2015/08/5-entertaining-posts-from-stackoverflow.html)
 
 # 杂交代码
 
