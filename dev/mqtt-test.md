@@ -87,9 +87,13 @@ send file
 	./mosquitto_pub_x64 -h ser -d -t demo -f ./test_file.txt
 
 read from stdin(例如终端),然后发送
-
+--will-topic help --will-payload "`date '+%Y/%m/%d %T:'`$RANDOM"
 	echo "hello world" | ./mosquitto_pub_x64 -h ser -d -t demo -s
 
+遗嘱
+
+	./mosquitto_pub_x64 -h ser -d -t demo -m "hello world" \
+		--will-topic helpme --will-payload "`date '+%Y/%m/%d %T'`"
 
 # topic命名
 
@@ -126,6 +130,20 @@ read from stdin(例如终端),然后发送
 * 不要定订阅`#`
 * 内嵌一个唯一标识符或者客户端id
 
+# QoS
+
+参考[MQTT Essentials Part 6: Quality of Service 0, 1 & 2](http://www.hivemq.com/mqtt-essentials-part-6-mqtt-quality-of-service-levels/).
+
+客户端到代理的流量策略
+
+根据数据的重要性,连接的重要性自行判断
+
+* 越简单越省流量
+* 越精确代价越高
+* 至多一次最省流量
+* 有且只有一次最耗流量
+
+具体应用场景详见以上参考链接.
 
 
 
