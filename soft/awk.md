@@ -9,6 +9,10 @@
 
     awk '{print $1, $2}' in.txt
 
+管道
+
+    echo "1 2 3" | awk '{print $1, $2}'
+
 # 不要打印换行
 
 参考 http://stackoverflow.com/questions/2021982/awk-without-printing-newline
@@ -17,5 +21,5 @@
 
 # 自定义分隔符
 
-    awk -F, '{print $1}' input-files
+    awk -F, '{print $1}' <输入>
 
