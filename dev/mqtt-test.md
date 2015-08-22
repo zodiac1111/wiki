@@ -5,11 +5,11 @@
 
 角色定义
 
-* ser 服务器broker,mqtt服务器/代理(公网)
+* `ser` 服务器broker,mqtt服务器/代理(公网)
 	* `Linux 1 2.6.32-042stab092.1 #1 SMP Tue Jun 24 09:10:28 MSK 2014 x86_64 GNU/Linux`
-* sub 客户端client,subscriber,订阅者终端设备(内网)
+* `sub` 客户端client,subscriber,订阅者终端设备(内网)
 	* `Linux AT91SAM9-RT9x5 2.6.39 #34 Wed Jun 4 16:12:41 CST 2014 armv5tejl GNU/Linux`
-* pub 客户端client,publisher,发布者(内外网均可,测试用内网)
+* `pub` 客户端client,publisher,发布者(内外网均可,测试用内网)
 	* `Linux debian 3.16.0-4-amd64 #1 SMP Debian 3.16.7-ckt11-1 (2015-05-24) x86_64 GNU/Linux`
 
 # 服务器
