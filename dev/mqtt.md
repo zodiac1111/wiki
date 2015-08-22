@@ -1,6 +1,11 @@
 # mqtt协议
 
+
 同类协议[coap](/dev/coap).可以参考一下.思维方式不一样.
+
+# 可能的问题
+* 不支持selector所以点对点通讯困难.[一些探讨](http://blog.csdn.net/kimmking/article/details/17449019)
+* 最大数据长度限定,块数据问题
 
 物联网传输协议,ibm开发
 
