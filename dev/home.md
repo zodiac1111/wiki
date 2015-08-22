@@ -1,5 +1,6 @@
 # 开发目录
 
+* shell随机数生成`shuf -i 1-100 -n 1`
 * [各种语言坑/陷阱](/dev/trap)
 * [at指令](/dev/at-command)
 * [mqtt](/dev/mqtt) 物联网协议 (Iot)
