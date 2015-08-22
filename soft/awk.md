@@ -7,7 +7,7 @@
 
 打印
 
-    awk '{print $1, $4}' in.txt
+    awk '{print $1, $2}' in.txt
 
 # 不要打印换行
 
@@ -17,5 +17,5 @@
 
 # 自定义分隔符
 
-    awk -F, 'program' input-files
+    awk -F, '{print $1}' input-files
 
