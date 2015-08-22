@@ -1,3 +1,4 @@
+测试mqtt
 =====
 
 使用`mosquitto-1.4.2`测试mqtt协议.
@@ -11,10 +12,9 @@
 * pub 客户端client,publisher,发布者(内外网均可,测试用内网)
 	* `Linux debian 3.16.0-4-amd64 #1 SMP Debian 3.16.7-ckt11-1 (2015-05-24) x86_64 GNU/Linux`
 
-
 # 服务器
 
-服务器安装运行mosquitto server
+服务器安装运行mosquitto服务.
 
 	apt-get install mosquitto
 
@@ -22,7 +22,7 @@
 
 订阅者订阅topic
 
-	./mosquitto_sub -v -d -h ser -t cmd 
+	./mosquitto_sub -v -d -h ser -t cmd
 	# -v 打印更多调试信息
 	# -d 启动调试信息
 	# -h ser 指定mqtt服务器:ser
@@ -69,12 +69,11 @@
 	Client mosqsub/972-AT91SAM9-RT sending PINGREQ
 	Client mosqsub/972-AT91SAM9-RT received PINGRESP
 
+# 发布类型
 
-#
+发送空消息(null)
 
-# 各种发布类型
-
-发送空消息(null)调试时比较好用
+调试时比较好用
 
 	./mosquitto_pub_x64 -h ser -d -t demo -n
 
@@ -87,7 +86,7 @@ send file
 	./mosquitto_pub_x64 -h ser -d -t demo -f ./test_file.txt
 
 read from stdin(例如终端),然后发送
---will-topic help --will-payload "`date '+%Y/%m/%d %T:'`$RANDOM"
+
 	echo "hello world" | ./mosquitto_pub_x64 -h ser -d -t demo -s
 
 遗嘱
@@ -144,6 +143,4 @@ read from stdin(例如终端),然后发送
 * 有且只有一次最耗流量
 
 具体应用场景详见以上参考链接.
-
-
 
