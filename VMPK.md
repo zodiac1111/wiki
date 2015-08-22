@@ -7,11 +7,13 @@ midi键盘 (F37)
 * vmpk 生成 midi
 * timidity / timidity-daemon midi播放
 
+```
     # 安装midi键盘 (鍵盤組)
     # 安装 timidity 音源器
     sudo apt-get install timidity-daemon
     # 使能转送
     timidity -iA -B2,8 -Os -EFreverb=0
+```
 
 vmpk,连接,允许转发xxx
 vmpk,连接,输入F37
