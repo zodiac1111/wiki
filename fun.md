@@ -4,7 +4,6 @@
 * [2.007:MIT六足机器人课程](http://me-2007.mit.edu/videos) ,[整理](hexapod)
   * http://hexacon2013.mit.edu/
   * [迷你六足(3个舵机)](http://letsmakerobots.com/node/15032)
-* [[VMPK]] 虚拟键盘
 * [英语星期的意义](http://www.crowl.org/lawrence/time/days.html) 日语也一样
 * 多岔路口 [[http://ww3.sinaimg.cn/mw600/444d7111jw1ep6uldgz32j20hs0dcq4n.jpg]]
 * [多种语言的helloworld](http://helloworldcollection.de/) 
