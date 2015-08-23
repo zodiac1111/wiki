@@ -10,7 +10,7 @@ Virtual MIDI Piano Keyboard
 2. MIDI信号通过 alsa/jack 被投递到音源（Synthesizer，又称合成器，用于合成、产生对应频率的声音）或序列器（Sequencer，用于录制MIDI信号，需要时把录制好的信号传递到音源）
 jack/alsa 好像都是要配置“MIDI连接”的（alsa 可以用 aconnect，jack 可以用 QJackCtl）
 
-midi键盘 (F37)
+# midi键盘(F37)
 
 * vmpk 生成 midi
 * timidity / timidity-daemon midi播放
