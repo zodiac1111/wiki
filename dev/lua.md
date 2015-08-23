@@ -2,8 +2,8 @@
 
 # 跨平台轻量级调试器 
 
-ZeroBrane Studio
-https://studio.zerobrane.com/download.html
+* [ZeroBrane Studio](https://studio.zerobrane.com/download.html)
+* [调试lua代码](http://www.cnblogs.com/baiyanhuang/archive/2013/01/01/2841398.html)
 
 # socket.http
 
