@@ -5,8 +5,9 @@
 #!/usr/bin/env lua
 print("main function");
 ```
-# 跨平台轻量级调试器 
+# ide
 
+* [Lua Development Tools](https://eclipse.org/ldt/)
 * [ZeroBrane Studio](https://studio.zerobrane.com/download.html)
 * [调试lua代码](http://www.cnblogs.com/baiyanhuang/archive/2013/01/01/2841398.html)
 
