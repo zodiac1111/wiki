@@ -15,8 +15,8 @@
 
 * [Advanced Linux Sound Architecture](https://wiki.archlinux.org/index.php/Advanced_Linux_Sound_Architecture_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
 * [Linux ALSA声卡驱动之三：PCM设备的创建](http://blog.csdn.net/droidphone/article/details/6308006)
-
-
+* [ALSA-AZURE-博客频道-CSDN.NET](http://blog.csdn.net/azloong/article/category/778492)
+* [硬件支持:alsa-utils工具包的使用](http://www.turbolinux.com.cn/turbo/wiki/doku.php?id=%E7%A1%AC%E4%BB%B6%E6%94%AF%E6%8C%81:alsa-utils%E5%B7%A5%E5%85%B7%E5%8C%85%E7%9A%84%E4%BD%BF%E7%94%A8)
 
 
 ### JACK
