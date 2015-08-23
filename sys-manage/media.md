@@ -3,7 +3,7 @@
 
 ## 音频
 
-ALSA
+### ALSA
 
 [[https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Alsa_v1.0.14_ubuntu7.1_en.png/220px-Alsa_v1.0.14_ubuntu7.1_en.png]]
 
@@ -17,6 +17,10 @@ ALSA
 * [Linux ALSA声卡驱动之三：PCM设备的创建](http://blog.csdn.net/droidphone/article/details/6308006)
 
 [[https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/LogoJack.png/250px-LogoJack.png]]
+
+
+### JACK
+
 
 另一个声音框架[JACK](https://zh.wikipedia.org/wiki/JACK_Audio_Connection_Kit)(JACK Audio Connection Kit).
 
