@@ -1,5 +1,6 @@
 # 有趣的东西
 
+* [3d打印后"电镀"(伪金属打印)](http://hackaday.com/2015/08/23/metal-3d-printing-with-your-printer/)
 * [翼地效应](ge)
 * [2.007:MIT六足机器人课程](http://me-2007.mit.edu/videos) ,[整理](hexapod)
   * http://hexacon2013.mit.edu/
