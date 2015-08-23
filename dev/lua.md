@@ -1,5 +1,10 @@
 # lua相关
 
+# helloworld
+```lua
+#!/usr/bin/env lua
+print("main function");
+```
 # 跨平台轻量级调试器 
 
 * [ZeroBrane Studio](https://studio.zerobrane.com/download.html)
