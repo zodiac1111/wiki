@@ -16,11 +16,12 @@
 * [Advanced Linux Sound Architecture](https://wiki.archlinux.org/index.php/Advanced_Linux_Sound_Architecture_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
 * [Linux ALSA声卡驱动之三：PCM设备的创建](http://blog.csdn.net/droidphone/article/details/6308006)
 
-[[https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/LogoJack.png/250px-LogoJack.png]]
+
 
 
 ### JACK
 
+[[https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/LogoJack.png/250px-LogoJack.png]]
 
 另一个声音框架[JACK](https://zh.wikipedia.org/wiki/JACK_Audio_Connection_Kit)(JACK Audio Connection Kit).
 
