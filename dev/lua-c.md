@@ -1,6 +1,6 @@
-# lua c
+# lua和c的调用
 
-lua 调用 c
+## lua 调用 c
 
 参考
 
