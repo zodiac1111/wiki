@@ -1,3 +1,3 @@
 # lua c
 
-lua 调用c
+lua 调用 c
