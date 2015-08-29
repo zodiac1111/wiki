@@ -9,6 +9,7 @@ can therefore be used over Ethernet, TCP/IP, CAN, RS-232, RS-485, wireless etc e
 
 * [官网](http://www.vscp.org/)
 * [arduino库](https://github.com/BlueAndi/vscp-arduino)
+* [Easy IoT with VSCP 系列(freescale)](https://community.freescale.com/projects/easy-iot-with-vscp/blog/tags#/?tags=vscp)
 
 
 ## 参考(中文)
