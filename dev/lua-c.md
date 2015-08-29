@@ -7,7 +7,7 @@
 * http://codingnow.cn/language/1530.html
 * http://cn.cocos2d-x.org/tutorial/show?id=1223
 * https://nicolasgoles.com/blog/2013/01/lua-tutorial-c-bindings/
-* [github例子](https://github.com/zodiac1111/c_call_lua)
+* [自己github例子](https://github.com/zodiac1111/c_call_lua)
 
 开关操作
 
