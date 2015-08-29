@@ -1,5 +1,7 @@
 # lua相关
 
+* [lua c 相关](lua-c)
+
 # helloworld
 ```lua
 #!/usr/bin/env lua
