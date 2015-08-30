@@ -34,7 +34,7 @@ http://venus585625.iteye.com/blog/1174567
 
 ## 调试宏
 
-```
+```c
 #if 1 /// clog debug
 /// 前缀CL  c log
 #  include <time.h>
