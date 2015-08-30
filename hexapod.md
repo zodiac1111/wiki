@@ -16,6 +16,7 @@
 * 相似的结构[Klann linkage](https://en.wikipedia.org/wiki/Klann_linkage)
 * [3d打印的](http://www.instructables.com/id/3D-Printed-Walking-Robot-Klann-Linkage/)
 * [多种步行视频](http://www.armure.ch/WALKING.htm)
+* [hackaday上的例子](http://hackaday.com/2015/08/26/sphero-riding-strandbeest-is-a-robot-with-an-exoskeleton/)
 
 [机器人,步态](http://www.projectbiped.com/updates/blog)
 
