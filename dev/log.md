@@ -14,7 +14,7 @@ http://venus585625.iteye.com/blog/1174567
 头文件include/linux/kernel.h包含了一些宏
 如果你需要计算一个数组的长度，使用这个宏
 
-    #define ARRAY_SIZE(x) (sizeof(x) / sizeof((x)[0]))
+    #define sizeof_array(x) (sizeof(x) / sizeof((x)[0]))
 
 如果你要计算某结构体成员的大小，使用
 
