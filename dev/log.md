@@ -34,6 +34,8 @@ http://venus585625.iteye.com/blog/1174567
 
 # 调试宏
 
+[代码](https://github.com/zodiac1111/c_call_lua)
+
 ```
 #if 1 /// clog debug
 /// 前缀CL  c log
