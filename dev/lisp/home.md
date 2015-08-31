@@ -12,6 +12,10 @@
 
     "hello,world!"
 
+# load pragram
+
+    (load "~/workspace/lisp1/hello.lisp")
+
 变量 defvar
 
 函数 defun
