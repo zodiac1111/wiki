@@ -20,10 +20,10 @@
 
 * `M-p` 重复上一次输入类似shell上箭头(Previous),相反是`M-n`(Next)
 
-# 语法
+# 目录
 
-[lisp语法](lisp-syntax)
-[脱离环境独立运行](lisp-standalone)
+* [lisp语法](lisp-syntax)
+* [脱离环境独立运行](lisp-standalone)
 
 
 
