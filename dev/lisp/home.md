@@ -16,6 +16,10 @@
 
     (load "~/workspace/lisp1/hello.lisp")
 
+# 一些快捷键
+
+* 重复上一次输入类似shell上箭头`M-p`
+
 变量 defvar
 
 函数 defun
