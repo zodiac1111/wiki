@@ -4,6 +4,10 @@
 
 ide emacs+slime+(sbcl)
 
+# 启动
+
+    M-x slime
+
 变量 defvar
 
 函数 defun
