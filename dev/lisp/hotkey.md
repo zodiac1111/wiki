@@ -2,7 +2,7 @@
 
 ## 编辑
 
-输入
+### 输入
 
 * `M-p` / `M-n` 重复上一次输入类似shell上箭头(Previous),相反(Next)
 * `C-<up>` / `C-<down>`
@@ -11,7 +11,7 @@
 * `C-c C-n`, M-x slime-repl-next-prompt 光标在上下提示符间跳转
 * `C-c C-p`, M-x slime-repl-previous-prompt
 
-快捷键
+### 快捷命令
 
 [8.2.3 Shortcuts](https://www.common-lisp.net/project/slime/doc/html/Shortcuts.html#Shortcuts)
 
