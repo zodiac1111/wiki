@@ -2,7 +2,7 @@
 
 # 类别
 
-ide emacs+slime+(sbcl)
+[ide emacs+slime+(sbcl)](https://nabacg.wordpress.com/2012/02/26/emacs-sbcl-slime-common-lisp-environment-on-windows/)
 
 # 启动
 
