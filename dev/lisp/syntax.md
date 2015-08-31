@@ -1,9 +1,13 @@
 # 简单语法
 
 
-## 变量 defvar
+## 变量
 
-## 函数 defun
+`defvar`
+
+## 函数
+
+定义函数,使用`defun`
 
 	(defun <函数名> <参数列表> <函数体>)
 	(defun double (x) (* x 2))
@@ -13,7 +17,7 @@
 	(defun x nil)
 
 
-## lambda表达式
+## lambda
 
 	CL-USER> (lambda (x) (* x x))
 	#<FUNCTION (LAMBDA (X)) {10052F8D6B}>
