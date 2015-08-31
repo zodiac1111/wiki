@@ -8,6 +8,10 @@
 
     M-x slime
 
+# helloworld
+
+    "hello,world!"
+
 变量 defvar
 
 函数 defun
