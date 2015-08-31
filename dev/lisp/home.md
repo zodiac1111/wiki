@@ -18,7 +18,7 @@
 
 # 一些快捷键
 
-* `M-p` 重复上一次输入类似shell上箭头
+* `M-p` 重复上一次输入类似shell上箭头(Previous),相反是`M-n`(Next)
 
 变量 defvar
 
