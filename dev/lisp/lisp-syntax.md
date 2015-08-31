@@ -1,9 +1,9 @@
 # 简单语法
 
 
-变量 defvar
+## 变量 defvar
 
-函数 defun
+## 函数 defun
 
 	(defun <函数名> <参数列表> <函数体>)
 	(defun double (x) (* x 2))
@@ -13,7 +13,7 @@
 	(defun x nil)
 
 
-lambda表达式
+## lambda表达式
 
 	CL-USER> (lambda (x) (* x x))
 	#<FUNCTION (LAMBDA (X)) {10052F8D6B}>
@@ -22,9 +22,9 @@ lambda表达式
 	4
 
 
-控制结构
+## 控制结构
 
-if-else
+### if-else
 
 
 	(if <判断依据>
@@ -44,4 +44,3 @@ if-else
 	(if () 2 3)
 	(if nil 2)
 
-## sbcl
