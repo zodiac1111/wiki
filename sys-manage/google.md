@@ -56,3 +56,10 @@ wget https://web.archive.org/web/20090124144655/http://meta.wikimedia.org/wiki/D
 用这个导入的:
 
 https://www.mediawiki.org/wiki/Manual:MWDumper
+
+
+# 相关
+
+    drop命令用于删除数据库。
+    drop命令格式：drop database <数据库名>;
+    create database drop_database;  // 创建一个数据库
