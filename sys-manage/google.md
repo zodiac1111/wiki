@@ -22,4 +22,17 @@
 
 ### 自己搭建
 
-* 参考[How to mirror Wikipedia](https://web.archive.org/web/20090124144655/http://modzer0.cs.uaf.edu/~dev2c/wiki/How_to_mirror_Wikipedia)
+* 参考 [How to mirror Wikipedia](https://web.archive.org/web/20090124144655/http://modzer0.cs.uaf.edu/~dev2c/wiki/How_to_mirror_Wikipedia)
+
+准备工作
+
+```
+apt-get update
+apt-get install apache2 php5 libapache2-mod-php5 mysql-server mysql-client php5-mysql phpmyadmin 
+```
+
+此过程中会要求设置多个密码
+
+Download MediaWiki software
+
+[这里](https://www.mediawiki.org/wiki/Download)下载最新版
