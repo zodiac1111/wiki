@@ -43,7 +43,7 @@ Download MediaWiki software
 
 下载 zh_classicalwiki-latest-pages-articles.xml.bz2 文件
 
-解压
+解压(用下面的导入程序不需要解压)
 
 bzip2 -d zh_classicalwiki-latest-pages-articles.xml.bz2 
 
