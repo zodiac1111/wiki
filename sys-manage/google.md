@@ -36,3 +36,23 @@ apt-get install apache2 php5 libapache2-mod-php5 mysql-server mysql-client php5-
 Download MediaWiki software
 
 [这里](https://www.mediawiki.org/wiki/Download)下载最新版
+
+访问web页面,设置很多东西
+
+先用文言文测试一下,数据量少 https://dumps.wikimedia.org/zh_classicalwiki/latest/
+
+下载 zh_classicalwiki-latest-pages-articles.xml.bz2 文件
+
+解压
+
+bzip2 -d zh_classicalwiki-latest-pages-articles.xml.bz2 
+
+参考:[导入数据](https://meta.wikimedia.org/wiki/Data_dumps/Import_examples)
+
+wget https://web.archive.org/web/20090124144655/http://meta.wikimedia.org/wiki/Data_dumps/mwimport
+
+参考
+
+用这个导入的:
+
+https://www.mediawiki.org/wiki/Manual:MWDumper
