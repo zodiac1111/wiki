@@ -59,6 +59,7 @@ wget https://web.archive.org/web/20090124144655/http://meta.wikimedia.org/wiki/D
 
 https://www.mediawiki.org/wiki/Manual:MWDumper
 
+java -jar mwdumper.jar --format=sql:1.5 <zh_classicalwiki>-latest-pages-articles.xml |mysql -u root -p wikidb -f
 
 # 相关
 
