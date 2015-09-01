@@ -37,7 +37,9 @@ Download MediaWiki software
 
 [这里](https://www.mediawiki.org/wiki/Download)下载最新版
 
-访问web页面,设置很多东西
+访问web页面,设置很多东西,
+
+设置完后会创建数据库和表.
 
 先用文言文测试一下,数据量少 https://dumps.wikimedia.org/zh_classicalwiki/latest/
 
@@ -63,3 +65,6 @@ https://www.mediawiki.org/wiki/Manual:MWDumper
     drop命令用于删除数据库。
     drop命令格式：drop database <数据库名>;
     create database drop_database;  // 创建一个数据库
+
+
+DELETE FROM page; DELETE FROM text; DELETE FROM revision;
