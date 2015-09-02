@@ -98,21 +98,21 @@
 
 	mysql -u root -p
 
-之后进入mysql的控制台.
+之后进入mysql的控制台.命令提示符是`mysql>`.
+
+在`mysql`中数据以下语句使用wikidb数据库:
 
 	mysql> use wikidb;
 
-使用wikidb数据库
+清理原先的表:
 
 	mysql>DELETE FROM page; DELETE FROM text; DELETE FROM revision;
-
-清理原先的表.
 
 ## 完善
 
 上一步之后,文言文百科基本可用,但是还是有些模板显示有些问题,是因为缺少相应的插件造成的.
 
-todo安装相应插件
+*todo安装相应插件*
 
 
 # 参考
@@ -126,8 +126,10 @@ todo安装相应插件
 
 安装和配置过程可能用到的mysql语句.
 
-	mysql -p // 登陆mysql
-	# 一下是mysql控制台语句,命令提示符默认为 mysql>
+	mysql -p # 登陆mysql
+
+以下是mysql控制台语句,命令提示符默认为 `mysql>`,务必注意区别.
+
 	drop命令用于删除数据库。
 	drop命令格式：drop database <数据库名>;
 	create database wikidb;  // 创建一个数据库
