@@ -32,13 +32,13 @@
 
 在[这里](https://www.mediawiki.org/wiki/Download)可以找到当前最新的`MediaWiki 1.25.2`下载链接.
 
-下载后解压到例子`/var/www/w`路径下.
+下载后解压到例如`/var/www/w`路径下.
 
-务必给予`/var/www/w/config`及其子目录执行权限
+务必给予`/var/www/w/config`及其子文件可执行权限.
 
 ### 配置
 
-通过浏览器访问  http://localhost/w/ 即可看到设置页面.
+通过浏览器访问 [[http://localhost/w/]] 即可看到设置页面.
 
 根据页面上的提示输入各种信息数据库用户密码等.
 
@@ -48,13 +48,15 @@
 
 *至此mediawiki安装完成*
 
+*页面可能提示基于安全原因推荐删除config文件夹,此处可以等到全部完成后再删除.*
+
 # 导入数据
 
 ## 获得数据
 
-维基百科的数据可以在[维基百科:数据库下载](https://zh.wikipedia.org/zh/Wikipedia:%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%8B%E8%BD%BD)找到.
+维基百科的数据可以在[维基百科:数据库下载](https://zh.wikipedia.org/zh/Wikipedia:%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%8B%E8%BD%BD)页面找到.
 
-根据提示选择一个类别,本例使用文言文版本,点击进入 http://download.wikipedia.com/zh_classicalwiki/ .选择日期或者latest.
+根据提示选择一个类别,本例使用文言文版本,点击进入 [[http://download.wikipedia.com/zh_classicalwiki/]] .选择日期或者latest.
 
 下载 zh_classicalwiki-latest-pages-articles.xml.bz2 文件
 
@@ -64,9 +66,9 @@
 
 参考[Data dumps/Import examples](https://meta.wikimedia.org/wiki/Data_dumps/Import_examples).
 
-如果使用其他工具导入可能需要使用`bzip2 -d zh_classicalwiki-latest-pages-articles.xml.bz2`命令解压数据库.
+如果使用其他工具导入可能需要使用`bzip2 -d zh_classicalwiki-latest-pages-articles.xml.bz2`命令解压数据库方可导入至数据库.
 
-** mwdumper.jar 不需要解压缩,但是需要安装java **
+**使用mwdumper.jar 不需要解压缩,但是需要安装java**
 
 安装好java后使用以下命令导入数据至mysql数据库.
 
@@ -76,7 +78,7 @@
 * `-p` 要求输入密码
 * `wikidb`为默认数据名称
 
-可能需要数据密码.
+需要mysql相应用户的密码(密码不回显).
 
 之后控制台类似如下显示
 
@@ -84,7 +86,9 @@
 	2 导入截图
 	3
 
-之后再访问就可以看到中文文言文的条目了.
+**此处根据数据库大小和计算机性能可能等待多达几十小时.**所以推荐先使用条目少的百科(如:文件文)进行尝试安装.
+
+之后再通过浏览器访问就可以看到中文文言文的条目了.
 
 补充:
 
