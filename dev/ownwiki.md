@@ -6,10 +6,6 @@
 2. 主机是Debian7/Linux操作系统
 3. 使用java编写的数据库导入工具方便易用
 
-# 环境
-
-* dibian7
-
 # 安装
 
 ## web server
