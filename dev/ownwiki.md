@@ -80,13 +80,20 @@
 
 之后控制台类似如下显示
 
-	1
-	2 导入截图
-	3
+	root@1:~# java -jar mwdumper.jar --format=sql:1.5 zh_classicalwiki-latest-pages-articles.xml.bz2 | mysql -u root -p wikidb -f
+	Enter password: 1,000 pages (645.161/sec), 1,000 revs (645.161/sec)
+	2,000 pages (504.414/sec), 2,000 revs (504.414/sec)
+	...
+	62,530 pages (3,577.64/sec), 62,530 revs (3,577.64/sec)
+	root@1:~#
 
 **此处根据数据库大小和计算机性能可能等待多达几十小时.**所以推荐先使用条目少的百科(如:文件文)进行尝试安装.
 
 之后再通过浏览器访问就可以看到中文文言文的条目了.
+
+[示例](http://bot9.us:8080/index.php?title=%E7%B6%AD%E5%9F%BA%E5%A4%A7%E5%85%B8:%E5%8D%B7%E9%A6%96&variant=zh-cn)
+
+练手文言文确认无误后可以着手镜像其他维基百科了,比如中文的.
 
 ### 补充
 
