@@ -39,9 +39,11 @@
 
 根据页面上的提示输入各种信息数据库用户密码等.
 
-之后`mv /var/www/w/config/LocalSettings.php /var/www/w`
+之后保存配置
 
-然后访问 http://localhost/w/index.html 即可看到一个空的wiki站点.
+	cp /var/www/w/config/LocalSettings.php /var/www/w
+
+然后访问 [[http://localhost/w/]] 即可看到一个空的wiki站点.
 
 *至此mediawiki安装完成*
 
