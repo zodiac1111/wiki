@@ -1,5 +1,6 @@
 # 开发目录
 
+* [自建wiki镜像](ownwiki)
 * [vscp协议](vscp)
 * [打印机相关](printer)
 * [shell随机数生成](sh-random)
