@@ -1,4 +1,3 @@
-# wiki
 
 使用wikimedia软件搭建wiki百科.导入wiki百科数据架设镜像站点.本地或服务器均可.
 
