@@ -72,7 +72,7 @@
 安装好java后使用以下命令导入数据至mysql数据库.
 
 	java -jar mwdumper.jar --format=sql:1.5 \
-	zh_classicalwiki-latest-pages-articles.xml | mysql -u root -p wikidb -f
+	zh_classicalwiki-latest-pages-articles.xml.bz2 | mysql -u root -p wikidb -f
 
 * `-u root`指定数据库用户名
 * `-p` 要求输入密码
