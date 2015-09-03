@@ -1,6 +1,6 @@
 以中文文言文维基百科为例子,使用mediawiki软件在服务器/本地搭建wiki百科镜像站点.
 
-导入wiki百科数据架设镜像站点.本地或服务器均可. **不包含图片,图片需要非常巨大的空间**
+导入wiki百科数据架设镜像站点.本地或服务器均可. **不包含图片,图片需要非常巨大的空间**.
 
 1. 中文文言文维基百科条目较少,下载方便.
 初次尝试代价较小.成功后亦可使用其他数据库.
@@ -11,7 +11,7 @@
 
 ## web server
 
-安装经典lamp(linux apache mysql php)集合.
+lamp(linux apache mysql php)集合.
 
 	apt-get update
 	apt-get install apache2 php5 libapache2-mod-php5 mysql-server mysql-client php5-mysql phpmyadmin
