@@ -16,7 +16,7 @@
 	apt-get update
 	apt-get install apache2 php5 libapache2-mod-php5 mysql-server mysql-client php5-mysql phpmyadmin
 
-次过程中可能要求设置各种密码.
+此过程中可能要求设置各种密码.
 
 可选操作
 * 修改apache web服务器默认端口.
