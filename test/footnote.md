@@ -1,6 +1,10 @@
-# 脚标/尾注/footnote
+# footnote
 
 gollum的markdown基于sundown,sundowm没有实现尾注.并且sundown已经冻结. [参考](https://github.com/gollum/gollum/issues/41)
+
+[一些折衷方法](http://stackoverflow.com/questions/25579868/how-do-i-add-footnotes-to-github-flavoured-markdown)
+
+# 测试开始
 
 `<sup id="r-1">[<a href="#fn-1">1</a>]</sup>`
 
