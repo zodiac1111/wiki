@@ -1,6 +1,6 @@
 # footnote
 
-gollum的markdown基于sundown,sundowm没有实现尾注.并且sundown已经冻结. [参考](https://github.com/gollum/gollum/issues/41)
+gollum的markdown基于sundown,sundowm没有实现尾注.并且sundown已经冻结. [来源](https://github.com/gollum/gollum/issues/41)
 
 [一些折衷方法](http://stackoverflow.com/questions/25579868/how-do-i-add-footnotes-to-github-flavoured-markdown)
 
