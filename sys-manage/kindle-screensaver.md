@@ -25,3 +25,9 @@
 图片浏览器:`imageViewer.sh` http://wiki.mobileread.com/wiki/Kindle_Touch_Hacking#Image_Viewer
 
 读取界面loading图案:`/usr/share/early_progress/[0-7].png`
+
+# OTA
+
+Over-the-air (OTA) updating internals
+
+[参考](http://wiki.mobileread.com/wiki/Kindle_Touch_Hacking#Over-the-air_.28OTA.29_updating_internals)
