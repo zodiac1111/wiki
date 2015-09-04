@@ -10,6 +10,8 @@ a<sup id="f2">[[2](#r2)]</sup>
 
 <ref>cankao</ref>
 
+[link][linkref]
+
 单方向查找:
 
 引用<sup>[<a href="#fn-2">1</a>]</sup>.
@@ -56,3 +58,5 @@ Lorem ipsum<sup id="r-1">[<a href="#fn-1">1</a>]</sup> dolor sit amet, consectet
 2. bbb <b id="r2">[^](#f2)</b> 
 
 `<li id="fn-1"><b><a href="#r-1">^</a> </b> hello world</li>`
+
+[linkref]: url "optional title" {#id .class}
