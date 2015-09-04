@@ -61,4 +61,4 @@ Lorem ipsum<sup id="r-1">[<a href="#fn-1">1</a>]</sup> dolor sit amet Bla bla <s
 
 [linkref]: url "optional title" {#id .class}
 
-<b id="f1>1</b> Footnote content here. [↩](#a1)
+<b id="f1">1</b> Footnote content here. [↩](#a1)
