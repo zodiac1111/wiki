@@ -10,6 +10,10 @@
 *  [HOME] -> [MENU] > Settings -> [MENU] > Update Your Kindle.
 * 看到 `**** JAILBREAK ****`文字 就表示成功了
 
+# usbnet
+
+`kindle-usbnet-0.21.N.zip`
+
 # 参考
 * kindle 亚马逊 源代码 http://www.amazon.com/gp/help/customer/display.html?nodeId=200203720
 * 越狱 http://www.mobileread.com/forums/showthread.php?t=198446
