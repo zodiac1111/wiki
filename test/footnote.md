@@ -14,7 +14,7 @@ a<sup id="f2">[[2](#r2)]</sup>
 
 单方向查找:
 
-引用<sup>[<a href="#fn-2">1</a>]</sup>.
+引用<span>[<a href="#fn-2">1</a>]</span>.
 
 引用<sup>[<a href="#fn-3">2</a>]</sup>.
 
