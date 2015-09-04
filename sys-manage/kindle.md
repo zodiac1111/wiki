@@ -5,7 +5,8 @@
 [参考](http://www.mobileread.com/forums/showthread.php?t=186645)
 
 * 下载 `kindle-jailbreak-1.14.N.zip`
-* 解压缩到kindle"根"目录
+* 解压缩
+* 解压`kindle-5.4-jailbreak.zip`文件到kindle"根"目录
 *  [HOME] -> [MENU] > Settings -> [MENU] > Update Your Kindle.
 * 看到 `**** JAILBREAK ****`文字 就表示成功了
 
