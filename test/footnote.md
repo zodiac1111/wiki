@@ -1,6 +1,6 @@
 # 脚标/尾注/footnote
 
-gollum的markdown基于sundown,sundowm没有实现尾注.并且sundown已经冻结.
+gollum的markdown基于sundown,sundowm没有实现尾注.并且sundown已经冻结. [参考](https://github.com/gollum/gollum/issues/41)
 
 `<sup id="r-1">[<a href="#fn-1">1</a>]</sup>`
 
