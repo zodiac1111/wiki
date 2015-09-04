@@ -24,7 +24,9 @@
 * usbnet登录/WiFi/ssh http://www.mobileread.com/forums/showthread.php?t=186645
 * 自定义屏保 [[kindle-screensaver]]
 * 让Kindle支持扫描版PDF重排,中文/pdf扫描版重排/epub,
-  * 插件:[Koreader](https://github.com/koreader/koreader)
+  * 越狱
+  * 安装[kpvbooklet](https://github.com/koreader/kpvbooklet/releases)
+  * 安装插件:[Koreader](https://github.com/koreader/koreader)
   * [让Kindle支持扫描版PDF重排(博客说明)](http://vislab.bjmu.edu.cn/blog/hwangxin/2012/10/read-scanned-pdfs-with-kindlepdfviewer/)
  * 下载 https://github.com/koreader/koreader/wiki/Download
  * mobileread http://www.mobileread.com/forums/showthread.php?t=209276
