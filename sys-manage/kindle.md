@@ -10,7 +10,7 @@
 *  [HOME] -> [MENU] > Settings -> [MENU] > Update Your Kindle.
 * 看到 `**** JAILBREAK ****`文字 就表示成功了
 
-![img/jailbreak.png]
+![/img/jailbreak.png]
 
 # usbnet
 
