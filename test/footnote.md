@@ -10,7 +10,7 @@ a<sup id="f2">[[2](#r2)]</sup>
 
 <ref>cankao</ref>
 
-[link][linkref]
+11[^1]
 
 单方向查找:
 
@@ -60,3 +60,4 @@ Lorem ipsum<sup id="r-1">[<a href="#fn-1">1</a>]</sup> dolor sit amet, consectet
 `<li id="fn-1"><b><a href="#r-1">^</a> </b> hello world</li>`
 
 [linkref]: url "optional title" {#id .class}
+[^1]:foot
