@@ -1,5 +1,7 @@
 # kindle相关
 
+* [越狱](http://www.mobileread.com/forums/showthread.php?t=186645)
+
 # 参考
 * kindle 亚马逊 源代码 http://www.amazon.com/gp/help/customer/display.html?nodeId=200203720
 * 越狱 http://www.mobileread.com/forums/showthread.php?t=198446
