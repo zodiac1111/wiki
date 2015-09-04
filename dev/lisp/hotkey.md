@@ -24,3 +24,4 @@
 # 参考
 
 * [8.2.2 Input navigation](https://www.common-lisp.net/project/slime/doc/html/Input-Navigation.html)
+* [SLIME 使用手册](https://github.com/unionx/slime-user-manual-cn)
