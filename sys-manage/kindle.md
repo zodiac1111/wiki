@@ -1,6 +1,13 @@
 # kindle相关
 
-* [越狱](http://www.mobileread.com/forums/showthread.php?t=186645)
+# 越狱
+
+[参考](http://www.mobileread.com/forums/showthread.php?t=186645)
+
+* 下载 `kindle-jailbreak-1.14.N.zip`
+* 解压缩到kindle"根"目录
+*  [HOME] -> [MENU] > Settings -> [MENU] > Update Your Kindle.
+* 看到 **** JAILBREAK **** 就表示成功了
 
 # 参考
 * kindle 亚马逊 源代码 http://www.amazon.com/gp/help/customer/display.html?nodeId=200203720
