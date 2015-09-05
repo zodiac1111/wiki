@@ -19,6 +19,7 @@
 # 参考
 * kindle 亚马逊 源代码 http://www.amazon.com/gp/help/customer/display.html?nodeId=200203720
 * 越狱 http://www.mobileread.com/forums/showthread.php?t=198446
+  * 更新:越狱: http://www.mobileread.com/forums/showthread.php?t=186645
 * [越狱应用等wiki](http://wiki.mobileread.com/wiki/Kindle_Touch_Hacking#USB_Networking) 
 * 各版本原始固件 http://ixtab.tk/kindle-touch-updates.php
 * usbnet登录/WiFi/ssh http://www.mobileread.com/forums/showthread.php?t=186645
