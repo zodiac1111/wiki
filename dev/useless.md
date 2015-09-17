@@ -1,3 +1,5 @@
+[远古的c语言语法](http://stackoverflow.com/questions/1630631/alternate-c-syntax-for-function-declaration-use-cases)
+
 [5个stackoverflow上的欢乐主题](http://javarevisited.blogspot.com/2015/08/5-entertaining-posts-from-stackoverflow.html)
 
 * [What is your best programmer joke?](http://stackoverflow.com/questions/234075/what-is-your-best-programmer-joke)
