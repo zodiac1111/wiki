@@ -1,5 +1,4 @@
 
-
 expect
 
 spawn: command not found
@@ -10,5 +9,5 @@ spawn telnet 192.168.1.1
 expect Login:
 send "root\n"
 expect Password:
-send "LY9x25\n"
+send "1x23\n"
 ```
