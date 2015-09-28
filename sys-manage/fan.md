@@ -6,8 +6,6 @@
 参考1
 
     sudo apt-get install thinkfan
-
-
     sudo echo "options thinkpad_acpi fan_control=1" | sudo tee /etc/modprobe.d/thinkpad_acpi.conf
 
 有这句话就行
@@ -26,7 +24,6 @@ commands:   watchdog <timeout> (<timeout> is 0 (off), 1-120 (seconds))
 
 ```
 echo level 0 | sudo tee /proc/acpi/ibm/fan
-
 echo level auto | sudo tee /proc/acpi/ibm/fan
 ```
 
