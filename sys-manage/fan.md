@@ -42,9 +42,10 @@ function fan() {
 温度控制
 
 注意关键字 hwmon
-
+```
 sudo pluma /etc/thinkfan.conf
-
+```
+```
 tp_fan /proc/acpi/ibm/fan
 # hwmon /sys/devices/platform/coretemp.0/hwmon/hwmon3/temp1_input
 
@@ -61,3 +62,4 @@ hwmon /sys/devices/platform/coretemp.0/hwmon/hwmon3/temp2_input
 (5,	67,	72)
 (6,	68,	73)
 (7,	67,	32767)
+```
