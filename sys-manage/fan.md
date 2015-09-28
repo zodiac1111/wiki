@@ -1,5 +1,9 @@
-http://blog.codylab.com/thinkpad-thinkfan/
+#控制风扇
 
+环境: debian t430
+
+
+参考1
 
 sudo apt-get install thinkfan
 
@@ -27,7 +31,7 @@ echo level auto | sudo tee /proc/acpi/ibm/fan
 
 简单命令
 
-http://blog.mixu.net/2012/01/19/how-to-thinkpad_acpi-and-fan-control-on-arch/
+这里开始参考2
 
 ```
 # 控制风扇
@@ -63,3 +67,7 @@ hwmon /sys/devices/platform/coretemp.0/hwmon/hwmon3/temp2_input
 (6,	68,	73)
 (7,	67,	32767)
 ```
+
+# 参考
+1. http://blog.codylab.com/thinkpad-thinkfan/
+2. http://blog.mixu.net/2012/01/19/how-to-thinkpad_acpi-and-fan-control-on-arch/
