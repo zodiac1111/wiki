@@ -22,3 +22,42 @@ commands:   watchdog <timeout> (<timeout> is 0 (off), 1-120 (seconds))
 echo level 0 | sudo tee /proc/acpi/ibm/fan
 
 echo level auto | sudo tee /proc/acpi/ibm/fan
+
+
+
+简单命令
+
+http://blog.mixu.net/2012/01/19/how-to-thinkpad_acpi-and-fan-control-on-arch/
+
+```
+# 控制风扇
+function fan() {
+  sensors
+  if [ $# -eq 1 ] ; then
+    echo level $@ | sudo tee /proc/acpi/ibm/fan
+  fi
+}
+```
+
+温度控制
+
+注意关键字 hwmon
+
+sudo pluma /etc/thinkfan.conf
+
+tp_fan /proc/acpi/ibm/fan
+# hwmon /sys/devices/platform/coretemp.0/hwmon/hwmon3/temp1_input
+
+hwmon /sys/devices/virtual/hwmon/hwmon0/temp1_input
+hwmon /sys/devices/platform/coretemp.0/hwmon/hwmon3/temp3_input 
+hwmon /sys/devices/platform/coretemp.0/hwmon/hwmon3/temp1_input
+hwmon /sys/devices/platform/coretemp.0/hwmon/hwmon3/temp2_input
+
+(0,	0,	60)
+(1,	55,	65)
+(2,	60,	69)
+(3,	65,	70)
+(4,	66,	71)
+(5,	67,	72)
+(6,	68,	73)
+(7,	67,	32767)
