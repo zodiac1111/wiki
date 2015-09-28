@@ -1,5 +1,6 @@
 # 系统运行维护笔记
 
+* [控制风扇](fan)
 * [音频视频多媒体](media)
 * 磁盘文件系统 [输入输出错误](io-err)
 * [VirtualBox guest Win7/8/10闪退](vbox-usb-crash)或者某些usb设备无法使用
