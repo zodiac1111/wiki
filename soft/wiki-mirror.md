@@ -1,6 +1,9 @@
-
 来源: https://gist.github.com/fffonion/9048776
 
-php
+需要:
 
-nginx
+* php
+* nginx
+
+环境
+* debian
