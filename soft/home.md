@@ -1,5 +1,6 @@
 # 软件索引
 
+* [wiki反代](wiki-mirror)
 * [telnet](telnet)
 * [ssl证书](ssl)
 * [虚拟键盘](vmpk) 
