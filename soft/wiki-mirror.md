@@ -7,3 +7,11 @@
 
 环境
 * debian
+
+我修改的地方
+
+```
+listen 80;
+server_name wiki.yooooo.us wc.yooooo.us;
+/var/www/wiki-mirror
+```
