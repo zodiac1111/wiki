@@ -58,3 +58,12 @@
                                  Rebooting the Kindle will restore the screen saver lock
                                  and, hopefully, everything goes fine!)
 ```
+
+# 修砖
+
+1. 串口线焊上
+2. 诊断模式
+3. E 导出fat分区
+4. 自己电脑上出现kindle分区.放入updatexxx.bin文件
+5. U 从fat分区升级.会升级rootfs等东西.
+
