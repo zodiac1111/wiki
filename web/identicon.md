@@ -3,7 +3,7 @@
 Identicon 是 Hash 值的可视化表示，常见的生成方法是根据 IP 地址或 email 地址生成。 服务器通过 Identicon 可以以头像的形式来分辨用户，这种方法同时能够保护用户的隐私。
 
 例如: 
-[[/img/identicon.jpg|align=center]]
+[[res/img/identicon.jpg|align=center]]
 
 Gravatar有这个功能
 
