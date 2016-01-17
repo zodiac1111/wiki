@@ -1,8 +1,8 @@
 # gnome2/mate 桌面环境图标主题
 
 
-* 用户自己的 ~/.icons 文件夹下
-* 系统的 /usr/share/icons 文件夹下
+* 用户自己的 `~/.icons` 文件夹下
+* 系统的 `/usr/share/icons` 文件夹下
 
 ```
 .
