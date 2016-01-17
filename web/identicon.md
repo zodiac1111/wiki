@@ -7,8 +7,8 @@ Identicon 是 Hash 值的可视化表示，常见的生成方法是根据 IP 地
 例如: 
 [[/img/identicon.jpg|align=center]]
 
-[GitHub、Stack Overflow 还有微软论坛上的默认头像有什么含义吗？](http://www.zhihu.com/question/26387811)
+# 参考
 
-[wiki](https://en.wikipedia.org/wiki/Identicon)
-
-[有趣的玩法](http://meta.stackexchange.com/questions/37328/my-god-its-full-of-unicorns)
+* [GitHub、Stack Overflow 还有微软论坛上的默认头像有什么含义吗？](http://www.zhihu.com/question/26387811)
+* [wiki](https://en.wikipedia.org/wiki/Identicon)
+* [有趣的玩法](http://meta.stackexchange.com/questions/37328/my-god-its-full-of-unicorns)
