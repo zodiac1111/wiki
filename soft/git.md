@@ -29,7 +29,7 @@ then,in the file `~/.gitconfig`(becase of the `--global` option)
 三者作用域:所有用户/当前用户/当前用户的指定项目
 且作用域小的覆盖作用域大的.(与c语言变量作用域相似)
 
-##git 小修改/隐藏/应用/tips
+## git 小修改/隐藏/应用/tips
 
 `git status -uno` 显示未跟踪的文件
 
@@ -41,6 +41,7 @@ git stash apply `#显示当前修改
 用于临时修改其他与现在没有逻辑相关性的修改.
 
 ###git merge /rebase
+
 情况1 merge:(主分支没有更新)
 
 切换到主分支,合并子分支到主分支
@@ -50,6 +51,19 @@ git stash apply `#显示当前修改
 情况2 rebase:(主分支在子分支 分出之后 又**更新**了)
 
 所以,组员在修改自己的东西前最好先checkout自己的branch,而不是直接修改主分支master
-##ref:
+
+## 强制获取远端
+
+放弃本地修改,强制从服务器获取最新版本.所有本地修改将被删除!
+
+```
+git fetch --all  
+git reset --hard origin/master 
+```
+
+参考:https://ruby-china.org/topics/2494
+
+##参考
+
 1. `man git-config`
 2. `man git`
