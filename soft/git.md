@@ -13,7 +13,8 @@ then,in the file `~/.gitconfig`(becase of the `--global` option)
 	diff = auto     #<-diff color =auto :)
 ```
 
-扩展:
+扩展
+
 ```
 [color]
 	diff = auto
@@ -21,6 +22,7 @@ then,in the file `~/.gitconfig`(becase of the `--global` option)
 	branch = auto
 	ui = true	#设置用户界面都使用色彩高亮
 ```
+
 ##git 配置文件 
 1. `/etc/gitconfig`
 2. `~/.gitconfig`
