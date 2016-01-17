@@ -4,7 +4,7 @@
 * [2.4g无线](nrf24)
 * [[arduino]] 笔记
 * [[4-address-led]] 4引脚RGB LED [来源](http://www.instructables.com/id/Demystifying-4-pin-addressable-RGB-LEDS/)
-* avr-gcc 官方的简单项目教程 http://www.nongnu.org/avr-libc/user-manual/group__demo__project.html
+* [avr-gcc 官方的简单项目教程](http://www.nongnu.org/avr-libc/user-manual/group__demo__project.html)
 * [[avr-gcc-tool-collection]] 编译过程
 * [[compile]] 开发流程:编译-下载
 * [[avr-tutorial]] 简单入门
