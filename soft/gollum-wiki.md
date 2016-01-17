@@ -252,6 +252,11 @@ Update:在`gollum 2.5.0`和`ruby 1.9.3`之下,这个问题已经没有再发生.
 
 有问题可以`mail`看看邮件.
 
+启动启动(debian)
+
+在 `/etc/rc.local` 下添加
+```cd /root/wiki && /usr/local/bin/gollum --js --port=80```
+
 ### 内容更新
 
 * 直接通过web编辑/保存
