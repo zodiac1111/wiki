@@ -23,15 +23,15 @@
 [[testpic2.png]]
 
 
-	![asdasd](/gollum.png) #ALT标签+绝对路径形式
+	![asdasd](/res/img/gollum.png) #ALT标签+绝对路径形式
 
-![asdasd](/gollum.png)
+![asdasd](/res/img/gollum.png)
 
 ## 位置指定
 
-	[[/gollum.png|align=right]]
+	[[/res/img/gollum.png|align=right]]
 
-[[/gollum.png|align=right]]
+[[/res/img/gollum.png|align=right]]
 
 ## svg矢量图
 
