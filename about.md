@@ -6,4 +6,4 @@
 
 wiki使用 [gollum](https://github.com/gollum/gollum) 搭建
 
-如有需要,请联系 Email: `zodiac8765#gmail.com`
+如有需要,请联系 `zodiac8765#gmail.com` .
