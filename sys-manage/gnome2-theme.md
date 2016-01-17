@@ -20,6 +20,7 @@
 |-- status 状态:声音,电量,网络信号,回收站满
 `-- stock
 ```
+
 推荐以下主题 `Faenza` 和 `Faenza-Cupertino` 。开源的图标集合，可以已经停止开发了。
 
-来自 [Faenza](http://gnome-look.org/content/show.php/?content=128143) 和  [Faenza-Cupertino](http://gnome-look.org/content/show.php/Faenza-Cupertino?content=129008)
+来自 [Faenza](http://gnome-look.org/content/show.php/?content=128143) 和  [Faenza-Cupertino](http://gnome-look.org/content/show.php/Faenza-Cupertino?content=129008)。
