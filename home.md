@@ -9,6 +9,6 @@
 * [实用工具](utility/home) 
 * [电子方面](avr/home)
 * [有趣的东西](fun) 
-* [书籍](book/home)
+* [书籍](book/book)
 * [测试页面](test/home)
 * [关于](about) 
