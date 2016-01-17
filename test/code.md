@@ -1,13 +1,8 @@
 #代码测试
 
-```
-```c
-int main(void)
-{
-    return 0;
-}
-```
-```
+
+暂时发现支持的高亮 `c`、`makefile`、`shell`。
+
 ```c
 int main(void)
 {
