@@ -1,4 +1,4 @@
-# 系统运行维护笔记
+系统运行维护笔记
 
 * [disable crontab mail](disable crontab mail)
 * [控制风扇](fan)
