@@ -1,5 +1,3 @@
-# 首页
-
 * [软件使用](/soft/home)
 * [系统运行和维护](sys-manage/home) 
 * [开发(软件方面)](dev/home) 
