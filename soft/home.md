@@ -1,6 +1,6 @@
 # 软件索引
 
-* [[shutter]]
+* [[./shutter]]
 * [wiki反代](wiki-mirror)
 * [telnet](telnet)
 * [ssl证书](ssl)
