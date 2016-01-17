@@ -6,6 +6,10 @@
 
 <http://www.51testing.com/?uid-175444-action-viewspace-itemid-101030>
 
+```
+PS1="\[\033[1;32;40m[\033[0;32;40m\u@\h:\033[1;35;40m\w\033[1;32;40m]\033[1;31;40m\$\033[1;32;40m \]"
+```
+
 # 终端转义字符
 
 参考 http://blog.csdn.net/cherylnatsu/article/details/5878913
