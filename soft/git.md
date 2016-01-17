@@ -10,7 +10,7 @@ then,in the file `~/.gitconfig`(becase of the `--global` option)
 
 ```
 [color]
-	diff = auto     #<-diff color =auto :)
+	diff = auto     # <-diff color =auto :)
 ```
 
 扩展
