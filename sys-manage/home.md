@@ -1,5 +1,6 @@
 系统运行维护笔记
 
+* [debian蓝牙](debian-buletooth)
 * [disable crontab mail](disable crontab mail)
 * [控制风扇](fan)
 * [音频视频多媒体](media)
