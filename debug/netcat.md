@@ -10,7 +10,11 @@
 * `ncat` 由[Nmap](http://zh.wikipedia.org/wiki/Nmap)开发团队实做的另一个netcat版本。
 * [Cryptcat](http://sourceforge.net/projects/cryptcat/) 是 netcat 一个内建加密传输能力的版本。
 
-# 例子(作为客户端)
+# nc
+
+## 安装
+
+## 客户端
 
 通过udp模式发送特定数据到指定主机的指定端口
 
@@ -27,7 +31,18 @@ echo -ne "123456\r\n" | nc -u 127.0.0.1 8001
  * `127.0.0.1` 主机
  * `8001` 端口
 
-# 例子(作为服务器)
+## 服务端
+
+# ncat
+
+## 安装
+
+todo
+
+## 客户端
+
+## 服务器
+
 
 ```
 ncat -l -p 8002 -vv  -k
@@ -36,3 +51,22 @@ ncat -l -p 8002 -vv  -k
 * `-p 8002` port指定端口,ncat无需-p,
 * `-vv` 显示详细信息
 * `-k` keep保持连接,ncat实现.nc不可
+
+
+# netcat
+
+## 安装
+
+debian
+```
+apt-get install netcat
+```
+# 客户端
+
+
+
+# 服务器
+
+```
+netcat -l -p 8002 -vv  -k
+```
