@@ -1,5 +1,9 @@
 # sim800 eat
 
+sim800 芯讯通无线科技(上海)有限公司 技术文档下载 http://simcomm2m.com/service/down.aspx?proType=-1&type=-1&proName=-1&time=-1&page=18
+
+需要注册
+
 环境.
 
 usb下载需要重启.
