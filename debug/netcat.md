@@ -4,15 +4,18 @@
 
 * 参考例子: http://www.rationallyparanoid.com/articles/netcat.html
 
-实现:
+## 实现
+
 * `nc`/`netcat` 传统的netcat
 * `socat` netcat 较复杂的姊妹程式,更大更复杂,更多的选项.
 * `ncat` 由[Nmap](http://zh.wikipedia.org/wiki/Nmap)开发团队实做的另一个netcat版本。
 * [Cryptcat](http://sourceforge.net/projects/cryptcat/) 是 netcat 一个内建加密传输能力的版本。
 
-# nc
-
 ## 安装
+
+debian:`apt-get install netcat`
+
+# nc
 
 ## 客户端
 
@@ -37,10 +40,6 @@ nc -l -p 8002 -v  -k
 
 # ncat
 
-## 安装
-
-todo
-
 ## 客户端
 
 ## 服务器
@@ -57,12 +56,6 @@ ncat -l -p 8002 -vv  -k
 
 # netcat
 
-## 安装
-
-debian
-```
-apt-get install netcat
-```
 # 客户端
 
 
