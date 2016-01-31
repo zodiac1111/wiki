@@ -1,5 +1,6 @@
 # 目录
 
+* [web设计,所见即所得的设计,app设计](http://pingendo.com/)
 * [minicss](http://milligram.github.io/)
 * [css选择器优先级](http://harttle.com/2015/07/16/css-priority.html)
 * [抽象图标头像](identicon)
