@@ -1,6 +1,6 @@
 # 有趣的东西
 
-* [p进数](p进数)
+* [p进数](P-adic_number)
 * [favicon.js 定制不同的网站favicon](http://lab.ejci.net/favico.js/)
 * [windows操作系统博物馆](https://winworldpc.com/)
 * [diy原子力显微镜AFM(隧道扫描显微镜)](http://www.instructables.com/id/A-DIY-AFM-Whokshop/)
