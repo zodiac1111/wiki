@@ -1,5 +1,6 @@
 # 有趣的东西
 
+* [数学分型等知识分享](http://www.3blue1brown.com/)
 * [p进数](P-adic_number)
 * [favicon.js 定制不同的网站favicon](http://lab.ejci.net/favico.js/)
 * [windows操作系统博物馆](https://winworldpc.com/)
