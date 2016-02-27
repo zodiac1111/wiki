@@ -1,17 +1,19 @@
 
 # sim800c at tcp 例子
 
-# 单路 非透传
+## 单路 非透传
 
 检查 SIM 卡状态
-AT+CPIN?
-+CPIN: READY 
-OK
+
+	AT+CPIN?
+	+CPIN: READY
+	OK
 
 检查网络信号强度
-AT+CSQ
-CSQ: 20,0
-OK
+
+	AT+CSQ
+	CSQ: 20,0
+	OK
 
 检查网络注册状态
 AT+CREG?
@@ -20,21 +22,25 @@ OK
 
 
 检查 GPRS 附着状态
-AT+CGATT?
-+CGATT: 1
-OK
+
+	AT+CGATT?
+	+CGATT: 1
+	OK
 
 开始任务,设置 APN
-AT+CSTT="CMNET"
-OK
+
+	AT+CSTT="CMNET"
+	OK
+
 默认 APN 是 “CMNET”, 没有用户名
 和密码。可以查询当地 GSM 运营商来
 获得 APN
 
 
 建立无线链路 (GPRS 或者 CSD)
-AT+CIICR
-OK
+
+	AT+CIICR
+	OK
 
 获得本地 IP 地址
 AT+CIFSR
