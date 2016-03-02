@@ -1,6 +1,6 @@
 系统运行维护笔记
 
-* [debian降级笔记](debian降级笔记)
+* [debian降级笔记](debian-down)
 * [debian蓝牙](debian-buletooth)
 * [disable crontab mail](disable crontab mail)
 * [控制风扇](fan)
