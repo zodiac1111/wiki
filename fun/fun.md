@@ -1,5 +1,6 @@
 # 有趣的东西
 
+* [Ubuntu on Windows](http://blog.dustinkirkland.com/2016/03/ubuntu-on-windows.html?m=1)
 * [数学分型等知识分享](http://www.3blue1brown.com/)
 * [p进数](P-adic_number)
 * [favicon.js 定制不同的网站favicon](http://lab.ejci.net/favico.js/)
