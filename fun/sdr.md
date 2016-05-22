@@ -22,3 +22,9 @@ Narrow FM（窄带 FM，一般出租车司机们用的 Call 台，以及一些�
 AM（短波，民用无线电，航空管制等）。
 AGC 选 Medium 或者 Fast 即可。Squelch 一会儿真正听的时候再调。
 
+
+RTL - 便宜的类型 起源,来源:http://rtlsdr.org/#history_and_discovery_of_rtlsdr
+相比开源SDR中的另外两位重量级全功能（带收发,FPGA）选手：动辄几K美刀的USRP、虽说便宜但是也一二百美刀的HackRF，RTL以其实用的功能、相当于白送的价格，以及几乎完全没有法律风险，成为了入门或者廉价SDR的代名词。
+
+
+MCX 接口 SMA接口 天线接口 ; 淘宝图片: https://s.taobao.com/search?q=MCX%E5%85%AC++SMA%E6%AF%8D&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20160522&ie=utf8&loc=%E6%B1%9F%E8%8B%8F%2C%E6%B5%99%E6%B1%9F%2C%E4%B8%8A%E6%B5%B7
