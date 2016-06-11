@@ -14,3 +14,11 @@ user@host: sudo docker run -t -i -v /tmp/m_in_host:/tmp/m_in_container unikernel
 opam@container:/src$ ls /tmp/
 m_in_container
 ```
+
+# host和容器复制文件
+
+[参考](http://stackoverflow.com/questions/22049212/docker-copy-file-from-container-to-host)
+
+```
+docker cp <containerId>:/file/path/within/container /host/path/target
+```
