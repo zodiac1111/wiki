@@ -1,6 +1,7 @@
 # 软件索引
 
 * [docker](docker)
+  * [mirage](mirage)
 * [shutter](./shutter)
 * [wiki反代](wiki-mirror)
 * [telnet](telnet)
