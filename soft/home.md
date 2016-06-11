@@ -1,5 +1,6 @@
 # 软件索引
 
+* [docker](docker)
 * [shutter](./shutter)
 * [wiki反代](wiki-mirror)
 * [telnet](telnet)
