@@ -11,20 +11,20 @@ $ git clone git://github.com/mirage/mirage-skeleton.git
 $ cd mirage-skeleton
 ```
 
-Building a Unix binary
+## Building a Unix binary
 
 ```
 $ cd console
 $ mirage configure --unix
 ```
 
-make
+## make
 
 ```
 $ make
 ```
 
-run
+## run
 
 ```
 $ ./mir-console
