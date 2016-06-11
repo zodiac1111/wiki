@@ -29,3 +29,8 @@ sudo docker run -t -i -v ~/tmp/m_in_host:/tmp/m_in_container zodiac1111/mirage
 ```
 docker cp <containerId>:/file/path/within/container /host/path/target
 ```
+
+
+jenkins blueocean 
+
+https://hub.docker.com/r/jenkinsci/blueocean/
