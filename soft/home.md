@@ -1,5 +1,6 @@
 # 软件索引
 
+* [kakarot](南瓜) 日语句子解析
 * [docker](docker)
   * [mirage](mirage)
 * [shutter](./shutter)
