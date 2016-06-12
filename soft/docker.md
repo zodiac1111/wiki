@@ -34,3 +34,10 @@ docker cp <containerId>:/file/path/within/container /host/path/target
 jenkins blueocean 
 
 https://hub.docker.com/r/jenkinsci/blueocean/
+
+
+# dockerfile
+
+简单的看得懂的例子,可以用来理解dockerfile. 南瓜日语自然语言处理 句子
+
+https://github.com/skozawa/docker-cabocha-unidic/blob/master/Dockerfile
