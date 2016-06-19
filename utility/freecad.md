@@ -1,12 +1,7 @@
 # freecad
 
-# 类似软件
 
-都是支持linux的自由软件
 
-## solvespace
-
-## [antimony](https://github.com/mkeeter/antimony)
 
 
 造型
@@ -39,3 +34,15 @@
 
 Freecad/工程师/Linux相关
 http://linuxforanengineer.blogspot.com/
+
+# 类似软件
+
+都是支持linux的自由软件
+
+## [solvespace](http://solvespace.com/)
+
+2.0 只支持windows,2.1支持linux,比较简单,youtube上有视频.
+
+## [antimony](https://github.com/mkeeter/antimony)
+
+原生支持mac 参数化,有点类似labview.
