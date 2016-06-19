@@ -41,7 +41,7 @@ http://linuxforanengineer.blogspot.com/
 
 ## [solvespace](http://solvespace.com/)
 
-2.0 只支持windows,2.1支持linux,比较简单,youtube上有视频.
+2.0 只支持windows,2.1支持linux,比较简单,[youtube上有视频](https://www.youtube.com/results?search_query=solvespace).
 
 ## [antimony](https://github.com/mkeeter/antimony)
 
