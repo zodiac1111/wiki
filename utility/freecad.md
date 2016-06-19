@@ -1,5 +1,14 @@
 # freecad
 
+# 类似软件
+
+都是支持linux的自由软件
+
+## solvespace
+
+## [antimony](https://github.com/mkeeter/antimony)
+
+
 造型
 
 软件本体:
