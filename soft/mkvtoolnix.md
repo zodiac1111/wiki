@@ -9,11 +9,11 @@ vlc一般没有导出功能.
 软件 `mkvinfo-gui`
 
 
-Install mkvtoolnix with sudo apt-get install mkvtoolnix.
+Install mkvtoolnix with `sudo apt-get install mkvtoolnix`.
 
-Run from terminal: mkvextract tracks <your_mkv_video> <track_numer>:<subtitle_file.srt>
+Run from terminal: `mkvextract tracks <your_mkv_video> <track_numer>:<subtitle_file.srt>`
 
-Use mkvinfo to get information about tracks.
+Use `mkvinfo` to get information about tracks.
 
 Using this utility you can extract any track, even audio or video.
 
