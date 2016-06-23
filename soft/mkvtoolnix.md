@@ -42,3 +42,7 @@ Here it is: http://home.gna.org/subtitleeditor/
 
 还这个方法试试 windows下的 http://jingyan.baidu.com/article/cb5d610530acea005d2fe010.html 还是不行
  因为是包含字体等信息的高级字幕,导出来都是二进制格式
+
+
+视频分割软件 http://forum.ubuntu.org.cn/viewtopic.php?f=74&t=153755&start=0
+mencoder
