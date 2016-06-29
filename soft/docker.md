@@ -41,3 +41,16 @@ https://hub.docker.com/r/jenkinsci/blueocean/
 简单的看得懂的例子,可以用来理解dockerfile. 南瓜日语自然语言处理 句子
 
 https://github.com/skozawa/docker-cabocha-unidic/blob/master/Dockerfile
+
+# 更新
+
+```
+sudo docker pull blueocean/blueocean
+```
+
+# 运行
+
+```
+sudo docker run -p 8888:8080 blueocean/blueocean
+```
+其中`-p 8888:8080`是端口映射,形式是` -p [host端口:docker容器端口 [host端口:docker容器端口]]`, 可以映射多个端口.
