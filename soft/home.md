@@ -1,5 +1,6 @@
 # 软件索引
 
+* [i2p](i2p)
 * [南瓜](cabocha) 日语句子解析
 * [docker](docker)
   * [mirage](mirage)
