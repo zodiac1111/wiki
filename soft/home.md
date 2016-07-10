@@ -1,6 +1,6 @@
 # 软件索引
 
-* [debian 安装 Oracle java 1.8](debian-java-1.8)
+* [debian 安装 Oracle java 1.8](debianjava)
 * [i2p](i2p)
 * [南瓜](cabocha) 日语句子解析
 * [docker](docker)
