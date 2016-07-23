@@ -1,6 +1,7 @@
 # sdr
 工具: linux下类似 sdr# (srdsharp)
 
+# 调频收音机
 
 使用方法,比如 收音机,fm93
 
@@ -28,3 +29,6 @@ RTL - 便宜的类型 起源,来源:http://rtlsdr.org/#history_and_discovery_of_
 
 
 MCX 接口 SMA接口 天线接口 ; 淘宝图片: https://s.taobao.com/search?q=MCX%E5%85%AC++SMA%E6%AF%8D&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20160522&ie=utf8&loc=%E6%B1%9F%E8%8B%8F%2C%E6%B5%99%E6%B1%9F%2C%E4%B8%8A%E6%B5%B7
+
+
+#嗅探gprs
