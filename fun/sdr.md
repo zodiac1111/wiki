@@ -32,3 +32,5 @@ MCX 接口 SMA接口 天线接口 ; 淘宝图片: https://s.taobao.com/search?q=
 
 
 #嗅探gprs
+
+参考 http://www.rtl-sdr.com/rtl-sdr-tutorial-analyzing-gsm-with-airprobe-and-wireshark/
