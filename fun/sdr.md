@@ -44,11 +44,15 @@ https://github.com/ptrkrysik/gr-gsm/issues/155
 
 # OpenBTS debug the GSM/GPRS
 Chinese version : http://www.freebuf.com/articles/wireless/105324.html
+
 Via(English): https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2016/may/gsmgprs-traffic-interception-for-penetration-testing-engagements/
+
 gsm freq
+
 http://www.worldtimezone.com/gsm.html
 
 # 使用GnuRadio + OpenLTE + SDR 搭建4G LTE 基站（上）
+
 http://www.freebuf.com/articles/wireless/108417.html
 
 OpenLTE : 4G LTE
