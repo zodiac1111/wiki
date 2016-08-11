@@ -54,7 +54,7 @@ kali 编译bug参考一下连接解决 [Issue SSLv3](https://github.com/ptrkrysi
 
 [gsm 频率及时区查询](http://www.worldtimezone.com/gsm.html)
 
-
+gsm 信道 http://doc.mbalib.com/view/a5df7114b82298d224060516618320d4.html
 
  
 简单介绍:[使用GnuRadio + OpenLTE + SDR 搭建4G LTE 基站（上）](http://www.freebuf.com/articles/wireless/108417.html)
@@ -103,6 +103,10 @@ airprobe_rtlsdr.py
 ```
 sudo wireshark -k -Y 'gsmtap && !icmp' -i lo
 ```
+
+# 知乎介绍
+
+https://www.zhihu.com/question/20459050
 
 # 嗅探gprs
 
