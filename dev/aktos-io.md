@@ -2,9 +2,7 @@
 
 # 环境信息
 
-hostname YZ 192.168.1.170
-ssh:
-abao 123456
+hostname YZ 192.168.1.170 abao
 
 # 代码
 
