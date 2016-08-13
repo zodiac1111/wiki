@@ -1,5 +1,6 @@
 # 开发目录
 
+* [aktos-io 基于web的工控系统](aktos-io)
 * [在线调试jtag,仿真器,虚拟机和容器](vm_container)
 * [博客:解释器与编译器](https://nickdesaulniers.github.io/blog/2015/05/25/interpreter-compiler-jit/)
 * [so文件](so)
