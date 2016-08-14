@@ -1,5 +1,7 @@
 # 笔记
 
+更成熟也更商业化的类似平台 http://crossbar.io/ *(考虑中)*
+
 # 环境信息
 
 hostname YZ 192.168.1.170 abao
