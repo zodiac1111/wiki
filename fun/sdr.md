@@ -102,6 +102,8 @@ airprobe_rtlsdr.py
 
 ```
 sudo wireshark -k -Y 'gsmtap && !icmp' -i lo
+或者
+sudo wireshark -k -Y 'lapdm' -i lo
 ```
 
 # 知乎介绍
@@ -111,3 +113,45 @@ https://www.zhihu.com/question/20459050
 # 嗅探gprs
 
 [参考视频教程](http://www.rtl-sdr.com/rtl-sdr-tutorial-analyzing-gsm-with-airprobe-and-wireshark/)
+
+
+# 使用廉价硬件也可以嗅探gsm
+
+https://ferrancasanovas.wordpress.com/cracking-and-sniffing-gsm-with-rtl-sdr-concept/
+
+## 搜索频道
+
+这个需要hackrf： `kal -s GSM900`
+
+下面这个廉价也可
+
+	~$ sudo airprobe_rtlsdr_scanner.py 
+	linux; GNU C++ version 5.3.1 20160323; Boost_105800; UHD_003.010.000.git-249-gef57ffcb
+	ARFCN:    3, Freq:  935.6M, CID: 24580, LAC: 22546, MCC: 460, MNC:   0, Pwr: -26
+
+捕获保存文件
+
+	airprobe_rtlsdr_capture.py -f 949200000 -s 1000000 -g 40 -c capture.cfile -T 60
+
+-g 增益
+-c 捕获的文件
+-T 60 捕获1分钟，之后自动结束
+
+# yatebts
+
+安装和使用
+http://wiki.yatebts.com/index.php/Main_Page
+
+配置文件
+/usr/local/etc/yate/ybts.conf
+
+运行
+yate -s -vvvvv -l /var/log/yate.log
+
+# 参考资料
+* [系列解释gsm嗅探博文](https://www.ckn.io/blog/2015/11/29/gsm-sniffing-sms-traffic/)
+
+[sim卡内置程序 GSMA Embedded SIM Specification ](http://www.gsma.com/connectedliving/embedded-sim/)
+[gsm sms 解码演示视频](https://www.quora.com/GSM-mobile-network-Is-it-possible-to-sniff-cellular-communication-traffic-and-so-eavesdropping-conversations-and-other-relevant-confidential-data)
+[上面的视频](https://www.youtube.com/watch?v=sCwBDIEexqo)
+
