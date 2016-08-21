@@ -9,3 +9,5 @@
 * filezilla ftp服务器
 * tmux 控制台复用器
 * gitbin chkrepo.sh 仓库检查
+* gnome-disks 磁盘工具
+* synaptic 新立得软件包管理器
