@@ -1,6 +1,6 @@
 # 软件索引
 
-* [自己安装的软件列表](my_installed_soft_list) recommand_software
+* [自己安装的软件列表](my_installed_soft_list) recommand_software 推荐软件
 * [debian 安装 Oracle java 1.8](debianjava)
 * [i2p](i2p)
 * [南瓜](cabocha) 日语句子解析
