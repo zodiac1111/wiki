@@ -1,5 +1,6 @@
 # 有趣的东西
 
+* [开源的minecraft实现:minetest](http://www.minetest.net/)
 * [谷歌街景api](google-street-view-api)
 * [Ubuntu on Windows](http://blog.dustinkirkland.com/2016/03/ubuntu-on-windows.html?m=1)
 * [数学分型等知识分享](http://www.3blue1brown.com/)
