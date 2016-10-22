@@ -88,6 +88,11 @@ git clone (user)@(remote host):/path/test.git
 git remote add (ropename) (user)@(remote host):/path/test.git
 ```
 
+origin 是默认远程仓库
+
+```
+git remote add origin (user)@(remote host):/path/test.git
+```
 
 #参考
 
