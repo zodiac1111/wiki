@@ -65,7 +65,31 @@ git reset --hard origin/master
 
 参考:https://ruby-china.org/topics/2494
 
-##参考
+# 自建远程仓库
+
+远程主机:
+```
+mkdir test.git
+cd test.git
+git init --bare
+```
+
+## 全新仓库
+
+本地主机
+```
+git clone <user>@<remote host>:/path/test.git
+```
+
+## 本地既存
+
+本地主机
+```
+git remote add <user>@<remote host>:/path/test.git
+```
+
+
+#参考
 
 1. `man git-config`
 2. `man git`
