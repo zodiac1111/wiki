@@ -78,14 +78,14 @@ git init --bare
 
 本地主机
 ```
-git clone <user>@<remote host>:/path/test.git
+git clone (user)@(remote host):/path/test.git
 ```
 
 ## 本地既存
 
 本地主机
 ```
-git remote add <user>@<remote host>:/path/test.git
+git remote add (ropename) (user)@(remote host):/path/test.git
 ```
 
 
