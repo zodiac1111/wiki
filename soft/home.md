@@ -1,5 +1,6 @@
 # 软件索引
 
+* [t430安装macos](macos_on_t430)
 * [自己安装的软件列表](my_installed_soft_list) recommand_software 推荐软件
 * [debian 安装 Oracle java 1.8](debianjava)
 * [i2p](i2p)
