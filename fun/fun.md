@@ -178,3 +178,14 @@ http://www.opensource.apple.com/source/Libc/Libc-167/gen.subproj/ppc.subproj/isi
 * [图形化的数学,齿轮艺术](http://bugman123.com/Gears/index.html)
 
 * 傅里叶变换演示 [[/res/img/Fourier_transform.gif]] http://1ucasvb.tumblr.com/post/43816237610/the-fourier-transform-takes-an-input-function-f
+
+# 方法论
+
+* 认知
+  * [元认知](https://zh.wikipedia.org/wiki/%E5%BE%8C%E8%A8%AD%E8%AA%8D%E7%9F%A5)
+  * [什么是「元知识」？如何提高自己对「元知识」的把握？](https://www.zhihu.com/question/20803211)
+  * 语言的学校
+  * 自然语言
+    * 语系划分
+  * 人造语言
+    * 计算机语言
