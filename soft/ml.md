@@ -14,6 +14,9 @@ Machine Learning, ML
 
 目前用这个 [[https://github.com/karpathy/char-rnn]]
 
+中间需要安装cuda [[https://developer.nvidia.com/cuda-toolkit]]
+
+
 ```shell
 sudo apt install luarocks -y
 sudo apt install cmake -y # 因为要编译
