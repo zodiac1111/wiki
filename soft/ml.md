@@ -12,7 +12,7 @@ Machine Learning, ML
 
 [基于字符的神经网络](https://github.com/yoonkim/lstm-char-cnn)
 
-https://github.com/karpathy/char-rnn
+[[https://github.com/karpathy/char-rnn]]
 
 ```shell
 sudo apt install luarocks -y
