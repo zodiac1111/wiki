@@ -16,6 +16,11 @@ Machine Learning, ML
 
 中间需要安装cuda [[https://developer.nvidia.com/cuda-toolkit]]
 
+中间需要 Install CUDA
+
+```
+$ sudo apt install nvidia-cuda-toolkit
+```
 
 ```shell
 sudo apt install luarocks -y
