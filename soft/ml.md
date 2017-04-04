@@ -8,9 +8,11 @@ Machine Learning, ML
 
 [训练莎士比亚例子](http://blog.csdn.net/liuxiabing150/article/details/46756147)
 
-[知乎上打资料](https://www.zhihu.com/question/29411132)
+[知乎上的资料](https://www.zhihu.com/question/29411132)
 
 [基于字符的神经网络](https://github.com/yoonkim/lstm-char-cnn)
+
+https://github.com/karpathy/char-rnn
 
 ```shell
 sudo apt install luarocks -y
