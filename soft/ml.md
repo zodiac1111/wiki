@@ -35,7 +35,14 @@ git clone https://github.com/torch/distro.git ~/torch --recursive
 cd ~/torch; ./install.sh 
 ```
 
-参考资料：
+
+[安装Torch](https://torch.ch/docs/getting-started.html#_)
+
+
+# 参考资料
+
+[Torch](https://torch.ch/)
+
 char-cnn：
 https://github.com/karpathy/char-rnn
 Torch:
