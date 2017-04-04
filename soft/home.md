@@ -3,15 +3,15 @@
 * [t430安装macos](macos_on_t430)
 * [自己安装的软件列表](my_installed_soft_list) recommand_software 推荐软件
 * [debian 安装 Oracle java 1.8](debianjava)
-* [i2p](i2p)
+* [i2p](i2p) 匿名网络 暗网
 * [南瓜](cabocha) 日语句子解析
-* [docker](docker)
+* [docker](docker) 容器
   * [mirage](mirage)
 * [shutter](./shutter) 截图
-* [wiki反代](wiki-mirror)
+* [wiki反代](wiki-mirror) wiki镜像
 * [telnet](telnet)
 * [ssl证书](ssl)
-* [虚拟键盘](vmpk) 
+* [虚拟键盘](vmpk)  音乐
 * [获得自己的公网ip地址](my-public-ip)
 * [[ping]]
 * [[ser-eth]] 串口,网络转换
