@@ -12,7 +12,7 @@ Machine Learning, ML
 
 ```shell
 sudo apt install luarocks -y
-sudo apt install cmake -y # 因为哟啊编译
+sudo apt install cmake -y # 因为要编译
 ```
 
 安装不上? [参考](https://github.com/torch/nngraph/issues/52)
