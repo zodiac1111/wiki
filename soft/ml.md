@@ -14,7 +14,7 @@ sudo apt install cmake -y
 ```
 
 安装不上? [参考](https://github.com/torch/nngraph/issues/52)
-```
+```shell
 # luarocks install nngraph 
 sudo luarocks --from=https://raw.githubusercontent.com/torch/rocks/master/ install nngraph
 ```
