@@ -10,9 +10,9 @@ Machine Learning, ML
 
 [基于字符的神经网络](https://github.com/yoonkim/lstm-char-cnn)
 
-```
+```shell
 sudo apt install luarocks -y
-sudo apt install cmake -y
+sudo apt install cmake -y # 因为哟啊编译
 ```
 
 安装不上? [参考](https://github.com/torch/nngraph/issues/52)
