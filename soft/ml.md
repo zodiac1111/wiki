@@ -6,6 +6,8 @@ Machine Learning, ML
 
 深度学习
 
+[知乎上打资料](https://www.zhihu.com/question/29411132)
+
 [基于字符的神经网络](https://github.com/yoonkim/lstm-char-cnn)
 
 ```
