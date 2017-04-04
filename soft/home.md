@@ -7,7 +7,7 @@
 * [南瓜](cabocha) 日语句子解析
 * [docker](docker)
   * [mirage](mirage)
-* [shutter](./shutter)
+* [shutter](./shutter) 截图
 * [wiki反代](wiki-mirror)
 * [telnet](telnet)
 * [ssl证书](ssl)
