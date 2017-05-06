@@ -1,7 +1,7 @@
 # 有趣的东西
 
-* [爸爸反应](https://www.reddit.com/r/DadReflexes/)
-  * Dad Reflexes
+* 爸爸反应
+  * Dad Reflexes:[Reflexes only fathers have. ](https://www.reddit.com/r/DadReflexes/) reddit
 * [认知](Metacognition)
 * [有趣的备份的3d打印例子](useful-3d-mod)
 * [开源的minecraft实现:minetest](http://www.minetest.net/)
