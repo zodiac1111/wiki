@@ -10,3 +10,8 @@ https://geti2p.net/zh/about/browser-config
 使用 local4444 来配合 *.i2p 通配网页
 
 i2p的wiki http://i2pwiki.i2p/
+
+# freenet
+一个项目
+
+匿名网络
