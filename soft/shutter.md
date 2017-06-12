@@ -1,4 +1,4 @@
-http://askubuntu.com/questions/252717/how-to-make-shutter-as-the-default-screenshot-tool
+来源: [[http://askubuntu.com/questions/252717/how-to-make-shutter-as-the-default-screenshot-tool]]
 
 使用gnome2 快捷键
 
