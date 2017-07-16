@@ -12,3 +12,7 @@
 基于`darknet`,需要cuda GPU运算, 需要opencv
 
 按照资料1 能简单检测到几个物体. 算是 helloworld 成功.
+
+使能cudnn, 依赖cuda
+
+6的版本存在 __mempcpy 问题 看来是nvcc inline 的问题, 参考 [这个](https://groups.google.com/forum/#!topic/darknet/vqN7uHu8h1U)
