@@ -16,3 +16,19 @@
 使能cudnn, 依赖cuda
 
 6的版本存在 __mempcpy 问题 看来是nvcc inline 的问题, 参考 [这个](https://groups.google.com/forum/#!topic/darknet/vqN7uHu8h1U)
+
+
+# 笔记
+
+## 显存不足
+测试(或者训练)时出现以下错误
+
+```
+    7 max          2 x 2 / 2    52 x  52 x 128   ->    26 x  26 x 128
+    8 CUDA Error: out of memory
+darknet: ./src/cuda.c:36: check_error: Assertion `0' failed.
+```
+
+解决方法:
+1. 买块高级的显卡(笑
+2. 修改配置`cfg`文件,减少`batch`和`subdivisions`的值 [参考](https://stackoverflow.com/questions/43614686/cudaout-of-memory-error-on-darknet-yolov1)
