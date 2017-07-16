@@ -1,5 +1,6 @@
 # 软件索引
 
+* [cudnn](http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1604/x86_64/) 这里下载deb包
 * 日语输入法(fcitx): `fcitx-mozc`
   * mozc 是 Google 日语输入法的开源版本。
 * [t430安装macos](macos_on_t430)
