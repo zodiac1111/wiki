@@ -11,4 +11,5 @@
 * [有趣的东西](fun/fun) 
 * [书籍](book/book)
 * [测试页面](test/home)
+* [Computer Version](computer_version)
 * [关于](about) 
