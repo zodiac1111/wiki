@@ -1,6 +1,7 @@
+# github一些使用笔记
 
-#github一些使用笔记
-##初始化
+## 初始化
+
 <全局设定>
 
 	git config --global user.name "zodiac1111"
@@ -8,7 +9,7 @@
 	git config --global user.email zodiac8765+github_admin@gmail.com
 	<设定电子邮件地址>
 
-##新建项目
+## 新建项目
 
 
 	mkdir test
@@ -24,7 +25,7 @@
  	git push -u origin master
   	<提交至远程服务器>
 
-##已有项目
+## 已有项目
 
 	cd existing_git_repo
 	<转到已有项目的目录>
@@ -33,7 +34,7 @@
 	git push -u origin master
 	<提交 到远程 master分支>
 
-##SSH Keys设置
+## SSH Keys设置
 对于第一次在本机提交,ssh设置是必须的,设置好后很方便.
 官方关于SSH密钥设置的帮助 [这里](https://help.github.com/categories/56/articles)
 ###创建一个ssh密钥
