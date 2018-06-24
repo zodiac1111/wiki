@@ -9,8 +9,6 @@ aka 良心软件
 * Notepad++ 编辑器
 * [Best Windows Icon Windows Apps/推荐好用、优秀的 Windows 应用](https://github.com/stackia/best-windows-apps)
 
-|| aa || ass ||
-|212 |1212|
 
 之前的
 
