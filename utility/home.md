@@ -1,5 +1,16 @@
 # 实用工具
 
+aka 良心软件
+
+整理1
+
+* [Putty 虚拟终端/Windows](https://www.putty.org/)
+* [Greenshot 截图/Windows](http://getgreenshot.org/)
+* Notepad++ 编辑器
+* [Best Windows Icon Windows Apps/推荐好用、优秀的 Windows 应用](https://github.com/stackia/best-windows-apps)
+
+之前的
+
 * FreeCAD 学习[[freecad]]
 * [礼品包装](http://www.zhihu.com/question/23147527#answer-10580764)
 * [[wago]]WAGO接线端子选型样本
@@ -8,10 +19,10 @@
 * [[online-IEEE-754-Analysis]] 浮点数分析
 * [[utility/aircrack-ng]] 无线网络(破解)工具
 * crc
- * 块加密原理,类别 wiki: https://en.wikipedia.org/wiki/Block_cipher_modes_of_operation
- * 在线计算 http://depa.usst.edu.cn/chenjq/www2/SDesign/JavaScript/CRCcalculation.htm
- * 在线计算 crc16 modbus http://cht.nahua.com.tw/index.php?url=http://cht.nahua.com.tw/software/crc16/&key=Modbus,%20RTU,%20CRC16&title=%E8%A8%88%E7%AE%97%20Modbus%20RTU%20CRC16
- * 在线计算 http://www.lammertbies.nl/comm/info/crc-calculation.html
+ * 块加密原理,类别 wiki: [[https://en.wikipedia.org/wiki/Block_cipher_modes_of_operation]]
+ * 在线计算 [[http://depa.usst.edu.cn/chenjq/www2/SDesign/JavaScript/CRCcalculation.htm]]
+ * 在线计算 [[crc16 modbus http://cht.nahua.com.tw/index.php?url=http://cht.nahua.com.tw/software/crc16/&key=Modbus,%20RTU,%20CRC16&title=%E8%A8%88%E7%AE%97%20Modbus%20RTU%20CRC16]]
+ * 在线计算 [[http://www.lammertbies.nl/comm/info/crc-calculation.html]]
 * md5在线加密
 * aes
  * [aes在线加密解密](http://www.seacha.com/tools/aes.html?src=1&mode=CBC&keylen=128&key=0000000000123456&iv=0000000000123456&bpkcs=&session=IBJlcvyr1tJzgIxi4TFa&aes=a73479046ca18aae9e29a5e73e4aa3b0&encoding=hex&type=0)
