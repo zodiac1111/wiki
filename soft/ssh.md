@@ -1,8 +1,8 @@
 # ssh使用
 参考: 
 
-* 鸟哥 http://linux.vbird.org/linux_server/0310telnetssh.php#ssh_server
-* http://blog.sina.com.cn/s/blog_643493600100uje6.html
+* 鸟哥 [[http://linux.vbird.org/linux_server/0310telnetssh.php#ssh_server]]
+* [[http://blog.sina.com.cn/s/blog_643493600100uje6.html]]
 
 1.启动SSH服务
 ```bash
@@ -29,7 +29,7 @@ iptables -I INPUT -p -tcp --dport 22 -j ACCEPT
 # sshd
 ## 反向连接
 
-> http://www.cnblogs.com/eshizhan/archive/2012/07/16/2592902.html
+> [[http://www.cnblogs.com/eshizhan/archive/2012/07/16/2592902.html]]
 
 * 外网 <OUT_IP>
 * 内网 <IN_IP> 运行sshd
