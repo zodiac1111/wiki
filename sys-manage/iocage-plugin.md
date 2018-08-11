@@ -1,12 +1,33 @@
 # iocage
 
-todo 和jail的关系?
+todo 和jail的关系
 
-官方网址
+> The jails infrastructure is transitioning from the old warden backend to the new iocage backend.
 
-https://github.com/freenas/iocage-ix-plugins
+官方网址 [[https://github.com/freenas/iocage-ix-plugins]]
+
+## 参考
+
+* jail [[https://doc.freenas.org/11/jails.html]]
+
 
 ## 常用命令
+
+官方教程 [[https://doc.freenas.org/11/jails.html#using-iocage]]
+
+```
+# 显示帮助信息
+iocage --help | more
+
+# 创建jail
+iocage create -n examplejail ip4_addr="em0|192.168.1.10/24" -r 11.1-RELEASE
+
+# 启动jail
+iocage start examplejail
+
+# 进入jail的控制台
+iocage console examplejail
+```
 
 类似git,抓取插件
 
