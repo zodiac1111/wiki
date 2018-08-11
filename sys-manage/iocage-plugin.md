@@ -1,6 +1,6 @@
 # iocage
 
-todo 和jail的关系
+iocage: A FreeBSD jail manager written in Python 3
 
 > The jails infrastructure is transitioning from the old warden backend to the new iocage backend.
 
@@ -15,6 +15,8 @@ todo 和jail的关系
 
 官方教程 [[https://doc.freenas.org/11/jails.html#using-iocage]]
 
+通用/一般操作
+
 ```
 # 显示帮助信息
 iocage --help | more
@@ -27,6 +29,13 @@ iocage start examplejail
 
 # 进入jail的控制台
 iocage console examplejail
+
+# 停止
+iocage stop examplejail
+
+# 显示jail/虚拟机配置信息
+iocage get all examplejail | less
+
 ```
 
 类似git,抓取插件
