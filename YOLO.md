@@ -30,5 +30,6 @@ darknet: ./src/cuda.c:36: check_error: Assertion `0' failed.
 ```
 
 解决方法:
+
 1. 买块高级的显卡(笑
 2. 修改配置`cfg`文件,减少`batch`和`subdivisions`的值 [参考](https://stackoverflow.com/questions/43614686/cudaout-of-memory-error-on-darknet-yolov1)
