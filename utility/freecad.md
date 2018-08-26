@@ -3,6 +3,8 @@
 
 零件库 : [[https://github.com/FreeCAD/FreeCAD-library]]
 
+* [从stl生成零件(Part)](http://pinter.org/archives/4255)
+
 
 
 造型
