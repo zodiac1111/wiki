@@ -5,7 +5,17 @@
 
 * [从stl生成零件(Part)](http://pinter.org/archives/4255)
 
+## 导入svg
 
+1. 导入,选择svg
+    1. 选择 importsvg
+    2. 整理路径path,有用的留下
+2. 切换到底图(Draft)
+    1. 全部选中路径(Path) Draft-> 底图转草图
+3. 切换到草图(sketcher)
+    1. 全部选中, Sketcher -> 合并草图
+4. 切换到顶尖设计(Part Design)
+    1. 右键草图 -> 酱对象移动到其他实体
 
 造型
 
