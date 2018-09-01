@@ -3,7 +3,10 @@
 
 零件库 : [[https://github.com/FreeCAD/FreeCAD-library]]
 
+## 导入stl并变成零件编辑
+
 * [从stl生成零件(Part)](http://pinter.org/archives/4255)
+* [视频教程](https://www.youtube.com/watch?v=avVNfIswkMU)
 
 ## 导入svg
 
