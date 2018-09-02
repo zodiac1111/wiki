@@ -1,5 +1,12 @@
 # freecad
 
+## 3d打印延时摄影
+
+[[https://www.kitronik.co.uk/blog/3d-print-video-with-a-dslr/]]
+
+[[https://www.kitronik.co.uk/wp/wp-content/uploads/2016/09/3d-print-video-with-a-dslr-connections-870.jpg]]
+
+## 光放零件库
 
 零件库 : [[https://github.com/FreeCAD/FreeCAD-library]]
 
