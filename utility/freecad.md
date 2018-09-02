@@ -8,6 +8,14 @@
 * [从stl生成零件(Part)](http://pinter.org/archives/4255)
 * [视频教程](https://www.youtube.com/watch?v=avVNfIswkMU)
 
+
+1. 导入stl
+2. 零件(Part)视图
+3. 零件->从网格中创建形状...
+4. 删除原来的形状
+5. 选中新的,零件->创建形体
+6. tbd
+
 ## 导入svg
 
 1. 导入,选择svg
