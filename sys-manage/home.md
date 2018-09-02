@@ -14,7 +14,7 @@
 * [Linux 性能监控、测试、优化工具](http://www.vpsee.com/2014/09/linux-performance-tools/),[英文连接](http://wiert.me/2014/03/19/reference-card-for-linux-performance-and-analysis-tools%EF%BB%BF-via-antony-peel-google/),[原始演讲](http://www.brendangregg.com/linuxperf.html)
 * [[pptp]],[[pptpd]] 一种vpn使用配置
 * [[find]] find命令行使用
-* [[id]]查uid,改id,改用户名
+* [[id]] 查uid,改id,改用户名
 * [[debain-mount-hfsplus]] debian系统上挂载mac的hfs+磁盘
 * [[bash-terminal-prompt]] 自定义bash终端提示符
 * [[fcitx]] 小企鹅输入法
