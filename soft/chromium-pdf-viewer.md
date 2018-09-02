@@ -1,8 +1,11 @@
-#使chromium支持pdf预览
+# 使chromium支持pdf预览
+
 chrome使用libpdf.so库,这个库不是自由软件,所以chromium默认没有带
-/opt/google/chrome/libpdf.so
+`/opt/google/chrome/libpdf.so`
+
 ##安装
-复制 /opt/google/chrome/libpdf.so 到chrome-linux(chromium)下
+
+复制 `/opt/google/chrome/libpdf.so` 到chrome-linux(chromium)下
 
 `chrome://plugins/` Chrome PDF Viewer
 
