@@ -66,6 +66,7 @@ xxx
 * [外星人入侵生存指南:即将到来的外星人浩劫防御手册](https://www.amazon.cn/dp/B00KXOZAMQ) - [美]W.H.墨菲著/罗越译/罗越
 * [完全失踪手冊](https://book.douban.com/subject/3072831/) - 樫村政則/苏琳贞
 * [江湖丛谈](https://book.douban.com/subject/1422105/) - 连阔如 著，贾建国，连丽如 整理
+* [要不要加一份薯條](https://book.douban.com/subject/4060118/) - 利恩．亞歷山大(Prioleau Alexander)/李紹廷 
 
 
 ## 虚构类
