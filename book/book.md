@@ -34,7 +34,8 @@ xxx
 * [科技想要什么](https://book.douban.com/subject/6965746/) - [美]凯文·凯利/熊祥
 * [人工智能](https://www.amazon.cn/dp/B01N950G9Q) - [美]卢克·多梅尔/赛迪研究院专家组
 * [哥德尔、艾舍尔、巴赫](https://book.douban.com/subject/1291204/) - [美]侯世达/严勇/刘皓明/莫大伟
-* [自私的基因](https://book.douban.com/subject/11445548/) - [英]理查德·道金斯/卢允中/张岱云/陈复加/罗小舟
+* [自私的基因](https://www.amazon.cn/dp/B008MIGAI8/) - [英]理查德·道金斯/卢允中/张岱云/陈复加/罗小舟
+* [生命的跃升:40亿年演化史上的十大发明](https://www.amazon.cn/dp/B018R4Z0J6/) - [英]尼克·莱恩,张博然
 
 xxxx
 
@@ -51,21 +52,21 @@ xxxx
 
 xxx
 
-* [生命的跃升:40亿年演化史上的十大发明](https://book.douban.com/subject/26679862/) - [英]尼克·莱恩,张博然
-* [拆掉思维里的墙:原来我还可以这样活](https://book.douban.com/subject/4953695/) - 古典
-* [你的第一本哲学书](https://book.douban.com/subject/1227966/) - [美]托马斯·内格尔
-* [独裁者手册](https://book.douban.com/subject/25881102/) -（美）布鲁斯•布鲁诺•德•梅斯奎塔 （美）阿拉斯泰尔•史密斯、骆伟阳
+
+* [拆掉思维里的墙:原来我还可以这样活](https://www.amazon.cn/dp/B01FFFS7KY/) - 古典
+* [你的第一本哲学书](https://www.amazon.cn/dp/B01M7219PX) - [美]托马斯·内格尔
+* [独裁者手册](https://www.amazon.cn/dp/B07B64T6VX/) -（美）布鲁斯•布鲁诺•德•梅斯奎塔 （美）阿拉斯泰尔•史密斯、骆伟阳
 * [极权主义的起源](https://www.amazon.cn/dp/B00QI657PI) - 汉娜·阿伦特(Hannah Arendt)/林骧华
 * [有限与无限的游戏:1个哲学家眼中的竞技世界](https://www.amazon.cn/dp/B00FRN0YF6) - 詹姆斯·卡斯(James P.Carse)/马小悟/余倩
 * [廁所裡的哲學課](https://book.douban.com/subject/27159269/) - 亞當‧弗萊徹/盧卡斯‧NP‧艾格/康拉德‧柯列弗,彭菲菲
-* [从柏拉图到维尼熊](https://book.douban.com/subject/27030788/) - [英]詹姆斯·M.罗素/李贯峰
+* [从柏拉图到维尼熊:哲学经典导读](https://www.amazon.cn/dp/B071HT3QN7) - [英]詹姆斯·M.罗素/李贯峰
 
 
 xxx
 
 * [外星人入侵生存指南:即将到来的外星人浩劫防御手册](https://www.amazon.cn/dp/B00KXOZAMQ) - [美]W.H.墨菲著/罗越译/罗越
 * [完全失踪手冊](https://book.douban.com/subject/3072831/) - 樫村政則/苏琳贞
-* [江湖丛谈](https://book.douban.com/subject/1422105/) - 连阔如 著，贾建国，连丽如 整理
+* [江湖叢談](https://www.amazon.cn/dp/9573269236) - 连阔如 著，贾建国，连丽如 整理
 * [要不要加一份薯條](https://book.douban.com/subject/4060118/) - 利恩．亞歷山大(Prioleau Alexander)/李紹廷 
 
 
