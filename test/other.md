@@ -10,10 +10,34 @@ wiki系统所有源文件可以在 [这里](https://github.com/zodiac1111/wiki)(
 <!-- [去掉]--- title: 其他测试 -->
 ```
 
+## 折叠
+
+## 折叠
+
+代码:
+
+```
+<details>
+  <summary>概要内容(点击展开)</summary>
+
+详细内容
+
+</details>
+```
+
+显示效果:
+
+<details>
+  <summary>概要内容(点击展开)</summary>
+
+详细内容
+
+</details>
+
 ## 链接
 
-* https://google.com
-* [Google](https://google.com)
+* 直接url: https://google.com
+* url加课阅读文本 [Google](https://google.com)
 
 ## 视频
 1
