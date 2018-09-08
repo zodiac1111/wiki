@@ -1,6 +1,7 @@
 系统运行维护笔记
 
-* [freenas,属于freebsd](freenas)
+* [systemd相关](systemd)
+* [freenas](freenas) 属于freebsd
 * [安装开源显卡驱动](install_nouveau)
 * [jade pluma](pluma-jade)
 * chrome GPU相关 [chrome://gpu/](chrome://gpu/)
