@@ -64,6 +64,7 @@ xxx
 
 xxx
 
+* [天才向左，疯子向右](https://www.amazon.cn/dp/B06XSM5GBW) - [美]凯·雷德菲尔德·杰米森/聂晶
 * [外星人入侵生存指南:即将到来的外星人浩劫防御手册](https://www.amazon.cn/dp/B00KXOZAMQ) - [美]W.H.墨菲著/罗越译/罗越
 * [完全失踪手冊](https://book.douban.com/subject/3072831/) - 樫村政則/苏琳贞
 * [江湖叢談](https://www.amazon.cn/dp/9573269236) - 连阔如 著，贾建国，连丽如 整理
