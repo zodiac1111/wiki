@@ -2,7 +2,7 @@
 
 ## 非虚构类
 
-xxx
+技术科普
 
 * [失控：机器、社会与经济的新生物学](https://book.douban.com/subject/5375620/) - 凯文·凯利（KevinKelly）,东西文库
 * [黑客与画家](https://book.douban.com/subject/6021440/) - Paul Graham、阮一峰
@@ -37,7 +37,7 @@ xxx
 * [自私的基因](https://www.amazon.cn/dp/B008MIGAI8/) - [英]理查德·道金斯/卢允中/张岱云/陈复加/罗小舟
 * [生命的跃升:40亿年演化史上的十大发明](https://www.amazon.cn/dp/B018R4Z0J6/) - [英]尼克·莱恩,张博然
 
-xxxx
+技术
 
 * [Linux\Unix设计思想/图灵程序设计丛书](https://book.douban.com/subject/7564417/) - (美)甘卡兹|译者:漆犇
 * [实用Common Lisp编程](https://book.douban.com/subject/6859720/) - [美]Peter Seibel/田春
@@ -50,9 +50,9 @@ xxxx
 * [机器人C语言机电一体化接口](https://www.amazon.cn/dp/B00116BKHO) - 西原主计/山藤和男/牛连强/赵文珍
 * [机械实用手册](https://www.amazon.cn/dp/B0011ACENO) - 土屋喜一/赵文珍 
 
-xxx
+思辨
 
-
+* [人生的智慧](https://www.amazon.cn/dp/B0171AG5GO) - 叔本华/韦启昌
 * [拆掉思维里的墙:原来我还可以这样活](https://www.amazon.cn/dp/B01FFFS7KY/) - 古典
 * [你的第一本哲学书](https://www.amazon.cn/dp/B01M7219PX) - [美]托马斯·内格尔
 * [独裁者手册](https://www.amazon.cn/dp/B07B64T6VX/) -（美）布鲁斯•布鲁诺•德•梅斯奎塔 （美）阿拉斯泰尔•史密斯、骆伟阳
@@ -62,7 +62,7 @@ xxx
 * [从柏拉图到维尼熊:哲学经典导读](https://www.amazon.cn/dp/B071HT3QN7) - [英]詹姆斯·M.罗素/李贯峰
 
 
-xxx
+杂项
 
 * [天才向左，疯子向右](https://www.amazon.cn/dp/B06XSM5GBW) - [美]凯·雷德菲尔德·杰米森/聂晶
 * [外星人入侵生存指南:即将到来的外星人浩劫防御手册](https://www.amazon.cn/dp/B00KXOZAMQ) - [美]W.H.墨菲著/罗越译/罗越
