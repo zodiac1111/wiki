@@ -2,7 +2,7 @@
 
 ## 非虚构类
 
-技术科普
+科学/科普
 
 * [失控：机器、社会与经济的新生物学](https://book.douban.com/subject/5375620/) - 凯文·凯利（KevinKelly）,东西文库
 * [黑客与画家](https://book.douban.com/subject/6021440/) - Paul Graham、阮一峰
@@ -37,7 +37,7 @@
 * [自私的基因](https://www.amazon.cn/dp/B008MIGAI8/) - [英]理查德·道金斯/卢允中/张岱云/陈复加/罗小舟
 * [生命的跃升:40亿年演化史上的十大发明](https://www.amazon.cn/dp/B018R4Z0J6/) - [英]尼克·莱恩,张博然
 
-技术
+工业技术
 
 * [Linux\Unix设计思想/图灵程序设计丛书](https://book.douban.com/subject/7564417/) - (美)甘卡兹|译者:漆犇
 * [实用Common Lisp编程](https://book.douban.com/subject/6859720/) - [美]Peter Seibel/田春
@@ -50,7 +50,7 @@
 * [机器人C语言机电一体化接口](https://www.amazon.cn/dp/B00116BKHO) - 西原主计/山藤和男/牛连强/赵文珍
 * [机械实用手册](https://www.amazon.cn/dp/B0011ACENO) - 土屋喜一/赵文珍 
 
-思辨
+哲学思辨
 
 * [人生的智慧](https://www.amazon.cn/dp/B0171AG5GO) - 叔本华/韦启昌
 * [拆掉思维里的墙:原来我还可以这样活](https://www.amazon.cn/dp/B01FFFS7KY/) - 古典
