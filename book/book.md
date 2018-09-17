@@ -49,9 +49,11 @@
 * [图解HTTP](https://book.douban.com/subject/25863515/) - [日]上野, 宣, 于均良
 * [机器人C语言机电一体化接口](https://www.amazon.cn/dp/B00116BKHO) - 西原主计/山藤和男/牛连强/赵文珍
 * [机械实用手册](https://www.amazon.cn/dp/B0011ACENO) - 土屋喜一/赵文珍 
+* [测试驱动开发的艺术](https://www.amazon.cn/dp/B00IOAM6UK) - Lasse Koskela/李贝
 
 哲学思辨
 
+* [哲学家们都干了些什么?](https://www.amazon.cn/dp/B0123MCPXM) - 林欣浩
 * [人生的智慧](https://www.amazon.cn/dp/B0171AG5GO) - 叔本华/韦启昌
 * [拆掉思维里的墙:原来我还可以这样活](https://www.amazon.cn/dp/B01FFFS7KY/) - 古典
 * [你的第一本哲学书](https://www.amazon.cn/dp/B01M7219PX) - [美]托马斯·内格尔
@@ -73,6 +75,7 @@
 
 ## 虚构类
 
+* [仿生人会梦见电子羊吗](https://www.amazon.cn/dp/B00F0F3RM8) - 菲利普•迪克/许东华
 * [无影灯](https://www.amazon.cn/dp/B001T4ZBXW) - 渡边淳一/桑凤平/知非/张维娜
 * [三体](https://www.amazon.cn/dp/B00OB3SNMY) - 刘慈欣
 * [美丽新世界](https://www.amazon.cn/dp/B072ZLN5CK) - 奥尔德斯·赫胥黎(Aldous Huxley)/陈超
