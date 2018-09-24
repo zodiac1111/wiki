@@ -2,7 +2,7 @@
 
 ## 非虚构类
 
-科学/科普
+### 分类1
 
 * [失控：机器、社会与经济的新生物学](https://book.douban.com/subject/5375620/) - 凯文·凯利（KevinKelly）,东西文库
 * [黑客与画家](https://book.douban.com/subject/6021440/) - Paul Graham、阮一峰
@@ -37,8 +37,10 @@
 * [自私的基因](https://www.amazon.cn/dp/B008MIGAI8/) - [英]理查德·道金斯/卢允中/张岱云/陈复加/罗小舟
 * [生命的跃升:40亿年演化史上的十大发明](https://www.amazon.cn/dp/B018R4Z0J6/) - [英]尼克·莱恩,张博然
 * [给孩子讲量子力学](https://www.amazon.cn/dp/B01NANJEPL) - 李淼
+* [独裁者手册](https://www.amazon.cn/dp/B07B64T6VX/) -（美）布鲁斯•布鲁诺•德•梅斯奎塔 （美）阿拉斯泰尔•史密斯、骆伟阳
+* [极权主义的起源](https://www.amazon.cn/dp/B00QI657PI) - 汉娜·阿伦特(Hannah Arendt)/林骧华
 
-工业技术
+### 分类2
 
 * [Linux\Unix设计思想/图灵程序设计丛书](https://book.douban.com/subject/7564417/) - (美)甘卡兹|译者:漆犇
 * [实用Common Lisp编程](https://book.douban.com/subject/6859720/) - [美]Peter Seibel/田春
@@ -52,20 +54,18 @@
 * [机械实用手册](https://www.amazon.cn/dp/B0011ACENO) - 土屋喜一/赵文珍 
 * [测试驱动开发的艺术](https://www.amazon.cn/dp/B00IOAM6UK) - Lasse Koskela/李贝
 
-哲学思辨
+### 分类3
 
+* [从柏拉图到维尼熊:哲学经典导读](https://www.amazon.cn/dp/B071HT3QN7) - [英]詹姆斯·M.罗素/李贯峰
 * [哲学家们都干了些什么?](https://www.amazon.cn/dp/B0123MCPXM) - 林欣浩
+* [你的第一本哲学书](https://www.amazon.cn/dp/B01M7219PX) - [美]托马斯·内格尔
 * [人生的智慧](https://www.amazon.cn/dp/B0171AG5GO) - 叔本华/韦启昌
 * [拆掉思维里的墙:原来我还可以这样活](https://www.amazon.cn/dp/B01FFFS7KY/) - 古典
-* [你的第一本哲学书](https://www.amazon.cn/dp/B01M7219PX) - [美]托马斯·内格尔
-* [独裁者手册](https://www.amazon.cn/dp/B07B64T6VX/) -（美）布鲁斯•布鲁诺•德•梅斯奎塔 （美）阿拉斯泰尔•史密斯、骆伟阳
-* [极权主义的起源](https://www.amazon.cn/dp/B00QI657PI) - 汉娜·阿伦特(Hannah Arendt)/林骧华
 * [有限与无限的游戏:1个哲学家眼中的竞技世界](https://www.amazon.cn/dp/B00FRN0YF6) - 詹姆斯·卡斯(James P.Carse)/马小悟/余倩
 * [廁所裡的哲學課](https://book.douban.com/subject/27159269/) - 亞當‧弗萊徹/盧卡斯‧NP‧艾格/康拉德‧柯列弗,彭菲菲
-* [从柏拉图到维尼熊:哲学经典导读](https://www.amazon.cn/dp/B071HT3QN7) - [英]詹姆斯·M.罗素/李贯峰
 
 
-杂项
+### 分类etc
 
 * [天才向左，疯子向右](https://www.amazon.cn/dp/B06XSM5GBW) - [美]凯·雷德菲尔德·杰米森/聂晶
 * [外星人入侵生存指南:即将到来的外星人浩劫防御手册](https://www.amazon.cn/dp/B00KXOZAMQ) - [美]W.H.墨菲著/罗越译/罗越
