@@ -36,6 +36,7 @@
 * [哥德尔、艾舍尔、巴赫](https://book.douban.com/subject/1291204/) - [美]侯世达/严勇/刘皓明/莫大伟
 * [自私的基因](https://www.amazon.cn/dp/B008MIGAI8/) - [英]理查德·道金斯/卢允中/张岱云/陈复加/罗小舟
 * [生命的跃升:40亿年演化史上的十大发明](https://www.amazon.cn/dp/B018R4Z0J6/) - [英]尼克·莱恩,张博然
+* [给孩子讲量子力学](https://www.amazon.cn/dp/B01NANJEPL) - 李淼
 
 工业技术
 
