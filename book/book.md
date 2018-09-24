@@ -39,6 +39,7 @@
 * [给孩子讲量子力学](https://www.amazon.cn/dp/B01NANJEPL) - 李淼
 * [独裁者手册](https://www.amazon.cn/dp/B07B64T6VX/) -（美）布鲁斯•布鲁诺•德•梅斯奎塔 （美）阿拉斯泰尔•史密斯、骆伟阳
 * [极权主义的起源](https://www.amazon.cn/dp/B00QI657PI) - 汉娜·阿伦特(Hannah Arendt)/林骧华
+* [从0到1:开启商业与未来的秘密](https://www.amazon.cn/dp/B00RWP6BOU) - 彼得·蒂尔/布莱克·马斯特斯/高玉芳
 
 ### 分类2
 
@@ -46,13 +47,16 @@
 * [实用Common Lisp编程](https://book.douban.com/subject/6859720/) - [美]Peter Seibel/田春
 * [XSS跨站脚本攻击剖析与防御](https://www.amazon.cn/dp/B00EOWFXZC) - 邱永华
 * [POSIX多线程程序设计](https://book.douban.com/subject/1236825/) - [美] David R.Buten/于磊/曾刚
-* [7周7语言:理解多种编程范型](https://book.douban.com/subject/10555435/) - 泰特(Tate B.A.),戴玮,白明,巨成
+* [7周7语言:理解多种编程范型](https://www.amazon.cn/dp/B00ALPRM3M) - 泰特(Tate B.A.),戴玮,白明,巨成
 * [软技能:代码之外的生存指南](https://book.douban.com/subject/26835090/) - [美]约翰Z.森梅兹（John Z.Sonmez）,王小刚
 * [HTTP权威指南](https://www.amazon.cn/dp/B008XFDQ14) - 吉尔利(David Gourley)/Brian Totty/Marjorie Sayer/Sailu Reddy/陈涓/赵振平
 * [图解HTTP](https://book.douban.com/subject/25863515/) - [日]上野, 宣, 于均良
 * [机器人C语言机电一体化接口](https://www.amazon.cn/dp/B00116BKHO) - 西原主计/山藤和男/牛连强/赵文珍
 * [机械实用手册](https://www.amazon.cn/dp/B0011ACENO) - 土屋喜一/赵文珍 
 * [测试驱动开发的艺术](https://www.amazon.cn/dp/B00IOAM6UK) - Lasse Koskela/李贝
+* Lisp语言(陈光喜)
+* MISRA-C
+* [XSS跨站脚本攻击剖析与防御](https://www.amazon.cn/dp/B00EOWFXZC) - 邱永华
 
 ### 分类3
 
