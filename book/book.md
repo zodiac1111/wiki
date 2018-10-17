@@ -40,6 +40,8 @@
 * [独裁者手册](https://www.amazon.cn/dp/B07B64T6VX/) -（美）布鲁斯•布鲁诺•德•梅斯奎塔 （美）阿拉斯泰尔•史密斯、骆伟阳
 * [极权主义的起源](https://www.amazon.cn/dp/B00QI657PI) - 汉娜·阿伦特(Hannah Arendt)/林骧华
 * [从0到1:开启商业与未来的秘密](https://www.amazon.cn/dp/B00RWP6BOU) - 彼得·蒂尔/布莱克·马斯特斯/高玉芳
+* [今日简史:人类命运大议题](https://www.amazon.cn/dp/B07FJKSKT4) - 尤瓦尔•赫拉利(Yuval Noah Harari)/林俊宏
+
 
 ### 分类2
 
