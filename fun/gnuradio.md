@@ -2,7 +2,7 @@
 
 **中文博客备份**
 
-[新博客在这里](http://sdr-x.github.io/rtl-sdr-rtl2832%E7%94%B5%E8%A7%86%E6%A3%92%E8%B7%9F%E8%B8%AA%E9%A3%9E%E6%9C%BA-%E6%9B%B4%E7%AE%80%E5%8D%95%E7%9A%84%E6%96%B9%E6%B3%95%E5%9C%A8Windows%E5%92%8CLinux%E4%B8%8B(simpler%20way%20to%20track%20plane%20by%20rtl-sdr)/)
+[新博客在这里](http://sdr-x.github.io/)
 
 网址总体1: http://blog.sina.com.cn/s/blog_67cdafe201014odm.html
 
